@@ -1,0 +1,727 @@
+{
+  "summary": {
+    "total_md_lines": 27,
+    "matched_lines": 22,
+    "unmatched_lines": 5,
+    "table_lines_processed": 20,
+    "table_lines_matched": 15,
+    "table_match_percentage": 75.0,
+    "match_percentage": 81.48,
+    "total_spans_available": 54,
+    "spans_used": 22,
+    "processing_time_seconds": 0.06,
+    "lines_per_second": 415.4,
+    "avg_spans_searched_per_line": 54.0,
+    "optimization_speedup": "1.0x faster than full search",
+    "pages_available": 1
+  },
+  "aggregated_data": [
+    {
+      "line_number": 1,
+      "page_number": 1,
+      "is_in_table": false,
+      "md_text_original": "**Application form for grant of LTC advance**",
+      "md_text_cleaned": "Application form for grant of LTC advance",
+      "span_text": "Application form for grant of LTC advance",
+      "matched_page": 1,
+      "span_match": true,
+      "features": {
+        "page_num": 1,
+        "column": 0,
+        "bbox": [
+          70,
+          106,
+          595,
+          166
+        ],
+        "font_name": "Arial,Bold",
+        "font_size": 11.670000076293945,
+        "font_styles": [
+          "monospace",
+          "bold"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 15,
+      "page_number": 1,
+      "is_in_table": true,
+      "md_text_original": "|1.|Name of the Government Servant|Col3|Col4|Col5|Col6|",
+      "md_text_cleaned": "1.Name of the Government ServantCol3Col4Col5Col6",
+      "span_text": "Name of the Government Servant",
+      "matched_page": 1,
+      "span_match": true,
+      "features": {
+        "page_num": 1,
+        "column": 0,
+        "bbox": [
+          70,
+          106,
+          595,
+          166
+        ],
+        "font_name": "Tahoma",
+        "font_size": 9.744400024414062,
+        "font_styles": [
+          "normal"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.769
+    },
+    {
+      "line_number": 16,
+      "page_number": null,
+      "is_in_table": true,
+      "md_text_original": "|---|---|---|---|---|---|",
+      "md_text_cleaned": "------------------",
+      "span_text": null,
+      "matched_page": null,
+      "span_match": false,
+      "features": null,
+      "match_confidence": null
+    },
+    {
+      "line_number": 17,
+      "page_number": 1,
+      "is_in_table": true,
+      "md_text_original": "|**2.**|Designation|Designation||||",
+      "md_text_cleaned": "2.DesignationDesignation",
+      "span_text": "Designation",
+      "matched_page": 1,
+      "span_match": true,
+      "features": {
+        "page_num": 1,
+        "column": 0,
+        "bbox": [
+          70,
+          106,
+          595,
+          166
+        ],
+        "font_name": "Tahoma",
+        "font_size": 9.744400024414062,
+        "font_styles": [
+          "normal"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.629
+    },
+    {
+      "line_number": 18,
+      "page_number": 1,
+      "is_in_table": true,
+      "md_text_original": "|**3.**|Date of entering the Central Government<br>Service|Date of entering the Central Government<br>Service||||",
+      "md_text_cleaned": "3.Date of entering the Central Government ServiceDate of entering the Central Government Service",
+      "span_text": "Date of entering the Central Government",
+      "matched_page": 1,
+      "span_match": true,
+      "features": {
+        "page_num": 1,
+        "column": 2,
+        "bbox": [
+          95,
+          169,
+          297,
+          199
+        ],
+        "font_name": "Tahoma",
+        "font_size": 9.744400024414062,
+        "font_styles": [
+          "normal"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.578
+    },
+    {
+      "line_number": 19,
+      "page_number": 1,
+      "is_in_table": true,
+      "md_text_original": "|**4.**|PAY + SI + NPA|PAY + SI + NPA||||",
+      "md_text_cleaned": "4.PAY + SI + NPAPAY + SI + NPA",
+      "span_text": "PAY + SI + NPA",
+      "matched_page": 1,
+      "span_match": true,
+      "features": {
+        "page_num": 1,
+        "column": 3,
+        "bbox": [
+          70,
+          204,
+          290,
+          253
+        ],
+        "font_name": "Tahoma",
+        "font_size": 9.744400024414062,
+        "font_styles": [
+          "normal"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.636
+    },
+    {
+      "line_number": 20,
+      "page_number": 1,
+      "is_in_table": true,
+      "md_text_original": "|**5.**|Whether permanent or temporary|Whether permanent or temporary||||",
+      "md_text_cleaned": "5.Whether permanent or temporaryWhether permanent or temporary",
+      "span_text": "Whether permanent or temporary",
+      "matched_page": 1,
+      "span_match": true,
+      "features": {
+        "page_num": 1,
+        "column": 3,
+        "bbox": [
+          70,
+          204,
+          290,
+          253
+        ],
+        "font_name": "Tahoma",
+        "font_size": 9.744400024414062,
+        "font_styles": [
+          "normal"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.652
+    },
+    {
+      "line_number": 21,
+      "page_number": 1,
+      "is_in_table": true,
+      "md_text_original": "|**6.**|Home Town as recorded in the Service Book|Home Town as recorded in the Service Book||||",
+      "md_text_cleaned": "6.Home Town as recorded in the Service BookHome Town as recorded in the Service Book",
+      "span_text": "Home Town as recorded in the Service Book",
+      "matched_page": 1,
+      "span_match": true,
+      "features": {
+        "page_num": 1,
+        "column": 3,
+        "bbox": [
+          70,
+          204,
+          290,
+          253
+        ],
+        "font_name": "Tahoma",
+        "font_size": 9.744400024414062,
+        "font_styles": [
+          "normal"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.656
+    },
+    {
+      "line_number": 22,
+      "page_number": 1,
+      "is_in_table": true,
+      "md_text_original": "|**7.**|Whether wife / husband is employed and if<br>so whether entitled to LTC|Whether wife / husband is employed and if<br>so whether entitled to LTC||||",
+      "md_text_cleaned": "7.Whether wife / husband is employed and if so whether entitled to LTCWhether wife / husband is employed and if so whether entitled to LTC",
+      "span_text": "Whether wife / husband is employed and if",
+      "matched_page": 1,
+      "span_match": true,
+      "features": {
+        "page_num": 1,
+        "column": 4,
+        "bbox": [
+          95,
+          253,
+          509,
+          554
+        ],
+        "font_name": "Tahoma",
+        "font_size": 9.744400024414062,
+        "font_styles": [
+          "normal"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.458
+    },
+    {
+      "line_number": 23,
+      "page_number": 1,
+      "is_in_table": true,
+      "md_text_original": "|**8.**|Whether the concession is to be availed for<br>visiting home town and if so block for which<br>LTC is to be availed.|Whether the concession is to be availed for<br>visiting home town and if so block for which<br>LTC is to be availed.||||",
+      "md_text_cleaned": "8.Whether the concession is to be availed for visiting home town and if so block for which LTC is to be availed.Whether the concession is to be availed for visiting home town and if so block for which LTC is to be availed.",
+      "span_text": "Whether the concession is to be availed for",
+      "matched_page": 1,
+      "span_match": true,
+      "features": {
+        "page_num": 1,
+        "column": 4,
+        "bbox": [
+          95,
+          253,
+          509,
+          554
+        ],
+        "font_name": "Tahoma",
+        "font_size": 9.744400024414062,
+        "font_styles": [
+          "normal"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.325
+    },
+    {
+      "line_number": 24,
+      "page_number": 1,
+      "is_in_table": true,
+      "md_text_original": "|**9.**|(a) If the concession is to visit anywhere in<br>India, the place to be visited.<br>(b) Block for which to be availed.|(a) If the concession is to visit anywhere in<br>India, the place to be visited.<br>(b) Block for which to be availed.||||",
+      "md_text_cleaned": "9.a If the concession is to visit anywhere in India, the place to be visited. b Block for which to be availed.a If the concession is to visit anywhere in India, the place to be visited. b Block for which to be availed.",
+      "span_text": "(a) If the concession is to visit anywhere in",
+      "matched_page": 1,
+      "span_match": true,
+      "features": {
+        "page_num": 1,
+        "column": 4,
+        "bbox": [
+          95,
+          253,
+          509,
+          554
+        ],
+        "font_name": "Tahoma",
+        "font_size": 9.744400024414062,
+        "font_styles": [
+          "normal"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.33
+    },
+    {
+      "line_number": 25,
+      "page_number": 1,
+      "is_in_table": true,
+      "md_text_original": "|**10.**|Single<br>rail<br>fare/bus<br>fare<br>from<br>the<br>headquarters to home town/place of visit by<br>shortest route.|Single<br>rail<br>fare/bus<br>fare<br>from<br>the<br>headquarters to home town/place of visit by<br>shortest route.||||",
+      "md_text_cleaned": "10.Single rail fare/bus fare from the headquarters to home town/place of visit by shortest route.Single rail fare/bus fare from the headquarters to home town/place of visit by shortest route.",
+      "span_text": "10.",
+      "matched_page": 1,
+      "span_match": true,
+      "features": {
+        "page_num": 1,
+        "column": 5,
+        "bbox": [
+          70,
+          265,
+          89,
+          511
+        ],
+        "font_name": "Tahoma-Bold",
+        "font_size": 9.744400024414062,
+        "font_styles": [
+          "bold"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.031
+    },
+    {
+      "line_number": 26,
+      "page_number": 1,
+      "is_in_table": true,
+      "md_text_original": "|**11.**|Persons in respect of whom LTC is proposed to be availed.|Persons in respect of whom LTC is proposed to be availed.|Persons in respect of whom LTC is proposed to be availed.|Persons in respect of whom LTC is proposed to be availed.|Persons in respect of whom LTC is proposed to be availed.|",
+      "md_text_cleaned": "11.Persons in respect of whom LTC is proposed to be availed.Persons in respect of whom LTC is proposed to be availed.Persons in respect of whom LTC is proposed to be availed.Persons in respect of whom LTC is proposed to be availed.Persons in respect of whom LTC is proposed to be availed.",
+      "span_text": "Persons in respect of whom LTC is proposed to be availed.",
+      "matched_page": 1,
+      "span_match": true,
+      "features": {
+        "page_num": 1,
+        "column": 4,
+        "bbox": [
+          95,
+          253,
+          509,
+          554
+        ],
+        "font_name": "Tahoma",
+        "font_size": 9.744400024414062,
+        "font_styles": [
+          "normal"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.33
+    },
+    {
+      "line_number": 27,
+      "page_number": 1,
+      "is_in_table": true,
+      "md_text_original": "|**11.**|**S.No**|**Name**|**Name**|**Age**|**Relationship**|",
+      "md_text_cleaned": "11.S.NoNameNameAgeRelationship",
+      "span_text": "S.No",
+      "matched_page": 1,
+      "span_match": true,
+      "features": {
+        "page_num": 1,
+        "column": 4,
+        "bbox": [
+          95,
+          253,
+          509,
+          554
+        ],
+        "font_name": "Tahoma-Bold",
+        "font_size": 9.744400024414062,
+        "font_styles": [
+          "bold"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.235
+    },
+    {
+      "line_number": 28,
+      "page_number": 1,
+      "is_in_table": true,
+      "md_text_original": "|**11.**|**1.**|||||",
+      "md_text_cleaned": "11.1.",
+      "span_text": "11.",
+      "matched_page": 1,
+      "span_match": true,
+      "features": {
+        "page_num": 1,
+        "column": 5,
+        "bbox": [
+          70,
+          265,
+          89,
+          511
+        ],
+        "font_name": "Tahoma-Bold",
+        "font_size": 9.744400024414062,
+        "font_styles": [
+          "bold"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.75
+    },
+    {
+      "line_number": 29,
+      "page_number": 1,
+      "is_in_table": true,
+      "md_text_original": "|**11.**|**2.**|||||",
+      "md_text_cleaned": "11.2.",
+      "span_text": "Rs.",
+      "matched_page": 1,
+      "span_match": true,
+      "features": {
+        "page_num": 1,
+        "column": 6,
+        "bbox": [
+          70,
+          561,
+          595,
+          656
+        ],
+        "font_name": "Tahoma",
+        "font_size": 9.744400024414062,
+        "font_styles": [
+          "normal"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.25
+    },
+    {
+      "line_number": 30,
+      "page_number": null,
+      "is_in_table": true,
+      "md_text_original": "|**11.**|**3.**|||||",
+      "md_text_cleaned": "11.3.",
+      "span_text": null,
+      "matched_page": null,
+      "span_match": false,
+      "features": null,
+      "match_confidence": null
+    },
+    {
+      "line_number": 31,
+      "page_number": null,
+      "is_in_table": true,
+      "md_text_original": "|**11.**|**4.**|||||",
+      "md_text_cleaned": "11.4.",
+      "span_text": null,
+      "matched_page": null,
+      "span_match": false,
+      "features": null,
+      "match_confidence": null
+    },
+    {
+      "line_number": 32,
+      "page_number": null,
+      "is_in_table": true,
+      "md_text_original": "|**11.**|**5.**|||||",
+      "md_text_cleaned": "11.5.",
+      "span_text": null,
+      "matched_page": null,
+      "span_match": false,
+      "features": null,
+      "match_confidence": null
+    },
+    {
+      "line_number": 33,
+      "page_number": null,
+      "is_in_table": true,
+      "md_text_original": "|**11.**|**6.**|||||",
+      "md_text_cleaned": "11.6.",
+      "span_text": null,
+      "matched_page": null,
+      "span_match": false,
+      "features": null,
+      "match_confidence": null
+    },
+    {
+      "line_number": 34,
+      "page_number": 1,
+      "is_in_table": true,
+      "md_text_original": "|**12.**|Amount of advance required.|Amount of advance required.|Rs.|Rs.|Rs.|",
+      "md_text_cleaned": "12.Amount of advance required.Amount of advance required.Rs.Rs.Rs.",
+      "span_text": "12. Amount of advance required.",
+      "matched_page": 1,
+      "span_match": true,
+      "features": {
+        "page_num": 1,
+        "column": 6,
+        "bbox": [
+          70,
+          561,
+          595,
+          656
+        ],
+        "font_name": "Tahoma-Bold",
+        "font_size": 9.744400024414062,
+        "font_styles": [
+          "bold"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.619
+    },
+    {
+      "line_number": 37,
+      "page_number": 1,
+      "is_in_table": false,
+      "md_text_original": "I declare that the particulars furnished above are true and correct to the best of my knowledge. I",
+      "md_text_cleaned": "I declare that the particulars furnished above are true and correct to the best of my knowledge. I",
+      "span_text": "I declare that the particulars furnished above are true and correct to the best of my knowledge.  I",
+      "matched_page": 1,
+      "span_match": true,
+      "features": {
+        "page_num": 1,
+        "column": 6,
+        "bbox": [
+          70,
+          561,
+          595,
+          656
+        ],
+        "font_name": "Tahoma",
+        "font_size": 9.744400024414062,
+        "font_styles": [
+          "normal"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 38,
+      "page_number": 1,
+      "is_in_table": false,
+      "md_text_original": "undertake to produce the tickets for the outward journey within ten days of receipt of the advance.",
+      "md_text_cleaned": "undertake to produce the tickets for the outward journey within ten days of receipt of the advance.",
+      "span_text": "undertake to produce the tickets for the outward journey within ten days of receipt of the advance.",
+      "matched_page": 1,
+      "span_match": true,
+      "features": {
+        "page_num": 1,
+        "column": 6,
+        "bbox": [
+          70,
+          561,
+          595,
+          656
+        ],
+        "font_name": "Tahoma",
+        "font_size": 9.744400024414062,
+        "font_styles": [
+          "normal"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 41,
+      "page_number": 1,
+      "is_in_table": false,
+      "md_text_original": "In the event of cancellation of the journey or if I fail to produce the tickets within ten days of receipt of",
+      "md_text_cleaned": "In the event of cancellation of the journey or if I fail to produce the tickets within ten days of receipt of",
+      "span_text": "In the event of cancellation of the journey or if I fail to produce the tickets within ten days of receipt of",
+      "matched_page": 1,
+      "span_match": true,
+      "features": {
+        "page_num": 1,
+        "column": 6,
+        "bbox": [
+          70,
+          561,
+          595,
+          656
+        ],
+        "font_name": "Tahoma",
+        "font_size": 9.744400024414062,
+        "font_styles": [
+          "normal"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 42,
+      "page_number": 1,
+      "is_in_table": false,
+      "md_text_original": "advance, I undertake to refund the entire advance in one lump sum.",
+      "md_text_cleaned": "advance, I undertake to refund the entire advance in one lump sum.",
+      "span_text": "advance, I undertake to refund the entire advance in one lump sum.",
+      "matched_page": 1,
+      "span_match": true,
+      "features": {
+        "page_num": 1,
+        "column": 6,
+        "bbox": [
+          70,
+          561,
+          595,
+          656
+        ],
+        "font_name": "Tahoma",
+        "font_size": 9.744400024414062,
+        "font_styles": [
+          "normal"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 45,
+      "page_number": 1,
+      "is_in_table": false,
+      "md_text_original": "**Date**",
+      "md_text_cleaned": "Date",
+      "span_text": "Date",
+      "matched_page": 1,
+      "span_match": true,
+      "features": {
+        "page_num": 1,
+        "column": 7,
+        "bbox": [
+          70,
+          678,
+          96,
+          691
+        ],
+        "font_name": "Tahoma-Bold",
+        "font_size": 9.744400024414062,
+        "font_styles": [
+          "bold"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 47,
+      "page_number": 1,
+      "is_in_table": false,
+      "md_text_original": "**Signature of Government Servant.**",
+      "md_text_cleaned": "Signature of Government Servant.",
+      "span_text": "Signature of Government Servant.",
+      "matched_page": 1,
+      "span_match": true,
+      "features": {
+        "page_num": 1,
+        "column": 8,
+        "bbox": [
+          403,
+          690,
+          595,
+          703
+        ],
+        "font_name": "Tahoma-Bold",
+        "font_size": 9.744400024414062,
+        "font_styles": [
+          "bold"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    }
+  ],
+  "unmatched_lines": [
+    {
+      "line_number": 16,
+      "page_number": null,
+      "is_in_table": true,
+      "text_original": "|---|---|---|---|---|---|",
+      "text_cleaned": "------------------",
+      "search_pages": [
+        1
+      ]
+    },
+    {
+      "line_number": 30,
+      "page_number": null,
+      "is_in_table": true,
+      "text_original": "|**11.**|**3.**|||||",
+      "text_cleaned": "11.3.",
+      "search_pages": [
+        1
+      ]
+    },
+    {
+      "line_number": 31,
+      "page_number": null,
+      "is_in_table": true,
+      "text_original": "|**11.**|**4.**|||||",
+      "text_cleaned": "11.4.",
+      "search_pages": [
+        1
+      ]
+    },
+    {
+      "line_number": 32,
+      "page_number": null,
+      "is_in_table": true,
+      "text_original": "|**11.**|**5.**|||||",
+      "text_cleaned": "11.5.",
+      "search_pages": [
+        1
+      ]
+    },
+    {
+      "line_number": 33,
+      "page_number": null,
+      "is_in_table": true,
+      "text_original": "|**11.**|**6.**|||||",
+      "text_cleaned": "11.6.",
+      "search_pages": [
+        1
+      ]
+    }
+  ]
+}
