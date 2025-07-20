@@ -1,0 +1,20 @@
+{
+  "summary": {
+    "total_md_lines": 0,
+    "matched_lines": 0,
+    "unmatched_lines": 0,
+    "table_lines_processed": 0,
+    "table_lines_matched": 0,
+    "table_match_percentage": 0,
+    "match_percentage": 0,
+    "total_spans_available": 57,
+    "spans_used": 0,
+    "processing_time_seconds": 0.0,
+    "lines_per_second": 0,
+    "avg_spans_searched_per_line": 0,
+    "optimization_speedup": "1.0x faster than full search",
+    "pages_available": 1
+  },
+  "aggregated_data": [],
+  "unmatched_lines": []
+}

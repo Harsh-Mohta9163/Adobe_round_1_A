@@ -1,16 +1,16 @@
 {
   "summary": {
     "total_md_lines": 27,
-    "matched_lines": 22,
-    "unmatched_lines": 5,
+    "matched_lines": 21,
+    "unmatched_lines": 6,
     "table_lines_processed": 20,
-    "table_lines_matched": 15,
-    "table_match_percentage": 75.0,
-    "match_percentage": 81.48,
+    "table_lines_matched": 14,
+    "table_match_percentage": 70.0,
+    "match_percentage": 77.78,
     "total_spans_available": 54,
-    "spans_used": 22,
-    "processing_time_seconds": 0.06,
-    "lines_per_second": 415.4,
+    "spans_used": 21,
+    "processing_time_seconds": 0.07,
+    "lines_per_second": 409.12,
     "avg_spans_searched_per_line": 54.0,
     "optimization_speedup": "1.0x faster than full search",
     "pages_available": 1
@@ -76,7 +76,7 @@
       "page_number": null,
       "is_in_table": true,
       "md_text_original": "|---|---|---|---|---|---|",
-      "md_text_cleaned": "------------------",
+      "md_text_cleaned": "",
       "span_text": null,
       "matched_page": null,
       "span_match": false,
@@ -409,30 +409,15 @@
     },
     {
       "line_number": 29,
-      "page_number": 1,
+      "page_number": null,
       "is_in_table": true,
       "md_text_original": "|**11.**|**2.**|||||",
       "md_text_cleaned": "11.2.",
-      "span_text": "Rs.",
-      "matched_page": 1,
-      "span_match": true,
-      "features": {
-        "page_num": 1,
-        "column": 6,
-        "bbox": [
-          70,
-          561,
-          595,
-          656
-        ],
-        "font_name": "Tahoma",
-        "font_size": 9.744400024414062,
-        "font_styles": [
-          "normal"
-        ],
-        "color": 0
-      },
-      "match_confidence": 0.25
+      "span_text": null,
+      "matched_page": null,
+      "span_match": false,
+      "features": null,
+      "match_confidence": null
     },
     {
       "line_number": 30,
@@ -678,7 +663,17 @@
       "page_number": null,
       "is_in_table": true,
       "text_original": "|---|---|---|---|---|---|",
-      "text_cleaned": "------------------",
+      "text_cleaned": "",
+      "search_pages": [
+        1
+      ]
+    },
+    {
+      "line_number": 29,
+      "page_number": null,
+      "is_in_table": true,
+      "text_original": "|**11.**|**2.**|||||",
+      "text_cleaned": "11.2.",
       "search_pages": [
         1
       ]
