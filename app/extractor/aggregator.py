@@ -123,6 +123,9 @@ def clean_md_line(md_line: str) -> str:
     # Remove bold/italic markers (**text** or *text*)
     cleaned = re.sub(r'\*{1,2}([^*]+)\*{1,2}', r'\1', cleaned)
     
+    cleaned = re.sub(r'^[-+=@]+\s*', '', cleaned)
+    
+    
     # Remove other markdown formatting
     cleaned = re.sub(r'[_`\[\]()]+', '', cleaned)
     

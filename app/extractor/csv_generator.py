@@ -63,7 +63,7 @@ def calculate_features_for_merging(line_a: dict, line_b: dict, page_stats: dict)
     
     # Line ending with punctuation
     text_a = line_a.get('md_text_cleaned', '').strip()
-    features['line_a_ends_punctuation'] = 1 if text_a and text_a[-1] in '.!?:;,' else 0
+    features['line_a_ends_punctuation'] = 1 if text_a and text_a[-1] in '.!?:' else 0
     
     # Line B starts with lowercase
     text_b = line_b.get('md_text_cleaned', '').strip()
@@ -143,7 +143,7 @@ def generate_csv_from_aggregated(pdf_name: str):
         page_statistics[page_num] = get_page_statistics(lines)
     
     # Generate CSV
-    with open(output_csv_path, 'w', newline='', encoding='utf-8') as csvfile:
+    with open(output_csv_path, 'w', newline='', encoding='utf-8-sig') as csvfile:
         fieldnames = [
             'text_a', 'text_b', 'normalized_vertical_gap', 'indentation_change', 
             'font_size_diff', 'same_font', 'line_a_ends_punctuation', 
@@ -151,7 +151,7 @@ def generate_csv_from_aggregated(pdf_name: str):
             'is_centered_B', 'is_linea_in_rectangle', 'is_lineb_in_rectangle', 
             'both_in_table', 'neither_in_table', 'label'
         ]
-        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames, quoting=csv.QUOTE_ALL)
         writer.writeheader()
         
         row_count = 0
@@ -170,8 +170,8 @@ def generate_csv_from_aggregated(pdf_name: str):
             features = calculate_features_for_merging(line_a, line_b, page_stats)
             
             # Add text fields
-            features['text_a'] = line_a.get('md_text_cleaned', '').strip()
-            features['text_b'] = line_b.get('md_text_cleaned', '').strip()
+            features['text_a'] =  line_a.get('md_text_cleaned', '').strip() + "'"
+            features['text_b'] =  line_b.get('md_text_cleaned', '').strip() + "'"
             features['label'] = ''  # Empty label for manual annotation
             
             # Skip if either text is empty

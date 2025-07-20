@@ -13,7 +13,7 @@ def extract_columns_and_split(pdf_name):
     output = []
 
     for page_num, page in enumerate(doc, 1):
-        bboxes = column_boxes(page, footer_margin=0, no_image_text=True)
+        bboxes = column_boxes(page, footer_margin=0, no_image_text=False)
         page_columns = []
         for rect in bboxes:
             text_dict = page.get_text("dict", clip=rect)
