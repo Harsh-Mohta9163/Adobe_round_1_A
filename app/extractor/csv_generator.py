@@ -61,6 +61,19 @@ def calculate_features_for_merging(line_a: dict, line_b: dict, page_stats: dict)
     font_name_b = features_b.get('font_name', '')
     features['same_font'] = 1 if font_name_a == font_name_b else 0
     
+    # Font formatting features
+    features['is_bold_A'] = 1 if features_a.get('is_bold', False) else 0
+    features['is_bold_B'] = 1 if features_b.get('is_bold', False) else 0
+    features['is_italic_A'] = 1 if features_a.get('is_italic', False) else 0
+    features['is_italic_B'] = 1 if features_b.get('is_italic', False) else 0
+    features['is_monospace_A'] = 1 if features_a.get('is_monospace', False) else 0
+    features['is_monospace_B'] = 1 if features_b.get('is_monospace', False) else 0
+    
+    # Same formatting features
+    features['same_bold'] = 1 if features_a.get('is_bold', False) == features_b.get('is_bold', False) else 0
+    features['same_italic'] = 1 if features_a.get('is_italic', False) == features_b.get('is_italic', False) else 0
+    features['same_monospace'] = 1 if features_a.get('is_monospace', False) == features_b.get('is_monospace', False) else 0
+    
     # Line ending with punctuation
     text_a = line_a.get('md_text_cleaned', '').strip()
     features['line_a_ends_punctuation'] = 1 if text_a and text_a[-1] in '.!?:' else 0
@@ -149,9 +162,12 @@ def generate_csv_from_aggregated(pdf_name: str):
             'font_size_diff', 'same_font', 'line_a_ends_punctuation', 
             'line_b_starts_lowercase', 'same_alignment', 'is_centered_A', 
             'is_centered_B', 'is_linea_in_rectangle', 'is_lineb_in_rectangle', 
-            'both_in_table', 'neither_in_table', 'label'
+            'both_in_table', 'neither_in_table', 
+            'is_bold_A', 'is_bold_B', 'is_italic_A', 'is_italic_B', 
+            'is_monospace_A', 'is_monospace_B', 'same_bold', 'same_italic', 
+            'same_monospace', 'label'
         ]
-        writer = csv.DictWriter(csvfile, fieldnames=fieldnames, quoting=csv.QUOTE_ALL)
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
         
         row_count = 0
@@ -169,9 +185,9 @@ def generate_csv_from_aggregated(pdf_name: str):
             # Calculate features
             features = calculate_features_for_merging(line_a, line_b, page_stats)
             
-            # Add text fields
-            features['text_a'] =  line_a.get('md_text_cleaned', '').strip() + "'"
-            features['text_b'] =  line_b.get('md_text_cleaned', '').strip() + "'"
+            # Add text fields - remove the extra quote you added
+            features['text_a'] = line_a.get('md_text_cleaned', '').strip()
+            features['text_b'] = line_b.get('md_text_cleaned', '').strip()
             features['label'] = ''  # Empty label for manual annotation
             
             # Skip if either text is empty

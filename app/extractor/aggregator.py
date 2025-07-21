@@ -236,12 +236,21 @@ def find_best_matching_span_optimized(md_line: str, spans: List[Dict], page_inde
     return None, last_matched_page
 
 def decode_font_flags(flags):
+    """Decode PyMuPDF font flags and return both styles list and individual boolean flags"""
     styles = []
-    if flags & 1:   styles.append("superscript")
-    if flags & 2:   styles.append("italic") 
-    if flags & 4:   styles.append("monospace")
-    if flags & 16:  styles.append("bold")
-    return styles if styles else ["normal"]
+    is_bold = bool(flags & 16)        # FONTFLAG_BOLD = 16
+    is_italic = bool(flags & 2)       # FONTFLAG_ITALIC = 2  
+    is_monospace = bool(flags & 8)    # FONTFLAG_MONOSPACE = 8
+    is_serifed = bool(flags & 4)      # FONTFLAG_SERIFED = 4
+    is_superscript = bool(flags & 1)  # FONTFLAG_SUPERSCRIPT = 1
+    
+    if is_superscript: styles.append("superscript")
+    if is_italic:      styles.append("italic") 
+    if is_serifed:     styles.append("serifed")
+    if is_monospace:   styles.append("monospace")
+    if is_bold:        styles.append("bold")
+    
+    return styles if styles else ["normal"], is_bold, is_italic, is_monospace
 
 def aggregate_md_to_spans(pdf_name: str):
     """
@@ -328,7 +337,7 @@ def aggregate_md_to_spans(pdf_name: str):
             
             # Decode font styles from font_flags
             font_flags = first_font.get("font_flags", 0)
-            font_styles = decode_font_flags(font_flags)
+            font_styles, is_bold, is_italic, is_monospace = decode_font_flags(font_flags)
             
             features = {
                 "page_num": matching_span.get("page_num"),
@@ -336,7 +345,10 @@ def aggregate_md_to_spans(pdf_name: str):
                 "bbox": matching_span.get("bbox"),
                 "font_name": first_font.get("font_name", ""),
                 "font_size": first_font.get("font_size", 0),
-                "font_styles": font_styles if font_styles else ["normal"],
+                "font_styles": font_styles,
+                "is_bold": is_bold,
+                "is_italic": is_italic,
+                "is_monospace": is_monospace,
                 "color": first_font.get("color", 0)
             }
             
