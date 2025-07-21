@@ -252,6 +252,7 @@ def test_title_classifier(model_dir: str, test_folder: str, output_folder: str =
         
         # Add predictions to dataframe
         df['predicted_label'] = predictions
+        df['model_labels'] = predictions  # Add model_labels column with same values as predicted_label
         df['title_probability'] = prediction_probs[:, 1]  # Probability of being a title
         
         # Show results
@@ -332,7 +333,7 @@ def test_title_classifier(model_dir: str, test_folder: str, output_folder: str =
 if __name__ == '__main__':
     # --- CONFIGURATION ---
     MODEL_DIR = '../models'  # Directory with trained model
-    TEST_FOLDER = '../data/merged_textblocks_gt'  # Folder with test CSV files
+    TEST_FOLDER = '../data/test_textblocks'  # Folder with test CSV files
     OUTPUT_FOLDER = '../data/test_results'  # Optional: save predictions
     # -------------------
     
