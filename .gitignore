@@ -1,9 +1,78 @@
-venv/
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-# Ignore specific data subdirectories
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyTorch
+*.pth
+*.pt
+
+# TensorFlow
+*.pb
+*.h5
+saved_model/
+
+# Model artifacts (uncomment if you don't want to track trained models)
+# models/
+# checkpoints/
+# *.pkl
+# *.joblib
+
+# Data processing outputs
 data/aggregator_output/
 data/md_files/
 data/spans_output/
 data/textlines_csv_output/
+
+# Logs and monitoring
+logs/
+*.log
+wandb/
+mlruns/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 
 # Keep data/input/ and data/labelled_groundtruth_csv/ tracked
