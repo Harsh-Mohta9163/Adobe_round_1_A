@@ -9,8 +9,8 @@
     "match_percentage": 83.33,
     "total_spans_available": 12,
     "spans_used": 10,
-    "processing_time_seconds": 0.0,
-    "lines_per_second": 3981.3,
+    "processing_time_seconds": 0.01,
+    "lines_per_second": 2022.73,
     "avg_spans_searched_per_line": 12.0,
     "optimization_speedup": "1.0x faster than full search",
     "pages_available": 1

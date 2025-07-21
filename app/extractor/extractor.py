@@ -327,6 +327,16 @@ if __name__ == "__main__":
         "file05.pdf",
         "file06.pdf",
         "file07.pdf",
+        "file09.pdf",
+        "file10.pdf",
+        "file12.pdf",
+        "file13.pdf",
+        "file14.pdf",
+        "file15.pdf",
+        "file16.pdf",
+        "file17.pdf",
+        "file18.pdf",
+        "file19.pdf",
     ]
     
     # You can also specify PDFs via command line arguments
