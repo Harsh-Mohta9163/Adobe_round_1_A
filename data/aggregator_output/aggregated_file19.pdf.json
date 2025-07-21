@@ -1,0 +1,6375 @@
+{
+  "summary": {
+    "total_md_lines": 235,
+    "matched_lines": 233,
+    "unmatched_lines": 2,
+    "table_lines_processed": 0,
+    "table_lines_matched": 0,
+    "table_match_percentage": 0,
+    "match_percentage": 99.15,
+    "total_spans_available": 255,
+    "spans_used": 233,
+    "processing_time_seconds": 0.23,
+    "lines_per_second": 1002.31,
+    "avg_spans_searched_per_line": 52.4,
+    "optimization_speedup": "4.9x faster than full search",
+    "pages_available": 11
+  },
+  "aggregated_data": [
+    {
+      "line_number": 1,
+      "page_number": 2,
+      "is_in_table": false,
+      "md_text_original": "## **The Money Code:** **Become a Millionaire With the Ancient** **Jewish Code** **H. W. CHARLES**",
+      "md_text_cleaned": "The Money Code: Become a Millionaire With the Ancient Jewish Code H. W. CHARLES",
+      "span_text": "Become a Millionaire With the Ancient",
+      "matched_page": 2,
+      "span_match": true,
+      "features": {
+        "page_num": 2,
+        "column": 0,
+        "bbox": [
+          72,
+          77,
+          612,
+          562
+        ],
+        "font_name": "LiberationSerif-Bold",
+        "font_size": 23.760000228881836,
+        "font_styles": [
+          "monospace",
+          "bold"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.638
+    },
+    {
+      "line_number": 3,
+      "page_number": 2,
+      "is_in_table": false,
+      "md_text_original": "Edited by Monica Sannicolas",
+      "md_text_cleaned": "Edited by Monica Sannicolas",
+      "span_text": "Edited by Monica Sannicolas",
+      "matched_page": 2,
+      "span_match": true,
+      "features": {
+        "page_num": 2,
+        "column": 0,
+        "bbox": [
+          72,
+          77,
+          612,
+          562
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 5,
+      "page_number": 2,
+      "is_in_table": false,
+      "md_text_original": "ISBN: 978-0-9916903-1-2",
+      "md_text_cleaned": "ISBN: 978-0-9916903-1-2",
+      "span_text": "ISBN: 978-0-9916903-1-2",
+      "matched_page": 2,
+      "span_match": true,
+      "features": {
+        "page_num": 2,
+        "column": 0,
+        "bbox": [
+          72,
+          77,
+          612,
+          562
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 8,
+      "page_number": 2,
+      "is_in_table": false,
+      "md_text_original": "Copyright © 2012",
+      "md_text_cleaned": "Copyright © 2012",
+      "span_text": "Copyright © 2012",
+      "matched_page": 2,
+      "span_match": true,
+      "features": {
+        "page_num": 2,
+        "column": 0,
+        "bbox": [
+          72,
+          77,
+          612,
+          562
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 9,
+      "page_number": 2,
+      "is_in_table": false,
+      "md_text_original": "All rights reserved. No part of this document or the related files may be",
+      "md_text_cleaned": "All rights reserved. No part of this document or the related files may be",
+      "span_text": "All rights reserved. No part of this document or the related files may be",
+      "matched_page": 2,
+      "span_match": true,
+      "features": {
+        "page_num": 2,
+        "column": 0,
+        "bbox": [
+          72,
+          77,
+          612,
+          562
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 10,
+      "page_number": 2,
+      "is_in_table": false,
+      "md_text_original": "reproduced or transmitted in any form, including photocopy, recording, or any",
+      "md_text_cleaned": "reproduced or transmitted in any form, including photocopy, recording, or any",
+      "span_text": "reproduced or transmitted in any form, including photocopy, recording, or any",
+      "matched_page": 2,
+      "span_match": true,
+      "features": {
+        "page_num": 2,
+        "column": 0,
+        "bbox": [
+          72,
+          77,
+          612,
+          562
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 11,
+      "page_number": 2,
+      "is_in_table": false,
+      "md_text_original": "information storage and retrieval system now known or to be invented, without",
+      "md_text_cleaned": "information storage and retrieval system now known or to be invented, without",
+      "span_text": "information storage and retrieval system now known or to be invented, without",
+      "matched_page": 2,
+      "span_match": true,
+      "features": {
+        "page_num": 2,
+        "column": 0,
+        "bbox": [
+          72,
+          77,
+          612,
+          562
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 13,
+      "page_number": 2,
+      "is_in_table": false,
+      "md_text_original": "the prior written permission of the publisher or author.",
+      "md_text_cleaned": "the prior written permission of the publisher or author.",
+      "span_text": "the prior written permission of the publisher or author.",
+      "matched_page": 2,
+      "span_match": true,
+      "features": {
+        "page_num": 2,
+        "column": 0,
+        "bbox": [
+          72,
+          77,
+          612,
+          562
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 15,
+      "page_number": 2,
+      "is_in_table": false,
+      "md_text_original": "### **LEGAL DISCLAIMER**",
+      "md_text_cleaned": "LEGAL DISCLAIMER",
+      "span_text": "LEGAL DISCLAIMER",
+      "matched_page": 2,
+      "span_match": true,
+      "features": {
+        "page_num": 2,
+        "column": 0,
+        "bbox": [
+          72,
+          77,
+          612,
+          562
+        ],
+        "font_name": "LiberationSerif-Bold",
+        "font_size": 20.15999984741211,
+        "font_styles": [
+          "monospace",
+          "bold"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 18,
+      "page_number": 2,
+      "is_in_table": false,
+      "md_text_original": "Although the author and publisher have made every reasonable attempt to",
+      "md_text_cleaned": "Although the author and publisher have made every reasonable attempt to",
+      "span_text": "Although the author and publisher have made every reasonable attempt to",
+      "matched_page": 2,
+      "span_match": true,
+      "features": {
+        "page_num": 2,
+        "column": 0,
+        "bbox": [
+          72,
+          77,
+          612,
+          562
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 20,
+      "page_number": 2,
+      "is_in_table": false,
+      "md_text_original": "achieve complete accuracy of the content in this book, they assume no",
+      "md_text_cleaned": "achieve complete accuracy of the content in this book, they assume no",
+      "span_text": "achieve complete accuracy of the content in this book, they assume no",
+      "matched_page": 2,
+      "span_match": true,
+      "features": {
+        "page_num": 2,
+        "column": 0,
+        "bbox": [
+          72,
+          77,
+          612,
+          562
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 21,
+      "page_number": 2,
+      "is_in_table": false,
+      "md_text_original": "responsibility for errors or omissions. Neither the author nor the publisher shall",
+      "md_text_cleaned": "responsibility for errors or omissions. Neither the author nor the publisher shall",
+      "span_text": "responsibility for errors or omissions. Neither the author nor the publisher shall",
+      "matched_page": 2,
+      "span_match": true,
+      "features": {
+        "page_num": 2,
+        "column": 0,
+        "bbox": [
+          72,
+          77,
+          612,
+          562
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 23,
+      "page_number": 2,
+      "is_in_table": false,
+      "md_text_original": "be held liable or responsible to any person or entity with respect to any loss or",
+      "md_text_cleaned": "be held liable or responsible to any person or entity with respect to any loss or",
+      "span_text": "be held liable or responsible to any person or entity with respect to any loss or",
+      "matched_page": 2,
+      "span_match": true,
+      "features": {
+        "page_num": 2,
+        "column": 0,
+        "bbox": [
+          72,
+          77,
+          612,
+          562
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 25,
+      "page_number": 2,
+      "is_in_table": false,
+      "md_text_original": "incidental or consequential damages caused, directly or indirectly, by the",
+      "md_text_cleaned": "incidental or consequential damages caused, directly or indirectly, by the",
+      "span_text": "incidental or consequential damages caused, directly or indirectly, by the",
+      "matched_page": 2,
+      "span_match": true,
+      "features": {
+        "page_num": 2,
+        "column": 0,
+        "bbox": [
+          72,
+          77,
+          612,
+          562
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 27,
+      "page_number": 2,
+      "is_in_table": false,
+      "md_text_original": "information contained herein.",
+      "md_text_cleaned": "information contained herein.",
+      "span_text": "information contained herein.",
+      "matched_page": 2,
+      "span_match": true,
+      "features": {
+        "page_num": 2,
+        "column": 0,
+        "bbox": [
+          72,
+          77,
+          612,
+          562
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 30,
+      "page_number": 3,
+      "is_in_table": false,
+      "md_text_original": "# CONTENTS",
+      "md_text_cleaned": "CONTENTS",
+      "span_text": "CONTENTS",
+      "matched_page": 3,
+      "span_match": true,
+      "features": {
+        "page_num": 3,
+        "column": 0,
+        "bbox": [
+          225,
+          193,
+          612,
+          461
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 26.64000129699707,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 32,
+      "page_number": null,
+      "is_in_table": false,
+      "md_text_original": "### **PREFACE** **INTRODUCTION** **CHAPTER 1** **CHAPTER 2** **CHAPTER 3** **CHAPTER 4** **CHAPTER 5** **CHAPTER 6** **CHAPTER 7**",
+      "md_text_cleaned": "PREFACE INTRODUCTION CHAPTER 1 CHAPTER 2 CHAPTER 3 CHAPTER 4 CHAPTER 5 CHAPTER 6 CHAPTER 7",
+      "span_text": null,
+      "matched_page": null,
+      "span_match": false,
+      "features": null,
+      "match_confidence": null
+    },
+    {
+      "line_number": 35,
+      "page_number": 4,
+      "is_in_table": false,
+      "md_text_original": "### **PREFACE** It is as if the ordinary language we use every day has a hidden set of signals; a kind of secret code. - William Edgar Stafford (1914–1993), American Poet",
+      "md_text_cleaned": "PREFACE It is as if the ordinary language we use every day has a hidden set of signals; a kind of secret code. - William Edgar Stafford 1914–1993, American Poet",
+      "span_text": "It is as if the ordinary language we use every day has a",
+      "matched_page": 4,
+      "span_match": true,
+      "features": {
+        "page_num": 4,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          708
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 20.15999984741211,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.519
+    },
+    {
+      "line_number": 37,
+      "page_number": 4,
+      "is_in_table": false,
+      "md_text_original": "A code is a systematically arranged and comprehensive collection of laws,",
+      "md_text_cleaned": "A code is a systematically arranged and comprehensive collection of laws,",
+      "span_text": "A code is a systematically arranged and comprehensive collection of laws,",
+      "matched_page": 4,
+      "span_match": true,
+      "features": {
+        "page_num": 4,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          708
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 38,
+      "page_number": 4,
+      "is_in_table": false,
+      "md_text_original": "regulations, and rules of procedure. A code is also the conversion of a message",
+      "md_text_cleaned": "regulations, and rules of procedure. A code is also the conversion of a message",
+      "span_text": "regulations, and rules of procedure. A code is also the conversion of a message",
+      "matched_page": 4,
+      "span_match": true,
+      "features": {
+        "page_num": 4,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          708
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 39,
+      "page_number": 4,
+      "is_in_table": false,
+      "md_text_original": "into a hidden system of communication for the purposes of secrecy.",
+      "md_text_cleaned": "into a hidden system of communication for the purposes of secrecy.",
+      "span_text": "into a hidden system of communication for the purposes of secrecy.",
+      "matched_page": 4,
+      "span_match": true,
+      "features": {
+        "page_num": 4,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          708
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 41,
+      "page_number": 4,
+      "is_in_table": false,
+      "md_text_original": "This book will reveal the money code that the Jews have known for centuries.",
+      "md_text_cleaned": "This book will reveal the money code that the Jews have known for centuries.",
+      "span_text": "This book will reveal the money code that the Jews have known for centuries.",
+      "matched_page": 4,
+      "span_match": true,
+      "features": {
+        "page_num": 4,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          708
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 42,
+      "page_number": 4,
+      "is_in_table": false,
+      "md_text_original": "Where is this code found? It is found in the books containing history’s greatest",
+      "md_text_cleaned": "Where is this code found? It is found in the books containing history’s greatest",
+      "span_text": "Where is this code found? It is found in the books containing history’s greatest",
+      "matched_page": 4,
+      "span_match": true,
+      "features": {
+        "page_num": 4,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          708
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 43,
+      "page_number": 4,
+      "is_in_table": false,
+      "md_text_original": "wisdom of all time, specifically the Jewish religious texts.",
+      "md_text_cleaned": "wisdom of all time, specifically the Jewish religious texts.",
+      "span_text": "wisdom of all time, specifically the Jewish religious texts.",
+      "matched_page": 4,
+      "span_match": true,
+      "features": {
+        "page_num": 4,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          708
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 45,
+      "page_number": 4,
+      "is_in_table": false,
+      "md_text_original": "Non-religious people must not put aside religious books simply because they",
+      "md_text_cleaned": "Non-religious people must not put aside religious books simply because they",
+      "span_text": "Non-religious people must not put aside religious books simply because they",
+      "matched_page": 4,
+      "span_match": true,
+      "features": {
+        "page_num": 4,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          708
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 46,
+      "page_number": 4,
+      "is_in_table": false,
+      "md_text_original": "do not believe in religion. “Religion has preserved history's greatest wisdom",
+      "md_text_cleaned": "do not believe in religion. “Religion has preserved history's greatest wisdom",
+      "span_text": "do not believe in religion. “Religion has preserved history's greatest wisdom",
+      "matched_page": 4,
+      "span_match": true,
+      "features": {
+        "page_num": 4,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          708
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 47,
+      "page_number": 4,
+      "is_in_table": false,
+      "md_text_original": "teachings,” said religious studies scholar Huston Cummings Smith. Catherine",
+      "md_text_cleaned": "teachings,” said religious studies scholar Huston Cummings Smith. Catherine",
+      "span_text": "teachings,” said religious studies scholar Huston Cummings Smith. Catherine",
+      "matched_page": 4,
+      "span_match": true,
+      "features": {
+        "page_num": 4,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          708
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 48,
+      "page_number": 4,
+      "is_in_table": false,
+      "md_text_original": "Ponder, author and minister, has referred to the Bible as \"the greatest textbook",
+      "md_text_cleaned": "Ponder, author and minister, has referred to the Bible as \"the greatest textbook",
+      "span_text": "Ponder, author and minister, has referred to the Bible as \"the greatest textbook",
+      "matched_page": 4,
+      "span_match": true,
+      "features": {
+        "page_num": 4,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          708
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 49,
+      "page_number": 4,
+      "is_in_table": false,
+      "md_text_original": "on prosperity ever written.\"",
+      "md_text_cleaned": "on prosperity ever written.\"",
+      "span_text": "on prosperity ever written.\"",
+      "matched_page": 4,
+      "span_match": true,
+      "features": {
+        "page_num": 4,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          708
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 51,
+      "page_number": 4,
+      "is_in_table": false,
+      "md_text_original": "Although some popular religious texts such as the New Testament, Quran,",
+      "md_text_cleaned": "Although some popular religious texts such as the New Testament, Quran,",
+      "span_text": "Although some popular religious texts such as the New Testament, Quran,",
+      "matched_page": 4,
+      "span_match": true,
+      "features": {
+        "page_num": 4,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          708
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 52,
+      "page_number": 4,
+      "is_in_table": false,
+      "md_text_original": "Bhagavad Gita, Tao Te Ching, or Tibetan Book of the Dead contain interesting",
+      "md_text_cleaned": "Bhagavad Gita, Tao Te Ching, or Tibetan Book of the Dead contain interesting",
+      "span_text": "Bhagavad Gita, Tao Te Ching, or Tibetan Book of the Dead contain interesting",
+      "matched_page": 4,
+      "span_match": true,
+      "features": {
+        "page_num": 4,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          708
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 53,
+      "page_number": 4,
+      "is_in_table": false,
+      "md_text_original": "insights and stories, it is the Jewish religious texts such as the Old Testament",
+      "md_text_cleaned": "insights and stories, it is the Jewish religious texts such as the Old Testament",
+      "span_text": "insights and stories, it is the Jewish religious texts such as the Old Testament",
+      "matched_page": 4,
+      "span_match": true,
+      "features": {
+        "page_num": 4,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          708
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 54,
+      "page_number": 4,
+      "is_in_table": false,
+      "md_text_original": "(Hebrew Scriptures) that contain valuable information on acquiring wealth.",
+      "md_text_cleaned": "Hebrew Scriptures that contain valuable information on acquiring wealth.",
+      "span_text": "(Hebrew Scriptures) that contain valuable information on acquiring wealth.",
+      "matched_page": 4,
+      "span_match": true,
+      "features": {
+        "page_num": 4,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          708
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 55,
+      "page_number": 4,
+      "is_in_table": false,
+      "md_text_original": "Knowing this, you may be interested in reading the Jewish religious texts;",
+      "md_text_cleaned": "Knowing this, you may be interested in reading the Jewish religious texts;",
+      "span_text": "Knowing this, you may be interested in reading the Jewish religious texts;",
+      "matched_page": 4,
+      "span_match": true,
+      "features": {
+        "page_num": 4,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          708
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 56,
+      "page_number": 4,
+      "is_in_table": false,
+      "md_text_original": "however, there is an overwhelming amount of information in these texts. The",
+      "md_text_cleaned": "however, there is an overwhelming amount of information in these texts. The",
+      "span_text": "however, there is an overwhelming amount of information in these texts. The",
+      "matched_page": 4,
+      "span_match": true,
+      "features": {
+        "page_num": 4,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          708
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 57,
+      "page_number": 4,
+      "is_in_table": false,
+      "md_text_original": "_Tanakh_ contains 39 books and over 1,000 printed pages. There are over 12,000",
+      "md_text_cleaned": "Tanakh contains 39 books and over 1,000 printed pages. There are over 12,000",
+      "span_text": "Tanakh contains 39 books and over 1,000 printed pages. There are over 12,000",
+      "matched_page": 4,
+      "span_match": true,
+      "features": {
+        "page_num": 4,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          708
+        ],
+        "font_name": "LiberationSerif-Italic",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "italic",
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 58,
+      "page_number": 4,
+      "is_in_table": false,
+      "md_text_original": "printed pages in the _Talmud_ . This book makes it easy for you to gain all the most",
+      "md_text_cleaned": "printed pages in the Talmud . This book makes it easy for you to gain all the most",
+      "span_text": "printed pages in the Talmud. This book makes it easy for you to gain all the most",
+      "matched_page": 4,
+      "span_match": true,
+      "features": {
+        "page_num": 4,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          708
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.994
+    },
+    {
+      "line_number": 59,
+      "page_number": 4,
+      "is_in_table": false,
+      "md_text_original": "relevant information that the Jews have used to succeed for centuries.",
+      "md_text_cleaned": "relevant information that the Jews have used to succeed for centuries.",
+      "span_text": "relevant information that the Jews have used to succeed for centuries.",
+      "matched_page": 4,
+      "span_match": true,
+      "features": {
+        "page_num": 4,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          708
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 61,
+      "page_number": 4,
+      "is_in_table": false,
+      "md_text_original": "According to Kabbalistic teachers, the simple meaning of the Old Testament",
+      "md_text_cleaned": "According to Kabbalistic teachers, the simple meaning of the Old Testament",
+      "span_text": "According to Kabbalistic teachers, the simple meaning of the Old Testament",
+      "matched_page": 4,
+      "span_match": true,
+      "features": {
+        "page_num": 4,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          708
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 62,
+      "page_number": 4,
+      "is_in_table": false,
+      "md_text_original": "is not its true meaning. Rabbi and Kabbalist Menasseh ben Israel said, “There is",
+      "md_text_cleaned": "is not its true meaning. Rabbi and Kabbalist Menasseh ben Israel said, “There is",
+      "span_text": "is not its true meaning. Rabbi and Kabbalist Menasseh ben Israel said, “There is",
+      "matched_page": 4,
+      "span_match": true,
+      "features": {
+        "page_num": 4,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          708
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 63,
+      "page_number": 4,
+      "is_in_table": false,
+      "md_text_original": "no single letter in the Scriptures whereon a thousand secrets do not hang.” The",
+      "md_text_cleaned": "no single letter in the Scriptures whereon a thousand secrets do not hang.” The",
+      "span_text": "no single letter in the Scriptures whereon a thousand secrets do not hang.” The",
+      "matched_page": 4,
+      "span_match": true,
+      "features": {
+        "page_num": 4,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          708
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 64,
+      "page_number": 4,
+      "is_in_table": false,
+      "md_text_original": "Money Code is found in the Old Testament and is decoded by the _Talmud_ and",
+      "md_text_cleaned": "Money Code is found in the Old Testament and is decoded by the Talmud and",
+      "span_text": "Money Code is found in the Old Testament and is decoded by the Talmud and",
+      "matched_page": 4,
+      "span_match": true,
+      "features": {
+        "page_num": 4,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          708
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 67,
+      "page_number": 5,
+      "is_in_table": false,
+      "md_text_original": "other Jewish religious texts. The _Talmud_ explains the secret meanings behind the",
+      "md_text_cleaned": "other Jewish religious texts. The Talmud explains the secret meanings behind the",
+      "span_text": "other Jewish religious texts. The Talmud explains the secret meanings behind the",
+      "matched_page": 5,
+      "span_match": true,
+      "features": {
+        "page_num": 5,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 68,
+      "page_number": 5,
+      "is_in_table": false,
+      "md_text_original": "words of the Hebrew Scriptures—from the more common method of gematria,",
+      "md_text_cleaned": "words of the Hebrew Scriptures—from the more common method of gematria,",
+      "span_text": "words of the Hebrew Scriptures—from the more common method of gematria,",
+      "matched_page": 5,
+      "span_match": true,
+      "features": {
+        "page_num": 5,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 69,
+      "page_number": 5,
+      "is_in_table": false,
+      "md_text_original": "to the more esoteric method of exchanging certain letters for others, like the",
+      "md_text_cleaned": "to the more esoteric method of exchanging certain letters for others, like the",
+      "span_text": "to the more esoteric method of exchanging certain letters for others, like the",
+      "matched_page": 5,
+      "span_match": true,
+      "features": {
+        "page_num": 5,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 70,
+      "page_number": 5,
+      "is_in_table": false,
+      "md_text_original": "method of atbash, where the first letter of the Hebrew alphabet is exchanged for",
+      "md_text_cleaned": "method of atbash, where the first letter of the Hebrew alphabet is exchanged for",
+      "span_text": "method of atbash, where the first letter of the Hebrew alphabet is exchanged for",
+      "matched_page": 5,
+      "span_match": true,
+      "features": {
+        "page_num": 5,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 71,
+      "page_number": 5,
+      "is_in_table": false,
+      "md_text_original": "the final letter, and so forth.",
+      "md_text_cleaned": "the final letter, and so forth.",
+      "span_text": "the final letter, and so forth.",
+      "matched_page": 5,
+      "span_match": true,
+      "features": {
+        "page_num": 5,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 73,
+      "page_number": 5,
+      "is_in_table": false,
+      "md_text_original": "In this book, quotes are taken from the _Tanakh_ and are decoded by the",
+      "md_text_cleaned": "In this book, quotes are taken from the Tanakh and are decoded by the",
+      "span_text": "In this book, quotes are taken from the Tanakh and are decoded by the",
+      "matched_page": 5,
+      "span_match": true,
+      "features": {
+        "page_num": 5,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 74,
+      "page_number": 5,
+      "is_in_table": false,
+      "md_text_original": "_Talmud_, an authoritative Jewish text. In this book, the definition of decoding a",
+      "md_text_cleaned": "Talmud, an authoritative Jewish text. In this book, the definition of decoding a",
+      "span_text": "Talmud, an authoritative Jewish text. In this book, the definition of decoding a",
+      "matched_page": 5,
+      "span_match": true,
+      "features": {
+        "page_num": 5,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif-Italic",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "italic",
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 75,
+      "page_number": 5,
+      "is_in_table": false,
+      "md_text_original": "message is to analyze, interpret, and extract the underlying meaning and learn",
+      "md_text_cleaned": "message is to analyze, interpret, and extract the underlying meaning and learn",
+      "span_text": "message is to analyze, interpret, and extract the underlying meaning and learn",
+      "matched_page": 5,
+      "span_match": true,
+      "features": {
+        "page_num": 5,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 76,
+      "page_number": 5,
+      "is_in_table": false,
+      "md_text_original": "how to apply the message in day-to-day life.",
+      "md_text_cleaned": "how to apply the message in day-to-day life.",
+      "span_text": "how to apply the message in day-to-day life.",
+      "matched_page": 5,
+      "span_match": true,
+      "features": {
+        "page_num": 5,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 78,
+      "page_number": 5,
+      "is_in_table": false,
+      "md_text_original": "The Bible contains two parts: Old Testament (Hebrew Scriptures) and New",
+      "md_text_cleaned": "The Bible contains two parts: Old Testament Hebrew Scriptures and New",
+      "span_text": "The Bible contains two parts: Old Testament (Hebrew Scriptures) and New",
+      "matched_page": 5,
+      "span_match": true,
+      "features": {
+        "page_num": 5,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 79,
+      "page_number": 5,
+      "is_in_table": false,
+      "md_text_original": "Testament (Greek Scriptures). Jews refer to the Old Testament as the _Tanakh_ .",
+      "md_text_cleaned": "Testament Greek Scriptures. Jews refer to the Old Testament as the Tanakh .",
+      "span_text": "Testament (Greek Scriptures). Jews refer to the Old Testament as the Tanakh.",
+      "matched_page": 5,
+      "span_match": true,
+      "features": {
+        "page_num": 5,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.993
+    },
+    {
+      "line_number": 80,
+      "page_number": 5,
+      "is_in_table": false,
+      "md_text_original": "Jews refer to the first five books of the Old Testament as the Torah (CJB, Joshua",
+      "md_text_cleaned": "Jews refer to the first five books of the Old Testament as the Torah CJB, Joshua",
+      "span_text": "Jews refer to the first five books of the Old Testament as the Torah (CJB, Joshua",
+      "matched_page": 5,
+      "span_match": true,
+      "features": {
+        "page_num": 5,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 81,
+      "page_number": 5,
+      "is_in_table": false,
+      "md_text_original": "1:8). The Torah is also referred to as the Book of the Law, Five Books of Moses,",
+      "md_text_cleaned": "1:8. The Torah is also referred to as the Book of the Law, Five Books of Moses,",
+      "span_text": "1:8). The Torah is also referred to as the Book of the Law, Five Books of Moses,",
+      "matched_page": 5,
+      "span_match": true,
+      "features": {
+        "page_num": 5,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 82,
+      "page_number": 5,
+      "is_in_table": false,
+      "md_text_original": "Law of Moses, Mosaic Law, or Pentateuch. For simplicity’s sake, we will only",
+      "md_text_cleaned": "Law of Moses, Mosaic Law, or Pentateuch. For simplicity’s sake, we will only",
+      "span_text": "Law of Moses, Mosaic Law, or Pentateuch. For simplicity’s sake, we will only",
+      "matched_page": 5,
+      "span_match": true,
+      "features": {
+        "page_num": 5,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 83,
+      "page_number": 5,
+      "is_in_table": false,
+      "md_text_original": "use the Jewish terms Torah and _Tanakh_ in this book. Most of the quotations",
+      "md_text_cleaned": "use the Jewish terms Torah and Tanakh in this book. Most of the quotations",
+      "span_text": "use the Jewish terms Torah and Tanakh in this book. Most of the quotations",
+      "matched_page": 5,
+      "span_match": true,
+      "features": {
+        "page_num": 5,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 84,
+      "page_number": 5,
+      "is_in_table": false,
+      "md_text_original": "from the _Tanakh_ in this book come from the Complete Jewish Bible (CJB) and",
+      "md_text_cleaned": "from the Tanakh in this book come from the Complete Jewish Bible CJB and",
+      "span_text": "from the Tanakh in this book come from the Complete Jewish Bible (CJB) and",
+      "matched_page": 5,
+      "span_match": true,
+      "features": {
+        "page_num": 5,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 85,
+      "page_number": 5,
+      "is_in_table": false,
+      "md_text_original": "the Jewish Publication Society Bible (JPS). In some cases, different translations",
+      "md_text_cleaned": "the Jewish Publication Society Bible JPS. In some cases, different translations",
+      "span_text": "the Jewish Publication Society Bible (JPS). In some cases, different translations",
+      "matched_page": 5,
+      "span_match": true,
+      "features": {
+        "page_num": 5,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 86,
+      "page_number": 5,
+      "is_in_table": false,
+      "md_text_original": "of the _Tanakh_ will be used to gain a clearer understanding. In Jewish Bibles the",
+      "md_text_cleaned": "of the Tanakh will be used to gain a clearer understanding. In Jewish Bibles the",
+      "span_text": "of the Tanakh will be used to gain a clearer understanding. In Jewish Bibles the",
+      "matched_page": 5,
+      "span_match": true,
+      "features": {
+        "page_num": 5,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 87,
+      "page_number": 5,
+      "is_in_table": false,
+      "md_text_original": "term Adonai is another name for God.",
+      "md_text_cleaned": "term Adonai is another name for God.",
+      "span_text": "term Adonai is another name for God.",
+      "matched_page": 5,
+      "span_match": true,
+      "features": {
+        "page_num": 5,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 89,
+      "page_number": 5,
+      "is_in_table": false,
+      "md_text_original": "For non-religious readers of this book, this book takes into account that the",
+      "md_text_cleaned": "For non-religious readers of this book, this book takes into account that the",
+      "span_text": "For non-religious readers of this book, this book takes into account that the",
+      "matched_page": 5,
+      "span_match": true,
+      "features": {
+        "page_num": 5,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 90,
+      "page_number": 5,
+      "is_in_table": false,
+      "md_text_original": "term God can also refer to an invisible universal power or spiritual force that",
+      "md_text_cleaned": "term God can also refer to an invisible universal power or spiritual force that",
+      "span_text": "term God can also refer to an invisible universal power or spiritual force that",
+      "matched_page": 5,
+      "span_match": true,
+      "features": {
+        "page_num": 5,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 91,
+      "page_number": 5,
+      "is_in_table": false,
+      "md_text_original": "governs universal law and order such as the “law of gravity.”",
+      "md_text_cleaned": "governs universal law and order such as the “law of gravity.”",
+      "span_text": "governs universal law and order such as the “law of gravity.”",
+      "matched_page": 5,
+      "span_match": true,
+      "features": {
+        "page_num": 5,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 93,
+      "page_number": 5,
+      "is_in_table": false,
+      "md_text_original": "You do not need to become a Jew or covert to their religion, Judaism, to",
+      "md_text_cleaned": "You do not need to become a Jew or covert to their religion, Judaism, to",
+      "span_text": "You do not need to become a Jew or covert to their religion, Judaism, to",
+      "matched_page": 5,
+      "span_match": true,
+      "features": {
+        "page_num": 5,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 94,
+      "page_number": 5,
+      "is_in_table": false,
+      "md_text_original": "become wealthy. Your financial success does not depend on your education, sex,",
+      "md_text_cleaned": "become wealthy. Your financial success does not depend on your education, sex,",
+      "span_text": "become wealthy. Your financial success does not depend on your education, sex,",
+      "matched_page": 5,
+      "span_match": true,
+      "features": {
+        "page_num": 5,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 95,
+      "page_number": 5,
+      "is_in_table": false,
+      "md_text_original": "race, or past experiences but rather on the wisdom you learn. The _Tanakh_ says,",
+      "md_text_cleaned": "race, or past experiences but rather on the wisdom you learn. The Tanakh says,",
+      "span_text": "race, or past experiences but rather on the wisdom you learn. The Tanakh says,",
+      "matched_page": 5,
+      "span_match": true,
+      "features": {
+        "page_num": 5,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 96,
+      "page_number": 5,
+      "is_in_table": false,
+      "md_text_original": "“By your wisdom and discernment you have acquired wealth” (CJB, Ezekiel",
+      "md_text_cleaned": "“By your wisdom and discernment you have acquired wealth” CJB, Ezekiel",
+      "span_text": "“By your wisdom and discernment you have acquired wealth” (CJB, Ezekiel",
+      "matched_page": 5,
+      "span_match": true,
+      "features": {
+        "page_num": 5,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 97,
+      "page_number": 5,
+      "is_in_table": false,
+      "md_text_original": "28:4).",
+      "md_text_cleaned": "28:4.",
+      "span_text": "28:4).",
+      "matched_page": 5,
+      "span_match": true,
+      "features": {
+        "page_num": 5,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 99,
+      "page_number": 5,
+      "is_in_table": false,
+      "md_text_original": "Now before we begin, let’s explain the religious beliefs of the Jews.",
+      "md_text_cleaned": "Now before we begin, let’s explain the religious beliefs of the Jews.",
+      "span_text": "Now before we begin, let’s explain the religious beliefs of the Jews.",
+      "matched_page": 5,
+      "span_match": true,
+      "features": {
+        "page_num": 5,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 100,
+      "page_number": 5,
+      "is_in_table": false,
+      "md_text_original": "Testament means \"covenant\" or \"contract.\" A covenant is a written agreement",
+      "md_text_cleaned": "Testament means \"covenant\" or \"contract.\" A covenant is a written agreement",
+      "span_text": "Testament means \"covenant\" or \"contract.\" A covenant is a written agreement",
+      "matched_page": 5,
+      "span_match": true,
+      "features": {
+        "page_num": 5,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 101,
+      "page_number": 5,
+      "is_in_table": false,
+      "md_text_original": "between two or more parties to perform some guaranteed action. In the Torah it",
+      "md_text_cleaned": "between two or more parties to perform some guaranteed action. In the Torah it",
+      "span_text": "between two or more parties to perform some guaranteed action. In the Torah it",
+      "matched_page": 5,
+      "span_match": true,
+      "features": {
+        "page_num": 5,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 102,
+      "page_number": 5,
+      "is_in_table": false,
+      "md_text_original": "refers to an agreement between God and his people in which God makes certain",
+      "md_text_cleaned": "refers to an agreement between God and his people in which God makes certain",
+      "span_text": "refers to an agreement between God and his people in which God makes certain",
+      "matched_page": 5,
+      "span_match": true,
+      "features": {
+        "page_num": 5,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 103,
+      "page_number": 5,
+      "is_in_table": false,
+      "md_text_original": "promises and requires certain behavior from them in return. The Old Covenant",
+      "md_text_cleaned": "promises and requires certain behavior from them in return. The Old Covenant",
+      "span_text": "promises and requires certain behavior from them in return. The Old Covenant",
+      "matched_page": 5,
+      "span_match": true,
+      "features": {
+        "page_num": 5,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 104,
+      "page_number": 5,
+      "is_in_table": false,
+      "md_text_original": "contained in the Torah promised prosperity among other things as a reward for",
+      "md_text_cleaned": "contained in the Torah promised prosperity among other things as a reward for",
+      "span_text": "contained in the Torah promised prosperity among other things as a reward for",
+      "matched_page": 5,
+      "span_match": true,
+      "features": {
+        "page_num": 5,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 105,
+      "page_number": 5,
+      "is_in_table": false,
+      "md_text_original": "obedience. “Observe the words of this covenant and obey them; so that you can",
+      "md_text_cleaned": "obedience. “Observe the words of this covenant and obey them; so that you can",
+      "span_text": "obedience. “Observe the words of this covenant and obey them; so that you can",
+      "matched_page": 5,
+      "span_match": true,
+      "features": {
+        "page_num": 5,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 106,
+      "page_number": 5,
+      "is_in_table": false,
+      "md_text_original": "make everything you do prosper” (CJB, Deuteronomy 29:9).",
+      "md_text_cleaned": "make everything you do prosper” CJB, Deuteronomy 29:9.",
+      "span_text": "make everything you do prosper” (CJB, Deuteronomy 29:9).",
+      "matched_page": 5,
+      "span_match": true,
+      "features": {
+        "page_num": 5,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 108,
+      "page_number": 5,
+      "is_in_table": false,
+      "md_text_original": "The Old Covenant was made with the Jewish people in the past: All of you are",
+      "md_text_cleaned": "The Old Covenant was made with the Jewish people in the past: All of you are",
+      "span_text": "The Old Covenant was made with the Jewish people in the past: All of you are",
+      "matched_page": 5,
+      "span_match": true,
+      "features": {
+        "page_num": 5,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 109,
+      "page_number": 5,
+      "is_in_table": false,
+      "md_text_original": "standing today in the presence of the Lord your God—your leaders and chief",
+      "md_text_cleaned": "standing today in the presence of the Lord your God—your leaders and chief",
+      "span_text": "standing today in the presence of the Lord your God—your leaders and chief",
+      "matched_page": 5,
+      "span_match": true,
+      "features": {
+        "page_num": 5,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 110,
+      "page_number": 5,
+      "is_in_table": false,
+      "md_text_original": "men, your elders and officials, and all the other men of Israel, together with your",
+      "md_text_cleaned": "men, your elders and officials, and all the other men of Israel, together with your",
+      "span_text": "men, your elders and officials, and all the other men of Israel, together with your",
+      "matched_page": 5,
+      "span_match": true,
+      "features": {
+        "page_num": 5,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 111,
+      "page_number": 5,
+      "is_in_table": false,
+      "md_text_original": "children and your wives, and the aliens living in your camps who chop your",
+      "md_text_cleaned": "children and your wives, and the aliens living in your camps who chop your",
+      "span_text": "children and your wives, and the aliens living in your camps who chop your",
+      "matched_page": 5,
+      "span_match": true,
+      "features": {
+        "page_num": 5,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 114,
+      "page_number": 6,
+      "is_in_table": false,
+      "md_text_original": "wood and carry your water. You are standing here in order to enter into a",
+      "md_text_cleaned": "wood and carry your water. You are standing here in order to enter into a",
+      "span_text": "wood and carry your water. You are standing here in order to enter into a",
+      "matched_page": 6,
+      "span_match": true,
+      "features": {
+        "page_num": 6,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 115,
+      "page_number": 6,
+      "is_in_table": false,
+      "md_text_original": "covenant with the Lord your God, a covenant the Lord is making with you this",
+      "md_text_cleaned": "covenant with the Lord your God, a covenant the Lord is making with you this",
+      "span_text": "covenant with the Lord your God, a covenant the Lord is making with you this",
+      "matched_page": 6,
+      "span_match": true,
+      "features": {
+        "page_num": 6,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 116,
+      "page_number": 6,
+      "is_in_table": false,
+      "md_text_original": "day and sealing with an oath, to confirm you this day as his people, that he may",
+      "md_text_cleaned": "day and sealing with an oath, to confirm you this day as his people, that he may",
+      "span_text": "day and sealing with an oath, to confirm you this day as his people, that he may",
+      "matched_page": 6,
+      "span_match": true,
+      "features": {
+        "page_num": 6,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 117,
+      "page_number": 6,
+      "is_in_table": false,
+      "md_text_original": "be your God as he promised you and as he swore to your fathers, Abraham, Isaac",
+      "md_text_cleaned": "be your God as he promised you and as he swore to your fathers, Abraham, Isaac",
+      "span_text": "be your God as he promised you and as he swore to your fathers, Abraham, Isaac",
+      "matched_page": 6,
+      "span_match": true,
+      "features": {
+        "page_num": 6,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 118,
+      "page_number": 6,
+      "is_in_table": false,
+      "md_text_original": "and Jacob (NIV, Deuteronomy 29:10-13).",
+      "md_text_cleaned": "and Jacob NIV, Deuteronomy 29:10-13.",
+      "span_text": "and Jacob (NIV, Deuteronomy 29:10-13).",
+      "matched_page": 6,
+      "span_match": true,
+      "features": {
+        "page_num": 6,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 120,
+      "page_number": 6,
+      "is_in_table": false,
+      "md_text_original": "The Old Covenant was also made with the Jewish people of the future: “I am",
+      "md_text_cleaned": "The Old Covenant was also made with the Jewish people of the future: “I am",
+      "span_text": "The Old Covenant was also made with the Jewish people of the future: “I am",
+      "matched_page": 6,
+      "span_match": true,
+      "features": {
+        "page_num": 6,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 121,
+      "page_number": 6,
+      "is_in_table": false,
+      "md_text_original": "making this covenant both with you who stand here today in the presence of the",
+      "md_text_cleaned": "making this covenant both with you who stand here today in the presence of the",
+      "span_text": "making this covenant both with you who stand here today in the presence of the",
+      "matched_page": 6,
+      "span_match": true,
+      "features": {
+        "page_num": 6,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 122,
+      "page_number": 6,
+      "is_in_table": false,
+      "md_text_original": "Lord our God, and also with the future generations who are not standing here",
+      "md_text_cleaned": "Lord our God, and also with the future generations who are not standing here",
+      "span_text": "Lord our God, and also with the future generations who are not standing here",
+      "matched_page": 6,
+      "span_match": true,
+      "features": {
+        "page_num": 6,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 123,
+      "page_number": 6,
+      "is_in_table": false,
+      "md_text_original": "today” (NLT, Deuteronomy 29:15).",
+      "md_text_cleaned": "today” NLT, Deuteronomy 29:15.",
+      "span_text": "today” (NLT, Deuteronomy 29:15).",
+      "matched_page": 6,
+      "span_match": true,
+      "features": {
+        "page_num": 6,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 125,
+      "page_number": 6,
+      "is_in_table": false,
+      "md_text_original": "Non-Jews are known as “foreigners” in the _Tanakh_ and will greatly benefit",
+      "md_text_cleaned": "Non-Jews are known as “foreigners” in the Tanakh and will greatly benefit",
+      "span_text": "Non-Jews are known as “foreigners” in the Tanakh and will greatly benefit",
+      "matched_page": 6,
+      "span_match": true,
+      "features": {
+        "page_num": 6,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 126,
+      "page_number": 6,
+      "is_in_table": false,
+      "md_text_original": "from following the Old Covenant. The _Tanakh_ says, \"I will also bless the",
+      "md_text_cleaned": "from following the Old Covenant. The Tanakh says, \"I will also bless the",
+      "span_text": "from following the Old Covenant. The Tanakh says, \"I will also bless the",
+      "matched_page": 6,
+      "span_match": true,
+      "features": {
+        "page_num": 6,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 127,
+      "page_number": 6,
+      "is_in_table": false,
+      "md_text_original": "foreigners who commit themselves to the Lord\" (NLT, Isaiah 56:6). Christians",
+      "md_text_cleaned": "foreigners who commit themselves to the Lord\" NLT, Isaiah 56:6. Christians",
+      "span_text": "foreigners who commit themselves to the Lord\" (NLT, Isaiah 56:6). Christians",
+      "matched_page": 6,
+      "span_match": true,
+      "features": {
+        "page_num": 6,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 128,
+      "page_number": 6,
+      "is_in_table": false,
+      "md_text_original": "will benefit from following the Old Covenant. Jesus himself said, “Don't ever",
+      "md_text_cleaned": "will benefit from following the Old Covenant. Jesus himself said, “Don't ever",
+      "span_text": "will benefit from following the Old Covenant. Jesus himself said, “Don't ever",
+      "matched_page": 6,
+      "span_match": true,
+      "features": {
+        "page_num": 6,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 129,
+      "page_number": 6,
+      "is_in_table": false,
+      "md_text_original": "think that I came to set aside Moses' Teachings or the Prophets” (GWT, Matthew",
+      "md_text_cleaned": "think that I came to set aside Moses' Teachings or the Prophets” GWT, Matthew",
+      "span_text": "think that I came to set aside Moses' Teachings or the Prophets” (GWT, Matthew",
+      "matched_page": 6,
+      "span_match": true,
+      "features": {
+        "page_num": 6,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 130,
+      "page_number": 6,
+      "is_in_table": false,
+      "md_text_original": "5:17). Christ did not invalidate the Old Covenant, except for the requirements of",
+      "md_text_cleaned": "5:17. Christ did not invalidate the Old Covenant, except for the requirements of",
+      "span_text": "5:17). Christ did not invalidate the Old Covenant, except for the requirements of",
+      "matched_page": 6,
+      "span_match": true,
+      "features": {
+        "page_num": 6,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 131,
+      "page_number": 6,
+      "is_in_table": false,
+      "md_text_original": "animal sacrifices.",
+      "md_text_cleaned": "animal sacrifices.",
+      "span_text": "animal sacrifices.",
+      "matched_page": 6,
+      "span_match": true,
+      "features": {
+        "page_num": 6,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 133,
+      "page_number": 6,
+      "is_in_table": false,
+      "md_text_original": "Those who don’t obey the Old Covenant may even come under a curse of",
+      "md_text_cleaned": "Those who don’t obey the Old Covenant may even come under a curse of",
+      "span_text": "Those who don’t obey the Old Covenant may even come under a curse of",
+      "matched_page": 6,
+      "span_match": true,
+      "features": {
+        "page_num": 6,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 134,
+      "page_number": 6,
+      "is_in_table": false,
+      "md_text_original": "poverty. “This is what the Lord, the God of Israel, says: Cursed is anyone who",
+      "md_text_cleaned": "poverty. “This is what the Lord, the God of Israel, says: Cursed is anyone who",
+      "span_text": "poverty. “This is what the Lord, the God of Israel, says: Cursed is anyone who",
+      "matched_page": 6,
+      "span_match": true,
+      "features": {
+        "page_num": 6,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 135,
+      "page_number": 6,
+      "is_in_table": false,
+      "md_text_original": "does not obey the terms of my covenant” (NLT, Jeremiah 11:3). “Remember the",
+      "md_text_cleaned": "does not obey the terms of my covenant” NLT, Jeremiah 11:3. “Remember the",
+      "span_text": "does not obey the terms of my covenant” (NLT, Jeremiah 11:3). “Remember the",
+      "matched_page": 6,
+      "span_match": true,
+      "features": {
+        "page_num": 6,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 136,
+      "page_number": 6,
+      "is_in_table": false,
+      "md_text_original": "ancient covenant, and do everything it requires…because they refused to obey, I",
+      "md_text_cleaned": "ancient covenant, and do everything it requires…because they refused to obey, I",
+      "span_text": "ancient covenant, and do everything it requires…because they refused to obey, I",
+      "matched_page": 6,
+      "span_match": true,
+      "features": {
+        "page_num": 6,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 137,
+      "page_number": 6,
+      "is_in_table": false,
+      "md_text_original": "brought upon them all the curses described in this covenant” (NLT, Jeremiah",
+      "md_text_cleaned": "brought upon them all the curses described in this covenant” NLT, Jeremiah",
+      "span_text": "brought upon them all the curses described in this covenant” (NLT, Jeremiah",
+      "matched_page": 6,
+      "span_match": true,
+      "features": {
+        "page_num": 6,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 138,
+      "page_number": 6,
+      "is_in_table": false,
+      "md_text_original": "11:6, 8). Jewish people view wealth as a blessing and look down on poverty",
+      "md_text_cleaned": "11:6, 8. Jewish people view wealth as a blessing and look down on poverty",
+      "span_text": "11:6, 8). Jewish people view wealth as a blessing and look down on poverty",
+      "matched_page": 6,
+      "span_match": true,
+      "features": {
+        "page_num": 6,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 139,
+      "page_number": 6,
+      "is_in_table": false,
+      "md_text_original": "because it cannot help anyone.",
+      "md_text_cleaned": "because it cannot help anyone.",
+      "span_text": "because it cannot help anyone.",
+      "matched_page": 6,
+      "span_match": true,
+      "features": {
+        "page_num": 6,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 141,
+      "page_number": 6,
+      "is_in_table": false,
+      "md_text_original": "In this book, scriptures may be partially quoted or taken out of context. The",
+      "md_text_cleaned": "In this book, scriptures may be partially quoted or taken out of context. The",
+      "span_text": "In this book, scriptures may be partially quoted or taken out of context. The",
+      "matched_page": 6,
+      "span_match": true,
+      "features": {
+        "page_num": 6,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 142,
+      "page_number": 6,
+      "is_in_table": false,
+      "md_text_original": "practice of quoting out of context refers to removing a passage from the rest of",
+      "md_text_cleaned": "practice of quoting out of context refers to removing a passage from the rest of",
+      "span_text": "practice of quoting out of context refers to removing a passage from the rest of",
+      "matched_page": 6,
+      "span_match": true,
+      "features": {
+        "page_num": 6,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 143,
+      "page_number": 6,
+      "is_in_table": false,
+      "md_text_original": "the written text. Quoting out of context can sometimes lead to a change in the",
+      "md_text_cleaned": "the written text. Quoting out of context can sometimes lead to a change in the",
+      "span_text": "the written text. Quoting out of context can sometimes lead to a change in the",
+      "matched_page": 6,
+      "span_match": true,
+      "features": {
+        "page_num": 6,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 144,
+      "page_number": 6,
+      "is_in_table": false,
+      "md_text_original": "intended meaning of the quote. This can be a problem when quotes are taken out",
+      "md_text_cleaned": "intended meaning of the quote. This can be a problem when quotes are taken out",
+      "span_text": "intended meaning of the quote. This can be a problem when quotes are taken out",
+      "matched_page": 6,
+      "span_match": true,
+      "features": {
+        "page_num": 6,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 145,
+      "page_number": 6,
+      "is_in_table": false,
+      "md_text_original": "of certain religious books such as the New Testament, but it does not apply to",
+      "md_text_cleaned": "of certain religious books such as the New Testament, but it does not apply to",
+      "span_text": "of certain religious books such as the New Testament, but it does not apply to",
+      "matched_page": 6,
+      "span_match": true,
+      "features": {
+        "page_num": 6,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 146,
+      "page_number": 6,
+      "is_in_table": false,
+      "md_text_original": "the Torah. Regarding the Torah, every single statement from scripture can be",
+      "md_text_cleaned": "the Torah. Regarding the Torah, every single statement from scripture can be",
+      "span_text": "the Torah. Regarding the Torah, every single statement from scripture can be",
+      "matched_page": 6,
+      "span_match": true,
+      "features": {
+        "page_num": 6,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 147,
+      "page_number": 6,
+      "is_in_table": false,
+      "md_text_original": "viewed as a law, decree, rule, regulation, instruction, ordinance, or statute",
+      "md_text_cleaned": "viewed as a law, decree, rule, regulation, instruction, ordinance, or statute",
+      "span_text": "viewed as a law, decree, rule, regulation, instruction, ordinance, or statute",
+      "matched_page": 6,
+      "span_match": true,
+      "features": {
+        "page_num": 6,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 148,
+      "page_number": 6,
+      "is_in_table": false,
+      "md_text_original": "(Leviticus 26:46).",
+      "md_text_cleaned": "Leviticus 26:46.",
+      "span_text": "(Leviticus 26:46).",
+      "matched_page": 6,
+      "span_match": true,
+      "features": {
+        "page_num": 6,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 150,
+      "page_number": 6,
+      "is_in_table": false,
+      "md_text_original": "Keep in mind that this book will help you to accumulate massive wealth if you",
+      "md_text_cleaned": "Keep in mind that this book will help you to accumulate massive wealth if you",
+      "span_text": "Keep in mind that this book will help you to accumulate massive wealth if you",
+      "matched_page": 6,
+      "span_match": true,
+      "features": {
+        "page_num": 6,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 151,
+      "page_number": 6,
+      "is_in_table": false,
+      "md_text_original": "are willing to change your way of doing things. However, it will not help you if",
+      "md_text_cleaned": "are willing to change your way of doing things. However, it will not help you if",
+      "span_text": "are willing to change your way of doing things. However, it will not help you if",
+      "matched_page": 6,
+      "span_match": true,
+      "features": {
+        "page_num": 6,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 152,
+      "page_number": 6,
+      "is_in_table": false,
+      "md_text_original": "you are not willing to change. The _Tanakh_ says, “When people fall down, don't",
+      "md_text_cleaned": "you are not willing to change. The Tanakh says, “When people fall down, don't",
+      "span_text": "you are not willing to change. The Tanakh says, “When people fall down, don't",
+      "matched_page": 6,
+      "span_match": true,
+      "features": {
+        "page_num": 6,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 153,
+      "page_number": 6,
+      "is_in_table": false,
+      "md_text_original": "they get up again? When they discover they're on the wrong road, don't they turn",
+      "md_text_cleaned": "they get up again? When they discover they're on the wrong road, don't they turn",
+      "span_text": "they get up again? When they discover they're on the wrong road, don't they turn",
+      "matched_page": 6,
+      "span_match": true,
+      "features": {
+        "page_num": 6,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 154,
+      "page_number": 6,
+      "is_in_table": false,
+      "md_text_original": "back? Then why do these people stay on their self-destructive path? They cling",
+      "md_text_cleaned": "back? Then why do these people stay on their self-destructive path? They cling",
+      "span_text": "back? Then why do these people stay on their self-destructive path? They cling",
+      "matched_page": 6,
+      "span_match": true,
+      "features": {
+        "page_num": 6,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 155,
+      "page_number": 6,
+      "is_in_table": false,
+      "md_text_original": "tightly to their lies and will not turn around\" (NLT, Jeremiah 8:4, 5). Some",
+      "md_text_cleaned": "tightly to their lies and will not turn around\" NLT, Jeremiah 8:4, 5. Some",
+      "span_text": "tightly to their lies and will not turn around\" (NLT, Jeremiah 8:4, 5). Some",
+      "matched_page": 6,
+      "span_match": true,
+      "features": {
+        "page_num": 6,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 156,
+      "page_number": 6,
+      "is_in_table": false,
+      "md_text_original": "people will be stubborn and continue following their own ways of doing things",
+      "md_text_cleaned": "people will be stubborn and continue following their own ways of doing things",
+      "span_text": "people will be stubborn and continue following their own ways of doing things",
+      "matched_page": 6,
+      "span_match": true,
+      "features": {
+        "page_num": 6,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 157,
+      "page_number": 6,
+      "is_in_table": false,
+      "md_text_original": "even if it is not helping them accumulate wealth.",
+      "md_text_cleaned": "even if it is not helping them accumulate wealth.",
+      "span_text": "even if it is not helping them accumulate wealth.",
+      "matched_page": 6,
+      "span_match": true,
+      "features": {
+        "page_num": 6,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          718
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 160,
+      "page_number": 7,
+      "is_in_table": false,
+      "md_text_original": "This book contains the greatest wisdom of the Jews that enables them to",
+      "md_text_cleaned": "This book contains the greatest wisdom of the Jews that enables them to",
+      "span_text": "This book contains the greatest wisdom of the Jews that enables them to",
+      "matched_page": 7,
+      "span_match": true,
+      "features": {
+        "page_num": 7,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          155
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 161,
+      "page_number": 7,
+      "is_in_table": false,
+      "md_text_original": "succeed and become very wealthy. Remember, what you learn is useless if you",
+      "md_text_cleaned": "succeed and become very wealthy. Remember, what you learn is useless if you",
+      "span_text": "succeed and become very wealthy. Remember, what you learn is useless if you",
+      "matched_page": 7,
+      "span_match": true,
+      "features": {
+        "page_num": 7,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          155
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 162,
+      "page_number": 7,
+      "is_in_table": false,
+      "md_text_original": "don’t use it. Therefore, at the end of each chapter there is a “Take Action”",
+      "md_text_cleaned": "don’t use it. Therefore, at the end of each chapter there is a “Take Action”",
+      "span_text": "don’t use it. Therefore, at the end of each chapter there is a “Take Action”",
+      "matched_page": 7,
+      "span_match": true,
+      "features": {
+        "page_num": 7,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          155
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 163,
+      "page_number": 7,
+      "is_in_table": false,
+      "md_text_original": "section that will guide you through the steps that you must take in order to",
+      "md_text_cleaned": "section that will guide you through the steps that you must take in order to",
+      "span_text": "section that will guide you through the steps that you must take in order to",
+      "matched_page": 7,
+      "span_match": true,
+      "features": {
+        "page_num": 7,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          155
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 164,
+      "page_number": 7,
+      "is_in_table": false,
+      "md_text_original": "become wealthy.",
+      "md_text_cleaned": "become wealthy.",
+      "span_text": "become wealthy.",
+      "matched_page": 7,
+      "span_match": true,
+      "features": {
+        "page_num": 7,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          155
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 167,
+      "page_number": null,
+      "is_in_table": false,
+      "md_text_original": "### **INTRODUCTION** Some people like the Jews, and some do not. But no thoughtful man can deny the fact that they are, beyond any question, the most formidable and the most remarkable race which has appeared in the world. - Winston Churchill (1874 – 1965), Prime Minister of Great Britain",
+      "md_text_cleaned": "INTRODUCTION Some people like the Jews, and some do not. But no thoughtful man can deny the fact that they are, beyond any question, the most formidable and the most remarkable race which has appeared in the world. - Winston Churchill 1874 – 1965, Prime Minister of Great Britain",
+      "span_text": null,
+      "matched_page": null,
+      "span_match": false,
+      "features": null,
+      "match_confidence": null
+    },
+    {
+      "line_number": 169,
+      "page_number": 8,
+      "is_in_table": false,
+      "md_text_original": "The people are called Jewish, their faith Judaism, their language Hebrew, and",
+      "md_text_cleaned": "The people are called Jewish, their faith Judaism, their language Hebrew, and",
+      "span_text": "The people are called Jewish, their faith Judaism, their language Hebrew, and",
+      "matched_page": 8,
+      "span_match": true,
+      "features": {
+        "page_num": 8,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          706
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 170,
+      "page_number": 8,
+      "is_in_table": false,
+      "md_text_original": "their land Israel. The terms Hebrew, Israelite, and Jew have been used",
+      "md_text_cleaned": "their land Israel. The terms Hebrew, Israelite, and Jew have been used",
+      "span_text": "their land Israel. The terms Hebrew, Israelite, and Jew have been used",
+      "matched_page": 8,
+      "span_match": true,
+      "features": {
+        "page_num": 8,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          706
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 171,
+      "page_number": 8,
+      "is_in_table": false,
+      "md_text_original": "interchangeably. Israel was the alternate name for Abraham's grandson, Jacob.",
+      "md_text_cleaned": "interchangeably. Israel was the alternate name for Abraham's grandson, Jacob.",
+      "span_text": "interchangeably. Israel was the alternate name for Abraham's grandson, Jacob.",
+      "matched_page": 8,
+      "span_match": true,
+      "features": {
+        "page_num": 8,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          706
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 172,
+      "page_number": 8,
+      "is_in_table": false,
+      "md_text_original": "Hence his twelve sons and their descendants became known as the Israelites.",
+      "md_text_cleaned": "Hence his twelve sons and their descendants became known as the Israelites.",
+      "span_text": "Hence his twelve sons and their descendants became known as the Israelites.",
+      "matched_page": 8,
+      "span_match": true,
+      "features": {
+        "page_num": 8,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          706
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 173,
+      "page_number": 8,
+      "is_in_table": false,
+      "md_text_original": "The name “Jew” is derived from Judah, the son of Israel (Jacob), and one of the",
+      "md_text_cleaned": "The name “Jew” is derived from Judah, the son of Israel Jacob, and one of the",
+      "span_text": "The name “Jew” is derived from Judah, the son of Israel (Jacob), and one of the",
+      "matched_page": 8,
+      "span_match": true,
+      "features": {
+        "page_num": 8,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          706
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 174,
+      "page_number": 8,
+      "is_in_table": false,
+      "md_text_original": "most prominent of the Twelve Tribes of Israel. “Jew” became the popular name",
+      "md_text_cleaned": "most prominent of the Twelve Tribes of Israel. “Jew” became the popular name",
+      "span_text": "most prominent of the Twelve Tribes of Israel. “Jew” became the popular name",
+      "matched_page": 8,
+      "span_match": true,
+      "features": {
+        "page_num": 8,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          706
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 175,
+      "page_number": 8,
+      "is_in_table": false,
+      "md_text_original": "used for the entire people when the Judeans, from the Kingdom of Judea,",
+      "md_text_cleaned": "used for the entire people when the Judeans, from the Kingdom of Judea,",
+      "span_text": "used for the entire people when the Judeans, from the Kingdom of Judea,",
+      "matched_page": 8,
+      "span_match": true,
+      "features": {
+        "page_num": 8,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          706
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 176,
+      "page_number": 8,
+      "is_in_table": false,
+      "md_text_original": "survived the downfall of the Northern Kingdom of Israel in 722 B.C. At that",
+      "md_text_cleaned": "survived the downfall of the Northern Kingdom of Israel in 722 B.C. At that",
+      "span_text": "survived the downfall of the Northern Kingdom of Israel in 722 B.C. At that",
+      "matched_page": 8,
+      "span_match": true,
+      "features": {
+        "page_num": 8,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          706
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 177,
+      "page_number": 8,
+      "is_in_table": false,
+      "md_text_original": "time ten of the Twelve Tribes were led into captivity.",
+      "md_text_cleaned": "time ten of the Twelve Tribes were led into captivity.",
+      "span_text": "time ten of the Twelve Tribes were led into captivity.",
+      "matched_page": 8,
+      "span_match": true,
+      "features": {
+        "page_num": 8,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          706
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 179,
+      "page_number": 8,
+      "is_in_table": false,
+      "md_text_original": "Jews comprise a very large number of history’s most important figures, people",
+      "md_text_cleaned": "Jews comprise a very large number of history’s most important figures, people",
+      "span_text": "Jews comprise a very large number of history’s most important figures, people",
+      "matched_page": 8,
+      "span_match": true,
+      "features": {
+        "page_num": 8,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          706
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 180,
+      "page_number": 8,
+      "is_in_table": false,
+      "md_text_original": "who have had a profound impact on humanity: Physicist Albert Einstein; the",
+      "md_text_cleaned": "who have had a profound impact on humanity: Physicist Albert Einstein; the",
+      "span_text": "who have had a profound impact on humanity: Physicist Albert Einstein; the",
+      "matched_page": 8,
+      "span_match": true,
+      "features": {
+        "page_num": 8,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          706
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 181,
+      "page_number": 8,
+      "is_in_table": false,
+      "md_text_original": "father of psychoanalysis, Sigmund Freud; Communism’s Karl Marx; developers",
+      "md_text_cleaned": "father of psychoanalysis, Sigmund Freud; Communism’s Karl Marx; developers",
+      "span_text": "father of psychoanalysis, Sigmund Freud; Communism’s Karl Marx; developers",
+      "matched_page": 8,
+      "span_match": true,
+      "features": {
+        "page_num": 8,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          706
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 182,
+      "page_number": 8,
+      "is_in_table": false,
+      "md_text_original": "of the polio vaccine Dr’s Jonas Salk and Albert Sabin. Approximately 35% of",
+      "md_text_cleaned": "of the polio vaccine Dr’s Jonas Salk and Albert Sabin. Approximately 35% of",
+      "span_text": "of the polio vaccine Dr’s Jonas Salk and Albert Sabin. Approximately 35% of",
+      "matched_page": 8,
+      "span_match": true,
+      "features": {
+        "page_num": 8,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          706
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 183,
+      "page_number": 8,
+      "is_in_table": false,
+      "md_text_original": "Nobel Prizes have been awarded to Jews. No other ethnic group has even come",
+      "md_text_cleaned": "Nobel Prizes have been awarded to Jews. No other ethnic group has even come",
+      "span_text": "Nobel Prizes have been awarded to Jews. No other ethnic group has even come",
+      "matched_page": 8,
+      "span_match": true,
+      "features": {
+        "page_num": 8,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          706
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 184,
+      "page_number": 8,
+      "is_in_table": false,
+      "md_text_original": "close to matching the abilities and accomplishments of Jews. American",
+      "md_text_cleaned": "close to matching the abilities and accomplishments of Jews. American",
+      "span_text": "close to matching the abilities and accomplishments of Jews. American",
+      "matched_page": 8,
+      "span_match": true,
+      "features": {
+        "page_num": 8,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          706
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 185,
+      "page_number": 8,
+      "is_in_table": false,
+      "md_text_original": "President John Adams said, “The Hebrews have done more to civilize men than",
+      "md_text_cleaned": "President John Adams said, “The Hebrews have done more to civilize men than",
+      "span_text": "President John Adams said, “The Hebrews have done more to civilize men than",
+      "matched_page": 8,
+      "span_match": true,
+      "features": {
+        "page_num": 8,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          706
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 186,
+      "page_number": 8,
+      "is_in_table": false,
+      "md_text_original": "any other nation. If I were an atheist, and believed blind eternal fate, I should",
+      "md_text_cleaned": "any other nation. If I were an atheist, and believed blind eternal fate, I should",
+      "span_text": "any other nation. If I were an atheist, and believed blind eternal fate, I should",
+      "matched_page": 8,
+      "span_match": true,
+      "features": {
+        "page_num": 8,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          706
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 187,
+      "page_number": 8,
+      "is_in_table": false,
+      "md_text_original": "still believe that fate had ordained the Jews to be the most essential instrument",
+      "md_text_cleaned": "still believe that fate had ordained the Jews to be the most essential instrument",
+      "span_text": "still believe that fate had ordained the Jews to be the most essential instrument",
+      "matched_page": 8,
+      "span_match": true,
+      "features": {
+        "page_num": 8,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          706
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 188,
+      "page_number": 8,
+      "is_in_table": false,
+      "md_text_original": "for civilizing the nations.”",
+      "md_text_cleaned": "for civilizing the nations.”",
+      "span_text": "for civilizing the nations.”",
+      "matched_page": 8,
+      "span_match": true,
+      "features": {
+        "page_num": 8,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          706
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 190,
+      "page_number": 8,
+      "is_in_table": false,
+      "md_text_original": "Jews are estimated to be less than 1% of the world's population yet",
+      "md_text_cleaned": "Jews are estimated to be less than 1% of the world's population yet",
+      "span_text": "Jews are estimated to be less than 1% of the world's population yet",
+      "matched_page": 8,
+      "span_match": true,
+      "features": {
+        "page_num": 8,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          706
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 191,
+      "page_number": 8,
+      "is_in_table": false,
+      "md_text_original": "approximately 25% of the world's billionaires are Jewish. Jews are always found",
+      "md_text_cleaned": "approximately 25% of the world's billionaires are Jewish. Jews are always found",
+      "span_text": "approximately 25% of the world's billionaires are Jewish. Jews are always found",
+      "matched_page": 8,
+      "span_match": true,
+      "features": {
+        "page_num": 8,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          706
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 194,
+      "page_number": 9,
+      "is_in_table": false,
+      "md_text_original": "on lists of the world’s richest people. In 2009, 139 of the Forbes 400 were",
+      "md_text_cleaned": "on lists of the world’s richest people. In 2009, 139 of the Forbes 400 were",
+      "span_text": "on lists of the world’s richest people. In 2009, 139 of the Forbes 400 were",
+      "matched_page": 9,
+      "span_match": true,
+      "features": {
+        "page_num": 9,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          720
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 195,
+      "page_number": 9,
+      "is_in_table": false,
+      "md_text_original": "Jewish. **[1]** According to _TheMarker_, Oracle founder Larry Ellison is the richest",
+      "md_text_cleaned": "Jewish. 1 According to TheMarker, Oracle founder Larry Ellison is the richest",
+      "span_text": "Jewish.1 According to TheMarker, Oracle founder Larry Ellison is the richest",
+      "matched_page": 9,
+      "span_match": true,
+      "features": {
+        "page_num": 9,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          720
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.993
+    },
+    {
+      "line_number": 196,
+      "page_number": 9,
+      "is_in_table": false,
+      "md_text_original": "Jew in the world, with a net worth of $28 billion. Michael Bloomberg, founder",
+      "md_text_cleaned": "Jew in the world, with a net worth of $28 billion. Michael Bloomberg, founder",
+      "span_text": "Jew in the world, with a net worth of $28 billion. Michael Bloomberg, founder",
+      "matched_page": 9,
+      "span_match": true,
+      "features": {
+        "page_num": 9,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          720
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 197,
+      "page_number": 9,
+      "is_in_table": false,
+      "md_text_original": "of Bloomberg news service, ranks as the richest Jew in the media industry, with",
+      "md_text_cleaned": "of Bloomberg news service, ranks as the richest Jew in the media industry, with",
+      "span_text": "of Bloomberg news service, ranks as the richest Jew in the media industry, with",
+      "matched_page": 9,
+      "span_match": true,
+      "features": {
+        "page_num": 9,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          720
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 198,
+      "page_number": 9,
+      "is_in_table": false,
+      "md_text_original": "a net worth of $18 billion. Isaac Perlmutter, CEO of Marvel Comics, ranked",
+      "md_text_cleaned": "a net worth of $18 billion. Isaac Perlmutter, CEO of Marvel Comics, ranked",
+      "span_text": "a net worth of $18 billion. Isaac Perlmutter, CEO of Marvel Comics, ranked",
+      "matched_page": 9,
+      "span_match": true,
+      "features": {
+        "page_num": 9,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          720
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 199,
+      "page_number": 9,
+      "is_in_table": false,
+      "md_text_original": "second on _TheMarker_, with a net worth of $1.6 billion.",
+      "md_text_cleaned": "second on TheMarker, with a net worth of $1.6 billion.",
+      "span_text": "second on TheMarker, with a net worth of $1.6 billion.",
+      "matched_page": 9,
+      "span_match": true,
+      "features": {
+        "page_num": 9,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          720
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 201,
+      "page_number": 9,
+      "is_in_table": false,
+      "md_text_original": "Since such a large percent of the wealthiest people in the world are Jewish, a",
+      "md_text_cleaned": "Since such a large percent of the wealthiest people in the world are Jewish, a",
+      "span_text": "Since such a large percent of the wealthiest people in the world are Jewish, a",
+      "matched_page": 9,
+      "span_match": true,
+      "features": {
+        "page_num": 9,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          720
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 202,
+      "page_number": 9,
+      "is_in_table": false,
+      "md_text_original": "common question the world over is, “Why are so many Jews so wealthy?” Their",
+      "md_text_cleaned": "common question the world over is, “Why are so many Jews so wealthy?” Their",
+      "span_text": "common question the world over is, “Why are so many Jews so wealthy?” Their",
+      "matched_page": 9,
+      "span_match": true,
+      "features": {
+        "page_num": 9,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          720
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 203,
+      "page_number": 9,
+      "is_in_table": false,
+      "md_text_original": "secret lies not in their genetics or intelligence, as some have believed, but in their",
+      "md_text_cleaned": "secret lies not in their genetics or intelligence, as some have believed, but in their",
+      "span_text": "secret lies not in their genetics or intelligence, as some have believed, but in their",
+      "matched_page": 9,
+      "span_match": true,
+      "features": {
+        "page_num": 9,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          720
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 204,
+      "page_number": 9,
+      "is_in_table": false,
+      "md_text_original": "religion.",
+      "md_text_cleaned": "religion.",
+      "span_text": "religion.",
+      "matched_page": 9,
+      "span_match": true,
+      "features": {
+        "page_num": 9,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          720
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 206,
+      "page_number": 9,
+      "is_in_table": false,
+      "md_text_original": "A groundbreaking study by professor of sociology Lisa A. Keister has",
+      "md_text_cleaned": "A groundbreaking study by professor of sociology Lisa A. Keister has",
+      "span_text": "A groundbreaking study by professor of sociology Lisa A. Keister has",
+      "matched_page": 9,
+      "span_match": true,
+      "features": {
+        "page_num": 9,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          720
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 207,
+      "page_number": 9,
+      "is_in_table": false,
+      "md_text_original": "discovered that religion influences a person’s success and finances. “Religion is",
+      "md_text_cleaned": "discovered that religion influences a person’s success and finances. “Religion is",
+      "span_text": "discovered that religion influences a person’s success and finances. “Religion is",
+      "matched_page": 9,
+      "span_match": true,
+      "features": {
+        "page_num": 9,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          720
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 208,
+      "page_number": 9,
+      "is_in_table": false,
+      "md_text_original": "an important factor in wealth accumulation, a factor that hasn’t received a lot of",
+      "md_text_cleaned": "an important factor in wealth accumulation, a factor that hasn’t received a lot of",
+      "span_text": "an important factor in wealth accumulation, a factor that hasn’t received a lot of",
+      "matched_page": 9,
+      "span_match": true,
+      "features": {
+        "page_num": 9,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          720
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 209,
+      "page_number": 9,
+      "is_in_table": false,
+      "md_text_original": "attention,” said Lisa Keister.",
+      "md_text_cleaned": "attention,” said Lisa Keister.",
+      "span_text": "attention,” said Lisa Keister.",
+      "matched_page": 9,
+      "span_match": true,
+      "features": {
+        "page_num": 9,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          720
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 211,
+      "page_number": 9,
+      "is_in_table": false,
+      "md_text_original": "The study showed that wealth is highest among Jews, followed by mainline",
+      "md_text_cleaned": "The study showed that wealth is highest among Jews, followed by mainline",
+      "span_text": "The study showed that wealth is highest among Jews, followed by mainline",
+      "matched_page": 9,
+      "span_match": true,
+      "features": {
+        "page_num": 9,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          720
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 212,
+      "page_number": 9,
+      "is_in_table": false,
+      "md_text_original": "Protestants, followed by Roman Catholics, and conservative Protestants were the",
+      "md_text_cleaned": "Protestants, followed by Roman Catholics, and conservative Protestants were the",
+      "span_text": "Protestants, followed by Roman Catholics, and conservative Protestants were the",
+      "matched_page": 9,
+      "span_match": true,
+      "features": {
+        "page_num": 9,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          720
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 213,
+      "page_number": 9,
+      "is_in_table": false,
+      "md_text_original": "least wealthy and successful. **[2]** Keister found that the median net worth of Jewish",
+      "md_text_cleaned": "least wealthy and successful. 2 Keister found that the median net worth of Jewish",
+      "span_text": "least wealthy and successful.2 Keister found that the median net worth of Jewish",
+      "matched_page": 9,
+      "span_match": true,
+      "features": {
+        "page_num": 9,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          720
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.994
+    },
+    {
+      "line_number": 214,
+      "page_number": 9,
+      "is_in_table": false,
+      "md_text_original": "people in the survey was $150,890, more than three times the median for the",
+      "md_text_cleaned": "people in the survey was $150,890, more than three times the median for the",
+      "span_text": "people in the survey was $150,890, more than three times the median for the",
+      "matched_page": 9,
+      "span_match": true,
+      "features": {
+        "page_num": 9,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          720
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 215,
+      "page_number": 9,
+      "is_in_table": false,
+      "md_text_original": "entire sample ($48,200). The median net worth for conservative Protestants was",
+      "md_text_cleaned": "entire sample $48,200. The median net worth for conservative Protestants was",
+      "span_text": "entire sample ($48,200). The median net worth for conservative Protestants was",
+      "matched_page": 9,
+      "span_match": true,
+      "features": {
+        "page_num": 9,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          720
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 216,
+      "page_number": 9,
+      "is_in_table": false,
+      "md_text_original": "$26,200, or about half the overall average. The median net worth of mainstream",
+      "md_text_cleaned": "$26,200, or about half the overall average. The median net worth of mainstream",
+      "span_text": "$26,200, or about half the overall average. The median net worth of mainstream",
+      "matched_page": 9,
+      "span_match": true,
+      "features": {
+        "page_num": 9,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          720
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 217,
+      "page_number": 9,
+      "is_in_table": false,
+      "md_text_original": "Protestants and Catholics were similar to each other and about the average for",
+      "md_text_cleaned": "Protestants and Catholics were similar to each other and about the average for",
+      "span_text": "Protestants and Catholics were similar to each other and about the average for",
+      "matched_page": 9,
+      "span_match": true,
+      "features": {
+        "page_num": 9,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          720
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 218,
+      "page_number": 9,
+      "is_in_table": false,
+      "md_text_original": "the whole sample.",
+      "md_text_cleaned": "the whole sample.",
+      "span_text": "the whole sample.",
+      "matched_page": 9,
+      "span_match": true,
+      "features": {
+        "page_num": 9,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          720
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 220,
+      "page_number": 9,
+      "is_in_table": false,
+      "md_text_original": "Lisa A. Keister says that religion influences the accumulation of wealth",
+      "md_text_cleaned": "Lisa A. Keister says that religion influences the accumulation of wealth",
+      "span_text": "Lisa A. Keister says that religion influences the accumulation of wealth",
+      "matched_page": 9,
+      "span_match": true,
+      "features": {
+        "page_num": 9,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          720
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 221,
+      "page_number": 9,
+      "is_in_table": false,
+      "md_text_original": "directly because “it shapes values and priorities, contributes to the set of",
+      "md_text_cleaned": "directly because “it shapes values and priorities, contributes to the set of",
+      "span_text": "directly because “it shapes values and priorities, contributes to the set of",
+      "matched_page": 9,
+      "span_match": true,
+      "features": {
+        "page_num": 9,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          720
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 222,
+      "page_number": 9,
+      "is_in_table": false,
+      "md_text_original": "competencies from which action is constructed, and may provide important",
+      "md_text_cleaned": "competencies from which action is constructed, and may provide important",
+      "span_text": "competencies from which action is constructed, and may provide important",
+      "matched_page": 9,
+      "span_match": true,
+      "features": {
+        "page_num": 9,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          720
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 223,
+      "page_number": 9,
+      "is_in_table": false,
+      "md_text_original": "social contacts.” Lisa A. Keister states that “people draw on the tools they learn",
+      "md_text_cleaned": "social contacts.” Lisa A. Keister states that “people draw on the tools they learn",
+      "span_text": "social contacts.” Lisa A. Keister states that “people draw on the tools they learn",
+      "matched_page": 9,
+      "span_match": true,
+      "features": {
+        "page_num": 9,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          720
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 224,
+      "page_number": 9,
+      "is_in_table": false,
+      "md_text_original": "from religion to develop consistent strategies for dealing with problems and for",
+      "md_text_cleaned": "from religion to develop consistent strategies for dealing with problems and for",
+      "span_text": "from religion to develop consistent strategies for dealing with problems and for",
+      "matched_page": 9,
+      "span_match": true,
+      "features": {
+        "page_num": 9,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          720
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 225,
+      "page_number": 9,
+      "is_in_table": false,
+      "md_text_original": "making decisions such as savings, investment, and consumption decisions.” She",
+      "md_text_cleaned": "making decisions such as savings, investment, and consumption decisions.” She",
+      "span_text": "making decisions such as savings, investment, and consumption decisions.” She",
+      "matched_page": 9,
+      "span_match": true,
+      "features": {
+        "page_num": 9,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          720
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 226,
+      "page_number": 9,
+      "is_in_table": false,
+      "md_text_original": "concludes that that there is solid evidence to confirm that being raised Jewish",
+      "md_text_cleaned": "concludes that that there is solid evidence to confirm that being raised Jewish",
+      "span_text": "concludes that that there is solid evidence to confirm that being raised Jewish",
+      "matched_page": 9,
+      "span_match": true,
+      "features": {
+        "page_num": 9,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          720
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 227,
+      "page_number": 9,
+      "is_in_table": false,
+      "md_text_original": "and practicing Judaism leads to the accumulation of wealth. David Gelernter, a",
+      "md_text_cleaned": "and practicing Judaism leads to the accumulation of wealth. David Gelernter, a",
+      "span_text": "and practicing Judaism leads to the accumulation of wealth. David Gelernter, a",
+      "matched_page": 9,
+      "span_match": true,
+      "features": {
+        "page_num": 9,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          720
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 228,
+      "page_number": 9,
+      "is_in_table": false,
+      "md_text_original": "Yale University Professor, said, \"Judaism is the most important intellectual",
+      "md_text_cleaned": "Yale University Professor, said, \"Judaism is the most important intellectual",
+      "span_text": "Yale University Professor, said, \"Judaism is the most important intellectual",
+      "matched_page": 9,
+      "span_match": true,
+      "features": {
+        "page_num": 9,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          720
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 229,
+      "page_number": 9,
+      "is_in_table": false,
+      "md_text_original": "development in human history.\"",
+      "md_text_cleaned": "development in human history.\"",
+      "span_text": "development in human history.\"",
+      "matched_page": 9,
+      "span_match": true,
+      "features": {
+        "page_num": 9,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          720
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 231,
+      "page_number": 9,
+      "is_in_table": false,
+      "md_text_original": "Sacred religious Jewish texts are found on the bookshelves of many Jewish",
+      "md_text_cleaned": "Sacred religious Jewish texts are found on the bookshelves of many Jewish",
+      "span_text": "Sacred religious Jewish texts are found on the bookshelves of many Jewish",
+      "matched_page": 9,
+      "span_match": true,
+      "features": {
+        "page_num": 9,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          720
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 232,
+      "page_number": 9,
+      "is_in_table": false,
+      "md_text_original": "homes. The most common texts among Jews are the following:",
+      "md_text_cleaned": "homes. The most common texts among Jews are the following:",
+      "span_text": "homes. The most common texts among Jews are the following:",
+      "matched_page": 9,
+      "span_match": true,
+      "features": {
+        "page_num": 9,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          720
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 235,
+      "page_number": 9,
+      "is_in_table": false,
+      "md_text_original": "**The** _**Tanakh**_",
+      "md_text_cleaned": "The Tanakh",
+      "span_text": "The Tanakh",
+      "matched_page": 9,
+      "span_match": true,
+      "features": {
+        "page_num": 9,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          720
+        ],
+        "font_name": "LiberationSerif-Bold",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace",
+          "bold"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 237,
+      "page_number": 9,
+      "is_in_table": false,
+      "md_text_original": "The Jewish Bible is known in Hebrew as the _Tanakh_ . It contains three books:",
+      "md_text_cleaned": "The Jewish Bible is known in Hebrew as the Tanakh . It contains three books:",
+      "span_text": "The Jewish Bible is known in Hebrew as the Tanakh. It contains three books:",
+      "matched_page": 9,
+      "span_match": true,
+      "features": {
+        "page_num": 9,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          720
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.993
+    },
+    {
+      "line_number": 238,
+      "page_number": 9,
+      "is_in_table": false,
+      "md_text_original": "Torah (Pentateuch), Nevi'im (Prophets), and Ketuvim (Writings). At the basis of",
+      "md_text_cleaned": "Torah Pentateuch, Nevi'im Prophets, and Ketuvim Writings. At the basis of",
+      "span_text": "Torah (Pentateuch), Nevi'im (Prophets), and Ketuvim (Writings). At the basis of",
+      "matched_page": 9,
+      "span_match": true,
+      "features": {
+        "page_num": 9,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          720
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 239,
+      "page_number": 9,
+      "is_in_table": false,
+      "md_text_original": "all Jewish sacred texts is the Torah. Torah means \"law\". The main message of",
+      "md_text_cleaned": "all Jewish sacred texts is the Torah. Torah means \"law\". The main message of",
+      "span_text": "all Jewish sacred texts is the Torah. Torah means \"law\". The main message of",
+      "matched_page": 9,
+      "span_match": true,
+      "features": {
+        "page_num": 9,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          720
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 242,
+      "page_number": 10,
+      "is_in_table": false,
+      "md_text_original": "the Torah is the absolute unity of God and his everlasting covenant with the",
+      "md_text_cleaned": "the Torah is the absolute unity of God and his everlasting covenant with the",
+      "span_text": "the Torah is the absolute unity of God and his everlasting covenant with the",
+      "matched_page": 10,
+      "span_match": true,
+      "features": {
+        "page_num": 10,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          558
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 243,
+      "page_number": 10,
+      "is_in_table": false,
+      "md_text_original": "people of Israel.",
+      "md_text_cleaned": "people of Israel.",
+      "span_text": "people of Israel.",
+      "matched_page": 10,
+      "span_match": true,
+      "features": {
+        "page_num": 10,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          558
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 246,
+      "page_number": 10,
+      "is_in_table": false,
+      "md_text_original": "**The** _**Talmud**_",
+      "md_text_cleaned": "The Talmud",
+      "span_text": "The Talmud",
+      "matched_page": 10,
+      "span_match": true,
+      "features": {
+        "page_num": 10,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          558
+        ],
+        "font_name": "LiberationSerif-Bold",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace",
+          "bold"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 247,
+      "page_number": 10,
+      "is_in_table": false,
+      "md_text_original": "The _Talmud_ is a doctrinal book, which explains all the knowledge and teaching",
+      "md_text_cleaned": "The Talmud is a doctrinal book, which explains all the knowledge and teaching",
+      "span_text": "The Talmud is a doctrinal book, which explains all the knowledge and teaching",
+      "matched_page": 10,
+      "span_match": true,
+      "features": {
+        "page_num": 10,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          558
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 248,
+      "page_number": 10,
+      "is_in_table": false,
+      "md_text_original": "of the Jewish people. The _Talmud_ interprets and expounds on the verses of the",
+      "md_text_cleaned": "of the Jewish people. The Talmud interprets and expounds on the verses of the",
+      "span_text": "of the Jewish people. The Talmud interprets and expounds on the verses of the",
+      "matched_page": 10,
+      "span_match": true,
+      "features": {
+        "page_num": 10,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          558
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 249,
+      "page_number": 10,
+      "is_in_table": false,
+      "md_text_original": "_Tanakh_ to discover hidden meanings. The _Talmud_ also contains Judaism's oral",
+      "md_text_cleaned": "Tanakh to discover hidden meanings. The Talmud also contains Judaism's oral",
+      "span_text": "Tanakh to discover hidden meanings. The Talmud also contains Judaism's oral",
+      "matched_page": 10,
+      "span_match": true,
+      "features": {
+        "page_num": 10,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          558
+        ],
+        "font_name": "LiberationSerif-Italic",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "italic",
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 250,
+      "page_number": 10,
+      "is_in_table": false,
+      "md_text_original": "law.",
+      "md_text_cleaned": "law.",
+      "span_text": "law.",
+      "matched_page": 10,
+      "span_match": true,
+      "features": {
+        "page_num": 10,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          558
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 253,
+      "page_number": 10,
+      "is_in_table": false,
+      "md_text_original": "**The** _**Mishnah**_",
+      "md_text_cleaned": "The Mishnah",
+      "span_text": "The Mishnah",
+      "matched_page": 10,
+      "span_match": true,
+      "features": {
+        "page_num": 10,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          558
+        ],
+        "font_name": "LiberationSerif-Bold",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace",
+          "bold"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 254,
+      "page_number": 10,
+      "is_in_table": false,
+      "md_text_original": "The _Mishnah_ consists of six orders, each containing seven to twelve tractates,",
+      "md_text_cleaned": "The Mishnah consists of six orders, each containing seven to twelve tractates,",
+      "span_text": "The Mishnah consists of six orders, each containing seven to twelve tractates,",
+      "matched_page": 10,
+      "span_match": true,
+      "features": {
+        "page_num": 10,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          558
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 255,
+      "page_number": 10,
+      "is_in_table": false,
+      "md_text_original": "sixty-three in total, and further subdivided into chapters and paragraphs or",
+      "md_text_cleaned": "sixty-three in total, and further subdivided into chapters and paragraphs or",
+      "span_text": "sixty-three in total, and further subdivided into chapters and paragraphs or",
+      "matched_page": 10,
+      "span_match": true,
+      "features": {
+        "page_num": 10,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          558
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 256,
+      "page_number": 10,
+      "is_in_table": false,
+      "md_text_original": "verses. It contains various laws and teachings.",
+      "md_text_cleaned": "verses. It contains various laws and teachings.",
+      "span_text": "verses. It contains various laws and teachings.",
+      "matched_page": 10,
+      "span_match": true,
+      "features": {
+        "page_num": 10,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          558
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 259,
+      "page_number": 10,
+      "is_in_table": false,
+      "md_text_original": "**The** _**Tosefta**_",
+      "md_text_cleaned": "The Tosefta",
+      "span_text": "The Tosefta",
+      "matched_page": 10,
+      "span_match": true,
+      "features": {
+        "page_num": 10,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          558
+        ],
+        "font_name": "LiberationSerif-Bold",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace",
+          "bold"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 260,
+      "page_number": 10,
+      "is_in_table": false,
+      "md_text_original": "The _Tosefta_ is a compilation of the Jewish oral law. In many ways, the _Tosefta_",
+      "md_text_cleaned": "The Tosefta is a compilation of the Jewish oral law. In many ways, the Tosefta",
+      "span_text": "The Tosefta is a compilation of the Jewish oral law. In many ways, the Tosefta",
+      "matched_page": 10,
+      "span_match": true,
+      "features": {
+        "page_num": 10,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          558
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 261,
+      "page_number": 10,
+      "is_in_table": false,
+      "md_text_original": "acts as a supplement to the _Mishnah_ .",
+      "md_text_cleaned": "acts as a supplement to the Mishnah .",
+      "span_text": "acts as a supplement to the Mishnah.",
+      "matched_page": 10,
+      "span_match": true,
+      "features": {
+        "page_num": 10,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          558
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.986
+    },
+    {
+      "line_number": 264,
+      "page_number": 10,
+      "is_in_table": false,
+      "md_text_original": "**The** _**Shulchan Aruch**_",
+      "md_text_cleaned": "The Shulchan Aruch",
+      "span_text": "The Shulchan Aruch",
+      "matched_page": 10,
+      "span_match": true,
+      "features": {
+        "page_num": 10,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          558
+        ],
+        "font_name": "LiberationSerif-Bold",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace",
+          "bold"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 265,
+      "page_number": 10,
+      "is_in_table": false,
+      "md_text_original": "The _Shulchan Aruch_, also known as the Code of Jewish Law, is the most widely",
+      "md_text_cleaned": "The Shulchan Aruch, also known as the Code of Jewish Law, is the most widely",
+      "span_text": "The Shulchan Aruch, also known as the Code of Jewish Law, is the most widely",
+      "matched_page": 10,
+      "span_match": true,
+      "features": {
+        "page_num": 10,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          558
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 266,
+      "page_number": 10,
+      "is_in_table": false,
+      "md_text_original": "accepted compilation of Jewish law ever written.",
+      "md_text_cleaned": "accepted compilation of Jewish law ever written.",
+      "span_text": "accepted compilation of Jewish law ever written.",
+      "matched_page": 10,
+      "span_match": true,
+      "features": {
+        "page_num": 10,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          558
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 268,
+      "page_number": 10,
+      "is_in_table": false,
+      "md_text_original": "### **REFERENCES**",
+      "md_text_cleaned": "REFERENCES",
+      "span_text": "REFERENCES",
+      "matched_page": 10,
+      "span_match": true,
+      "features": {
+        "page_num": 10,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          558
+        ],
+        "font_name": "LiberationSerif-Bold",
+        "font_size": 20.15999984741211,
+        "font_styles": [
+          "monospace",
+          "bold"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 271,
+      "page_number": 10,
+      "is_in_table": false,
+      "md_text_original": "1. Berkman, J. (2009, October 5). _At Least 139 of the Forbes 400 Are Jewish_ . Jta.org. Retrieved January 20,",
+      "md_text_cleaned": "1. Berkman, J. 2009, October 5. At Least 139 of the Forbes 400 Are Jewish . Jta.org. Retrieved January 20,",
+      "span_text": "1. Berkman, J. (2009, October 5). At Least 139 of the Forbes 400 Are Jewish. Jta.org. Retrieved January 20,",
+      "matched_page": 10,
+      "span_match": true,
+      "features": {
+        "page_num": 10,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          558
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 10.800000190734863,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.995
+    },
+    {
+      "line_number": 272,
+      "page_number": 10,
+      "is_in_table": false,
+      "md_text_original": "2012 from [http://blogs.jta.org/philanthropy/article/2009/10/05/1008323/at-least-139-of-the-forbes-400-are-](http://blogs.jta.org/philanthropy/article/2009/10/05/1008323/at-least-139-of-the-forbes-400-are-jewish)",
+      "md_text_cleaned": "2012 from http://blogs.jta.org/philanthropy/article/2009/10/05/1008323/at-least-139-of-the-forbes-400-are-http://blogs.jta.org/philanthropy/article/2009/10/05/1008323/at-least-139-of-the-forbes-400-are-jewish",
+      "span_text": "2012 from http://blogs.jta.org/philanthropy/article/2009/10/05/1008323/at-least-139-of-the-forbes-400-are-",
+      "matched_page": 10,
+      "span_match": true,
+      "features": {
+        "page_num": 10,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          558
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 10.800000190734863,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.675
+    },
+    {
+      "line_number": 273,
+      "page_number": 10,
+      "is_in_table": false,
+      "md_text_original": "jewish",
+      "md_text_cleaned": "jewish",
+      "span_text": "jewish",
+      "matched_page": 10,
+      "span_match": true,
+      "features": {
+        "page_num": 10,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          558
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 10.800000190734863,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 276,
+      "page_number": 10,
+      "is_in_table": false,
+      "md_text_original": "2. Keiste, L. (2003). Religion and Wealth: The Role of Religious Affiliation and Participation in Early",
+      "md_text_cleaned": "2. Keiste, L. 2003. Religion and Wealth: The Role of Religious Affiliation and Participation in Early",
+      "span_text": "2. Keiste, L. (2003). Religion and Wealth: The Role of Religious Affiliation and Participation in Early",
+      "matched_page": 10,
+      "span_match": true,
+      "features": {
+        "page_num": 10,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          558
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 10.800000190734863,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 277,
+      "page_number": 10,
+      "is_in_table": false,
+      "md_text_original": "Adult Asset Accumulation. _Social Forces_, 82(1), 173-205.",
+      "md_text_cleaned": "Adult Asset Accumulation. Social Forces, 821, 173-205.",
+      "span_text": "Adult Asset Accumulation. Social Forces, 82(1), 173-205.",
+      "matched_page": 10,
+      "span_match": true,
+      "features": {
+        "page_num": 10,
+        "column": 0,
+        "bbox": [
+          72,
+          74,
+          612,
+          558
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 10.800000190734863,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 280,
+      "page_number": 11,
+      "is_in_table": false,
+      "md_text_original": "### **REFERENCES**",
+      "md_text_cleaned": "REFERENCES",
+      "span_text": "REFERENCES",
+      "matched_page": 11,
+      "span_match": true,
+      "features": {
+        "page_num": 11,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          468
+        ],
+        "font_name": "LiberationSerif-Bold",
+        "font_size": 20.15999984741211,
+        "font_styles": [
+          "monospace",
+          "bold"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 282,
+      "page_number": 11,
+      "is_in_table": false,
+      "md_text_original": "1. Joseph, K. (1997). _The World of the Early Christians_ . Liturgical Press.",
+      "md_text_cleaned": "1. Joseph, K. 1997. The World of the Early Christians . Liturgical Press.",
+      "span_text": "1. Joseph, K. (1997). The World of the Early Christians. Liturgical Press.",
+      "matched_page": 11,
+      "span_match": true,
+      "features": {
+        "page_num": 11,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          468
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 10.800000190734863,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.993
+    },
+    {
+      "line_number": 285,
+      "page_number": 11,
+      "is_in_table": false,
+      "md_text_original": "2. Stryker, R. (1981). Religio-Ethnic Effects on Attainments in the Early Career. _American Sociological_",
+      "md_text_cleaned": "2. Stryker, R. 1981. Religio-Ethnic Effects on Attainments in the Early Career. American Sociological",
+      "span_text": "2. Stryker, R. (1981). Religio-Ethnic Effects on Attainments in the Early Career. American Sociological",
+      "matched_page": 11,
+      "span_match": true,
+      "features": {
+        "page_num": 11,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          468
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 10.800000190734863,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 286,
+      "page_number": 11,
+      "is_in_table": false,
+      "md_text_original": "_Review_, 46, 212-231.",
+      "md_text_cleaned": "Review, 46, 212-231.",
+      "span_text": "Review, 46, 212-231.",
+      "matched_page": 11,
+      "span_match": true,
+      "features": {
+        "page_num": 11,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          468
+        ],
+        "font_name": "LiberationSerif-Italic",
+        "font_size": 10.800000190734863,
+        "font_styles": [
+          "italic",
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 289,
+      "page_number": 11,
+      "is_in_table": false,
+      "md_text_original": "3. Herz, F. M., Rozen, E. J. (1982). Jewish families. In McGoldrick, J. K. Pearce, & J. Giordano (Eds.),",
+      "md_text_cleaned": "3. Herz, F. M., Rozen, E. J. 1982. Jewish families. In McGoldrick, J. K. Pearce, & J. Giordano Eds.,",
+      "span_text": "3. Herz, F. M., Rozen, E. J. (1982). Jewish families. In McGoldrick, J. K. Pearce, & J. Giordano (Eds.),",
+      "matched_page": 11,
+      "span_match": true,
+      "features": {
+        "page_num": 11,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          468
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 10.800000190734863,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 290,
+      "page_number": 11,
+      "is_in_table": false,
+      "md_text_original": "_Ethnicity and Family Therapy_ . New York: Guilford Press.",
+      "md_text_cleaned": "Ethnicity and Family Therapy . New York: Guilford Press.",
+      "span_text": "Ethnicity and Family Therapy. New York: Guilford Press.",
+      "matched_page": 11,
+      "span_match": true,
+      "features": {
+        "page_num": 11,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          468
+        ],
+        "font_name": "LiberationSerif-Italic",
+        "font_size": 10.800000190734863,
+        "font_styles": [
+          "italic",
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.991
+    },
+    {
+      "line_number": 293,
+      "page_number": 11,
+      "is_in_table": false,
+      "md_text_original": "4. Thernstrom, A., Thernstrom, S. (2003). _No Excuses: Closing the Racial Gap In Learning_ . New York:",
+      "md_text_cleaned": "4. Thernstrom, A., Thernstrom, S. 2003. No Excuses: Closing the Racial Gap In Learning . New York:",
+      "span_text": "4. Thernstrom, A., Thernstrom, S. (2003). No Excuses: Closing the Racial Gap In Learning. New York:",
+      "matched_page": 11,
+      "span_match": true,
+      "features": {
+        "page_num": 11,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          468
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 10.800000190734863,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.995
+    },
+    {
+      "line_number": 294,
+      "page_number": 11,
+      "is_in_table": false,
+      "md_text_original": "Simon and Schuster.",
+      "md_text_cleaned": "Simon and Schuster.",
+      "span_text": "Simon and Schuster.",
+      "matched_page": 11,
+      "span_match": true,
+      "features": {
+        "page_num": 11,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          468
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 10.800000190734863,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 297,
+      "page_number": 11,
+      "is_in_table": false,
+      "md_text_original": "5. Stone, P. (2009). _Breaking The Jewish Code: Twelve Secrets That Will Transform Your Life, Family,_",
+      "md_text_cleaned": "5. Stone, P. 2009. Breaking The Jewish Code: Twelve Secrets That Will Transform Your Life, Family,",
+      "span_text": "5. Stone, P. (2009). Breaking The Jewish Code: Twelve Secrets That Will Transform Your Life, Family,",
+      "matched_page": 11,
+      "span_match": true,
+      "features": {
+        "page_num": 11,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          468
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 10.800000190734863,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 298,
+      "page_number": 11,
+      "is_in_table": false,
+      "md_text_original": "_Health and Finances_ . Charisma House.",
+      "md_text_cleaned": "Health and Finances . Charisma House.",
+      "span_text": "Health and Finances. Charisma House.",
+      "matched_page": 11,
+      "span_match": true,
+      "features": {
+        "page_num": 11,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          468
+        ],
+        "font_name": "LiberationSerif-Italic",
+        "font_size": 10.800000190734863,
+        "font_styles": [
+          "italic",
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.986
+    },
+    {
+      "line_number": 301,
+      "page_number": 11,
+      "is_in_table": false,
+      "md_text_original": "6. Kerry, M. (2002). _Mishlei: A Modern Commentary on Proverbs_ . URJ Books and Music.",
+      "md_text_cleaned": "6. Kerry, M. 2002. Mishlei: A Modern Commentary on Proverbs . URJ Books and Music.",
+      "span_text": "6. Kerry, M. (2002). Mishlei: A Modern Commentary on Proverbs. URJ Books and Music.",
+      "matched_page": 11,
+      "span_match": true,
+      "features": {
+        "page_num": 11,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          468
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 10.800000190734863,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.994
+    },
+    {
+      "line_number": 304,
+      "page_number": 11,
+      "is_in_table": false,
+      "md_text_original": "7. Keiste, L. (2003). Religion and Wealth: The Role of Religious Affiliation and Participation in Early",
+      "md_text_cleaned": "7. Keiste, L. 2003. Religion and Wealth: The Role of Religious Affiliation and Participation in Early",
+      "span_text": "7. Keiste, L. (2003). Religion and Wealth: The Role of Religious Affiliation and Participation in Early",
+      "matched_page": 11,
+      "span_match": true,
+      "features": {
+        "page_num": 11,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          468
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 10.800000190734863,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 305,
+      "page_number": 11,
+      "is_in_table": false,
+      "md_text_original": "Adult. Asset Accumulation. _Social Forces_, 82(1), 173-205.",
+      "md_text_cleaned": "Adult. Asset Accumulation. Social Forces, 821, 173-205.",
+      "span_text": "Adult. Asset Accumulation. Social Forces, 82(1), 173-205.",
+      "matched_page": 11,
+      "span_match": true,
+      "features": {
+        "page_num": 11,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          468
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 10.800000190734863,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 308,
+      "page_number": 11,
+      "is_in_table": false,
+      "md_text_original": "8. Anderson, C. T. (2008). _Becoming a Millionaire God’s Way_ . FaithWords.",
+      "md_text_cleaned": "8. Anderson, C. T. 2008. Becoming a Millionaire God’s Way . FaithWords.",
+      "span_text": "8. Anderson, C. T. (2008). Becoming a Millionaire God’s Way. FaithWords.",
+      "matched_page": 11,
+      "span_match": true,
+      "features": {
+        "page_num": 11,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          468
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 10.800000190734863,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.993
+    },
+    {
+      "line_number": 311,
+      "page_number": 11,
+      "is_in_table": false,
+      "md_text_original": "9. Jacobs, J. (2010). _There Shall Be No Needy: Pursuing Social Justice Through Jewish Law & Tradition_ .",
+      "md_text_cleaned": "9. Jacobs, J. 2010. There Shall Be No Needy: Pursuing Social Justice Through Jewish Law & Tradition .",
+      "span_text": "9. Jacobs, J. (2010). There Shall Be No Needy: Pursuing Social Justice Through Jewish Law & Tradition.",
+      "matched_page": 11,
+      "span_match": true,
+      "features": {
+        "page_num": 11,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          468
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 10.800000190734863,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.995
+    },
+    {
+      "line_number": 312,
+      "page_number": 11,
+      "is_in_table": false,
+      "md_text_original": "Jewish Lights Publishing.",
+      "md_text_cleaned": "Jewish Lights Publishing.",
+      "span_text": "Jewish Lights Publishing.",
+      "matched_page": 11,
+      "span_match": true,
+      "features": {
+        "page_num": 11,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          468
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 10.800000190734863,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 315,
+      "page_number": 11,
+      "is_in_table": false,
+      "md_text_original": "10. Lifshitz, J. (2008). _Markets, Morals and Religion_ . Transaction Publishers.",
+      "md_text_cleaned": "10. Lifshitz, J. 2008. Markets, Morals and Religion . Transaction Publishers.",
+      "span_text": "10. Lifshitz, J. (2008). Markets, Morals and Religion. Transaction Publishers.",
+      "matched_page": 11,
+      "span_match": true,
+      "features": {
+        "page_num": 11,
+        "column": 0,
+        "bbox": [
+          72,
+          93,
+          612,
+          468
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 10.800000190734863,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.993
+    },
+    {
+      "line_number": 318,
+      "page_number": 12,
+      "is_in_table": false,
+      "md_text_original": "# **Table of Contents**",
+      "md_text_cleaned": "Table of Contents",
+      "span_text": "Table of Contents",
+      "matched_page": 12,
+      "span_match": true,
+      "features": {
+        "page_num": 12,
+        "column": 0,
+        "bbox": [
+          204,
+          92,
+          612,
+          117
+        ],
+        "font_name": "LiberationSerif-Bold",
+        "font_size": 26.64000129699707,
+        "font_styles": [
+          "monospace",
+          "bold"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 322,
+      "page_number": 12,
+      "is_in_table": false,
+      "md_text_original": "PREFACE",
+      "md_text_cleaned": "PREFACE",
+      "span_text": "PREFACE",
+      "matched_page": 12,
+      "span_match": true,
+      "features": {
+        "page_num": 12,
+        "column": 1,
+        "bbox": [
+          72,
+          135,
+          181,
+          282
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 324,
+      "page_number": 12,
+      "is_in_table": false,
+      "md_text_original": "INTRODUCTION",
+      "md_text_cleaned": "INTRODUCTION",
+      "span_text": "INTRODUCTION",
+      "matched_page": 12,
+      "span_match": true,
+      "features": {
+        "page_num": 12,
+        "column": 1,
+        "bbox": [
+          72,
+          135,
+          181,
+          282
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 326,
+      "page_number": 12,
+      "is_in_table": false,
+      "md_text_original": "CHAPTER 1",
+      "md_text_cleaned": "CHAPTER 1",
+      "span_text": "CHAPTER 1",
+      "matched_page": 12,
+      "span_match": true,
+      "features": {
+        "page_num": 12,
+        "column": 1,
+        "bbox": [
+          72,
+          135,
+          181,
+          282
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 328,
+      "page_number": 12,
+      "is_in_table": false,
+      "md_text_original": "CHAPTER 2",
+      "md_text_cleaned": "CHAPTER 2",
+      "span_text": "CHAPTER 2",
+      "matched_page": 12,
+      "span_match": true,
+      "features": {
+        "page_num": 12,
+        "column": 1,
+        "bbox": [
+          72,
+          135,
+          181,
+          282
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 330,
+      "page_number": 12,
+      "is_in_table": false,
+      "md_text_original": "CHAPTER 3",
+      "md_text_cleaned": "CHAPTER 3",
+      "span_text": "CHAPTER 3",
+      "matched_page": 12,
+      "span_match": true,
+      "features": {
+        "page_num": 12,
+        "column": 1,
+        "bbox": [
+          72,
+          135,
+          181,
+          282
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 332,
+      "page_number": 12,
+      "is_in_table": false,
+      "md_text_original": "CHAPTER 4",
+      "md_text_cleaned": "CHAPTER 4",
+      "span_text": "CHAPTER 4",
+      "matched_page": 12,
+      "span_match": true,
+      "features": {
+        "page_num": 12,
+        "column": 1,
+        "bbox": [
+          72,
+          135,
+          181,
+          282
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 334,
+      "page_number": 12,
+      "is_in_table": false,
+      "md_text_original": "CHAPTER 5",
+      "md_text_cleaned": "CHAPTER 5",
+      "span_text": "CHAPTER 5",
+      "matched_page": 12,
+      "span_match": true,
+      "features": {
+        "page_num": 12,
+        "column": 1,
+        "bbox": [
+          72,
+          135,
+          181,
+          282
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 336,
+      "page_number": 12,
+      "is_in_table": false,
+      "md_text_original": "CHAPTER 6",
+      "md_text_cleaned": "CHAPTER 6",
+      "span_text": "CHAPTER 6",
+      "matched_page": 12,
+      "span_match": true,
+      "features": {
+        "page_num": 12,
+        "column": 1,
+        "bbox": [
+          72,
+          135,
+          181,
+          282
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 338,
+      "page_number": 12,
+      "is_in_table": false,
+      "md_text_original": "CHAPTER 7",
+      "md_text_cleaned": "CHAPTER 7",
+      "span_text": "CHAPTER 7",
+      "matched_page": 12,
+      "span_match": true,
+      "features": {
+        "page_num": 12,
+        "column": 1,
+        "bbox": [
+          72,
+          135,
+          181,
+          282
+        ],
+        "font_name": "LiberationSerif",
+        "font_size": 14.40000057220459,
+        "font_styles": [
+          "monospace"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    }
+  ],
+  "unmatched_lines": [
+    {
+      "line_number": 32,
+      "page_number": null,
+      "is_in_table": false,
+      "text_original": "### **PREFACE** **INTRODUCTION** **CHAPTER 1** **CHAPTER 2** **CHAPTER 3** **CHAPTER 4** **CHAPTER 5** **CHAPTER 6** **CHAPTER 7**",
+      "text_cleaned": "PREFACE INTRODUCTION CHAPTER 1 CHAPTER 2 CHAPTER 3 CHAPTER 4 CHAPTER 5 CHAPTER 6 CHAPTER 7",
+      "search_pages": [
+        3,
+        4
+      ]
+    },
+    {
+      "line_number": 167,
+      "page_number": null,
+      "is_in_table": false,
+      "text_original": "### **INTRODUCTION** Some people like the Jews, and some do not. But no thoughtful man can deny the fact that they are, beyond any question, the most formidable and the most remarkable race which has appeared in the world. - Winston Churchill (1874 – 1965), Prime Minister of Great Britain",
+      "text_cleaned": "INTRODUCTION Some people like the Jews, and some do not. But no thoughtful man can deny the fact that they are, beyond any question, the most formidable and the most remarkable race which has appeared in the world. - Winston Churchill 1874 – 1965, Prime Minister of Great Britain",
+      "search_pages": [
+        7,
+        8
+      ]
+    }
+  ]
+}

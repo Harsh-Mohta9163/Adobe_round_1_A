@@ -9,8 +9,8 @@
     "match_percentage": 99.57,
     "total_spans_available": 1555,
     "spans_used": 925,
-    "processing_time_seconds": 2.97,
-    "lines_per_second": 313.06,
+    "processing_time_seconds": 4.46,
+    "lines_per_second": 208.22,
     "avg_spans_searched_per_line": 244.6,
     "optimization_speedup": "6.4x faster than full search",
     "pages_available": 12
@@ -9893,7 +9893,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 613,
+      "line_number": 611,
       "page_number": 5,
       "is_in_table": false,
       "md_text_original": "subsequently the interstitial pressure include the plasma composition,",
@@ -9920,7 +9920,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 614,
+      "line_number": 612,
       "page_number": 5,
       "is_in_table": false,
       "md_text_original": "the balance of Starling forces across the capillary wall (principally",
@@ -9947,7 +9947,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 615,
+      "line_number": 613,
       "page_number": 5,
       "is_in_table": false,
       "md_text_original": "capillary hydrostatic pressure and plasma protein osmotic pressure),",
@@ -9974,7 +9974,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 616,
+      "line_number": 614,
       "page_number": 5,
       "is_in_table": false,
       "md_text_original": "capillary permeability, surface area of capillary endothelium, lymph",
@@ -10001,7 +10001,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 617,
+      "line_number": 615,
       "page_number": 5,
       "is_in_table": false,
       "md_text_original": "transport, and the physicochemical properties of the interstitial space",
@@ -10028,7 +10028,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 618,
+      "line_number": 616,
       "page_number": 5,
       "is_in_table": false,
       "md_text_original": "matrix. Also, modification, addition or removal of components by",
@@ -10055,7 +10055,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 619,
+      "line_number": 617,
       "page_number": 5,
       "is_in_table": false,
       "md_text_original": "peripheral cell metabolism can determine the composition of interstitial",
@@ -10082,7 +10082,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 620,
+      "line_number": 618,
       "page_number": 5,
       "is_in_table": false,
       "md_text_original": "fluids [54]. Based on that, cupping therapy may be beneficial in clearing",
@@ -10109,7 +10109,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 621,
+      "line_number": 619,
       "page_number": 5,
       "is_in_table": false,
       "md_text_original": "interstitial fluids and restoring normal physiology of interstitial spaces.",
@@ -10136,7 +10136,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 624,
+      "line_number": 622,
       "page_number": 5,
       "is_in_table": false,
       "md_text_original": "4- Pathogenesis of pain includes interstitial hypertension and",
@@ -10163,7 +10163,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 625,
+      "line_number": 623,
       "page_number": 5,
       "is_in_table": false,
       "md_text_original": "increased amount of neurotransmitters, such as substance P and its",
@@ -10190,7 +10190,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 626,
+      "line_number": 624,
       "page_number": 5,
       "is_in_table": false,
       "md_text_original": "receptor, calcitonin gene-related peptide and other neurotransmitters",
@@ -10217,7 +10217,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 627,
+      "line_number": 625,
       "page_number": 5,
       "is_in_table": false,
       "md_text_original": "in afferent nerves [55]. Based on that, cupping therapy at these localized",
@@ -10244,7 +10244,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 628,
+      "line_number": 626,
       "page_number": 5,
       "is_in_table": false,
       "md_text_original": "sites may remove localized fluids, clear interstitial spaces, decrease",
@@ -10271,7 +10271,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 629,
+      "line_number": 627,
       "page_number": 5,
       "is_in_table": false,
       "md_text_original": "interstitial hypertension and excrete CPS.",
@@ -10298,7 +10298,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 632,
+      "line_number": 630,
       "page_number": 5,
       "is_in_table": false,
       "md_text_original": "5- Substance P is an 11-amino acid peptide that is widely distributed",
@@ -10325,7 +10325,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 633,
+      "line_number": 631,
       "page_number": 5,
       "is_in_table": false,
       "md_text_original": "in the nervous system of human and animal species. Substance P is",
@@ -10352,7 +10352,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 634,
+      "line_number": 632,
       "page_number": 5,
       "is_in_table": false,
       "md_text_original": "functionally linked to pain [56]. Substance P releases histamine [57]",
@@ -10379,7 +10379,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 635,
+      "line_number": 633,
       "page_number": 5,
       "is_in_table": false,
       "md_text_original": "leading to increased cutaneous capillary permeability without any fluid",
@@ -10406,7 +10406,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 636,
+      "line_number": 634,
       "page_number": 5,
       "is_in_table": false,
       "md_text_original": "leakage through intact skin barrier. Substance P induces release of",
@@ -10433,7 +10433,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 637,
+      "line_number": 635,
       "page_number": 5,
       "is_in_table": false,
       "md_text_original": "antigen-evoked mediators [58], tumor necrosis factor-alpha [59] and",
@@ -10460,7 +10460,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 638,
+      "line_number": 636,
       "page_number": 5,
       "is_in_table": false,
       "md_text_original": "leukotrienes [60], which act as inflammatory mediators to enhance pain",
@@ -10487,7 +10487,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 639,
+      "line_number": 637,
       "page_number": 5,
       "is_in_table": false,
       "md_text_original": "and tissue swelling. The interstitium plays a role in the development of",
@@ -10514,7 +10514,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 647,
+      "line_number": 645,
       "page_number": 5,
       "is_in_table": false,
       "md_text_original": "Altern Integ Med",
@@ -10541,7 +10541,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 648,
+      "line_number": 646,
       "page_number": 5,
       "is_in_table": false,
       "md_text_original": "Volume 2 • Issue 3 • 1000111",
@@ -10568,7 +10568,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 649,
+      "line_number": 647,
       "page_number": 5,
       "is_in_table": false,
       "md_text_original": "ISSN:2327-5162 AIM, an open access journal",
@@ -10595,7 +10595,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 652,
+      "line_number": 650,
       "page_number": 6,
       "is_in_table": false,
       "md_text_original": "**Citation:** El Sayed SM, Mahmoud HS, Nabo MMH (2013) Methods of Wet Cupping Therapy (Al-Hijamah): In Light of Modern Medicine and Prophetic",
@@ -10622,7 +10622,7 @@
       "match_confidence": 0.961
     },
     {
-      "line_number": 654,
+      "line_number": 652,
       "page_number": 6,
       "is_in_table": false,
       "md_text_original": "[Medicine. Altern Integ Med 2: 111. doi:10.4172/2327-5162.1000111](http://dx.doi.org/10.4172/2327-5162.1000111)",
@@ -10649,7 +10649,7 @@
       "match_confidence": 0.749
     },
     {
-      "line_number": 657,
+      "line_number": 655,
       "page_number": 6,
       "is_in_table": false,
       "md_text_original": "Page 6 of 16",
@@ -10676,7 +10676,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 661,
+      "line_number": 659,
       "page_number": 6,
       "is_in_table": false,
       "md_text_original": "8- Interstitial fluid is continuously filtered at arterial end of",
@@ -10703,7 +10703,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 662,
+      "line_number": 660,
       "page_number": 6,
       "is_in_table": false,
       "md_text_original": "capillaries (net filtration pressure=-13 mm Hg that shifts tissue fluids",
@@ -10730,7 +10730,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 663,
+      "line_number": 661,
       "page_number": 6,
       "is_in_table": false,
       "md_text_original": "to the outside of capillaries) [74] and is absorbed at venous end of",
@@ -10757,7 +10757,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 664,
+      "line_number": 662,
       "page_number": 6,
       "is_in_table": false,
       "md_text_original": "capillaries (net absorption pressure=+7 mmHg (Figure 1A) that shifts",
@@ -10784,7 +10784,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 665,
+      "line_number": 663,
       "page_number": 6,
       "is_in_table": false,
       "md_text_original": "tissue fluids to the inside of capillaries) 5]. Based on that, external",
@@ -10811,7 +10811,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 666,
+      "line_number": 664,
       "page_number": 6,
       "is_in_table": false,
       "md_text_original": "suction pressure (as that occurring in cupping therapy) may enhance",
@@ -10838,7 +10838,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 667,
+      "line_number": 665,
       "page_number": 6,
       "is_in_table": false,
       "md_text_original": "the excretion of tissue fluids filled with noxious substances.",
@@ -10865,7 +10865,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 670,
+      "line_number": 668,
       "page_number": 6,
       "is_in_table": false,
       "md_text_original": "**1** **[st]** **step of wet cupping therapy (1** **[st]** **cupping)**",
@@ -10893,7 +10893,7 @@
       "match_confidence": 0.977
     },
     {
-      "line_number": 673,
+      "line_number": 671,
       "page_number": 6,
       "is_in_table": false,
       "md_text_original": "(In the CPC method only not in the PC method)",
@@ -10920,7 +10920,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 676,
+      "line_number": 674,
       "page_number": 6,
       "is_in_table": false,
       "md_text_original": "1- Skin has a viscoelastic nature, which helps it to be sucked to",
@@ -10947,7 +10947,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 677,
+      "line_number": 675,
       "page_number": 6,
       "is_in_table": false,
       "md_text_original": "the inside of cups [75]. When first vacuum pressure is applied during",
@@ -10974,7 +10974,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 678,
+      "line_number": 676,
       "page_number": 6,
       "is_in_table": false,
       "md_text_original": "cupping therapy (Figure 3A); negative suction pressure collects",
@@ -11001,7 +11001,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 698,
+      "line_number": 680,
       "page_number": 6,
       "is_in_table": false,
       "md_text_original": "interstitial fluids in the cupped area causing uplifting of the skin inside",
@@ -11028,7 +11028,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 699,
+      "line_number": 681,
       "page_number": 6,
       "is_in_table": false,
       "md_text_original": "cups without any fluid leakage through skin (skin barrier) as intact skin",
@@ -11055,7 +11055,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 700,
+      "line_number": 682,
       "page_number": 6,
       "is_in_table": false,
       "md_text_original": "prevents extrusion of tissue fluids (Figure 3B) to outside due to high",
@@ -11082,7 +11082,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 701,
+      "line_number": 683,
       "page_number": 6,
       "is_in_table": false,
       "md_text_original": "content of dermal matrix substances (dermatan sulfate, hyaluronic",
@@ -11109,7 +11109,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 702,
+      "line_number": 684,
       "page_number": 6,
       "is_in_table": false,
       "md_text_original": "acid and chondroitin sulfate), which constitute the ground substance",
@@ -11136,7 +11136,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 703,
+      "line_number": 685,
       "page_number": 6,
       "is_in_table": false,
       "md_text_original": "surrounding the dermal fibrous components that contribute to the",
@@ -11163,7 +11163,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 704,
+      "line_number": 686,
       "page_number": 6,
       "is_in_table": false,
       "md_text_original": "viscoelastic nature of the skin. Dermis is strong and elastic due to its",
@@ -11190,7 +11190,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 705,
+      "line_number": 687,
       "page_number": 6,
       "is_in_table": false,
       "md_text_original": "high content of elastin protein (makes skin soft and elastic and helps",
@@ -11217,7 +11217,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 706,
+      "line_number": 688,
       "page_number": 6,
       "is_in_table": false,
       "md_text_original": "skin sucking inside cups) and collagen protein (gives strength to skin)",
@@ -11244,7 +11244,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 708,
+      "line_number": 690,
       "page_number": 6,
       "is_in_table": false,
       "md_text_original": "[76,77]. Collected fluids intervene between skin and subcutaneous",
@@ -11271,7 +11271,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 709,
+      "line_number": 691,
       "page_number": 6,
       "is_in_table": false,
       "md_text_original": "tissues. This may help breaking connective tissue adhesions. Based on",
@@ -11298,7 +11298,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 710,
+      "line_number": 692,
       "page_number": 6,
       "is_in_table": false,
       "md_text_original": "that, skin surface is very suitable for practicing cupping therapy for",
@@ -11325,7 +11325,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 711,
+      "line_number": 693,
       "page_number": 6,
       "is_in_table": false,
       "md_text_original": "clearing tissue fluids and capillary fluids.",
@@ -11352,7 +11352,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 713,
+      "line_number": 695,
       "page_number": 6,
       "is_in_table": false,
       "md_text_original": "2- Increase in size of skin uplifting inside cups may decrease local",
@@ -11379,7 +11379,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 714,
+      "line_number": 696,
       "page_number": 6,
       "is_in_table": false,
       "md_text_original": "pressure inside skin upliftings around blood capillaries (Boyle’s law)",
@@ -11406,7 +11406,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 716,
+      "line_number": 698,
       "page_number": 6,
       "is_in_table": false,
       "md_text_original": "[78] leading to filtration of more fluids inside skin upliftings (Figure",
@@ -11433,7 +11433,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 717,
+      "line_number": 699,
       "page_number": 6,
       "is_in_table": false,
       "md_text_original": "3C). Based on that, 1 [st] cupping step in CPC method is very helpful in",
@@ -11460,7 +11460,7 @@
       "match_confidence": 0.993
     },
     {
-      "line_number": 718,
+      "line_number": 700,
       "page_number": 6,
       "is_in_table": false,
       "md_text_original": "clearing capillary blood from excess fluids with wastes (via filtration",
@@ -11487,7 +11487,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 719,
+      "line_number": 701,
       "page_number": 6,
       "is_in_table": false,
       "md_text_original": "through capillary pores in the local cupped area) as a preparatory step",
@@ -11514,7 +11514,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 720,
+      "line_number": 702,
       "page_number": 6,
       "is_in_table": false,
       "md_text_original": "for further capillary blood clearance.",
@@ -11541,7 +11541,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 722,
+      "line_number": 704,
       "page_number": 6,
       "is_in_table": false,
       "md_text_original": "3- With progressive increase in size of skin upliftings, corresponding",
@@ -11568,7 +11568,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 723,
+      "line_number": 705,
       "page_number": 6,
       "is_in_table": false,
       "md_text_original": "decrease in pressure occurs inside skin uplifting (Boyle’s law) [78]",
@@ -11595,7 +11595,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 724,
+      "line_number": 706,
       "page_number": 6,
       "is_in_table": false,
       "md_text_original": "around capillaries leading to more fluid (may contain hemolyzed blood",
@@ -11622,7 +11622,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 725,
+      "line_number": 707,
       "page_number": 6,
       "is_in_table": false,
       "md_text_original": "cells but not intact blood cells) filtration from blood capillaries causing",
@@ -11649,7 +11649,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 726,
+      "line_number": 708,
       "page_number": 6,
       "is_in_table": false,
       "md_text_original": "more dilution of the inflammatory mediators (Figures 3C and 3D). This",
@@ -11676,7 +11676,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 727,
+      "line_number": 709,
       "page_number": 6,
       "is_in_table": false,
       "md_text_original": "may help breaking more connective tissue adhesions with a possible",
@@ -11703,7 +11703,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 728,
+      "line_number": 710,
       "page_number": 6,
       "is_in_table": false,
       "md_text_original": "relief of tension muscular spasm. Based on that, all those constitute the",
@@ -11730,7 +11730,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 729,
+      "line_number": 711,
       "page_number": 6,
       "is_in_table": false,
       "md_text_original": "scientific rationale of dry cupping therapy.",
@@ -11757,7 +11757,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 731,
+      "line_number": 713,
       "page_number": 6,
       "is_in_table": false,
       "md_text_original": "4- At first, the high negative pressure of cupping therapy sucks more",
@@ -11784,7 +11784,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 735,
+      "line_number": 733,
       "page_number": 6,
       "is_in_table": false,
       "md_text_original": "Altern Integ Med",
@@ -11811,7 +11811,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 736,
+      "line_number": 734,
       "page_number": 6,
       "is_in_table": false,
       "md_text_original": "Volume 2 • Issue 3 • 1000111",
@@ -11838,7 +11838,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 737,
+      "line_number": 735,
       "page_number": 6,
       "is_in_table": false,
       "md_text_original": "ISSN:2327-5162 AIM, an open access journal",
@@ -11865,7 +11865,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 740,
+      "line_number": 738,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "**Citation:** El Sayed SM, Mahmoud HS, Nabo MMH (2013) Methods of Wet Cupping Therapy (Al-Hijamah): In Light of Modern Medicine and Prophetic",
@@ -11892,7 +11892,7 @@
       "match_confidence": 0.961
     },
     {
-      "line_number": 742,
+      "line_number": 740,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "[Medicine. Altern Integ Med 2: 111. doi:10.4172/2327-5162.1000111](http://dx.doi.org/10.4172/2327-5162.1000111)",
@@ -11919,7 +11919,7 @@
       "match_confidence": 0.749
     },
     {
-      "line_number": 745,
+      "line_number": 743,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "Page 7 of 16",
@@ -11946,7 +11946,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 749,
+      "line_number": 747,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "skin inside cups causing a more increase in the size of skin upliftings",
@@ -11973,7 +11973,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 750,
+      "line_number": 748,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "with a corresponding decrease in the pressure inside skin upliftings",
@@ -12000,7 +12000,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 751,
+      "line_number": 749,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "(till values near that of the capillary venous hydrostatic pressure). This",
@@ -12027,7 +12027,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 752,
+      "line_number": 750,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "decreases progressively the absorption at the venous end of capillaries",
@@ -12054,7 +12054,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 753,
+      "line_number": 751,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "(Figures 3C-3E). Movement of filtered fluids towards skin upliftings",
@@ -12081,7 +12081,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 754,
+      "line_number": 752,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "away from capillaries adds a more decrease to absorption at the venous",
@@ -12108,7 +12108,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 755,
+      "line_number": 753,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "end of capillaries. Based on that, most of the tissue fluids containing",
@@ -12135,7 +12135,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 756,
+      "line_number": 754,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "CPS are not absorbed again to venous end of capillary circulation due",
@@ -12162,7 +12162,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 757,
+      "line_number": 755,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "to effect of cupping therapy.",
@@ -12189,7 +12189,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 759,
+      "line_number": 757,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "5- Accumulation of fluids (tissue fluids+filtered fluids+hemolyzed",
@@ -12216,7 +12216,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 763,
+      "line_number": 761,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "blood cells+filtered soluble substances) containing wastes and",
@@ -12243,7 +12243,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 764,
+      "line_number": 762,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "hemolyzed blood cells in uplifted cupped skin area may cause dilution",
@@ -12270,7 +12270,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 765,
+      "line_number": 763,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "and local redistribution of nociceptive mediators (Figures 3C-3E).",
@@ -12297,7 +12297,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 766,
+      "line_number": 764,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "Nociceptive mediators e.g. substance P (neuropeptide released",
@@ -12324,7 +12324,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 767,
+      "line_number": 765,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "from nerve endings related to pain), inflammatory mediators and",
@@ -12351,7 +12351,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 768,
+      "line_number": 766,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "prostaglandins (present in interstitial fluids at local inflammatory sites",
@@ -12378,7 +12378,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 769,
+      "line_number": 767,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "or come with filtered fluids) are diluted in the locally accumulating",
@@ -12405,7 +12405,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 770,
+      "line_number": 768,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "tissue fluids in the uplifted area due to the effect of cupping-induced",
@@ -12432,7 +12432,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 771,
+      "line_number": 769,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "negative suction pressure. This may take substance P away from pain",
@@ -12459,7 +12459,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 772,
+      "line_number": 770,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "receptors and pain sensitive structures producing analgesic effect",
@@ -12486,7 +12486,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 773,
+      "line_number": 771,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "(Figures 2 and 3).",
@@ -12513,7 +12513,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 775,
+      "line_number": 773,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "6- Dilution of the inflammatory mediators may occur with",
@@ -12540,7 +12540,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 776,
+      "line_number": 774,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "temporary accumulation of interstitial fluids and filtered fluids beneath",
@@ -12567,7 +12567,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 777,
+      "line_number": 775,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "skin surface and around nerve endings (Figures 3C-3E). This may bathe",
@@ -12594,7 +12594,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 778,
+      "line_number": 776,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "nerve endings in collected fluids and reduce their stimulation [79].",
@@ -12621,7 +12621,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 779,
+      "line_number": 777,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "This may decrease neurotransmission of pain sensation producing an",
@@ -12648,7 +12648,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 780,
+      "line_number": 778,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "analgesic effect. Analgesic effect of cupping therapy helps in decreasing",
@@ -12675,7 +12675,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 781,
+      "line_number": 779,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "pain sensation during subsequent superficial skin laceration step. Based",
@@ -12702,7 +12702,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 783,
+      "line_number": 781,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "on that, 1 cupping step in CPC method (not in PC method) has a st",
@@ -12729,7 +12729,7 @@
       "match_confidence": 0.976
     },
     {
-      "line_number": 785,
+      "line_number": 783,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "strong analgesic effect, which allows doing subsequent skin puncturing",
@@ -12756,7 +12756,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 786,
+      "line_number": 784,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "with no need for analgesic or anesthetic administration.",
@@ -12783,7 +12783,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 788,
+      "line_number": 786,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "7- After removal of sucking cups, immediate decrease in size of skin",
@@ -12810,7 +12810,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 789,
+      "line_number": 787,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "upliftings occurs due to removal of negative pressure until reaching",
@@ -12837,7 +12837,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 790,
+      "line_number": 788,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "level of collected fluids (Figure 3F). If skin upliftings are left for some",
@@ -12864,7 +12864,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 791,
+      "line_number": 789,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "time without skin puncturing (dry cupping therapy), fluid collections",
@@ -12891,7 +12891,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 792,
+      "line_number": 790,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "inside upliftings will leak and redistribute to underlying tissues causing",
@@ -12918,7 +12918,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 793,
+      "line_number": 791,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "disappearance of skin upliftings. Improvement of pain instead of",
@@ -12945,7 +12945,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 794,
+      "line_number": 792,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "retention of inflammatory mediators and noxious substances may be",
@@ -12972,7 +12972,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 795,
+      "line_number": 793,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "due to dilution of those CPS and their redistribution to new sites away",
@@ -12999,7 +12999,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 796,
+      "line_number": 794,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "from pain receptors and pain sensitive structures after disappearance",
@@ -13026,7 +13026,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 797,
+      "line_number": 795,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "of skin upliftings. In addition, skin puncturing allows release of",
@@ -13053,7 +13053,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 798,
+      "line_number": 796,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "endogenous opioids e.g. endorphins, encephalins and dynorphins that",
@@ -13080,7 +13080,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 799,
+      "line_number": 797,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "decrease pain sensation [80] and intensify cupping therapy-induced",
@@ -13107,7 +13107,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 800,
+      "line_number": 798,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "analgesic effect. Derivatives of proopiomelanocortin e.g. β-endorphin",
@@ -13134,7 +13134,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 801,
+      "line_number": 799,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "and melanocortin hormones can block inflammatory reactions [80].",
@@ -13161,7 +13161,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 802,
+      "line_number": 800,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "Based on that, CPC method of wet cupping therapy is better than",
@@ -13188,7 +13188,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 803,
+      "line_number": 801,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "dry cupping therapy and PC method in treating pain as CPC method",
@@ -13215,7 +13215,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 804,
+      "line_number": 802,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "includes 2 advantages: advantage of dry cupping therapy (1 [st] part of the",
@@ -13242,7 +13242,7 @@
       "match_confidence": 0.993
     },
     {
-      "line_number": 805,
+      "line_number": 803,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "CPC method) and release of endogenous opioids, while PC method has",
@@ -13269,7 +13269,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 806,
+      "line_number": 804,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "only one advantage through release of endogenous opioids. In the CPC",
@@ -13296,7 +13296,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 807,
+      "line_number": 805,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "method, better efficient excretion of CPS occurs.",
@@ -13323,7 +13323,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 810,
+      "line_number": 808,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "8- Blood capillaries in the cupped area may undergo compression",
@@ -13350,7 +13350,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 811,
+      "line_number": 809,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "due to pressure on their walls from outside by the accumulated collected",
@@ -13377,7 +13377,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 812,
+      "line_number": 810,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "fluids. This increases capillary hydrostatic pressure leading to more",
@@ -13404,7 +13404,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 813,
+      "line_number": 811,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "capillary filtration and consequently more blood clearance. The longer",
@@ -13431,7 +13431,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 814,
+      "line_number": 812,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "the duration of cupping (for few minutes), the more accumulation of",
@@ -13458,7 +13458,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 815,
+      "line_number": 813,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "tissue fluid in the skin layers inside the cups (around skin capillaries)",
@@ -13485,7 +13485,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 816,
+      "line_number": 814,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "until an equilibrium point is reached at which no further fluid will",
@@ -13512,7 +13512,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 817,
+      "line_number": 815,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "accumulate. Escape and redistribution of fluids from skin uplift back to",
@@ -13539,7 +13539,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 818,
+      "line_number": 816,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "nearby tissues is prevented by maintained negative pressure during first",
@@ -13566,7 +13566,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 819,
+      "line_number": 817,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "cupping (for few minutes). Removal of negative pressure of cupping",
@@ -13593,7 +13593,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 820,
+      "line_number": 818,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "(through removing cups) prevents more accumulation of tissue fluid",
@@ -13620,7 +13620,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 821,
+      "line_number": 819,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "and instead, allows for slow fluid redistribution. Immediate skin",
@@ -13647,7 +13647,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 822,
+      "line_number": 820,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "pricking for few millimeters depth is recommended to prevent fluid",
@@ -13674,7 +13674,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 823,
+      "line_number": 821,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "redistribution and to get better cupping results.",
@@ -13701,7 +13701,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 826,
+      "line_number": 824,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "9- Compression pressure exerted on the skin by the outline of",
@@ -13728,7 +13728,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 827,
+      "line_number": 825,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "sucking cups during the CPC method for few minutes may capture",
@@ -13755,7 +13755,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 828,
+      "line_number": 826,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "capillary blood in the cupped area (for filtration) and may induce",
@@ -13782,7 +13782,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 829,
+      "line_number": 827,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "reactive hyperemia phenomenon at the sites of cups application. In",
@@ -13809,7 +13809,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 837,
+      "line_number": 835,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "Altern Integ Med",
@@ -13836,7 +13836,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 838,
+      "line_number": 836,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "Volume 2 • Issue 3 • 1000111",
@@ -13863,7 +13863,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 839,
+      "line_number": 837,
       "page_number": 7,
       "is_in_table": false,
       "md_text_original": "ISSN:2327-5162 AIM, an open access journal",
@@ -13890,7 +13890,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 842,
+      "line_number": 840,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "**Citation:** El Sayed SM, Mahmoud HS, Nabo MMH (2013) Methods of Wet Cupping Therapy (Al-Hijamah): In Light of Modern Medicine and Prophetic",
@@ -13917,7 +13917,7 @@
       "match_confidence": 0.961
     },
     {
-      "line_number": 844,
+      "line_number": 842,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "[Medicine. Altern Integ Med 2: 111. doi:10.4172/2327-5162.1000111](http://dx.doi.org/10.4172/2327-5162.1000111)",
@@ -13944,7 +13944,7 @@
       "match_confidence": 0.749
     },
     {
-      "line_number": 847,
+      "line_number": 845,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "Page 8 of 16",
@@ -13971,7 +13971,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 851,
+      "line_number": 849,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "this phenomenon, compression causes a reduction in blood flow to",
@@ -13998,7 +13998,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 852,
+      "line_number": 850,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "the skin for few minutes resulting in accumulation of metabolites and",
@@ -14025,7 +14025,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 853,
+      "line_number": 851,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "vasodilator chemicals. At the end of this step, vascular compression",
@@ -14052,7 +14052,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 854,
+      "line_number": 852,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "is removed causing a dramatic increase in blood flow to the skin",
@@ -14079,7 +14079,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 855,
+      "line_number": 853,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "known as reactive hyperemia, which may bring more blood to the skin",
@@ -14106,7 +14106,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 856,
+      "line_number": 854,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "circulation to be filtered and cleared during next steps of Al-hijamah",
@@ -14133,7 +14133,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 857,
+      "line_number": 855,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "(CPC method).",
@@ -14160,7 +14160,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 860,
+      "line_number": 858,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "**C- 2** **[nd]** **step of wet cupping therapy (skin puncturing) (In both**",
@@ -14188,7 +14188,7 @@
       "match_confidence": 0.991
     },
     {
-      "line_number": 861,
+      "line_number": 859,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "**CPC and PC method)**",
@@ -14216,7 +14216,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 864,
+      "line_number": 862,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "1- Injury to skin (as in puncturing step in cupping therapy) causes",
@@ -14243,7 +14243,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 865,
+      "line_number": 863,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "a double phenomenon capillary reaction. In the first phenomenon,",
@@ -14270,7 +14270,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 866,
+      "line_number": 864,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "capillary permeability immediately increases for less than 10 minutes",
@@ -14297,7 +14297,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 867,
+      "line_number": 865,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "(Figure 4). In the second phenomenon, a delayed increase in",
@@ -14324,7 +14324,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 868,
+      "line_number": 866,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "permeability begins (Figure 4) about one hour after injury [81,82].",
@@ -14351,7 +14351,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 869,
+      "line_number": 867,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "Antihistamines affect the first phenomenon but not the second one",
@@ -14378,7 +14378,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 871,
+      "line_number": 869,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "[81,82]. Increased capillary permeability in the first phenomenon is so",
@@ -14405,7 +14405,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 872,
+      "line_number": 870,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "helpful to enhance capillary filtration, blood clearance of intravascular",
@@ -14432,7 +14432,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 873,
+      "line_number": 871,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "fluids and fluid collection then movement of collected fluids towards",
@@ -14459,7 +14459,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 874,
+      "line_number": 872,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "skin puncture site to be excreted under effect of cupping therapy.",
@@ -14486,7 +14486,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 875,
+      "line_number": 873,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "Practically, this 10 minutes period is consumed in the second cupping",
@@ -14513,7 +14513,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 876,
+      "line_number": 874,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "step in the CPC method [7] and in creating skin upliftings then cupping",
@@ -14540,7 +14540,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 880,
+      "line_number": 878,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "step in the PC method [36]. Based on that, CPC method of wet cupping",
@@ -14567,7 +14567,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 881,
+      "line_number": 879,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "therapy makes better benefit of increased capillary permeability during",
@@ -14594,7 +14594,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 882,
+      "line_number": 880,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "this 10 minutes period and filters capillary blood during the whole",
@@ -14621,7 +14621,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 883,
+      "line_number": 881,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "period, while PC method consumes this time to create skin upliftings",
@@ -14648,7 +14648,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 884,
+      "line_number": 882,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "then collect fluids. CPC method may be more beneficial in blood",
@@ -14675,7 +14675,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 885,
+      "line_number": 883,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "clearance than PC method.",
@@ -14702,7 +14702,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 888,
+      "line_number": 886,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "2- In the CPC method, collected fluids after first cupping step are",
@@ -14729,7 +14729,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 889,
+      "line_number": 887,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "retained just beneath skin surface and are ready to get out when skin",
@@ -14756,7 +14756,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 890,
+      "line_number": 888,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "is punctured (Figure 5A), while nothing is collected in PC method.",
@@ -14783,7 +14783,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 891,
+      "line_number": 889,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "Injuring skin causes opening of skin barrier and a traumatic injury to",
@@ -14810,7 +14810,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 892,
+      "line_number": 890,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "capillaries leading to bleeding in both cupping methods.",
@@ -14837,7 +14837,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 894,
+      "line_number": 892,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "3- Increased interstitial fluid pressure may cause pain due to nerve",
@@ -14864,7 +14864,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 895,
+      "line_number": 893,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "compression [83]. Based on that, in the CPC method, puncturing skin",
@@ -14891,7 +14891,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 896,
+      "line_number": 894,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "is less painful due to collection of fluids (interstitial fluids and filtered",
@@ -14918,7 +14918,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 897,
+      "line_number": 895,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "fluids) beneath the skin surface leading to decreased interstitial fluid",
@@ -14945,7 +14945,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 898,
+      "line_number": 896,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "pressure, which decreases pain sensation. In addition, there is dilution",
@@ -14972,7 +14972,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 899,
+      "line_number": 897,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "and redistribution of the noxious agents, inflammatory mediators and",
@@ -14999,7 +14999,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 900,
+      "line_number": 898,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "CPS away from pain receptors and pain sensitive structures (Figure 2),",
@@ -15026,7 +15026,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 901,
+      "line_number": 899,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "while this is not the case in the PC method. In the PC method, pricking",
@@ -15053,7 +15053,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 902,
+      "line_number": 900,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "skin may be painful at the tender points beneath which pain-causing",
@@ -15080,7 +15080,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 903,
+      "line_number": 901,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "substances are existing. In addition, localization of inflammation at",
@@ -15107,7 +15107,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 904,
+      "line_number": 902,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "certain sites produces local erythema and tenderness at these sites,",
@@ -15134,7 +15134,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 905,
+      "line_number": 903,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "which makes direct skin puncturing painful as in the PC method.",
@@ -15161,7 +15161,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 907,
+      "line_number": 905,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "4- In the CPC method, collected fluids are nearer to skin surface",
@@ -15188,7 +15188,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 908,
+      "line_number": 906,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "than blood in blood capillaries (Figures 5A and 5B). Blood from injured",
@@ -15215,7 +15215,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 909,
+      "line_number": 907,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "capillaries becomes mixed with collected fluids (interstitial fluids and",
@@ -15242,7 +15242,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 910,
+      "line_number": 908,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "filtered fluids) beneath skin surface and starts to come out mixed with",
@@ -15269,7 +15269,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 911,
+      "line_number": 909,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "the collected fluids i.e. altered blood that comes out through superficial",
@@ -15296,7 +15296,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 912,
+      "line_number": 910,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "skin lacerations induced during wet cupping therapy is a mixture of",
@@ -15323,7 +15323,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 913,
+      "line_number": 911,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "extruded collected fluids and bloodshed at traumatic capillaries. In the",
@@ -15350,7 +15350,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 914,
+      "line_number": 912,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "PC method, fresh blood comes out rapidly as there is no prior collection",
@@ -15377,7 +15377,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 915,
+      "line_number": 913,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "of fluids to slow down its flow. Little tissue fluids are mixed with blood,",
@@ -15404,7 +15404,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 916,
+      "line_number": 914,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "as there is no filtered fluid from capillaries or collected interstitial",
@@ -15431,7 +15431,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 917,
+      "line_number": 915,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "fluids until this step in the PC method i.e. there is no blood clearance",
@@ -15458,7 +15458,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 918,
+      "line_number": 916,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "effect until now in the PC method (Figures 5A and 5B). The noxious",
@@ -15485,7 +15485,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 919,
+      "line_number": 917,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "substances that are present in the interstitial fluids are still present and",
@@ -15512,7 +15512,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 920,
+      "line_number": 918,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "not excreted in the PC method (as noxious substances are not collected",
@@ -15539,7 +15539,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 921,
+      "line_number": 919,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "or diluted in fluids inside skin uplifting in the PC method).",
@@ -15566,7 +15566,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 924,
+      "line_number": 922,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "5- Injury to vessel wall (as that in the puncturing step of cupping",
@@ -15593,7 +15593,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 925,
+      "line_number": 923,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "therapy) stimulates hemostatic mechanisms of blood coagulation",
@@ -15620,7 +15620,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 939,
+      "line_number": 937,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "Altern Integ Med",
@@ -15647,7 +15647,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 940,
+      "line_number": 938,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "Volume 2 • Issue 3 • 1000111",
@@ -15674,7 +15674,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 941,
+      "line_number": 939,
       "page_number": 8,
       "is_in_table": false,
       "md_text_original": "ISSN:2327-5162 AIM, an open access journal",
@@ -15701,7 +15701,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 944,
+      "line_number": 942,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "**Citation:** El Sayed SM, Mahmoud HS, Nabo MMH (2013) Methods of Wet Cupping Therapy (Al-Hijamah): In Light of Modern Medicine and Prophetic",
@@ -15728,7 +15728,7 @@
       "match_confidence": 0.961
     },
     {
-      "line_number": 946,
+      "line_number": 944,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "[Medicine. Altern Integ Med 2: 111. doi:10.4172/2327-5162.1000111](http://dx.doi.org/10.4172/2327-5162.1000111)",
@@ -15755,7 +15755,7 @@
       "match_confidence": 0.749
     },
     {
-      "line_number": 949,
+      "line_number": 947,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "Page 9 of 16",
@@ -15782,7 +15782,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 953,
+      "line_number": 951,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "(both intrinsic and extrinsic pathways). This leads to vasoconstriction,",
@@ -15809,7 +15809,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 954,
+      "line_number": 952,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "platelet plug formation (to seal the bleeding site), formation of fibrin",
@@ -15836,7 +15836,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 955,
+      "line_number": 953,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "thrombus and activation of fibrinolytic system to prevent extension of",
@@ -15863,7 +15863,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 956,
+      "line_number": 954,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "the thrombus soon occurs. Damaged endothelial cells releases tissue",
@@ -15890,7 +15890,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 957,
+      "line_number": 955,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "thromboplastin, which activates the extrinsic pathway of coagulation.",
@@ -15917,7 +15917,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 958,
+      "line_number": 956,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "Exposure of subendothelial collagen stimulates platelet adhesion and",
@@ -15944,7 +15944,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 959,
+      "line_number": 957,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "aggregation, activates factor XII (intrinsic pathway of coagulation) and",
@@ -15971,7 +15971,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 960,
+      "line_number": 958,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "activates fibrinolysis. Platelets soon aggregate to form a platelet plug.",
@@ -15998,7 +15998,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 961,
+      "line_number": 959,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "In addition, platelets release ADP (increases platelet release reactions),",
@@ -16025,7 +16025,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 962,
+      "line_number": 960,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "thromboxane A2 (vasoconstrictor), phospholipids (platelet factor 3",
@@ -16052,7 +16052,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 963,
+      "line_number": 961,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "that is essential for coagulation) and platelet factor 4 that has a local",
@@ -16079,7 +16079,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 964,
+      "line_number": 962,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "anti-heparin effect and is essential for coagulation [84]. Based on that,",
@@ -16106,7 +16106,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 966,
+      "line_number": 964,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "it is essential to start 2 [nd] cupping (suction) step immediately after skin",
@@ -16133,7 +16133,7 @@
       "match_confidence": 0.993
     },
     {
-      "line_number": 968,
+      "line_number": 966,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "skin puncturing in both CPC and PC methods. In addition, on proper",
@@ -16160,7 +16160,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 969,
+      "line_number": 967,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "practice of cupping therapy, collected fluids are excreted with minor",
@@ -16187,7 +16187,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 970,
+      "line_number": 968,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "blood loss.",
@@ -16214,7 +16214,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 973,
+      "line_number": 971,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "6- The initiation of coagulation is caused by activation of factor",
@@ -16241,7 +16241,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 974,
+      "line_number": 972,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "VII through binding of tissue factor (a cell membrane protein). This",
@@ -16268,7 +16268,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 975,
+      "line_number": 973,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "activates formation of thrombin, which converts soluble fibrinogen to",
@@ -16295,7 +16295,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 976,
+      "line_number": 974,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "insoluble fibrin threads. Exposed sub-endothelial collagen together",
@@ -16322,7 +16322,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 977,
+      "line_number": 975,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "with thrombin stimulate platelet aggregation and coagulation cascade",
@@ -16349,7 +16349,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 979,
+      "line_number": 977,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "[85]. Based on that, proper practice of cupping therapy carries no risk",
@@ -16376,7 +16376,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 980,
+      "line_number": 978,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "of bleeding or serious hemorrhage.",
@@ -16403,7 +16403,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 983,
+      "line_number": 981,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "7- In the CPC method, blood coming up from injured capillaries",
@@ -16430,7 +16430,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 984,
+      "line_number": 982,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "towards puncture site at the skin surface is facing some collected",
@@ -16457,7 +16457,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 985,
+      "line_number": 983,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "fluids (Figures 5A and 5B), which may hinder bleeding and enhance",
@@ -16484,7 +16484,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 986,
+      "line_number": 984,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "coagulation [86]. In PC method, the opposite occurs and blood comes",
@@ -16511,7 +16511,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 987,
+      "line_number": 985,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "out directly as it does not meet prior collected fluids.",
@@ -16538,7 +16538,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 990,
+      "line_number": 988,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "8- Bloodshed during cupping therapy is of capillary origin (based",
@@ -16565,7 +16565,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 991,
+      "line_number": 989,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "on the superficial nature of skin lacerations during cupping therapy)",
@@ -16592,7 +16592,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 992,
+      "line_number": 990,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "(Figures 5A and 5B). Depth of skin puncturing in cupping therapy",
@@ -16619,7 +16619,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 993,
+      "line_number": 991,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "is few millimeters [36] unless a superficial vein is injured (cupping",
@@ -16646,7 +16646,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 994,
+      "line_number": 992,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "malpractice). Based on that, capillary bloodshed during cupping",
@@ -16673,7 +16673,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 995,
+      "line_number": 993,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "therapy may help in improving capillary microcirculation, draining",
@@ -16700,7 +16700,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 996,
+      "line_number": 994,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "metabolic byproducts and relieving degree of congestion in congested",
@@ -16727,7 +16727,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 997,
+      "line_number": 995,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "capillaries.",
@@ -16754,7 +16754,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 1000,
+      "line_number": 998,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "**D- 3** **[rd]** **step of wet cupping therapy (2** **[nd]** **cupping)**",
@@ -16782,7 +16782,7 @@
       "match_confidence": 0.979
     },
     {
-      "line_number": 1003,
+      "line_number": 1001,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "1- In the CPC method, when second vacuum pressure is applied",
@@ -16809,7 +16809,7 @@
       "match_confidence": 0.983
     },
     {
-      "line_number": 1004,
+      "line_number": 1002,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "during cupping therapy (negative suction pressure=suction force),",
@@ -16836,7 +16836,7 @@
       "match_confidence": 0.938
     },
     {
-      "line_number": 1005,
+      "line_number": 1003,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "collected fluids are mixed with blood inside skin uplifting then the",
@@ -16863,7 +16863,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 1006,
+      "line_number": 1004,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "mixture is sucked to outside the skin. Contact of blood with collected",
@@ -16890,7 +16890,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 1007,
+      "line_number": 1005,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "tissue fluids (just beneath skin) surface may slow down the speed of",
@@ -16917,7 +16917,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 1008,
+      "line_number": 1006,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "blood flow and may stimulate the coagulation pathway (Figures 5A and",
@@ -16944,7 +16944,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 1009,
+      "line_number": 1007,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "5B) and allow time for thrombin formation [86]. Filtered fluids then",
@@ -16971,7 +16971,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 1010,
+      "line_number": 1008,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "replace extruded fluids soon in the interstitial spaces then become",
@@ -16998,7 +16998,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 1011,
+      "line_number": 1009,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "excreted. In the PC method, application of second vacuum pressure",
@@ -17025,7 +17025,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 1012,
+      "line_number": 1010,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "sucks traumatic blood and enhances bleeding as vacuum pressure",
@@ -17052,7 +17052,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 1013,
+      "line_number": 1011,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "removes blood rapidly, removes formed clots and hinders thrombus",
@@ -17079,7 +17079,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 1014,
+      "line_number": 1012,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "formation. Lack of prior collection of tissue fluids and filtered fluids in",
@@ -17106,7 +17106,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 1015,
+      "line_number": 1013,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "the PC method does not slow down the speed of blood flow (Figures",
@@ -17133,7 +17133,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 1016,
+      "line_number": 1014,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "6A-6D). Blood loss in this cupping step may be much more in the PC",
@@ -17160,7 +17160,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 1017,
+      "line_number": 1015,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "method than in the CPC method of wet cupping therapy (PC has a high",
@@ -17187,7 +17187,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 1018,
+      "line_number": 1016,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "blood letting effect).",
@@ -17214,7 +17214,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 1021,
+      "line_number": 1019,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "2- In the PC method, puncture sites are usually tapped to draw",
@@ -17241,7 +17241,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 1022,
+      "line_number": 1020,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "blood out [6]. In the CPC method, 2 [nd] cupping suctioning is enough",
@@ -17268,7 +17268,7 @@
       "match_confidence": 0.992
     },
     {
-      "line_number": 1023,
+      "line_number": 1021,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "to excrete collected fluids inside skin uplifting (no need for tapping",
@@ -17295,7 +17295,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 1024,
+      "line_number": 1022,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "puncture sites) (Figures 6A-6D).",
@@ -17322,7 +17322,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 1028,
+      "line_number": 1026,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "3- When second vacuum pressure is applied during cupping",
@@ -17349,7 +17349,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 1029,
+      "line_number": 1027,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "therapy, traction forces lead to increased capillary permeability.",
@@ -17376,7 +17376,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 1030,
+      "line_number": 1028,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "Observations of Shirley et al. that intravenous infusion of albumin",
@@ -17403,7 +17403,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 1031,
+      "line_number": 1029,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "caused capillary distension and increases maximally the porosity of the",
@@ -17430,7 +17430,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 1032,
+      "line_number": 1030,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "capillaries led to the conclusion that capillary pores can be stretched",
@@ -17457,7 +17457,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 1033,
+      "line_number": 1031,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "i.e. capillary pores are not rigid structures [87]. Based on that, negative",
@@ -17484,7 +17484,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 1034,
+      "line_number": 1032,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "pressure suctioning in cupping therapy may stretch capillary pores and",
@@ -17511,7 +17511,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 1035,
+      "line_number": 1033,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "enhance fluid filtration and capillary blood clearance especially during",
@@ -17538,7 +17538,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 1037,
+      "line_number": 1035,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "the 1 [st] capillary reaction to skin puncturing (about 10 minutes) [81,82].",
@@ -17565,7 +17565,7 @@
       "match_confidence": 0.993
     },
     {
-      "line_number": 1040,
+      "line_number": 1038,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "4- In the CPC method, when second vacuum pressure is applied",
@@ -17592,7 +17592,7 @@
       "match_confidence": 0.983
     },
     {
-      "line_number": 1041,
+      "line_number": 1039,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "during cupping therapy; negative suction pressure (suction force and",
@@ -17619,7 +17619,7 @@
       "match_confidence": 0.938
     },
     {
-      "line_number": 1075,
+      "line_number": 1073,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "Altern Integ Med",
@@ -17646,7 +17646,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 1076,
+      "line_number": 1074,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "Volume 2 • Issue 3 • 1000111",
@@ -17673,7 +17673,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 1077,
+      "line_number": 1075,
       "page_number": 9,
       "is_in_table": false,
       "md_text_original": "ISSN:2327-5162 AIM, an open access journal",
@@ -17700,7 +17700,7 @@
       "match_confidence": 1.0
     },
     {
-      "line_number": 1080,
+      "line_number": 1078,
       "page_number": 10,
       "is_in_table": false,
       "md_text_original": "**Citation:** El Sayed SM, Mahmoud HS, Nabo MMH (2013) Methods of Wet Cupping Therapy (Al-Hijamah): In Light of Modern Medicine and Prophetic",
@@ -17727,7 +17727,7 @@
       "match_confidence": 0.961
     },
     {
-      "line_number": 1082,
+      "line_number": 1080,
       "page_number": 10,
       "is_in_table": false,
       "md_text_original": "[Medicine. Altern Integ Med 2: 111. doi:10.4172/2327-5162.1000111](http://dx.doi.org/10.4172/2327-5162.1000111)",
@@ -17754,7 +17754,7 @@
       "match_confidence": 0.749
     },
     {
-      "line_number": 1085,
+      "line_number": 1083,
       "page_number": 10,
       "is_in_table": false,
       "md_text_original": "Page 10 of 16",

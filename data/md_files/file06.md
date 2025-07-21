@@ -608,8 +608,6 @@ opens skin barrier and enhances skin excretory role.
 
 
 
-
-
 subsequently the interstitial pressure include the plasma composition,
 the balance of Starling forces across the capillary wall (principally
 capillary hydrostatic pressure and plasma protein osmotic pressure),
@@ -679,22 +677,6 @@ cupping therapy (Figure 3A); negative suction pressure collects
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 interstitial fluids in the cupped area causing uplifting of the skin inside
 cups without any fluid leakage through skin (skin barrier) as intact skin
 prevents extrusion of tissue fluids (Figure 3B) to outside due to high
@@ -729,6 +711,22 @@ relief of tension muscular spasm. Based on that, all those constitute the
 scientific rationale of dry cupping therapy.
 
 4- At first, the high negative pressure of cupping therapy sucks more
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1083,6 +1081,8 @@ ISSN:2327-5162 AIM, an open access journal
 
 
 Page 10 of 16
+
+
 
 
 

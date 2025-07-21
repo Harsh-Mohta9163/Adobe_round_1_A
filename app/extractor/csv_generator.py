@@ -51,9 +51,11 @@ def calculate_features_for_merging(line_a: dict, line_b: dict, page_stats: dict)
     else:
         features['indentation_change'] = 0
     
-    # Font size difference
+    # Font sizes
     font_size_a = features_a.get('font_size', 12.0)
     font_size_b = features_b.get('font_size', 12.0)
+    features['font_size_a'] = round(font_size_a, 2)
+    features['font_size_b'] = round(font_size_b, 2)
     features['font_size_diff'] = round(font_size_b - font_size_a, 2)
     
     # Same font
@@ -146,7 +148,7 @@ def generate_csv_from_aggregated(pdf_name: str):
     with open(output_csv_path, 'w', newline='', encoding='utf-8-sig') as csvfile:
         fieldnames = [
             'text_a', 'text_b', 'normalized_vertical_gap', 'indentation_change', 
-            'font_size_diff', 'same_font', 'line_a_ends_punctuation', 
+            'font_size_a', 'font_size_b', 'font_size_diff', 'same_font', 'line_a_ends_punctuation', 
             'line_b_starts_lowercase', 'same_alignment', 'is_centered_A', 
             'is_centered_B', 'is_linea_in_rectangle', 'is_lineb_in_rectangle', 
             'both_in_table', 'neither_in_table', 'label'
