@@ -1,1 +1,6 @@
-venv/
+
+# Keep the directories but ignore their contents initially
+data/input/*
+data/labelled_grundtruth_csv/*
+!data/input/.gitkeep
+!data/labelled_grundtruth_csv/.gitkeep
