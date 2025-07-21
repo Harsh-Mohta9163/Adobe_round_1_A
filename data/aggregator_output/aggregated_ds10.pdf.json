@@ -1,0 +1,561 @@
+{
+  "summary": {
+    "total_md_lines": 21,
+    "matched_lines": 15,
+    "unmatched_lines": 6,
+    "table_lines_processed": 17,
+    "table_lines_matched": 13,
+    "table_match_percentage": 76.47,
+    "match_percentage": 71.43,
+    "total_spans_available": 141,
+    "spans_used": 15,
+    "processing_time_seconds": 0.88,
+    "lines_per_second": 23.76,
+    "avg_spans_searched_per_line": 90.4,
+    "optimization_speedup": "1.6x faster than full search",
+    "pages_available": 2
+  },
+  "aggregated_data": [
+    {
+      "line_number": 1,
+      "page_number": 1,
+      "is_in_table": false,
+      "md_text_original": "**DS-10  10-2024** **Page 1 of 2**",
+      "md_text_cleaned": "DS-10  10-2024 Page 1 of 2",
+      "span_text": "DS-10   10-2024",
+      "matched_page": 1,
+      "span_match": true,
+      "features": {
+        "page_num": 1,
+        "column": 1,
+        "bbox": [
+          36,
+          398,
+          612,
+          780
+        ],
+        "font_name": "Arial-BoldMT",
+        "font_size": 8.0,
+        "font_styles": [
+          "bold"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.684
+    },
+    {
+      "line_number": 4,
+      "page_number": null,
+      "is_in_table": false,
+      "md_text_original": "U.S. Department of State OMB Control No. 1405-0132",
+      "md_text_cleaned": "U.S. Department of State OMB Control No. 1405-0132",
+      "span_text": null,
+      "matched_page": null,
+      "span_match": false,
+      "features": null,
+      "match_confidence": null
+    },
+    {
+      "line_number": 5,
+      "page_number": null,
+      "is_in_table": false,
+      "md_text_original": "Expiration Date: 10-31-2027",
+      "md_text_cleaned": "Expiration Date: 10-31-2027",
+      "span_text": null,
+      "matched_page": null,
+      "span_match": false,
+      "features": null,
+      "match_confidence": null
+    },
+    {
+      "line_number": 54,
+      "page_number": 2,
+      "is_in_table": true,
+      "md_text_original": "|BIRTH AFFIDAVIT Use black ink only. If you make an error, complete a new form. Do not correct. Expiration Date: 10- Estimated Burden: 4|Col2|Col3|Col4|-31-2027 40 Minutes RESET|",
+      "md_text_cleaned": "BIRTH AFFIDAVIT Use black ink only. If you make an error, complete a new form. Do not correct. Expiration Date: 10- Estimated Burden: 4Col2Col3Col4-31-2027 40 Minutes RESET",
+      "span_text": "Use black ink only. If you make an error, complete a new form. Do not correct.",
+      "matched_page": 2,
+      "span_match": true,
+      "features": {
+        "page_num": 2,
+        "column": 0,
+        "bbox": [
+          164,
+          50,
+          569,
+          62
+        ],
+        "font_name": "Arial-ItalicMT",
+        "font_size": 8.0,
+        "font_styles": [
+          "italic"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.624
+    },
+    {
+      "line_number": 55,
+      "page_number": null,
+      "is_in_table": true,
+      "md_text_original": "|---|---|---|---|---|",
+      "md_text_cleaned": "",
+      "span_text": null,
+      "matched_page": null,
+      "span_match": false,
+      "features": null,
+      "match_confidence": null
+    },
+    {
+      "line_number": 56,
+      "page_number": 2,
+      "is_in_table": true,
+      "md_text_original": "|_Use black ink only. If you make an error, complete a new form. Do not correct._|_Use black ink only. If you make an error, complete a new form. Do not correct._|_Use black ink only. If you make an error, complete a new form. Do not correct._|_Use black ink only. If you make an error, complete a new form. Do not correct._|**RESET**|",
+      "md_text_cleaned": "Use black ink only. If you make an error, complete a new form. Do not correct.Use black ink only. If you make an error, complete a new form. Do not correct.Use black ink only. If you make an error, complete a new form. Do not correct.Use black ink only. If you make an error, complete a new form. Do not correct.RESET",
+      "span_text": "RESET",
+      "matched_page": 2,
+      "span_match": true,
+      "features": {
+        "page_num": 2,
+        "column": 0,
+        "bbox": [
+          164,
+          50,
+          569,
+          62
+        ],
+        "font_name": "Arial,Bold",
+        "font_size": 7.000159740447998,
+        "font_styles": [
+          "bold"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.031
+    },
+    {
+      "line_number": 57,
+      "page_number": 2,
+      "is_in_table": true,
+      "md_text_original": "|**1. Name of Passport Applicant**|**1. Name of Passport Applicant**|**1. Name of Passport Applicant**|**1. Name of Passport Applicant**|**1. Name of Passport Applicant**|",
+      "md_text_cleaned": "1. Name of Passport Applicant1. Name of Passport Applicant1. Name of Passport Applicant1. Name of Passport Applicant1. Name of Passport Applicant",
+      "span_text": "1. Name of Passport Applicant",
+      "matched_page": 2,
+      "span_match": true,
+      "features": {
+        "page_num": 2,
+        "column": 23,
+        "bbox": [
+          39,
+          67,
+          185,
+          82
+        ],
+        "font_name": "Arial-BoldMT",
+        "font_size": 9.999799728393555,
+        "font_styles": [
+          "bold"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.333
+    },
+    {
+      "line_number": 58,
+      "page_number": 2,
+      "is_in_table": true,
+      "md_text_original": "|Last<br>Suffix<br>(_Jr.,Sr.,III_)|Last<br>Suffix<br>(_Jr.,Sr.,III_)|Last<br>Suffix<br>(_Jr.,Sr.,III_)|Last<br>Suffix<br>(_Jr.,Sr.,III_)|Last<br>Suffix<br>(_Jr.,Sr.,III_)|",
+      "md_text_cleaned": "Last Suffix Jr.,Sr.,IIILast Suffix Jr.,Sr.,IIILast Suffix Jr.,Sr.,IIILast Suffix Jr.,Sr.,IIILast Suffix Jr.,Sr.,III",
+      "span_text": "(Jr.,Sr.,III)",
+      "matched_page": 2,
+      "span_match": true,
+      "features": {
+        "page_num": 2,
+        "column": 2,
+        "bbox": [
+          362,
+          91,
+          398,
+          103
+        ],
+        "font_name": "ArialMT",
+        "font_size": 7.999899864196777,
+        "font_styles": [
+          "normal"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.175
+    },
+    {
+      "line_number": 59,
+      "page_number": 2,
+      "is_in_table": true,
+      "md_text_original": "|First<br>Middle|First<br>Middle|First<br>Middle|First<br>Middle|First<br>Middle|",
+      "md_text_cleaned": "First MiddleFirst MiddleFirst MiddleFirst MiddleFirst Middle",
+      "span_text": "Middle",
+      "matched_page": 2,
+      "span_match": true,
+      "features": {
+        "page_num": 2,
+        "column": 4,
+        "bbox": [
+          346,
+          113,
+          377,
+          127
+        ],
+        "font_name": "ArialMT",
+        "font_size": 9.999799728393555,
+        "font_styles": [
+          "normal"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.182
+    },
+    {
+      "line_number": 60,
+      "page_number": 2,
+      "is_in_table": true,
+      "md_text_original": "|**2. Passport Applicant's Date of Birth**|**3. Passport Applicant's Place of** <br>**Birth**( _City and_ _State_)|**3. Passport Applicant's Place of** <br>**Birth**( _City and_ _State_)|**3. Passport Applicant's Place of** <br>**Birth**( _City and_ _State_)|**3. Passport Applicant's Place of** <br>**Birth**( _City and_ _State_)|",
+      "md_text_cleaned": "2. Passport Applicant's Date of Birth3. Passport Applicant's Place of Birth City and State3. Passport Applicant's Place of Birth City and State3. Passport Applicant's Place of Birth City and State3. Passport Applicant's Place of Birth City and State",
+      "span_text": "2. Passport Applicant's Date of Birth",
+      "matched_page": 2,
+      "span_match": true,
+      "features": {
+        "page_num": 2,
+        "column": 25,
+        "bbox": [
+          39,
+          132,
+          214,
+          148
+        ],
+        "font_name": "Arial-BoldMT",
+        "font_size": 10.0,
+        "font_styles": [
+          "bold"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.259
+    },
+    {
+      "line_number": 61,
+      "page_number": null,
+      "is_in_table": true,
+      "md_text_original": "||||||",
+      "md_text_cleaned": "",
+      "span_text": null,
+      "matched_page": null,
+      "span_match": false,
+      "features": null,
+      "match_confidence": null
+    },
+    {
+      "line_number": 62,
+      "page_number": 2,
+      "is_in_table": true,
+      "md_text_original": "|**4. Passport Applicant's Current Home Address**|**4. Passport Applicant's Current Home Address**|**4. Passport Applicant's Current Home Address**|**4. Passport Applicant's Current Home Address**|**4. Passport Applicant's Current Home Address**|",
+      "md_text_cleaned": "4. Passport Applicant's Current Home Address4. Passport Applicant's Current Home Address4. Passport Applicant's Current Home Address4. Passport Applicant's Current Home Address4. Passport Applicant's Current Home Address",
+      "span_text": "4. Passport Applicant's Current Home Address",
+      "matched_page": 2,
+      "span_match": true,
+      "features": {
+        "page_num": 2,
+        "column": 27,
+        "bbox": [
+          39,
+          175,
+          263,
+          190
+        ],
+        "font_name": "Arial-BoldMT",
+        "font_size": 10.0,
+        "font_styles": [
+          "bold"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.333
+    },
+    {
+      "line_number": 63,
+      "page_number": 2,
+      "is_in_table": true,
+      "md_text_original": "|Street|Street|Street|Apartment/Unit|Apartment/Unit|",
+      "md_text_cleaned": "StreetStreetStreetApartment/UnitApartment/Unit",
+      "span_text": "Street",
+      "matched_page": 2,
+      "span_match": true,
+      "features": {
+        "page_num": 2,
+        "column": 5,
+        "bbox": [
+          38,
+          195,
+          66,
+          236
+        ],
+        "font_name": "ArialMT",
+        "font_size": 9.999799728393555,
+        "font_styles": [
+          "normal"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.231
+    },
+    {
+      "line_number": 64,
+      "page_number": 2,
+      "is_in_table": true,
+      "md_text_original": "|City|City|State/Country|Zip/Postal Code|Zip/Postal Code|",
+      "md_text_cleaned": "CityCityState/CountryZip/Postal CodeZip/Postal Code",
+      "span_text": "City",
+      "matched_page": 2,
+      "span_match": true,
+      "features": {
+        "page_num": 2,
+        "column": 5,
+        "bbox": [
+          38,
+          195,
+          66,
+          236
+        ],
+        "font_name": "ArialMT",
+        "font_size": 9.999799728393555,
+        "font_styles": [
+          "normal"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.145
+    },
+    {
+      "line_number": 65,
+      "page_number": 2,
+      "is_in_table": true,
+      "md_text_original": "|**5. How many years have you (the affiant)**<br>**known the passport applicant?**|**6. How do you (the affiant) know the passport applicant?**<br>**(e.g., Older Sibling, Parent, or Physician)**|**6. How do you (the affiant) know the passport applicant?**<br>**(e.g., Older Sibling, Parent, or Physician)**|**6. How do you (the affiant) know the passport applicant?**<br>**(e.g., Older Sibling, Parent, or Physician)**|**6. How do you (the affiant) know the passport applicant?**<br>**(e.g., Older Sibling, Parent, or Physician)**|",
+      "md_text_cleaned": "5. How many years have you the affiant known the passport applicant?6. How do you the affiant know the passport applicant? e.g., Older Sibling, Parent, or Physician6. How do you the affiant know the passport applicant? e.g., Older Sibling, Parent, or Physician6. How do you the affiant know the passport applicant? e.g., Older Sibling, Parent, or Physician6. How do you the affiant know the passport applicant? e.g., Older Sibling, Parent, or Physician",
+      "span_text": "5. How many years have you (the affiant)",
+      "matched_page": 2,
+      "span_match": true,
+      "features": {
+        "page_num": 2,
+        "column": 28,
+        "bbox": [
+          39,
+          242,
+          234,
+          258
+        ],
+        "font_name": "Arial-BoldMT",
+        "font_size": 10.0,
+        "font_styles": [
+          "bold"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.155
+    },
+    {
+      "line_number": 66,
+      "page_number": null,
+      "is_in_table": true,
+      "md_text_original": "||||||",
+      "md_text_cleaned": "",
+      "span_text": null,
+      "matched_page": null,
+      "span_match": false,
+      "features": null,
+      "match_confidence": null
+    },
+    {
+      "line_number": 67,
+      "page_number": 2,
+      "is_in_table": true,
+      "md_text_original": "|~~**7. Write everything you (the affiant) remember about the passport applicant’s birth in detail. Include the date/time/location of**~~<br>**the passport applicant’s birth, individuals present, and any other personal knowledge about the event and how you (the**<br>**affiant) obtained knowledge of the event. List the names of the passport applicant’s birth parents and your (the affiant’s)**<br>**relationship to the passport applicant and/or birth parents. (Attach a separate piece of paper if more space is needed.)**|~~**7. Write everything you (the affiant) remember about the passport applicant’s birth in detail. Include the date/time/location of**~~<br>**the passport applicant’s birth, individuals present, and any other personal knowledge about the event and how you (the**<br>**affiant) obtained knowledge of the event. List the names of the passport applicant’s birth parents and your (the affiant’s)**<br>**relationship to the passport applicant and/or birth parents. (Attach a separate piece of paper if more space is needed.)**|~~**7. Write everything you (the affiant) remember about the passport applicant’s birth in detail. Include the date/time/location of**~~<br>**the passport applicant’s birth, individuals present, and any other personal knowledge about the event and how you (the**<br>**affiant) obtained knowledge of the event. List the names of the passport applicant’s birth parents and your (the affiant’s)**<br>**relationship to the passport applicant and/or birth parents. (Attach a separate piece of paper if more space is needed.)**|~~**7. Write everything you (the affiant) remember about the passport applicant’s birth in detail. Include the date/time/location of**~~<br>**the passport applicant’s birth, individuals present, and any other personal knowledge about the event and how you (the**<br>**affiant) obtained knowledge of the event. List the names of the passport applicant’s birth parents and your (the affiant’s)**<br>**relationship to the passport applicant and/or birth parents. (Attach a separate piece of paper if more space is needed.)**|~~**7. Write everything you (the affiant) remember about the passport applicant’s birth in detail. Include the date/time/location of**~~<br>**the passport applicant’s birth, individuals present, and any other personal knowledge about the event and how you (the**<br>**affiant) obtained knowledge of the event. List the names of the passport applicant’s birth parents and your (the affiant’s)**<br>**relationship to the passport applicant and/or birth parents. (Attach a separate piece of paper if more space is needed.)**|",
+      "md_text_cleaned": "~~7. Write everything you the affiant remember about the passport applicant’s birth in detail. Include the date/time/location of~~ the passport applicant’s birth, individuals present, and any other personal knowledge about the event and how you the affiant obtained knowledge of the event. List the names of the passport applicant’s birth parents and your the affiant’s relationship to the passport applicant and/or birth parents. Attach a separate piece of paper if more space is needed.~~7. Write everything you the affiant remember about the passport applicant’s birth in detail. Include the date/time/location of~~ the passport applicant’s birth, individuals present, and any other personal knowledge about the event and how you the affiant obtained knowledge of the event. List the names of the passport applicant’s birth parents and your the affiant’s relationship to the passport applicant and/or birth parents. Attach a separate piece of paper if more space is needed.~~7. Write everything you the affiant remember about the passport applicant’s birth in detail. Include the date/time/location of~~ the passport applicant’s birth, individuals present, and any other personal knowledge about the event and how you the affiant obtained knowledge of the event. List the names of the passport applicant’s birth parents and your the affiant’s relationship to the passport applicant and/or birth parents. Attach a separate piece of paper if more space is needed.~~7. Write everything you the affiant remember about the passport applicant’s birth in detail. Include the date/time/location of~~ the passport applicant’s birth, individuals present, and any other personal knowledge about the event and how you the affiant obtained knowledge of the event. List the names of the passport applicant’s birth parents and your the affiant’s relationship to the passport applicant and/or birth parents. Attach a separate piece of paper if more space is needed.~~7. Write everything you the affiant remember about the passport applicant’s birth in detail. Include the date/time/location of~~ the passport applicant’s birth, individuals present, and any other personal knowledge about the event and how you the affiant obtained knowledge of the event. List the names of the passport applicant’s birth parents and your the affiant’s relationship to the passport applicant and/or birth parents. Attach a separate piece of paper if more space is needed.",
+      "span_text": "Location",
+      "matched_page": 2,
+      "span_match": true,
+      "features": {
+        "page_num": 2,
+        "column": 20,
+        "bbox": [
+          365,
+          746,
+          413,
+          761
+        ],
+        "font_name": "Arial-BoldMT",
+        "font_size": 9.999799728393555,
+        "font_styles": [
+          "bold"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.007
+    },
+    {
+      "line_number": 68,
+      "page_number": null,
+      "is_in_table": true,
+      "md_text_original": "||||||",
+      "md_text_cleaned": "",
+      "span_text": null,
+      "matched_page": null,
+      "span_match": false,
+      "features": null,
+      "match_confidence": null
+    },
+    {
+      "line_number": 69,
+      "page_number": 2,
+      "is_in_table": true,
+      "md_text_original": "|**  YOU (THE AFFIANT) MUST:**<br>**• Sign this form in front of a passport agent, passport acceptance agent, or notary.**<br>**• Submit a clear photocopy of the front and back of the valid ID you presented to the passport agent,**<br>**passport acceptance agent, or notary.**|**  YOU (THE AFFIANT) MUST:**<br>**• Sign this form in front of a passport agent, passport acceptance agent, or notary.**<br>**• Submit a clear photocopy of the front and back of the valid ID you presented to the passport agent,**<br>**passport acceptance agent, or notary.**|**  YOU (THE AFFIANT) MUST:**<br>**• Sign this form in front of a passport agent, passport acceptance agent, or notary.**<br>**• Submit a clear photocopy of the front and back of the valid ID you presented to the passport agent,**<br>**passport acceptance agent, or notary.**|**  YOU (THE AFFIANT) MUST:**<br>**• Sign this form in front of a passport agent, passport acceptance agent, or notary.**<br>**• Submit a clear photocopy of the front and back of the valid ID you presented to the passport agent,**<br>**passport acceptance agent, or notary.**|**  YOU (THE AFFIANT) MUST:**<br>**• Sign this form in front of a passport agent, passport acceptance agent, or notary.**<br>**• Submit a clear photocopy of the front and back of the valid ID you presented to the passport agent,**<br>**passport acceptance agent, or notary.**|",
+      "md_text_cleaned": "YOU THE AFFIANT MUST: • Sign this form in front of a passport agent, passport acceptance agent, or notary. • Submit a clear photocopy of the front and back of the valid ID you presented to the passport agent, passport acceptance agent, or notary. YOU THE AFFIANT MUST: • Sign this form in front of a passport agent, passport acceptance agent, or notary. • Submit a clear photocopy of the front and back of the valid ID you presented to the passport agent, passport acceptance agent, or notary. YOU THE AFFIANT MUST: • Sign this form in front of a passport agent, passport acceptance agent, or notary. • Submit a clear photocopy of the front and back of the valid ID you presented to the passport agent, passport acceptance agent, or notary. YOU THE AFFIANT MUST: • Sign this form in front of a passport agent, passport acceptance agent, or notary. • Submit a clear photocopy of the front and back of the valid ID you presented to the passport agent, passport acceptance agent, or notary. YOU THE AFFIANT MUST: • Sign this form in front of a passport agent, passport acceptance agent, or notary. • Submit a clear photocopy of the front and back of the valid ID you presented to the passport agent, passport acceptance agent, or notary.",
+      "span_text": "NOTARY",
+      "matched_page": 2,
+      "span_match": true,
+      "features": {
+        "page_num": 2,
+        "column": 14,
+        "bbox": [
+          154,
+          600,
+          484,
+          627
+        ],
+        "font_name": "ArialMT",
+        "font_size": 9.999799728393555,
+        "font_styles": [
+          "normal"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.01
+    },
+    {
+      "line_number": 70,
+      "page_number": 2,
+      "is_in_table": true,
+      "md_text_original": "|~~**Printed Name of Affiant**~~<br>**(The affiant is the person filling out this form)**<br>**Signature of Affiant**<br>** Address of Affiant**<br>**at**<br>~~** Name of Passport Agent, Passport Acceptance Agent, or Notary**~~<br>NOTARY<br> <br> SEAL<br>**(****_Number and Street, City, State, and Zip Code_)**<br>Driver's License<br>~~**_ (Passport Agency or City & State)_**~~<br>**Social Security Number of Affiant**<br>~~** Location**~~<br>**Date of Birth of Affiant (MM/DD/YYYY)**<br>**_OATH: I declare under penalty of perjury that the above information given by me is true and correct to the best of my_**<br>**_knowledge._**<br> r<br>e<br>h<br>t<br>O<br>tr<br>o<br>p<br>s<br>s<br>a<br>P<br>Military ID<br>(_specify_)<br>**Identifying Document **<br>**Presented:**<br>ID Number:<br>Issue Date (_MM/DD/YYYY_):<br>**On (****_MM/DD/YYYY_) _________,the affiant listed above, who is not related to me, personally appeared before me and is known to me to be**<br>**the person whose name is subscribed to and acknowledged that they executed the same for the uses and purposes therein contained.**<br>**I have properly verified the identity of the affiant by personally viewing the above noted identification document and matching photocopy.**<br>Place of Issue:<br>Expiration Date (_MM/DD/YYYY_):|~~**Printed Name of Affiant**~~<br>**(The affiant is the person filling out this form)**<br>**Signature of Affiant**<br>** Address of Affiant**<br>**at**<br>~~** Name of Passport Agent, Passport Acceptance Agent, or Notary**~~<br>NOTARY<br> <br> SEAL<br>**(****_Number and Street, City, State, and Zip Code_)**<br>Driver's License<br>~~**_ (Passport Agency or City & State)_**~~<br>**Social Security Number of Affiant**<br>~~** Location**~~<br>**Date of Birth of Affiant (MM/DD/YYYY)**<br>**_OATH: I declare under penalty of perjury that the above information given by me is true and correct to the best of my_**<br>**_knowledge._**<br> r<br>e<br>h<br>t<br>O<br>tr<br>o<br>p<br>s<br>s<br>a<br>P<br>Military ID<br>(_specify_)<br>**Identifying Document **<br>**Presented:**<br>ID Number:<br>Issue Date (_MM/DD/YYYY_):<br>**On (****_MM/DD/YYYY_) _________,the affiant listed above, who is not related to me, personally appeared before me and is known to me to be**<br>**the person whose name is subscribed to and acknowledged that they executed the same for the uses and purposes therein contained.**<br>**I have properly verified the identity of the affiant by personally viewing the above noted identification document and matching photocopy.**<br>Place of Issue:<br>Expiration Date (_MM/DD/YYYY_):|~~**Printed Name of Affiant**~~<br>**(The affiant is the person filling out this form)**<br>**Signature of Affiant**<br>** Address of Affiant**<br>**at**<br>~~** Name of Passport Agent, Passport Acceptance Agent, or Notary**~~<br>NOTARY<br> <br> SEAL<br>**(****_Number and Street, City, State, and Zip Code_)**<br>Driver's License<br>~~**_ (Passport Agency or City & State)_**~~<br>**Social Security Number of Affiant**<br>~~** Location**~~<br>**Date of Birth of Affiant (MM/DD/YYYY)**<br>**_OATH: I declare under penalty of perjury that the above information given by me is true and correct to the best of my_**<br>**_knowledge._**<br> r<br>e<br>h<br>t<br>O<br>tr<br>o<br>p<br>s<br>s<br>a<br>P<br>Military ID<br>(_specify_)<br>**Identifying Document **<br>**Presented:**<br>ID Number:<br>Issue Date (_MM/DD/YYYY_):<br>**On (****_MM/DD/YYYY_) _________,the affiant listed above, who is not related to me, personally appeared before me and is known to me to be**<br>**the person whose name is subscribed to and acknowledged that they executed the same for the uses and purposes therein contained.**<br>**I have properly verified the identity of the affiant by personally viewing the above noted identification document and matching photocopy.**<br>Place of Issue:<br>Expiration Date (_MM/DD/YYYY_):|~~**Printed Name of Affiant**~~<br>**(The affiant is the person filling out this form)**<br>**Signature of Affiant**<br>** Address of Affiant**<br>**at**<br>~~** Name of Passport Agent, Passport Acceptance Agent, or Notary**~~<br>NOTARY<br> <br> SEAL<br>**(****_Number and Street, City, State, and Zip Code_)**<br>Driver's License<br>~~**_ (Passport Agency or City & State)_**~~<br>**Social Security Number of Affiant**<br>~~** Location**~~<br>**Date of Birth of Affiant (MM/DD/YYYY)**<br>**_OATH: I declare under penalty of perjury that the above information given by me is true and correct to the best of my_**<br>**_knowledge._**<br> r<br>e<br>h<br>t<br>O<br>tr<br>o<br>p<br>s<br>s<br>a<br>P<br>Military ID<br>(_specify_)<br>**Identifying Document **<br>**Presented:**<br>ID Number:<br>Issue Date (_MM/DD/YYYY_):<br>**On (****_MM/DD/YYYY_) _________,the affiant listed above, who is not related to me, personally appeared before me and is known to me to be**<br>**the person whose name is subscribed to and acknowledged that they executed the same for the uses and purposes therein contained.**<br>**I have properly verified the identity of the affiant by personally viewing the above noted identification document and matching photocopy.**<br>Place of Issue:<br>Expiration Date (_MM/DD/YYYY_):|~~**Printed Name of Affiant**~~<br>**(The affiant is the person filling out this form)**<br>**Signature of Affiant**<br>** Address of Affiant**<br>**at**<br>~~** Name of Passport Agent, Passport Acceptance Agent, or Notary**~~<br>NOTARY<br> <br> SEAL<br>**(****_Number and Street, City, State, and Zip Code_)**<br>Driver's License<br>~~**_ (Passport Agency or City & State)_**~~<br>**Social Security Number of Affiant**<br>~~** Location**~~<br>**Date of Birth of Affiant (MM/DD/YYYY)**<br>**_OATH: I declare under penalty of perjury that the above information given by me is true and correct to the best of my_**<br>**_knowledge._**<br> r<br>e<br>h<br>t<br>O<br>tr<br>o<br>p<br>s<br>s<br>a<br>P<br>Military ID<br>(_specify_)<br>**Identifying Document **<br>**Presented:**<br>ID Number:<br>Issue Date (_MM/DD/YYYY_):<br>**On (****_MM/DD/YYYY_) _________,the affiant listed above, who is not related to me, personally appeared before me and is known to me to be**<br>**the person whose name is subscribed to and acknowledged that they executed the same for the uses and purposes therein contained.**<br>**I have properly verified the identity of the affiant by personally viewing the above noted identification document and matching photocopy.**<br>Place of Issue:<br>Expiration Date (_MM/DD/YYYY_):|",
+      "md_text_cleaned": "~~Printed Name of Affiant~~ The affiant is the person filling out this form Signature of Affiant  Address of Affiant at ~~ Name of Passport Agent, Passport Acceptance Agent, or Notary~~ NOTARY SEAL Number and Street, City, State, and Zip Code Driver's License ~~ Passport Agency or City & State~~ Social Security Number of Affiant ~~ Location~~ Date of Birth of Affiant MM/DD/YYYY OATH: I declare under penalty of perjury that the above information given by me is true and correct to the best of my knowledge. r e h t O tr o p s s a P Military ID specify Identifying Document  Presented: ID Number: Issue Date MM/DD/YYYY: On MM/DD/YYYY ,the affiant listed above, who is not related to me, personally appeared before me and is known to me to be the person whose name is subscribed to and acknowledged that they executed the same for the uses and purposes therein contained. I have properly verified the identity of the affiant by personally viewing the above noted identification document and matching photocopy. Place of Issue: Expiration Date MM/DD/YYYY:~~Printed Name of Affiant~~ The affiant is the person filling out this form Signature of Affiant  Address of Affiant at ~~ Name of Passport Agent, Passport Acceptance Agent, or Notary~~ NOTARY SEAL Number and Street, City, State, and Zip Code Driver's License ~~ Passport Agency or City & State~~ Social Security Number of Affiant ~~ Location~~ Date of Birth of Affiant MM/DD/YYYY OATH: I declare under penalty of perjury that the above information given by me is true and correct to the best of my knowledge. r e h t O tr o p s s a P Military ID specify Identifying Document  Presented: ID Number: Issue Date MM/DD/YYYY: On MM/DD/YYYY ,the affiant listed above, who is not related to me, personally appeared before me and is known to me to be the person whose name is subscribed to and acknowledged that they executed the same for the uses and purposes therein contained. I have properly verified the identity of the affiant by personally viewing the above noted identification document and matching photocopy. Place of Issue: Expiration Date MM/DD/YYYY:~~Printed Name of Affiant~~ The affiant is the person filling out this form Signature of Affiant  Address of Affiant at ~~ Name of Passport Agent, Passport Acceptance Agent, or Notary~~ NOTARY SEAL Number and Street, City, State, and Zip Code Driver's License ~~ Passport Agency or City & State~~ Social Security Number of Affiant ~~ Location~~ Date of Birth of Affiant MM/DD/YYYY OATH: I declare under penalty of perjury that the above information given by me is true and correct to the best of my knowledge. r e h t O tr o p s s a P Military ID specify Identifying Document  Presented: ID Number: Issue Date MM/DD/YYYY: On MM/DD/YYYY ,the affiant listed above, who is not related to me, personally appeared before me and is known to me to be the person whose name is subscribed to and acknowledged that they executed the same for the uses and purposes therein contained. I have properly verified the identity of the affiant by personally viewing the above noted identification document and matching photocopy. Place of Issue: Expiration Date MM/DD/YYYY:~~Printed Name of Affiant~~ The affiant is the person filling out this form Signature of Affiant  Address of Affiant at ~~ Name of Passport Agent, Passport Acceptance Agent, or Notary~~ NOTARY SEAL Number and Street, City, State, and Zip Code Driver's License ~~ Passport Agency or City & State~~ Social Security Number of Affiant ~~ Location~~ Date of Birth of Affiant MM/DD/YYYY OATH: I declare under penalty of perjury that the above information given by me is true and correct to the best of my knowledge. r e h t O tr o p s s a P Military ID specify Identifying Document  Presented: ID Number: Issue Date MM/DD/YYYY: On MM/DD/YYYY ,the affiant listed above, who is not related to me, personally appeared before me and is known to me to be the person whose name is subscribed to and acknowledged that they executed the same for the uses and purposes therein contained. I have properly verified the identity of the affiant by personally viewing the above noted identification document and matching photocopy. Place of Issue: Expiration Date MM/DD/YYYY:~~Printed Name of Affiant~~ The affiant is the person filling out this form Signature of Affiant  Address of Affiant at ~~ Name of Passport Agent, Passport Acceptance Agent, or Notary~~ NOTARY SEAL Number and Street, City, State, and Zip Code Driver's License ~~ Passport Agency or City & State~~ Social Security Number of Affiant ~~ Location~~ Date of Birth of Affiant MM/DD/YYYY OATH: I declare under penalty of perjury that the above information given by me is true and correct to the best of my knowledge. r e h t O tr o p s s a P Military ID specify Identifying Document  Presented: ID Number: Issue Date MM/DD/YYYY: On MM/DD/YYYY ,the affiant listed above, who is not related to me, personally appeared before me and is known to me to be the person whose name is subscribed to and acknowledged that they executed the same for the uses and purposes therein contained. I have properly verified the identity of the affiant by personally viewing the above noted identification document and matching photocopy. Place of Issue: Expiration Date MM/DD/YYYY:",
+      "span_text": "Printed Name of Affiant",
+      "matched_page": 2,
+      "span_match": true,
+      "features": {
+        "page_num": 2,
+        "column": 10,
+        "bbox": [
+          43,
+          489,
+          542,
+          549
+        ],
+        "font_name": "Arial-BoldMT",
+        "font_size": 9.999799728393555,
+        "font_styles": [
+          "bold"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.009
+    },
+    {
+      "line_number": 74,
+      "page_number": 2,
+      "is_in_table": false,
+      "md_text_original": "**DS-10  10-2024** **Page 2 of 2**",
+      "md_text_cleaned": "DS-10  10-2024 Page 2 of 2",
+      "span_text": "DS-10   10-2024",
+      "matched_page": 2,
+      "span_match": true,
+      "features": {
+        "page_num": 2,
+        "column": 22,
+        "bbox": [
+          35,
+          769,
+          576,
+          781
+        ],
+        "font_name": "Arial-BoldMT",
+        "font_size": 8.0,
+        "font_styles": [
+          "bold"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.684
+    }
+  ],
+  "unmatched_lines": [
+    {
+      "line_number": 4,
+      "page_number": null,
+      "is_in_table": false,
+      "text_original": "U.S. Department of State OMB Control No. 1405-0132",
+      "text_cleaned": "U.S. Department of State OMB Control No. 1405-0132",
+      "search_pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "line_number": 5,
+      "page_number": null,
+      "is_in_table": false,
+      "text_original": "Expiration Date: 10-31-2027",
+      "text_cleaned": "Expiration Date: 10-31-2027",
+      "search_pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "line_number": 55,
+      "page_number": null,
+      "is_in_table": true,
+      "text_original": "|---|---|---|---|---|",
+      "text_cleaned": "",
+      "search_pages": [
+        2
+      ]
+    },
+    {
+      "line_number": 61,
+      "page_number": null,
+      "is_in_table": true,
+      "text_original": "||||||",
+      "text_cleaned": "",
+      "search_pages": [
+        2
+      ]
+    },
+    {
+      "line_number": 66,
+      "page_number": null,
+      "is_in_table": true,
+      "text_original": "||||||",
+      "text_cleaned": "",
+      "search_pages": [
+        2
+      ]
+    },
+    {
+      "line_number": 68,
+      "page_number": null,
+      "is_in_table": true,
+      "text_original": "||||||",
+      "text_cleaned": "",
+      "search_pages": [
+        2
+      ]
+    }
+  ]
+}

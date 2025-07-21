@@ -1,0 +1,1730 @@
+{
+  "summary": {
+    "total_md_lines": 68,
+    "matched_lines": 39,
+    "unmatched_lines": 29,
+    "table_lines_processed": 60,
+    "table_lines_matched": 31,
+    "table_match_percentage": 51.67,
+    "match_percentage": 57.35,
+    "total_spans_available": 177,
+    "spans_used": 39,
+    "processing_time_seconds": 5.77,
+    "lines_per_second": 11.78,
+    "avg_spans_searched_per_line": 95.9,
+    "optimization_speedup": "1.8x faster than full search",
+    "pages_available": 3
+  },
+  "aggregated_data": [
+    {
+      "line_number": 1,
+      "page_number": 1,
+      "is_in_table": false,
+      "md_text_original": "**DS-63**",
+      "md_text_cleaned": "DS-63",
+      "span_text": "DS-63",
+      "matched_page": 1,
+      "span_match": true,
+      "features": {
+        "page_num": 1,
+        "column": 1,
+        "bbox": [
+          37,
+          274,
+          73,
+          751
+        ],
+        "font_name": "Arial-BoldMT",
+        "font_size": 7.999899864196777,
+        "font_styles": [
+          "bold"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 2,
+      "page_number": 1,
+      "is_in_table": false,
+      "md_text_original": "**12-2005**",
+      "md_text_cleaned": "12-2005",
+      "span_text": "12-2005",
+      "matched_page": 1,
+      "span_match": true,
+      "features": {
+        "page_num": 1,
+        "column": 1,
+        "bbox": [
+          37,
+          274,
+          73,
+          751
+        ],
+        "font_name": "Arial-BoldMT",
+        "font_size": 7.999899864196777,
+        "font_styles": [
+          "bold"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 12,
+      "page_number": 1,
+      "is_in_table": false,
+      "md_text_original": "**Instruction Page 1 of 1**",
+      "md_text_cleaned": "Instruction Page 1 of 1",
+      "span_text": "Instruction Page 1 of 1",
+      "matched_page": 1,
+      "span_match": true,
+      "features": {
+        "page_num": 1,
+        "column": 6,
+        "bbox": [
+          80,
+          415,
+          574,
+          743
+        ],
+        "font_name": "Arial-BoldMT",
+        "font_size": 7.999899864196777,
+        "font_styles": [
+          "bold"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 15,
+      "page_number": 1,
+      "is_in_table": false,
+      "md_text_original": "U.S. Department of State",
+      "md_text_cleaned": "U.S. Department of State",
+      "span_text": "U.S. Department of State",
+      "matched_page": 1,
+      "span_match": true,
+      "features": {
+        "page_num": 1,
+        "column": 3,
+        "bbox": [
+          95,
+          339,
+          259,
+          400
+        ],
+        "font_name": "Arial-BoldMT",
+        "font_size": 9.999799728393555,
+        "font_styles": [
+          "bold"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 17,
+      "page_number": 1,
+      "is_in_table": false,
+      "md_text_original": "Office of Allowances",
+      "md_text_cleaned": "Office of Allowances",
+      "span_text": "of State, Office of Allowances:",
+      "matched_page": 1,
+      "span_match": true,
+      "features": {
+        "page_num": 1,
+        "column": 2,
+        "bbox": [
+          79,
+          275,
+          543,
+          330
+        ],
+        "font_name": "ArialMT",
+        "font_size": 9.999799728393555,
+        "font_styles": [
+          "normal"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.784
+    },
+    {
+      "line_number": 55,
+      "page_number": 1,
+      "is_in_table": true,
+      "md_text_original": "|Col1|EDUCATION ALLOWANCE QUESTIONNAIRE|Col3|Col4|Col5|Col6|Col7|Col8|Col9|Col10|",
+      "md_text_cleaned": "Col1EDUCATION ALLOWANCE QUESTIONNAIRECol3Col4Col5Col6Col7Col8Col9Col10",
+      "span_text": "EDUCATION ALLOWANCE QUESTIONNAIRE",
+      "matched_page": 1,
+      "span_match": true,
+      "features": {
+        "page_num": 1,
+        "column": 0,
+        "bbox": [
+          43,
+          49,
+          554,
+          263
+        ],
+        "font_name": "Arial-BoldMT",
+        "font_size": 12.0,
+        "font_styles": [
+          "bold"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.641
+    },
+    {
+      "line_number": 56,
+      "page_number": null,
+      "is_in_table": true,
+      "md_text_original": "|---|---|---|---|---|---|---|---|---|---|",
+      "md_text_cleaned": "",
+      "span_text": null,
+      "matched_page": null,
+      "span_match": false,
+      "features": null,
+      "match_confidence": null
+    },
+    {
+      "line_number": 57,
+      "page_number": 2,
+      "is_in_table": true,
+      "md_text_original": "|**1**.|Post|Post|Post|Post|Post|Post|Post|Post|Post|",
+      "md_text_cleaned": "1.PostPostPostPostPostPostPostPostPost",
+      "span_text": "Post",
+      "matched_page": 2,
+      "span_match": true,
+      "features": {
+        "page_num": 2,
+        "column": 3,
+        "bbox": [
+          62,
+          101,
+          111,
+          146
+        ],
+        "font_name": "ArialMT",
+        "font_size": 7.999899864196777,
+        "font_styles": [
+          "normal"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.19
+    },
+    {
+      "line_number": 58,
+      "page_number": 2,
+      "is_in_table": true,
+      "md_text_original": "|**2**.|Country|Country|Country|Country|Country|Country|Country|Country|Country|",
+      "md_text_cleaned": "2.CountryCountryCountryCountryCountryCountryCountryCountryCountry",
+      "span_text": "Country",
+      "matched_page": 2,
+      "span_match": true,
+      "features": {
+        "page_num": 2,
+        "column": 1,
+        "bbox": [
+          156,
+          50,
+          447,
+          194
+        ],
+        "font_name": "ArialMT",
+        "font_size": 7.999899864196777,
+        "font_styles": [
+          "normal"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.194
+    },
+    {
+      "line_number": 59,
+      "page_number": 2,
+      "is_in_table": true,
+      "md_text_original": "|**3**.|School Name|School Name|School Name|School Name|School Name|School Name|School Name|School Name|School Name|",
+      "md_text_cleaned": "3.School NameSchool NameSchool NameSchool NameSchool NameSchool NameSchool NameSchool NameSchool Name",
+      "span_text": "School Name",
+      "matched_page": 2,
+      "span_match": true,
+      "features": {
+        "page_num": 2,
+        "column": 3,
+        "bbox": [
+          62,
+          101,
+          111,
+          146
+        ],
+        "font_name": "ArialMT",
+        "font_size": 7.999899864196777,
+        "font_styles": [
+          "normal"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.196
+    },
+    {
+      "line_number": 60,
+      "page_number": 2,
+      "is_in_table": true,
+      "md_text_original": "|**4.**<br>|School Location<br>Street Address<br>City<br>Province/State<br>Country<br>_(Do not use P.O. Boxes)_|School Location<br>Street Address<br>City<br>Province/State<br>Country<br>_(Do not use P.O. Boxes)_|School Location<br>Street Address<br>City<br>Province/State<br>Country<br>_(Do not use P.O. Boxes)_|School Location<br>Street Address<br>City<br>Province/State<br>Country<br>_(Do not use P.O. Boxes)_|School Location<br>Street Address<br>City<br>Province/State<br>Country<br>_(Do not use P.O. Boxes)_|School Location<br>Street Address<br>City<br>Province/State<br>Country<br>_(Do not use P.O. Boxes)_|School Location<br>Street Address<br>City<br>Province/State<br>Country<br>_(Do not use P.O. Boxes)_|School Location<br>Street Address<br>City<br>Province/State<br>Country<br>_(Do not use P.O. Boxes)_|School Location<br>Street Address<br>City<br>Province/State<br>Country<br>_(Do not use P.O. Boxes)_|",
+      "md_text_cleaned": "4. School Location Street Address City Province/State Country Do not use P.O. BoxesSchool Location Street Address City Province/State Country Do not use P.O. BoxesSchool Location Street Address City Province/State Country Do not use P.O. BoxesSchool Location Street Address City Province/State Country Do not use P.O. BoxesSchool Location Street Address City Province/State Country Do not use P.O. BoxesSchool Location Street Address City Province/State Country Do not use P.O. BoxesSchool Location Street Address City Province/State Country Do not use P.O. BoxesSchool Location Street Address City Province/State Country Do not use P.O. BoxesSchool Location Street Address City Province/State Country Do not use P.O. Boxes",
+      "span_text": "Street Address",
+      "matched_page": 2,
+      "span_match": true,
+      "features": {
+        "page_num": 2,
+        "column": 1,
+        "bbox": [
+          156,
+          50,
+          447,
+          194
+        ],
+        "font_name": "ArialMT",
+        "font_size": 7.999899864196777,
+        "font_styles": [
+          "normal"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.038
+    },
+    {
+      "line_number": 61,
+      "page_number": 2,
+      "is_in_table": true,
+      "md_text_original": "|**5.**|Type of School~~**:**~~<br>_(Check all that apply)_|Type of School~~**:**~~<br>_(Check all that apply)_||Operated by DoD<br>Coed|Operated by DoD<br>Coed||Boys Only<br>Girls Only<br>Religious-Affiliated (With Mandatory Religious<br>Instruction)|Boys Only<br>Girls Only<br>Religious-Affiliated (With Mandatory Religious<br>Instruction)|Boys Only<br>Girls Only<br>Religious-Affiliated (With Mandatory Religious<br>Instruction)|",
+      "md_text_cleaned": "5.Type of School~~:~~ Check all that applyType of School~~:~~ Check all that applyOperated by DoD CoedOperated by DoD CoedBoys Only Girls Only Religious-Affiliated With Mandatory Religious InstructionBoys Only Girls Only Religious-Affiliated With Mandatory Religious InstructionBoys Only Girls Only Religious-Affiliated With Mandatory Religious Instruction",
+      "span_text": "Operated by DoD",
+      "matched_page": 2,
+      "span_match": true,
+      "features": {
+        "page_num": 2,
+        "column": 5,
+        "bbox": [
+          196,
+          199,
+          260,
+          223
+        ],
+        "font_name": "ArialMT",
+        "font_size": 7.999899864196777,
+        "font_styles": [
+          "normal"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.081
+    },
+    {
+      "line_number": 62,
+      "page_number": 2,
+      "is_in_table": true,
+      "md_text_original": "|**5.**|Type of School~~**:**~~<br>_(Check all that apply)_|Type of School~~**:**~~<br>_(Check all that apply)_||||||||",
+      "md_text_cleaned": "5.Type of School~~:~~ Check all that applyType of School~~:~~ Check all that apply",
+      "span_text": "(Check all that apply)",
+      "matched_page": 2,
+      "span_match": true,
+      "features": {
+        "page_num": 2,
+        "column": 4,
+        "bbox": [
+          62,
+          148,
+          150,
+          238
+        ],
+        "font_name": "Arial-ItalicMT",
+        "font_size": 7.999899864196777,
+        "font_styles": [
+          "italic"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.392
+    },
+    {
+      "line_number": 63,
+      "page_number": 2,
+      "is_in_table": true,
+      "md_text_original": "|**6.**|Language of Instruction<br>_(If bilingual, specify the language in which the majority of classes are taught)_|Language of Instruction<br>_(If bilingual, specify the language in which the majority of classes are taught)_|Language of Instruction<br>_(If bilingual, specify the language in which the majority of classes are taught)_|Language of Instruction<br>_(If bilingual, specify the language in which the majority of classes are taught)_|Language of Instruction<br>_(If bilingual, specify the language in which the majority of classes are taught)_|Language of Instruction<br>_(If bilingual, specify the language in which the majority of classes are taught)_|Language of Instruction<br>_(If bilingual, specify the language in which the majority of classes are taught)_|Language of Instruction<br>_(If bilingual, specify the language in which the majority of classes are taught)_|Language of Instruction<br>_(If bilingual, specify the language in which the majority of classes are taught)_|",
+      "md_text_cleaned": "6.Language of Instruction If bilingual, specify the language in which the majority of classes are taughtLanguage of Instruction If bilingual, specify the language in which the majority of classes are taughtLanguage of Instruction If bilingual, specify the language in which the majority of classes are taughtLanguage of Instruction If bilingual, specify the language in which the majority of classes are taughtLanguage of Instruction If bilingual, specify the language in which the majority of classes are taughtLanguage of Instruction If bilingual, specify the language in which the majority of classes are taughtLanguage of Instruction If bilingual, specify the language in which the majority of classes are taughtLanguage of Instruction If bilingual, specify the language in which the majority of classes are taughtLanguage of Instruction If bilingual, specify the language in which the majority of classes are taught",
+      "span_text": "(If bilingual, specify the language in which the majority of classes are taught)",
+      "matched_page": 2,
+      "span_match": true,
+      "features": {
+        "page_num": 2,
+        "column": 8,
+        "bbox": [
+          63,
+          239,
+          333,
+          249
+        ],
+        "font_name": "Arial-ItalicMT",
+        "font_size": 7.999899864196777,
+        "font_styles": [
+          "italic"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.156
+    },
+    {
+      "line_number": 64,
+      "page_number": 2,
+      "is_in_table": true,
+      "md_text_original": "|7.|Date Current School Year Begins <br>Date Current School Year Ends <br>Number of School Days<br>_ (mm-dd-yyyy)_<br>_ (mm-dd-yyyy)_<br>_Include the school calendar_|Date Current School Year Begins <br>Date Current School Year Ends <br>Number of School Days<br>_ (mm-dd-yyyy)_<br>_ (mm-dd-yyyy)_<br>_Include the school calendar_|Date Current School Year Begins <br>Date Current School Year Ends <br>Number of School Days<br>_ (mm-dd-yyyy)_<br>_ (mm-dd-yyyy)_<br>_Include the school calendar_|Date Current School Year Begins <br>Date Current School Year Ends <br>Number of School Days<br>_ (mm-dd-yyyy)_<br>_ (mm-dd-yyyy)_<br>_Include the school calendar_|Date Current School Year Begins <br>Date Current School Year Ends <br>Number of School Days<br>_ (mm-dd-yyyy)_<br>_ (mm-dd-yyyy)_<br>_Include the school calendar_|Date Current School Year Begins <br>Date Current School Year Ends <br>Number of School Days<br>_ (mm-dd-yyyy)_<br>_ (mm-dd-yyyy)_<br>_Include the school calendar_|Date Current School Year Begins <br>Date Current School Year Ends <br>Number of School Days<br>_ (mm-dd-yyyy)_<br>_ (mm-dd-yyyy)_<br>_Include the school calendar_|Date Current School Year Begins <br>Date Current School Year Ends <br>Number of School Days<br>_ (mm-dd-yyyy)_<br>_ (mm-dd-yyyy)_<br>_Include the school calendar_|Date Current School Year Begins <br>Date Current School Year Ends <br>Number of School Days<br>_ (mm-dd-yyyy)_<br>_ (mm-dd-yyyy)_<br>_Include the school calendar_|",
+      "md_text_cleaned": "7.Date Current School Year Begins Date Current School Year Ends Number of School Days  mm-dd-yyyy  mm-dd-yyyy Include the school calendarDate Current School Year Begins Date Current School Year Ends Number of School Days  mm-dd-yyyy  mm-dd-yyyy Include the school calendarDate Current School Year Begins Date Current School Year Ends Number of School Days  mm-dd-yyyy  mm-dd-yyyy Include the school calendarDate Current School Year Begins Date Current School Year Ends Number of School Days  mm-dd-yyyy  mm-dd-yyyy Include the school calendarDate Current School Year Begins Date Current School Year Ends Number of School Days  mm-dd-yyyy  mm-dd-yyyy Include the school calendarDate Current School Year Begins Date Current School Year Ends Number of School Days  mm-dd-yyyy  mm-dd-yyyy Include the school calendarDate Current School Year Begins Date Current School Year Ends Number of School Days  mm-dd-yyyy  mm-dd-yyyy Include the school calendarDate Current School Year Begins Date Current School Year Ends Number of School Days  mm-dd-yyyy  mm-dd-yyyy Include the school calendarDate Current School Year Begins Date Current School Year Ends Number of School Days  mm-dd-yyyy  mm-dd-yyyy Include the school calendar",
+      "span_text": "Date Current School Year Begins",
+      "matched_page": 2,
+      "span_match": true,
+      "features": {
+        "page_num": 2,
+        "column": 9,
+        "bbox": [
+          62,
+          257,
+          183,
+          267
+        ],
+        "font_name": "ArialMT",
+        "font_size": 7.999899864196777,
+        "font_styles": [
+          "normal"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.05
+    },
+    {
+      "line_number": 65,
+      "page_number": 2,
+      "is_in_table": true,
+      "md_text_original": "|**8.**|Grades Available in the School's Curriculum:<br>If K-12 is selected above, check half-day or full-day kindergarten program below.<br>K (Half-Day Program)<br>K-12 or <br>K<br>1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10<br>11<br>12<br>or<br>K (Full-Day Program)<br>If the age/grade levels of the school are different than those in the U.S. public school system, attach the<br>school's age/grade equivalency chart. Attach the school catalog.|Grades Available in the School's Curriculum:<br>If K-12 is selected above, check half-day or full-day kindergarten program below.<br>K (Half-Day Program)<br>K-12 or <br>K<br>1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10<br>11<br>12<br>or<br>K (Full-Day Program)<br>If the age/grade levels of the school are different than those in the U.S. public school system, attach the<br>school's age/grade equivalency chart. Attach the school catalog.|Grades Available in the School's Curriculum:<br>If K-12 is selected above, check half-day or full-day kindergarten program below.<br>K (Half-Day Program)<br>K-12 or <br>K<br>1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10<br>11<br>12<br>or<br>K (Full-Day Program)<br>If the age/grade levels of the school are different than those in the U.S. public school system, attach the<br>school's age/grade equivalency chart. Attach the school catalog.|Grades Available in the School's Curriculum:<br>If K-12 is selected above, check half-day or full-day kindergarten program below.<br>K (Half-Day Program)<br>K-12 or <br>K<br>1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10<br>11<br>12<br>or<br>K (Full-Day Program)<br>If the age/grade levels of the school are different than those in the U.S. public school system, attach the<br>school's age/grade equivalency chart. Attach the school catalog.|Grades Available in the School's Curriculum:<br>If K-12 is selected above, check half-day or full-day kindergarten program below.<br>K (Half-Day Program)<br>K-12 or <br>K<br>1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10<br>11<br>12<br>or<br>K (Full-Day Program)<br>If the age/grade levels of the school are different than those in the U.S. public school system, attach the<br>school's age/grade equivalency chart. Attach the school catalog.|Grades Available in the School's Curriculum:<br>If K-12 is selected above, check half-day or full-day kindergarten program below.<br>K (Half-Day Program)<br>K-12 or <br>K<br>1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10<br>11<br>12<br>or<br>K (Full-Day Program)<br>If the age/grade levels of the school are different than those in the U.S. public school system, attach the<br>school's age/grade equivalency chart. Attach the school catalog.|Grades Available in the School's Curriculum:<br>If K-12 is selected above, check half-day or full-day kindergarten program below.<br>K (Half-Day Program)<br>K-12 or <br>K<br>1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10<br>11<br>12<br>or<br>K (Full-Day Program)<br>If the age/grade levels of the school are different than those in the U.S. public school system, attach the<br>school's age/grade equivalency chart. Attach the school catalog.|Grades Available in the School's Curriculum:<br>If K-12 is selected above, check half-day or full-day kindergarten program below.<br>K (Half-Day Program)<br>K-12 or <br>K<br>1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10<br>11<br>12<br>or<br>K (Full-Day Program)<br>If the age/grade levels of the school are different than those in the U.S. public school system, attach the<br>school's age/grade equivalency chart. Attach the school catalog.|Grades Available in the School's Curriculum:<br>If K-12 is selected above, check half-day or full-day kindergarten program below.<br>K (Half-Day Program)<br>K-12 or <br>K<br>1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10<br>11<br>12<br>or<br>K (Full-Day Program)<br>If the age/grade levels of the school are different than those in the U.S. public school system, attach the<br>school's age/grade equivalency chart. Attach the school catalog.|",
+      "md_text_cleaned": "8.Grades Available in the School's Curriculum: If K-12 is selected above, check half-day or full-day kindergarten program below. K Half-Day Program K-12 or K 1 2 3 4 5 6 7 8 9 10 11 12 or K Full-Day Program If the age/grade levels of the school are different than those in the U.S. public school system, attach the school's age/grade equivalency chart. Attach the school catalog.Grades Available in the School's Curriculum: If K-12 is selected above, check half-day or full-day kindergarten program below. K Half-Day Program K-12 or K 1 2 3 4 5 6 7 8 9 10 11 12 or K Full-Day Program If the age/grade levels of the school are different than those in the U.S. public school system, attach the school's age/grade equivalency chart. Attach the school catalog.Grades Available in the School's Curriculum: If K-12 is selected above, check half-day or full-day kindergarten program below. K Half-Day Program K-12 or K 1 2 3 4 5 6 7 8 9 10 11 12 or K Full-Day Program If the age/grade levels of the school are different than those in the U.S. public school system, attach the school's age/grade equivalency chart. Attach the school catalog.Grades Available in the School's Curriculum: If K-12 is selected above, check half-day or full-day kindergarten program below. K Half-Day Program K-12 or K 1 2 3 4 5 6 7 8 9 10 11 12 or K Full-Day Program If the age/grade levels of the school are different than those in the U.S. public school system, attach the school's age/grade equivalency chart. Attach the school catalog.Grades Available in the School's Curriculum: If K-12 is selected above, check half-day or full-day kindergarten program below. K Half-Day Program K-12 or K 1 2 3 4 5 6 7 8 9 10 11 12 or K Full-Day Program If the age/grade levels of the school are different than those in the U.S. public school system, attach the school's age/grade equivalency chart. Attach the school catalog.Grades Available in the School's Curriculum: If K-12 is selected above, check half-day or full-day kindergarten program below. K Half-Day Program K-12 or K 1 2 3 4 5 6 7 8 9 10 11 12 or K Full-Day Program If the age/grade levels of the school are different than those in the U.S. public school system, attach the school's age/grade equivalency chart. Attach the school catalog.Grades Available in the School's Curriculum: If K-12 is selected above, check half-day or full-day kindergarten program below. K Half-Day Program K-12 or K 1 2 3 4 5 6 7 8 9 10 11 12 or K Full-Day Program If the age/grade levels of the school are different than those in the U.S. public school system, attach the school's age/grade equivalency chart. Attach the school catalog.Grades Available in the School's Curriculum: If K-12 is selected above, check half-day or full-day kindergarten program below. K Half-Day Program K-12 or K 1 2 3 4 5 6 7 8 9 10 11 12 or K Full-Day Program If the age/grade levels of the school are different than those in the U.S. public school system, attach the school's age/grade equivalency chart. Attach the school catalog.Grades Available in the School's Curriculum: If K-12 is selected above, check half-day or full-day kindergarten program below. K Half-Day Program K-12 or K 1 2 3 4 5 6 7 8 9 10 11 12 or K Full-Day Program If the age/grade levels of the school are different than those in the U.S. public school system, attach the school's age/grade equivalency chart. Attach the school catalog.",
+      "span_text": "Grades Available in the School's Curriculum:",
+      "matched_page": 2,
+      "span_match": true,
+      "features": {
+        "page_num": 2,
+        "column": 13,
+        "bbox": [
+          62,
+          309,
+          535,
+          352
+        ],
+        "font_name": "ArialMT",
+        "font_size": 7.999899864196777,
+        "font_styles": [
+          "normal"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.026
+    },
+    {
+      "line_number": 66,
+      "page_number": 2,
+      "is_in_table": true,
+      "md_text_original": "|**9.**|Report the following information for the current school year by grade(s). Report all costs in the currency used for payment and specify the<br>currency.<br>Cost of basic tuition. Only include costs for required courses.<br>Cost of books and supplies required by the school, if not included in basic tuition. Include costs such as book rental fees, but do not<br>include items that students in U.S. public schools normally pay for (e.g., pencils, paper, and books for summer/supplemental reading).<br>Cost of transportation between home and school by the most commonly used method, if not included in basic tuition. Attach the provider's<br>transportation invoices. When privately owned vehicles (POVs) are used for daily school transportation, report the mileage of a one-way<br>trip between the farthest pick-up point and the school.<br>Most commonly used method of transportation between home and school (e.g., school bus, POVs).<br><br><br><br>|Report the following information for the current school year by grade(s). Report all costs in the currency used for payment and specify the<br>currency.<br>Cost of basic tuition. Only include costs for required courses.<br>Cost of books and supplies required by the school, if not included in basic tuition. Include costs such as book rental fees, but do not<br>include items that students in U.S. public schools normally pay for (e.g., pencils, paper, and books for summer/supplemental reading).<br>Cost of transportation between home and school by the most commonly used method, if not included in basic tuition. Attach the provider's<br>transportation invoices. When privately owned vehicles (POVs) are used for daily school transportation, report the mileage of a one-way<br>trip between the farthest pick-up point and the school.<br>Most commonly used method of transportation between home and school (e.g., school bus, POVs).<br><br><br><br>|Report the following information for the current school year by grade(s). Report all costs in the currency used for payment and specify the<br>currency.<br>Cost of basic tuition. Only include costs for required courses.<br>Cost of books and supplies required by the school, if not included in basic tuition. Include costs such as book rental fees, but do not<br>include items that students in U.S. public schools normally pay for (e.g., pencils, paper, and books for summer/supplemental reading).<br>Cost of transportation between home and school by the most commonly used method, if not included in basic tuition. Attach the provider's<br>transportation invoices. When privately owned vehicles (POVs) are used for daily school transportation, report the mileage of a one-way<br>trip between the farthest pick-up point and the school.<br>Most commonly used method of transportation between home and school (e.g., school bus, POVs).<br><br><br><br>|Report the following information for the current school year by grade(s). Report all costs in the currency used for payment and specify the<br>currency.<br>Cost of basic tuition. Only include costs for required courses.<br>Cost of books and supplies required by the school, if not included in basic tuition. Include costs such as book rental fees, but do not<br>include items that students in U.S. public schools normally pay for (e.g., pencils, paper, and books for summer/supplemental reading).<br>Cost of transportation between home and school by the most commonly used method, if not included in basic tuition. Attach the provider's<br>transportation invoices. When privately owned vehicles (POVs) are used for daily school transportation, report the mileage of a one-way<br>trip between the farthest pick-up point and the school.<br>Most commonly used method of transportation between home and school (e.g., school bus, POVs).<br><br><br><br>|Report the following information for the current school year by grade(s). Report all costs in the currency used for payment and specify the<br>currency.<br>Cost of basic tuition. Only include costs for required courses.<br>Cost of books and supplies required by the school, if not included in basic tuition. Include costs such as book rental fees, but do not<br>include items that students in U.S. public schools normally pay for (e.g., pencils, paper, and books for summer/supplemental reading).<br>Cost of transportation between home and school by the most commonly used method, if not included in basic tuition. Attach the provider's<br>transportation invoices. When privately owned vehicles (POVs) are used for daily school transportation, report the mileage of a one-way<br>trip between the farthest pick-up point and the school.<br>Most commonly used method of transportation between home and school (e.g., school bus, POVs).<br><br><br><br>|Report the following information for the current school year by grade(s). Report all costs in the currency used for payment and specify the<br>currency.<br>Cost of basic tuition. Only include costs for required courses.<br>Cost of books and supplies required by the school, if not included in basic tuition. Include costs such as book rental fees, but do not<br>include items that students in U.S. public schools normally pay for (e.g., pencils, paper, and books for summer/supplemental reading).<br>Cost of transportation between home and school by the most commonly used method, if not included in basic tuition. Attach the provider's<br>transportation invoices. When privately owned vehicles (POVs) are used for daily school transportation, report the mileage of a one-way<br>trip between the farthest pick-up point and the school.<br>Most commonly used method of transportation between home and school (e.g., school bus, POVs).<br><br><br><br>|Report the following information for the current school year by grade(s). Report all costs in the currency used for payment and specify the<br>currency.<br>Cost of basic tuition. Only include costs for required courses.<br>Cost of books and supplies required by the school, if not included in basic tuition. Include costs such as book rental fees, but do not<br>include items that students in U.S. public schools normally pay for (e.g., pencils, paper, and books for summer/supplemental reading).<br>Cost of transportation between home and school by the most commonly used method, if not included in basic tuition. Attach the provider's<br>transportation invoices. When privately owned vehicles (POVs) are used for daily school transportation, report the mileage of a one-way<br>trip between the farthest pick-up point and the school.<br>Most commonly used method of transportation between home and school (e.g., school bus, POVs).<br><br><br><br>|Report the following information for the current school year by grade(s). Report all costs in the currency used for payment and specify the<br>currency.<br>Cost of basic tuition. Only include costs for required courses.<br>Cost of books and supplies required by the school, if not included in basic tuition. Include costs such as book rental fees, but do not<br>include items that students in U.S. public schools normally pay for (e.g., pencils, paper, and books for summer/supplemental reading).<br>Cost of transportation between home and school by the most commonly used method, if not included in basic tuition. Attach the provider's<br>transportation invoices. When privately owned vehicles (POVs) are used for daily school transportation, report the mileage of a one-way<br>trip between the farthest pick-up point and the school.<br>Most commonly used method of transportation between home and school (e.g., school bus, POVs).<br><br><br><br>|Report the following information for the current school year by grade(s). Report all costs in the currency used for payment and specify the<br>currency.<br>Cost of basic tuition. Only include costs for required courses.<br>Cost of books and supplies required by the school, if not included in basic tuition. Include costs such as book rental fees, but do not<br>include items that students in U.S. public schools normally pay for (e.g., pencils, paper, and books for summer/supplemental reading).<br>Cost of transportation between home and school by the most commonly used method, if not included in basic tuition. Attach the provider's<br>transportation invoices. When privately owned vehicles (POVs) are used for daily school transportation, report the mileage of a one-way<br>trip between the farthest pick-up point and the school.<br>Most commonly used method of transportation between home and school (e.g., school bus, POVs).<br><br><br><br>|",
+      "md_text_cleaned": "9.Report the following information for the current school year by grades. Report all costs in the currency used for payment and specify the currency. Cost of basic tuition. Only include costs for required courses. Cost of books and supplies required by the school, if not included in basic tuition. Include costs such as book rental fees, but do not include items that students in U.S. public schools normally pay for e.g., pencils, paper, and books for summer/supplemental reading. Cost of transportation between home and school by the most commonly used method, if not included in basic tuition. Attach the provider's transportation invoices. When privately owned vehicles POVs are used for daily school transportation, report the mileage of a one-way trip between the farthest pick-up point and the school. Most commonly used method of transportation between home and school e.g., school bus, POVs.    Report the following information for the current school year by grades. Report all costs in the currency used for payment and specify the currency. Cost of basic tuition. Only include costs for required courses. Cost of books and supplies required by the school, if not included in basic tuition. Include costs such as book rental fees, but do not include items that students in U.S. public schools normally pay for e.g., pencils, paper, and books for summer/supplemental reading. Cost of transportation between home and school by the most commonly used method, if not included in basic tuition. Attach the provider's transportation invoices. When privately owned vehicles POVs are used for daily school transportation, report the mileage of a one-way trip between the farthest pick-up point and the school. Most commonly used method of transportation between home and school e.g., school bus, POVs.    Report the following information for the current school year by grades. Report all costs in the currency used for payment and specify the currency. Cost of basic tuition. Only include costs for required courses. Cost of books and supplies required by the school, if not included in basic tuition. Include costs such as book rental fees, but do not include items that students in U.S. public schools normally pay for e.g., pencils, paper, and books for summer/supplemental reading. Cost of transportation between home and school by the most commonly used method, if not included in basic tuition. Attach the provider's transportation invoices. When privately owned vehicles POVs are used for daily school transportation, report the mileage of a one-way trip between the farthest pick-up point and the school. Most commonly used method of transportation between home and school e.g., school bus, POVs.    Report the following information for the current school year by grades. Report all costs in the currency used for payment and specify the currency. Cost of basic tuition. Only include costs for required courses. Cost of books and supplies required by the school, if not included in basic tuition. Include costs such as book rental fees, but do not include items that students in U.S. public schools normally pay for e.g., pencils, paper, and books for summer/supplemental reading. Cost of transportation between home and school by the most commonly used method, if not included in basic tuition. Attach the provider's transportation invoices. When privately owned vehicles POVs are used for daily school transportation, report the mileage of a one-way trip between the farthest pick-up point and the school. Most commonly used method of transportation between home and school e.g., school bus, POVs.    Report the following information for the current school year by grades. Report all costs in the currency used for payment and specify the currency. Cost of basic tuition. Only include costs for required courses. Cost of books and supplies required by the school, if not included in basic tuition. Include costs such as book rental fees, but do not include items that students in U.S. public schools normally pay for e.g., pencils, paper, and books for summer/supplemental reading. Cost of transportation between home and school by the most commonly used method, if not included in basic tuition. Attach the provider's transportation invoices. When privately owned vehicles POVs are used for daily school transportation, report the mileage of a one-way trip between the farthest pick-up point and the school. Most commonly used method of transportation between home and school e.g., school bus, POVs.    Report the following information for the current school year by grades. Report all costs in the currency used for payment and specify the currency. Cost of basic tuition. Only include costs for required courses. Cost of books and supplies required by the school, if not included in basic tuition. Include costs such as book rental fees, but do not include items that students in U.S. public schools normally pay for e.g., pencils, paper, and books for summer/supplemental reading. Cost of transportation between home and school by the most commonly used method, if not included in basic tuition. Attach the provider's transportation invoices. When privately owned vehicles POVs are used for daily school transportation, report the mileage of a one-way trip between the farthest pick-up point and the school. Most commonly used method of transportation between home and school e.g., school bus, POVs.    Report the following information for the current school year by grades. Report all costs in the currency used for payment and specify the currency. Cost of basic tuition. Only include costs for required courses. Cost of books and supplies required by the school, if not included in basic tuition. Include costs such as book rental fees, but do not include items that students in U.S. public schools normally pay for e.g., pencils, paper, and books for summer/supplemental reading. Cost of transportation between home and school by the most commonly used method, if not included in basic tuition. Attach the provider's transportation invoices. When privately owned vehicles POVs are used for daily school transportation, report the mileage of a one-way trip between the farthest pick-up point and the school. Most commonly used method of transportation between home and school e.g., school bus, POVs.    Report the following information for the current school year by grades. Report all costs in the currency used for payment and specify the currency. Cost of basic tuition. Only include costs for required courses. Cost of books and supplies required by the school, if not included in basic tuition. Include costs such as book rental fees, but do not include items that students in U.S. public schools normally pay for e.g., pencils, paper, and books for summer/supplemental reading. Cost of transportation between home and school by the most commonly used method, if not included in basic tuition. Attach the provider's transportation invoices. When privately owned vehicles POVs are used for daily school transportation, report the mileage of a one-way trip between the farthest pick-up point and the school. Most commonly used method of transportation between home and school e.g., school bus, POVs.    Report the following information for the current school year by grades. Report all costs in the currency used for payment and specify the currency. Cost of basic tuition. Only include costs for required courses. Cost of books and supplies required by the school, if not included in basic tuition. Include costs such as book rental fees, but do not include items that students in U.S. public schools normally pay for e.g., pencils, paper, and books for summer/supplemental reading. Cost of transportation between home and school by the most commonly used method, if not included in basic tuition. Attach the provider's transportation invoices. When privately owned vehicles POVs are used for daily school transportation, report the mileage of a one-way trip between the farthest pick-up point and the school. Most commonly used method of transportation between home and school e.g., school bus, POVs.    ",
+      "span_text": "Report the following information for the current school year by grade(s).  Report all costs in the currency used for payment and specify the",
+      "matched_page": 2,
+      "span_match": true,
+      "features": {
+        "page_num": 2,
+        "column": 16,
+        "bbox": [
+          62,
+          369,
+          567,
+          534
+        ],
+        "font_name": "ArialMT",
+        "font_size": 7.999899864196777,
+        "font_styles": [
+          "normal"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.033
+    },
+    {
+      "line_number": 67,
+      "page_number": 2,
+      "is_in_table": true,
+      "md_text_original": "|**Costs for the Current School Year**|**Costs for the Current School Year**|**Costs for the Current School Year**|**Costs for the Current School Year**|**Costs for the Current School Year**|**Costs for the Current School Year**|**Costs for the Current School Year**|**Costs for the Current School Year**|**Costs for the Current School Year**|**Costs for the Current School Year**|",
+      "md_text_cleaned": "Costs for the Current School YearCosts for the Current School YearCosts for the Current School YearCosts for the Current School YearCosts for the Current School YearCosts for the Current School YearCosts for the Current School YearCosts for the Current School YearCosts for the Current School YearCosts for the Current School Year",
+      "span_text": "Costs for the Current School Year",
+      "matched_page": 2,
+      "span_match": true,
+      "features": {
+        "page_num": 2,
+        "column": 16,
+        "bbox": [
+          62,
+          369,
+          567,
+          534
+        ],
+        "font_name": "Arial-BoldMT",
+        "font_size": 7.999899864196777,
+        "font_styles": [
+          "bold"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.182
+    },
+    {
+      "line_number": 68,
+      "page_number": 2,
+      "is_in_table": true,
+      "md_text_original": "|**Applicable**<br>**Grade(s)**|**Applicable**<br>**Grade(s)**|**Basic Tuition**|**Basic Tuition**|**Basic Tuition**|**Books**<br>**and Supplies**|**Books**<br>**and Supplies**|**Books**<br>**and Supplies**|**Transportation (Mileage**<br>**for POVs)**|**Method of Transportation Between**<br>**Home and School**|",
+      "md_text_cleaned": "Applicable GradesApplicable GradesBasic TuitionBasic TuitionBasic TuitionBooks and SuppliesBooks and SuppliesBooks and SuppliesTransportation Mileage for POVsMethod of Transportation Between Home and School",
+      "span_text": "Applicable",
+      "matched_page": 2,
+      "span_match": true,
+      "features": {
+        "page_num": 2,
+        "column": 17,
+        "bbox": [
+          39,
+          535,
+          191,
+          716
+        ],
+        "font_name": "Arial-BoldMT",
+        "font_size": 7.999899864196777,
+        "font_styles": [
+          "bold"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.093
+    },
+    {
+      "line_number": 69,
+      "page_number": null,
+      "is_in_table": true,
+      "md_text_original": "|||||||||||",
+      "md_text_cleaned": "",
+      "span_text": null,
+      "matched_page": null,
+      "span_match": false,
+      "features": null,
+      "match_confidence": null
+    },
+    {
+      "line_number": 70,
+      "page_number": null,
+      "is_in_table": true,
+      "md_text_original": "|||||||||||",
+      "md_text_cleaned": "",
+      "span_text": null,
+      "matched_page": null,
+      "span_match": false,
+      "features": null,
+      "match_confidence": null
+    },
+    {
+      "line_number": 71,
+      "page_number": null,
+      "is_in_table": true,
+      "md_text_original": "|||||||||||",
+      "md_text_cleaned": "",
+      "span_text": null,
+      "matched_page": null,
+      "span_match": false,
+      "features": null,
+      "match_confidence": null
+    },
+    {
+      "line_number": 72,
+      "page_number": null,
+      "is_in_table": true,
+      "md_text_original": "|||||||||||",
+      "md_text_cleaned": "",
+      "span_text": null,
+      "matched_page": null,
+      "span_match": false,
+      "features": null,
+      "match_confidence": null
+    },
+    {
+      "line_number": 73,
+      "page_number": null,
+      "is_in_table": true,
+      "md_text_original": "|||||||||||",
+      "md_text_cleaned": "",
+      "span_text": null,
+      "matched_page": null,
+      "span_match": false,
+      "features": null,
+      "match_confidence": null
+    },
+    {
+      "line_number": 74,
+      "page_number": null,
+      "is_in_table": true,
+      "md_text_original": "|||||||||||",
+      "md_text_cleaned": "",
+      "span_text": null,
+      "matched_page": null,
+      "span_match": false,
+      "features": null,
+      "match_confidence": null
+    },
+    {
+      "line_number": 75,
+      "page_number": null,
+      "is_in_table": true,
+      "md_text_original": "|||||||||||",
+      "md_text_cleaned": "",
+      "span_text": null,
+      "matched_page": null,
+      "span_match": false,
+      "features": null,
+      "match_confidence": null
+    },
+    {
+      "line_number": 76,
+      "page_number": null,
+      "is_in_table": true,
+      "md_text_original": "|||||||||||",
+      "md_text_cleaned": "",
+      "span_text": null,
+      "matched_page": null,
+      "span_match": false,
+      "features": null,
+      "match_confidence": null
+    },
+    {
+      "line_number": 77,
+      "page_number": null,
+      "is_in_table": true,
+      "md_text_original": "|||||||||||",
+      "md_text_cleaned": "",
+      "span_text": null,
+      "matched_page": null,
+      "span_match": false,
+      "features": null,
+      "match_confidence": null
+    },
+    {
+      "line_number": 78,
+      "page_number": null,
+      "is_in_table": true,
+      "md_text_original": "|||||||||||",
+      "md_text_cleaned": "",
+      "span_text": null,
+      "matched_page": null,
+      "span_match": false,
+      "features": null,
+      "match_confidence": null
+    },
+    {
+      "line_number": 79,
+      "page_number": null,
+      "is_in_table": true,
+      "md_text_original": "|||||||||||",
+      "md_text_cleaned": "",
+      "span_text": null,
+      "matched_page": null,
+      "span_match": false,
+      "features": null,
+      "match_confidence": null
+    },
+    {
+      "line_number": 80,
+      "page_number": null,
+      "is_in_table": true,
+      "md_text_original": "|||||||||||",
+      "md_text_cleaned": "",
+      "span_text": null,
+      "matched_page": null,
+      "span_match": false,
+      "features": null,
+      "match_confidence": null
+    },
+    {
+      "line_number": 81,
+      "page_number": null,
+      "is_in_table": true,
+      "md_text_original": "|||||||||||",
+      "md_text_cleaned": "",
+      "span_text": null,
+      "matched_page": null,
+      "span_match": false,
+      "features": null,
+      "match_confidence": null
+    },
+    {
+      "line_number": 82,
+      "page_number": 2,
+      "is_in_table": true,
+      "md_text_original": "|**_Example_:**|**_Example_:**|||||||||",
+      "md_text_cleaned": "Example:Example:",
+      "span_text": "Example:",
+      "matched_page": 2,
+      "span_match": true,
+      "features": {
+        "page_num": 2,
+        "column": 17,
+        "bbox": [
+          39,
+          535,
+          191,
+          716
+        ],
+        "font_name": "Arial-BoldItalicMT",
+        "font_size": 7.999899864196777,
+        "font_styles": [
+          "italic",
+          "bold"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.667
+    },
+    {
+      "line_number": 83,
+      "page_number": 2,
+      "is_in_table": true,
+      "md_text_original": "|_K-3_|_K-3_|_Yen 1,922,0000_|_Yen 1,922,0000_|_Yen 1,922,0000_|~~_Yen 0 (incl. In tuition)_~~|~~_Yen 0 (incl. In tuition)_~~|~~_Yen 0 (incl. In tuition)_~~|_Yen 315,000_|_School Bus_|",
+      "md_text_cleaned": "K-3K-3Yen 1,922,0000Yen 1,922,0000Yen 1,922,0000~~Yen 0 incl. In tuition~~~~Yen 0 incl. In tuition~~~~Yen 0 incl. In tuition~~Yen 315,000School Bus",
+      "span_text": "Yen 0 (incl. In tuition)",
+      "matched_page": 2,
+      "span_match": true,
+      "features": {
+        "page_num": 2,
+        "column": 21,
+        "bbox": [
+          61,
+          716,
+          477,
+          727
+        ],
+        "font_name": "Arial-ItalicMT",
+        "font_size": 7.999899864196777,
+        "font_styles": [
+          "italic"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.26
+    },
+    {
+      "line_number": 86,
+      "page_number": 2,
+      "is_in_table": false,
+      "md_text_original": "**DS-63**",
+      "md_text_cleaned": "DS-63",
+      "span_text": "DS-63",
+      "matched_page": 2,
+      "span_match": true,
+      "features": {
+        "page_num": 2,
+        "column": 0,
+        "bbox": [
+          38,
+          736,
+          573,
+          754
+        ],
+        "font_name": "Arial-BoldMT",
+        "font_size": 7.999899864196777,
+        "font_styles": [
+          "bold"
+        ],
+        "color": 0
+      },
+      "match_confidence": 1.0
+    },
+    {
+      "line_number": 87,
+      "page_number": 2,
+      "is_in_table": false,
+      "md_text_original": "**12-2005** **Page 1 of 2**",
+      "md_text_cleaned": "12-2005 Page 1 of 2",
+      "span_text": "Page 1 of 2",
+      "matched_page": 2,
+      "span_match": true,
+      "features": {
+        "page_num": 2,
+        "column": 0,
+        "bbox": [
+          38,
+          736,
+          573,
+          754
+        ],
+        "font_name": "Arial-BoldMT",
+        "font_size": 7.999899864196777,
+        "font_styles": [
+          "bold"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.733
+    },
+    {
+      "line_number": 90,
+      "page_number": 3,
+      "is_in_table": true,
+      "md_text_original": "|10.|Report the costs in the currency used for payment and specify the currency for each field trip included in basic tuition for the current school year.<br>Provide a description for each field trip. Include information regarding the location or destination of the field trip.|Col3|Col4|Col5|Col6|Col7|Col8|Col9|Col10|Col11|Col12|Col13|Col14|Col15|Col16|Col17|Col18|",
+      "md_text_cleaned": "10.Report the costs in the currency used for payment and specify the currency for each field trip included in basic tuition for the current school year. Provide a description for each field trip. Include information regarding the location or destination of the field trip.Col3Col4Col5Col6Col7Col8Col9Col10Col11Col12Col13Col14Col15Col16Col17Col18",
+      "span_text": "Provide a description for each field trip.  Include information regarding the location or destination of the field trip.",
+      "matched_page": 3,
+      "span_match": true,
+      "features": {
+        "page_num": 3,
+        "column": 10,
+        "bbox": [
+          60,
+          49,
+          455,
+          59
+        ],
+        "font_name": "ArialMT",
+        "font_size": 7.999899864196777,
+        "font_styles": [
+          "normal"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.513
+    },
+    {
+      "line_number": 91,
+      "page_number": null,
+      "is_in_table": true,
+      "md_text_original": "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|",
+      "md_text_cleaned": "",
+      "span_text": null,
+      "matched_page": null,
+      "span_match": false,
+      "features": null,
+      "match_confidence": null
+    },
+    {
+      "line_number": 92,
+      "page_number": 3,
+      "is_in_table": true,
+      "md_text_original": "|**Field Trips**|**Field Trips**|**Field Trips**|**Field Trips**|**Field Trips**|**Field Trips**|**Field Trips**|**Field Trips**|**Field Trips**|**Field Trips**|**Field Trips**|**Field Trips**|**Field Trips**|**Field Trips**|**Field Trips**|**Field Trips**|**Field Trips**|**Field Trips**|",
+      "md_text_cleaned": "Field TripsField TripsField TripsField TripsField TripsField TripsField TripsField TripsField TripsField TripsField TripsField TripsField TripsField TripsField TripsField TripsField TripsField Trips",
+      "span_text": "Field Trips",
+      "matched_page": 3,
+      "span_match": true,
+      "features": {
+        "page_num": 3,
+        "column": 11,
+        "bbox": [
+          285,
+          61,
+          327,
+          71
+        ],
+        "font_name": "Arial-BoldMT",
+        "font_size": 7.999899864196777,
+        "font_styles": [
+          "bold"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.105
+    },
+    {
+      "line_number": 93,
+      "page_number": 3,
+      "is_in_table": true,
+      "md_text_original": "|**Description**|**Description**|**Description**|**Location/Destination**<br>|**Location/Destination**<br>|**Location/Destination**<br>|**Location/Destination**<br>|**Applicable Grade(s**)|**Applicable Grade(s**)|**Applicable Grade(s**)|**Applicable Grade(s**)|**Applicable Grade(s**)|**Applicable Grade(s**)|**Cost**|**Cost**|**Cost**|**Cost**|**Cost**|",
+      "md_text_cleaned": "DescriptionDescriptionDescriptionLocation/Destination Location/Destination Location/Destination Location/Destination Applicable GradesApplicable GradesApplicable GradesApplicable GradesApplicable GradesApplicable GradesCostCostCostCostCost",
+      "span_text": "Description",
+      "matched_page": 3,
+      "span_match": true,
+      "features": {
+        "page_num": 3,
+        "column": 0,
+        "bbox": [
+          83,
+          77,
+          532,
+          89
+        ],
+        "font_name": "Arial-BoldMT",
+        "font_size": 7.999899864196777,
+        "font_styles": [
+          "bold"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.088
+    },
+    {
+      "line_number": 94,
+      "page_number": null,
+      "is_in_table": true,
+      "md_text_original": "|||||||||||||||||||",
+      "md_text_cleaned": "",
+      "span_text": null,
+      "matched_page": null,
+      "span_match": false,
+      "features": null,
+      "match_confidence": null
+    },
+    {
+      "line_number": 95,
+      "page_number": null,
+      "is_in_table": true,
+      "md_text_original": "|||||||||||||||||||",
+      "md_text_cleaned": "",
+      "span_text": null,
+      "matched_page": null,
+      "span_match": false,
+      "features": null,
+      "match_confidence": null
+    },
+    {
+      "line_number": 96,
+      "page_number": null,
+      "is_in_table": true,
+      "md_text_original": "|||||||||||||||||||",
+      "md_text_cleaned": "",
+      "span_text": null,
+      "matched_page": null,
+      "span_match": false,
+      "features": null,
+      "match_confidence": null
+    },
+    {
+      "line_number": 97,
+      "page_number": null,
+      "is_in_table": true,
+      "md_text_original": "|||||||||||||||||||",
+      "md_text_cleaned": "",
+      "span_text": null,
+      "matched_page": null,
+      "span_match": false,
+      "features": null,
+      "match_confidence": null
+    },
+    {
+      "line_number": 98,
+      "page_number": null,
+      "is_in_table": true,
+      "md_text_original": "|||||||||||||||||||",
+      "md_text_cleaned": "",
+      "span_text": null,
+      "matched_page": null,
+      "span_match": false,
+      "features": null,
+      "match_confidence": null
+    },
+    {
+      "line_number": 99,
+      "page_number": null,
+      "is_in_table": true,
+      "md_text_original": "|||||||||||||||||||",
+      "md_text_cleaned": "",
+      "span_text": null,
+      "matched_page": null,
+      "span_match": false,
+      "features": null,
+      "match_confidence": null
+    },
+    {
+      "line_number": 100,
+      "page_number": 3,
+      "is_in_table": true,
+      "md_text_original": "|**_Example:_**|**_Example:_**|**_Example:_**||||||||||||||||",
+      "md_text_cleaned": "Example:Example:Example:",
+      "span_text": "Example:",
+      "matched_page": 3,
+      "span_match": true,
+      "features": {
+        "page_num": 3,
+        "column": 12,
+        "bbox": [
+          39,
+          179,
+          76,
+          189
+        ],
+        "font_name": "Arial-BoldItalicMT",
+        "font_size": 7.999899864196777,
+        "font_styles": [
+          "italic",
+          "bold"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.5
+    },
+    {
+      "line_number": 101,
+      "page_number": 3,
+      "is_in_table": true,
+      "md_text_original": "|_Trip to the Tokyo Science Museum_|_Trip to the Tokyo Science Museum_|_Trip to the Tokyo Science Museum_|_Tokyo, Japan (Local Trip)_|_Tokyo, Japan (Local Trip)_|_Tokyo, Japan (Local Trip)_|_Tokyo, Japan (Local Trip)_|_5-6_|_5-6_|_5-6_|_5-6_|_5-6_|_5-6_|_Yen 400_|_Yen 400_|_Yen 400_|_Yen 400_|_Yen 400_|",
+      "md_text_cleaned": "Trip to the Tokyo Science MuseumTrip to the Tokyo Science MuseumTrip to the Tokyo Science MuseumTokyo, Japan Local TripTokyo, Japan Local TripTokyo, Japan Local TripTokyo, Japan Local Trip5-65-65-65-65-65-6Yen 400Yen 400Yen 400Yen 400Yen 400",
+      "span_text": "Tokyo, Japan (Local Trip)",
+      "matched_page": 3,
+      "span_match": true,
+      "features": {
+        "page_num": 3,
+        "column": 1,
+        "bbox": [
+          39,
+          196,
+          573,
+          243
+        ],
+        "font_name": "Arial-ItalicMT",
+        "font_size": 7.999899864196777,
+        "font_styles": [
+          "italic"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.174
+    },
+    {
+      "line_number": 102,
+      "page_number": 3,
+      "is_in_table": true,
+      "md_text_original": "|**11**~~**.**~~|Itemize and report all other required fees in the currency used for payment and specify the currency (e.g., building fees, registration fees,<br>matriculation fees, laboratory fees, and/or admission fees, per DSSR 274.12e).  Indicate whether the fee is annual or one-time, and if it is<br>refundable or non-refundable.  Do not report fees that are included in basic tuition.|Itemize and report all other required fees in the currency used for payment and specify the currency (e.g., building fees, registration fees,<br>matriculation fees, laboratory fees, and/or admission fees, per DSSR 274.12e).  Indicate whether the fee is annual or one-time, and if it is<br>refundable or non-refundable.  Do not report fees that are included in basic tuition.|Itemize and report all other required fees in the currency used for payment and specify the currency (e.g., building fees, registration fees,<br>matriculation fees, laboratory fees, and/or admission fees, per DSSR 274.12e).  Indicate whether the fee is annual or one-time, and if it is<br>refundable or non-refundable.  Do not report fees that are included in basic tuition.|Itemize and report all other required fees in the currency used for payment and specify the currency (e.g., building fees, registration fees,<br>matriculation fees, laboratory fees, and/or admission fees, per DSSR 274.12e).  Indicate whether the fee is annual or one-time, and if it is<br>refundable or non-refundable.  Do not report fees that are included in basic tuition.|Itemize and report all other required fees in the currency used for payment and specify the currency (e.g., building fees, registration fees,<br>matriculation fees, laboratory fees, and/or admission fees, per DSSR 274.12e).  Indicate whether the fee is annual or one-time, and if it is<br>refundable or non-refundable.  Do not report fees that are included in basic tuition.|Itemize and report all other required fees in the currency used for payment and specify the currency (e.g., building fees, registration fees,<br>matriculation fees, laboratory fees, and/or admission fees, per DSSR 274.12e).  Indicate whether the fee is annual or one-time, and if it is<br>refundable or non-refundable.  Do not report fees that are included in basic tuition.|Itemize and report all other required fees in the currency used for payment and specify the currency (e.g., building fees, registration fees,<br>matriculation fees, laboratory fees, and/or admission fees, per DSSR 274.12e).  Indicate whether the fee is annual or one-time, and if it is<br>refundable or non-refundable.  Do not report fees that are included in basic tuition.|Itemize and report all other required fees in the currency used for payment and specify the currency (e.g., building fees, registration fees,<br>matriculation fees, laboratory fees, and/or admission fees, per DSSR 274.12e).  Indicate whether the fee is annual or one-time, and if it is<br>refundable or non-refundable.  Do not report fees that are included in basic tuition.|Itemize and report all other required fees in the currency used for payment and specify the currency (e.g., building fees, registration fees,<br>matriculation fees, laboratory fees, and/or admission fees, per DSSR 274.12e).  Indicate whether the fee is annual or one-time, and if it is<br>refundable or non-refundable.  Do not report fees that are included in basic tuition.|Itemize and report all other required fees in the currency used for payment and specify the currency (e.g., building fees, registration fees,<br>matriculation fees, laboratory fees, and/or admission fees, per DSSR 274.12e).  Indicate whether the fee is annual or one-time, and if it is<br>refundable or non-refundable.  Do not report fees that are included in basic tuition.|Itemize and report all other required fees in the currency used for payment and specify the currency (e.g., building fees, registration fees,<br>matriculation fees, laboratory fees, and/or admission fees, per DSSR 274.12e).  Indicate whether the fee is annual or one-time, and if it is<br>refundable or non-refundable.  Do not report fees that are included in basic tuition.|Itemize and report all other required fees in the currency used for payment and specify the currency (e.g., building fees, registration fees,<br>matriculation fees, laboratory fees, and/or admission fees, per DSSR 274.12e).  Indicate whether the fee is annual or one-time, and if it is<br>refundable or non-refundable.  Do not report fees that are included in basic tuition.|Itemize and report all other required fees in the currency used for payment and specify the currency (e.g., building fees, registration fees,<br>matriculation fees, laboratory fees, and/or admission fees, per DSSR 274.12e).  Indicate whether the fee is annual or one-time, and if it is<br>refundable or non-refundable.  Do not report fees that are included in basic tuition.|Itemize and report all other required fees in the currency used for payment and specify the currency (e.g., building fees, registration fees,<br>matriculation fees, laboratory fees, and/or admission fees, per DSSR 274.12e).  Indicate whether the fee is annual or one-time, and if it is<br>refundable or non-refundable.  Do not report fees that are included in basic tuition.|Itemize and report all other required fees in the currency used for payment and specify the currency (e.g., building fees, registration fees,<br>matriculation fees, laboratory fees, and/or admission fees, per DSSR 274.12e).  Indicate whether the fee is annual or one-time, and if it is<br>refundable or non-refundable.  Do not report fees that are included in basic tuition.|Itemize and report all other required fees in the currency used for payment and specify the currency (e.g., building fees, registration fees,<br>matriculation fees, laboratory fees, and/or admission fees, per DSSR 274.12e).  Indicate whether the fee is annual or one-time, and if it is<br>refundable or non-refundable.  Do not report fees that are included in basic tuition.|Itemize and report all other required fees in the currency used for payment and specify the currency (e.g., building fees, registration fees,<br>matriculation fees, laboratory fees, and/or admission fees, per DSSR 274.12e).  Indicate whether the fee is annual or one-time, and if it is<br>refundable or non-refundable.  Do not report fees that are included in basic tuition.|",
+      "md_text_cleaned": "11~~.~~Itemize and report all other required fees in the currency used for payment and specify the currency e.g., building fees, registration fees, matriculation fees, laboratory fees, and/or admission fees, per DSSR 274.12e. Indicate whether the fee is annual or one-time, and if it is refundable or non-refundable. Do not report fees that are included in basic tuition.Itemize and report all other required fees in the currency used for payment and specify the currency e.g., building fees, registration fees, matriculation fees, laboratory fees, and/or admission fees, per DSSR 274.12e. Indicate whether the fee is annual or one-time, and if it is refundable or non-refundable. Do not report fees that are included in basic tuition.Itemize and report all other required fees in the currency used for payment and specify the currency e.g., building fees, registration fees, matriculation fees, laboratory fees, and/or admission fees, per DSSR 274.12e. Indicate whether the fee is annual or one-time, and if it is refundable or non-refundable. Do not report fees that are included in basic tuition.Itemize and report all other required fees in the currency used for payment and specify the currency e.g., building fees, registration fees, matriculation fees, laboratory fees, and/or admission fees, per DSSR 274.12e. Indicate whether the fee is annual or one-time, and if it is refundable or non-refundable. Do not report fees that are included in basic tuition.Itemize and report all other required fees in the currency used for payment and specify the currency e.g., building fees, registration fees, matriculation fees, laboratory fees, and/or admission fees, per DSSR 274.12e. Indicate whether the fee is annual or one-time, and if it is refundable or non-refundable. Do not report fees that are included in basic tuition.Itemize and report all other required fees in the currency used for payment and specify the currency e.g., building fees, registration fees, matriculation fees, laboratory fees, and/or admission fees, per DSSR 274.12e. Indicate whether the fee is annual or one-time, and if it is refundable or non-refundable. Do not report fees that are included in basic tuition.Itemize and report all other required fees in the currency used for payment and specify the currency e.g., building fees, registration fees, matriculation fees, laboratory fees, and/or admission fees, per DSSR 274.12e. Indicate whether the fee is annual or one-time, and if it is refundable or non-refundable. Do not report fees that are included in basic tuition.Itemize and report all other required fees in the currency used for payment and specify the currency e.g., building fees, registration fees, matriculation fees, laboratory fees, and/or admission fees, per DSSR 274.12e. Indicate whether the fee is annual or one-time, and if it is refundable or non-refundable. Do not report fees that are included in basic tuition.Itemize and report all other required fees in the currency used for payment and specify the currency e.g., building fees, registration fees, matriculation fees, laboratory fees, and/or admission fees, per DSSR 274.12e. Indicate whether the fee is annual or one-time, and if it is refundable or non-refundable. Do not report fees that are included in basic tuition.Itemize and report all other required fees in the currency used for payment and specify the currency e.g., building fees, registration fees, matriculation fees, laboratory fees, and/or admission fees, per DSSR 274.12e. Indicate whether the fee is annual or one-time, and if it is refundable or non-refundable. Do not report fees that are included in basic tuition.Itemize and report all other required fees in the currency used for payment and specify the currency e.g., building fees, registration fees, matriculation fees, laboratory fees, and/or admission fees, per DSSR 274.12e. Indicate whether the fee is annual or one-time, and if it is refundable or non-refundable. Do not report fees that are included in basic tuition.Itemize and report all other required fees in the currency used for payment and specify the currency e.g., building fees, registration fees, matriculation fees, laboratory fees, and/or admission fees, per DSSR 274.12e. Indicate whether the fee is annual or one-time, and if it is refundable or non-refundable. Do not report fees that are included in basic tuition.Itemize and report all other required fees in the currency used for payment and specify the currency e.g., building fees, registration fees, matriculation fees, laboratory fees, and/or admission fees, per DSSR 274.12e. Indicate whether the fee is annual or one-time, and if it is refundable or non-refundable. Do not report fees that are included in basic tuition.Itemize and report all other required fees in the currency used for payment and specify the currency e.g., building fees, registration fees, matriculation fees, laboratory fees, and/or admission fees, per DSSR 274.12e. Indicate whether the fee is annual or one-time, and if it is refundable or non-refundable. Do not report fees that are included in basic tuition.Itemize and report all other required fees in the currency used for payment and specify the currency e.g., building fees, registration fees, matriculation fees, laboratory fees, and/or admission fees, per DSSR 274.12e. Indicate whether the fee is annual or one-time, and if it is refundable or non-refundable. Do not report fees that are included in basic tuition.Itemize and report all other required fees in the currency used for payment and specify the currency e.g., building fees, registration fees, matriculation fees, laboratory fees, and/or admission fees, per DSSR 274.12e. Indicate whether the fee is annual or one-time, and if it is refundable or non-refundable. Do not report fees that are included in basic tuition.Itemize and report all other required fees in the currency used for payment and specify the currency e.g., building fees, registration fees, matriculation fees, laboratory fees, and/or admission fees, per DSSR 274.12e. Indicate whether the fee is annual or one-time, and if it is refundable or non-refundable. Do not report fees that are included in basic tuition.",
+      "span_text": "Itemize and report all other required fees in the currency used for payment and specify the currency (e.g., building fees, registration fees,",
+      "matched_page": 3,
+      "span_match": true,
+      "features": {
+        "page_num": 3,
+        "column": 1,
+        "bbox": [
+          39,
+          196,
+          573,
+          243
+        ],
+        "font_name": "ArialMT",
+        "font_size": 7.999899864196777,
+        "font_styles": [
+          "normal"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.044
+    },
+    {
+      "line_number": 103,
+      "page_number": 3,
+      "is_in_table": true,
+      "md_text_original": "|~~**Required Fees**~~|~~**Required Fees**~~|~~**Required Fees**~~|~~**Required Fees**~~|~~**Required Fees**~~|~~**Required Fees**~~|~~**Required Fees**~~|~~**Required Fees**~~|~~**Required Fees**~~|~~**Required Fees**~~|~~**Required Fees**~~|~~**Required Fees**~~|~~**Required Fees**~~|~~**Required Fees**~~|~~**Required Fees**~~|~~**Required Fees**~~|~~**Required Fees**~~|~~**Required Fees**~~|",
+      "md_text_cleaned": "~~Required Fees~~~~Required Fees~~~~Required Fees~~~~Required Fees~~~~Required Fees~~~~Required Fees~~~~Required Fees~~~~Required Fees~~~~Required Fees~~~~Required Fees~~~~Required Fees~~~~Required Fees~~~~Required Fees~~~~Required Fees~~~~Required Fees~~~~Required Fees~~~~Required Fees~~~~Required Fees~~",
+      "span_text": "Required Fees",
+      "matched_page": 3,
+      "span_match": true,
+      "features": {
+        "page_num": 3,
+        "column": 13,
+        "bbox": [
+          278,
+          243,
+          334,
+          253
+        ],
+        "font_name": "Arial-BoldMT",
+        "font_size": 7.999899864196777,
+        "font_styles": [
+          "bold"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.082
+    },
+    {
+      "line_number": 104,
+      "page_number": 3,
+      "is_in_table": true,
+      "md_text_original": "|**Type**|**Type**|**Applicable**<br>**Grade(s)**|**Applicable**<br>**Grade(s)**|**Cost**|**Cost**|**Annual**|**Annual**|**Annual**|**One-time**|**One-time**|**One-time**|**Refundable**|**Refundable**|**Refundable**|**Non-**<br>**Refundable**|**Non-**<br>**Refundable**|**Non-**<br>**Refundable**|",
+      "md_text_cleaned": "TypeTypeApplicable GradesApplicable GradesCostCostAnnualAnnualAnnualOne-timeOne-timeOne-timeRefundableRefundableRefundableNon- RefundableNon- RefundableNon- Refundable",
+      "span_text": "Applicable Grade(s)",
+      "matched_page": 3,
+      "span_match": true,
+      "features": {
+        "page_num": 3,
+        "column": 0,
+        "bbox": [
+          83,
+          77,
+          532,
+          89
+        ],
+        "font_name": "Arial-BoldMT",
+        "font_size": 7.999899864196777,
+        "font_styles": [
+          "bold"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.185
+    },
+    {
+      "line_number": 105,
+      "page_number": null,
+      "is_in_table": true,
+      "md_text_original": "|||||||||||||||||||",
+      "md_text_cleaned": "",
+      "span_text": null,
+      "matched_page": null,
+      "span_match": false,
+      "features": null,
+      "match_confidence": null
+    },
+    {
+      "line_number": 106,
+      "page_number": null,
+      "is_in_table": true,
+      "md_text_original": "|||||||||||||||||||",
+      "md_text_cleaned": "",
+      "span_text": null,
+      "matched_page": null,
+      "span_match": false,
+      "features": null,
+      "match_confidence": null
+    },
+    {
+      "line_number": 107,
+      "page_number": null,
+      "is_in_table": true,
+      "md_text_original": "|||||||||||||||||||",
+      "md_text_cleaned": "",
+      "span_text": null,
+      "matched_page": null,
+      "span_match": false,
+      "features": null,
+      "match_confidence": null
+    },
+    {
+      "line_number": 108,
+      "page_number": null,
+      "is_in_table": true,
+      "md_text_original": "|||||||||||||||||||",
+      "md_text_cleaned": "",
+      "span_text": null,
+      "matched_page": null,
+      "span_match": false,
+      "features": null,
+      "match_confidence": null
+    },
+    {
+      "line_number": 109,
+      "page_number": null,
+      "is_in_table": true,
+      "md_text_original": "|||||||||||||||||||",
+      "md_text_cleaned": "",
+      "span_text": null,
+      "matched_page": null,
+      "span_match": false,
+      "features": null,
+      "match_confidence": null
+    },
+    {
+      "line_number": 110,
+      "page_number": null,
+      "is_in_table": true,
+      "md_text_original": "|||||||||||||||||||",
+      "md_text_cleaned": "",
+      "span_text": null,
+      "matched_page": null,
+      "span_match": false,
+      "features": null,
+      "match_confidence": null
+    },
+    {
+      "line_number": 111,
+      "page_number": null,
+      "is_in_table": true,
+      "md_text_original": "|||||||||||||||||||",
+      "md_text_cleaned": "",
+      "span_text": null,
+      "matched_page": null,
+      "span_match": false,
+      "features": null,
+      "match_confidence": null
+    },
+    {
+      "line_number": 112,
+      "page_number": null,
+      "is_in_table": true,
+      "md_text_original": "|||||||||||||||||||",
+      "md_text_cleaned": "",
+      "span_text": null,
+      "matched_page": null,
+      "span_match": false,
+      "features": null,
+      "match_confidence": null
+    },
+    {
+      "line_number": 113,
+      "page_number": 3,
+      "is_in_table": true,
+      "md_text_original": "|**_Example:_**|**_Example:_**|||||||||||||||||",
+      "md_text_cleaned": "Example:Example:",
+      "span_text": "Example:",
+      "matched_page": 3,
+      "span_match": true,
+      "features": {
+        "page_num": 3,
+        "column": 14,
+        "bbox": [
+          39,
+          417,
+          75,
+          427
+        ],
+        "font_name": "Arial-BoldItalicMT",
+        "font_size": 7.999899864196777,
+        "font_styles": [
+          "italic",
+          "bold"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.667
+    },
+    {
+      "line_number": 114,
+      "page_number": 3,
+      "is_in_table": true,
+      "md_text_original": "|**_Registration Fee_**|**_Registration Fee_**|_12_|_12_|_Yen 300,000_|_Yen 300,000_|~~X~~|~~X~~|~~X~~|~~X~~|~~X~~|~~X~~|~~X~~|~~X~~|~~X~~|~~X~~|~~X~~|~~X~~|",
+      "md_text_cleaned": "Registration FeeRegistration Fee1212Yen 300,000Yen 300,000~~X~~~~X~~~~X~~~~X~~~~X~~~~X~~~~X~~~~X~~~~X~~~~X~~~~X~~~~X~~",
+      "span_text": "Yen 300,000",
+      "matched_page": 3,
+      "span_match": true,
+      "features": {
+        "page_num": 3,
+        "column": 4,
+        "bbox": [
+          190,
+          434,
+          342,
+          444
+        ],
+        "font_name": "Arial-ItalicMT",
+        "font_size": 7.999899864196777,
+        "font_styles": [
+          "italic"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.171
+    },
+    {
+      "line_number": 115,
+      "page_number": 3,
+      "is_in_table": true,
+      "md_text_original": "|**12**~~**.**~~<br>|~~:~~<br>Provide the exchange rate for each currency reported in questions 9, 10, 11.<br>Date_ (mm-dd-yyyy)_<br>Exchange Rate per U.S. Dollar|~~:~~<br>Provide the exchange rate for each currency reported in questions 9, 10, 11.<br>Date_ (mm-dd-yyyy)_<br>Exchange Rate per U.S. Dollar|~~:~~<br>Provide the exchange rate for each currency reported in questions 9, 10, 11.<br>Date_ (mm-dd-yyyy)_<br>Exchange Rate per U.S. Dollar|~~:~~<br>Provide the exchange rate for each currency reported in questions 9, 10, 11.<br>Date_ (mm-dd-yyyy)_<br>Exchange Rate per U.S. Dollar|~~:~~<br>Provide the exchange rate for each currency reported in questions 9, 10, 11.<br>Date_ (mm-dd-yyyy)_<br>Exchange Rate per U.S. Dollar|~~:~~<br>Provide the exchange rate for each currency reported in questions 9, 10, 11.<br>Date_ (mm-dd-yyyy)_<br>Exchange Rate per U.S. Dollar|~~:~~<br>Provide the exchange rate for each currency reported in questions 9, 10, 11.<br>Date_ (mm-dd-yyyy)_<br>Exchange Rate per U.S. Dollar|~~:~~<br>Provide the exchange rate for each currency reported in questions 9, 10, 11.<br>Date_ (mm-dd-yyyy)_<br>Exchange Rate per U.S. Dollar|~~:~~<br>Provide the exchange rate for each currency reported in questions 9, 10, 11.<br>Date_ (mm-dd-yyyy)_<br>Exchange Rate per U.S. Dollar|~~:~~<br>Provide the exchange rate for each currency reported in questions 9, 10, 11.<br>Date_ (mm-dd-yyyy)_<br>Exchange Rate per U.S. Dollar|~~:~~<br>Provide the exchange rate for each currency reported in questions 9, 10, 11.<br>Date_ (mm-dd-yyyy)_<br>Exchange Rate per U.S. Dollar|~~:~~<br>Provide the exchange rate for each currency reported in questions 9, 10, 11.<br>Date_ (mm-dd-yyyy)_<br>Exchange Rate per U.S. Dollar|~~:~~<br>Provide the exchange rate for each currency reported in questions 9, 10, 11.<br>Date_ (mm-dd-yyyy)_<br>Exchange Rate per U.S. Dollar|~~:~~<br>Provide the exchange rate for each currency reported in questions 9, 10, 11.<br>Date_ (mm-dd-yyyy)_<br>Exchange Rate per U.S. Dollar|~~:~~<br>Provide the exchange rate for each currency reported in questions 9, 10, 11.<br>Date_ (mm-dd-yyyy)_<br>Exchange Rate per U.S. Dollar|~~:~~<br>Provide the exchange rate for each currency reported in questions 9, 10, 11.<br>Date_ (mm-dd-yyyy)_<br>Exchange Rate per U.S. Dollar|~~:~~<br>Provide the exchange rate for each currency reported in questions 9, 10, 11.<br>Date_ (mm-dd-yyyy)_<br>Exchange Rate per U.S. Dollar|",
+      "md_text_cleaned": "12~~.~~ ~~:~~ Provide the exchange rate for each currency reported in questions 9, 10, 11. Date mm-dd-yyyy Exchange Rate per U.S. Dollar~~:~~ Provide the exchange rate for each currency reported in questions 9, 10, 11. Date mm-dd-yyyy Exchange Rate per U.S. Dollar~~:~~ Provide the exchange rate for each currency reported in questions 9, 10, 11. Date mm-dd-yyyy Exchange Rate per U.S. Dollar~~:~~ Provide the exchange rate for each currency reported in questions 9, 10, 11. Date mm-dd-yyyy Exchange Rate per U.S. Dollar~~:~~ Provide the exchange rate for each currency reported in questions 9, 10, 11. Date mm-dd-yyyy Exchange Rate per U.S. Dollar~~:~~ Provide the exchange rate for each currency reported in questions 9, 10, 11. Date mm-dd-yyyy Exchange Rate per U.S. Dollar~~:~~ Provide the exchange rate for each currency reported in questions 9, 10, 11. Date mm-dd-yyyy Exchange Rate per U.S. Dollar~~:~~ Provide the exchange rate for each currency reported in questions 9, 10, 11. Date mm-dd-yyyy Exchange Rate per U.S. Dollar~~:~~ Provide the exchange rate for each currency reported in questions 9, 10, 11. Date mm-dd-yyyy Exchange Rate per U.S. Dollar~~:~~ Provide the exchange rate for each currency reported in questions 9, 10, 11. Date mm-dd-yyyy Exchange Rate per U.S. Dollar~~:~~ Provide the exchange rate for each currency reported in questions 9, 10, 11. Date mm-dd-yyyy Exchange Rate per U.S. Dollar~~:~~ Provide the exchange rate for each currency reported in questions 9, 10, 11. Date mm-dd-yyyy Exchange Rate per U.S. Dollar~~:~~ Provide the exchange rate for each currency reported in questions 9, 10, 11. Date mm-dd-yyyy Exchange Rate per U.S. Dollar~~:~~ Provide the exchange rate for each currency reported in questions 9, 10, 11. Date mm-dd-yyyy Exchange Rate per U.S. Dollar~~:~~ Provide the exchange rate for each currency reported in questions 9, 10, 11. Date mm-dd-yyyy Exchange Rate per U.S. Dollar~~:~~ Provide the exchange rate for each currency reported in questions 9, 10, 11. Date mm-dd-yyyy Exchange Rate per U.S. Dollar~~:~~ Provide the exchange rate for each currency reported in questions 9, 10, 11. Date mm-dd-yyyy Exchange Rate per U.S. Dollar",
+      "span_text": "Provide the exchange rate for each currency reported in questions 9, 10, 11.",
+      "matched_page": 3,
+      "span_match": true,
+      "features": {
+        "page_num": 3,
+        "column": 5,
+        "bbox": [
+          39,
+          448,
+          331,
+          461
+        ],
+        "font_name": "ArialMT",
+        "font_size": 7.999899864196777,
+        "font_styles": [
+          "normal"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.067
+    },
+    {
+      "line_number": 116,
+      "page_number": 3,
+      "is_in_table": true,
+      "md_text_original": "|**13**~~**.**~~|Exchange Rate per U.S. Dollar|Exchange Rate per U.S. Dollar|Exchange Rate per U.S. Dollar|Exchange Rate per U.S. Dollar|Exchange Rate per U.S. Dollar|Exchange Rate per U.S. Dollar|Exchange Rate per U.S. Dollar|Exchange Rate per U.S. Dollar|Exchange Rate per U.S. Dollar|Exchange Rate per U.S. Dollar|Exchange Rate per U.S. Dollar|Exchange Rate per U.S. Dollar|Exchange Rate per U.S. Dollar|Exchange Rate per U.S. Dollar|Exchange Rate per U.S. Dollar|Exchange Rate per U.S. Dollar|Exchange Rate per U.S. Dollar|",
+      "md_text_cleaned": "13~~.~~Exchange Rate per U.S. DollarExchange Rate per U.S. DollarExchange Rate per U.S. DollarExchange Rate per U.S. DollarExchange Rate per U.S. DollarExchange Rate per U.S. DollarExchange Rate per U.S. DollarExchange Rate per U.S. DollarExchange Rate per U.S. DollarExchange Rate per U.S. DollarExchange Rate per U.S. DollarExchange Rate per U.S. DollarExchange Rate per U.S. DollarExchange Rate per U.S. DollarExchange Rate per U.S. DollarExchange Rate per U.S. DollarExchange Rate per U.S. Dollar",
+      "span_text": "Exchange Rate per U.S. Dollar",
+      "matched_page": 3,
+      "span_match": true,
+      "features": {
+        "page_num": 3,
+        "column": 16,
+        "bbox": [
+          61,
+          465,
+          172,
+          490
+        ],
+        "font_name": "ArialMT",
+        "font_size": 7.999899864196777,
+        "font_styles": [
+          "normal"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.11
+    },
+    {
+      "line_number": 117,
+      "page_number": 3,
+      "is_in_table": true,
+      "md_text_original": "|**13**~~**.**~~|Comments  (Provide comments to support any responses that may need further explanation.)<br>|Comments  (Provide comments to support any responses that may need further explanation.)<br>|Comments  (Provide comments to support any responses that may need further explanation.)<br>|Comments  (Provide comments to support any responses that may need further explanation.)<br>|Comments  (Provide comments to support any responses that may need further explanation.)<br>|Comments  (Provide comments to support any responses that may need further explanation.)<br>|Comments  (Provide comments to support any responses that may need further explanation.)<br>|Comments  (Provide comments to support any responses that may need further explanation.)<br>|Comments  (Provide comments to support any responses that may need further explanation.)<br>|Comments  (Provide comments to support any responses that may need further explanation.)<br>|Comments  (Provide comments to support any responses that may need further explanation.)<br>|Comments  (Provide comments to support any responses that may need further explanation.)<br>|Comments  (Provide comments to support any responses that may need further explanation.)<br>|Comments  (Provide comments to support any responses that may need further explanation.)<br>|Comments  (Provide comments to support any responses that may need further explanation.)<br>|Comments  (Provide comments to support any responses that may need further explanation.)<br>|Comments  (Provide comments to support any responses that may need further explanation.)<br>|",
+      "md_text_cleaned": "13~~.~~Comments Provide comments to support any responses that may need further explanation. Comments Provide comments to support any responses that may need further explanation. Comments Provide comments to support any responses that may need further explanation. Comments Provide comments to support any responses that may need further explanation. Comments Provide comments to support any responses that may need further explanation. Comments Provide comments to support any responses that may need further explanation. Comments Provide comments to support any responses that may need further explanation. Comments Provide comments to support any responses that may need further explanation. Comments Provide comments to support any responses that may need further explanation. Comments Provide comments to support any responses that may need further explanation. Comments Provide comments to support any responses that may need further explanation. Comments Provide comments to support any responses that may need further explanation. Comments Provide comments to support any responses that may need further explanation. Comments Provide comments to support any responses that may need further explanation. Comments Provide comments to support any responses that may need further explanation. Comments Provide comments to support any responses that may need further explanation. Comments Provide comments to support any responses that may need further explanation.",
+      "span_text": "Comments  (Provide comments to support any responses that may need further explanation.)",
+      "matched_page": 3,
+      "span_match": true,
+      "features": {
+        "page_num": 3,
+        "column": 19,
+        "bbox": [
+          60,
+          511,
+          391,
+          521
+        ],
+        "font_name": "ArialMT",
+        "font_size": 7.999899864196777,
+        "font_styles": [
+          "normal"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.109
+    },
+    {
+      "line_number": 118,
+      "page_number": 3,
+      "is_in_table": true,
+      "md_text_original": "|~~**I certify that this report has been completed in accordance with the Department of State Standardized Regulations (DSSR) and that all fee**~~<br>**statements, catalogs, calendars, transportation invoices, and any other documentation supporting costs have been attached.**|~~**I certify that this report has been completed in accordance with the Department of State Standardized Regulations (DSSR) and that all fee**~~<br>**statements, catalogs, calendars, transportation invoices, and any other documentation supporting costs have been attached.**|~~**I certify that this report has been completed in accordance with the Department of State Standardized Regulations (DSSR) and that all fee**~~<br>**statements, catalogs, calendars, transportation invoices, and any other documentation supporting costs have been attached.**|~~**I certify that this report has been completed in accordance with the Department of State Standardized Regulations (DSSR) and that all fee**~~<br>**statements, catalogs, calendars, transportation invoices, and any other documentation supporting costs have been attached.**|~~**I certify that this report has been completed in accordance with the Department of State Standardized Regulations (DSSR) and that all fee**~~<br>**statements, catalogs, calendars, transportation invoices, and any other documentation supporting costs have been attached.**|~~**I certify that this report has been completed in accordance with the Department of State Standardized Regulations (DSSR) and that all fee**~~<br>**statements, catalogs, calendars, transportation invoices, and any other documentation supporting costs have been attached.**|~~**I certify that this report has been completed in accordance with the Department of State Standardized Regulations (DSSR) and that all fee**~~<br>**statements, catalogs, calendars, transportation invoices, and any other documentation supporting costs have been attached.**|~~**I certify that this report has been completed in accordance with the Department of State Standardized Regulations (DSSR) and that all fee**~~<br>**statements, catalogs, calendars, transportation invoices, and any other documentation supporting costs have been attached.**|~~**I certify that this report has been completed in accordance with the Department of State Standardized Regulations (DSSR) and that all fee**~~<br>**statements, catalogs, calendars, transportation invoices, and any other documentation supporting costs have been attached.**|~~**I certify that this report has been completed in accordance with the Department of State Standardized Regulations (DSSR) and that all fee**~~<br>**statements, catalogs, calendars, transportation invoices, and any other documentation supporting costs have been attached.**|~~**I certify that this report has been completed in accordance with the Department of State Standardized Regulations (DSSR) and that all fee**~~<br>**statements, catalogs, calendars, transportation invoices, and any other documentation supporting costs have been attached.**|~~**I certify that this report has been completed in accordance with the Department of State Standardized Regulations (DSSR) and that all fee**~~<br>**statements, catalogs, calendars, transportation invoices, and any other documentation supporting costs have been attached.**|~~**I certify that this report has been completed in accordance with the Department of State Standardized Regulations (DSSR) and that all fee**~~<br>**statements, catalogs, calendars, transportation invoices, and any other documentation supporting costs have been attached.**|~~**I certify that this report has been completed in accordance with the Department of State Standardized Regulations (DSSR) and that all fee**~~<br>**statements, catalogs, calendars, transportation invoices, and any other documentation supporting costs have been attached.**|~~**I certify that this report has been completed in accordance with the Department of State Standardized Regulations (DSSR) and that all fee**~~<br>**statements, catalogs, calendars, transportation invoices, and any other documentation supporting costs have been attached.**|~~**I certify that this report has been completed in accordance with the Department of State Standardized Regulations (DSSR) and that all fee**~~<br>**statements, catalogs, calendars, transportation invoices, and any other documentation supporting costs have been attached.**|~~**I certify that this report has been completed in accordance with the Department of State Standardized Regulations (DSSR) and that all fee**~~<br>**statements, catalogs, calendars, transportation invoices, and any other documentation supporting costs have been attached.**|~~**I certify that this report has been completed in accordance with the Department of State Standardized Regulations (DSSR) and that all fee**~~<br>**statements, catalogs, calendars, transportation invoices, and any other documentation supporting costs have been attached.**|",
+      "md_text_cleaned": "~~I certify that this report has been completed in accordance with the Department of State Standardized Regulations DSSR and that all fee~~ statements, catalogs, calendars, transportation invoices, and any other documentation supporting costs have been attached.~~I certify that this report has been completed in accordance with the Department of State Standardized Regulations DSSR and that all fee~~ statements, catalogs, calendars, transportation invoices, and any other documentation supporting costs have been attached.~~I certify that this report has been completed in accordance with the Department of State Standardized Regulations DSSR and that all fee~~ statements, catalogs, calendars, transportation invoices, and any other documentation supporting costs have been attached.~~I certify that this report has been completed in accordance with the Department of State Standardized Regulations DSSR and that all fee~~ statements, catalogs, calendars, transportation invoices, and any other documentation supporting costs have been attached.~~I certify that this report has been completed in accordance with the Department of State Standardized Regulations DSSR and that all fee~~ statements, catalogs, calendars, transportation invoices, and any other documentation supporting costs have been attached.~~I certify that this report has been completed in accordance with the Department of State Standardized Regulations DSSR and that all fee~~ statements, catalogs, calendars, transportation invoices, and any other documentation supporting costs have been attached.~~I certify that this report has been completed in accordance with the Department of State Standardized Regulations DSSR and that all fee~~ statements, catalogs, calendars, transportation invoices, and any other documentation supporting costs have been attached.~~I certify that this report has been completed in accordance with the Department of State Standardized Regulations DSSR and that all fee~~ statements, catalogs, calendars, transportation invoices, and any other documentation supporting costs have been attached.~~I certify that this report has been completed in accordance with the Department of State Standardized Regulations DSSR and that all fee~~ statements, catalogs, calendars, transportation invoices, and any other documentation supporting costs have been attached.~~I certify that this report has been completed in accordance with the Department of State Standardized Regulations DSSR and that all fee~~ statements, catalogs, calendars, transportation invoices, and any other documentation supporting costs have been attached.~~I certify that this report has been completed in accordance with the Department of State Standardized Regulations DSSR and that all fee~~ statements, catalogs, calendars, transportation invoices, and any other documentation supporting costs have been attached.~~I certify that this report has been completed in accordance with the Department of State Standardized Regulations DSSR and that all fee~~ statements, catalogs, calendars, transportation invoices, and any other documentation supporting costs have been attached.~~I certify that this report has been completed in accordance with the Department of State Standardized Regulations DSSR and that all fee~~ statements, catalogs, calendars, transportation invoices, and any other documentation supporting costs have been attached.~~I certify that this report has been completed in accordance with the Department of State Standardized Regulations DSSR and that all fee~~ statements, catalogs, calendars, transportation invoices, and any other documentation supporting costs have been attached.~~I certify that this report has been completed in accordance with the Department of State Standardized Regulations DSSR and that all fee~~ statements, catalogs, calendars, transportation invoices, and any other documentation supporting costs have been attached.~~I certify that this report has been completed in accordance with the Department of State Standardized Regulations DSSR and that all fee~~ statements, catalogs, calendars, transportation invoices, and any other documentation supporting costs have been attached.~~I certify that this report has been completed in accordance with the Department of State Standardized Regulations DSSR and that all fee~~ statements, catalogs, calendars, transportation invoices, and any other documentation supporting costs have been attached.~~I certify that this report has been completed in accordance with the Department of State Standardized Regulations DSSR and that all fee~~ statements, catalogs, calendars, transportation invoices, and any other documentation supporting costs have been attached.",
+      "span_text": "I certify that this report has been completed in accordance with the Department of State Standardized Regulations (DSSR) and that all fee",
+      "matched_page": 3,
+      "span_match": true,
+      "features": {
+        "page_num": 3,
+        "column": 20,
+        "bbox": [
+          39,
+          641,
+          561,
+          661
+        ],
+        "font_name": "Arial-BoldMT",
+        "font_size": 7.999899864196777,
+        "font_styles": [
+          "bold"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.056
+    },
+    {
+      "line_number": 119,
+      "page_number": 3,
+      "is_in_table": true,
+      "md_text_original": "|Name<br>Title<br>Name and Title of Approving Officer:|Name<br>Title<br>Name and Title of Approving Officer:|Name<br>Title<br>Name and Title of Approving Officer:|Name<br>Title<br>Name and Title of Approving Officer:|Name<br>Title<br>Name and Title of Approving Officer:|Signature of Approving Officer|Signature of Approving Officer|Signature of Approving Officer|Signature of Approving Officer|Signature of Approving Officer|Signature of Approving Officer|Signature of Approving Officer|Signature of Approving Officer|Signature of Approving Officer|Signature of Approving Officer|Signature of Approving Officer|Signature of Approving Officer|Signature of Approving Officer|",
+      "md_text_cleaned": "Name Title Name and Title of Approving Officer:Name Title Name and Title of Approving Officer:Name Title Name and Title of Approving Officer:Name Title Name and Title of Approving Officer:Name Title Name and Title of Approving Officer:Signature of Approving OfficerSignature of Approving OfficerSignature of Approving OfficerSignature of Approving OfficerSignature of Approving OfficerSignature of Approving OfficerSignature of Approving OfficerSignature of Approving OfficerSignature of Approving OfficerSignature of Approving OfficerSignature of Approving OfficerSignature of Approving OfficerSignature of Approving Officer",
+      "span_text": "Name and Title of Approving Officer:",
+      "matched_page": 3,
+      "span_match": true,
+      "features": {
+        "page_num": 3,
+        "column": 6,
+        "bbox": [
+          39,
+          666,
+          170,
+          676
+        ],
+        "font_name": "ArialMT",
+        "font_size": 7.999899864196777,
+        "font_styles": [
+          "normal"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.109
+    },
+    {
+      "line_number": 120,
+      "page_number": 3,
+      "is_in_table": true,
+      "md_text_original": "|Agency|Agency|Agency|Agency|Agency|Telephone<br>E-Mail<br>Contact Information|Telephone<br>E-Mail<br>Contact Information|Telephone<br>E-Mail<br>Contact Information|Telephone<br>E-Mail<br>Contact Information|Telephone<br>E-Mail<br>Contact Information|Telephone<br>E-Mail<br>Contact Information|Telephone<br>E-Mail<br>Contact Information|Telephone<br>E-Mail<br>Contact Information|Telephone<br>E-Mail<br>Contact Information|Date_(mm-dd-yyyy)_|Date_(mm-dd-yyyy)_|Date_(mm-dd-yyyy)_|Date_(mm-dd-yyyy)_|",
+      "md_text_cleaned": "AgencyAgencyAgencyAgencyAgencyTelephone E-Mail Contact InformationTelephone E-Mail Contact InformationTelephone E-Mail Contact InformationTelephone E-Mail Contact InformationTelephone E-Mail Contact InformationTelephone E-Mail Contact InformationTelephone E-Mail Contact InformationTelephone E-Mail Contact InformationTelephone E-Mail Contact InformationDatemm-dd-yyyyDatemm-dd-yyyyDatemm-dd-yyyyDatemm-dd-yyyy",
+      "span_text": "Date (mm-dd-yyyy)",
+      "matched_page": 3,
+      "span_match": true,
+      "features": {
+        "page_num": 3,
+        "column": 8,
+        "bbox": [
+          489,
+          708,
+          558,
+          717
+        ],
+        "font_name": "ArialMT",
+        "font_size": 7.999899864196777,
+        "font_styles": [
+          "normal"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.066
+    },
+    {
+      "line_number": 124,
+      "page_number": 3,
+      "is_in_table": false,
+      "md_text_original": "**DS-63** **Page 2 of 2**",
+      "md_text_cleaned": "DS-63 Page 2 of 2",
+      "span_text": "Page 2 of 2",
+      "matched_page": 3,
+      "span_match": true,
+      "features": {
+        "page_num": 3,
+        "column": 9,
+        "bbox": [
+          41,
+          757,
+          575,
+          769
+        ],
+        "font_name": "Arial-BoldMT",
+        "font_size": 7.999899864196777,
+        "font_styles": [
+          "bold"
+        ],
+        "color": 0
+      },
+      "match_confidence": 0.786
+    }
+  ],
+  "unmatched_lines": [
+    {
+      "line_number": 56,
+      "page_number": null,
+      "is_in_table": true,
+      "text_original": "|---|---|---|---|---|---|---|---|---|---|",
+      "text_cleaned": "",
+      "search_pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "line_number": 69,
+      "page_number": null,
+      "is_in_table": true,
+      "text_original": "|||||||||||",
+      "text_cleaned": "",
+      "search_pages": [
+        2,
+        3
+      ]
+    },
+    {
+      "line_number": 70,
+      "page_number": null,
+      "is_in_table": true,
+      "text_original": "|||||||||||",
+      "text_cleaned": "",
+      "search_pages": [
+        2,
+        3
+      ]
+    },
+    {
+      "line_number": 71,
+      "page_number": null,
+      "is_in_table": true,
+      "text_original": "|||||||||||",
+      "text_cleaned": "",
+      "search_pages": [
+        2,
+        3
+      ]
+    },
+    {
+      "line_number": 72,
+      "page_number": null,
+      "is_in_table": true,
+      "text_original": "|||||||||||",
+      "text_cleaned": "",
+      "search_pages": [
+        2,
+        3
+      ]
+    },
+    {
+      "line_number": 73,
+      "page_number": null,
+      "is_in_table": true,
+      "text_original": "|||||||||||",
+      "text_cleaned": "",
+      "search_pages": [
+        2,
+        3
+      ]
+    },
+    {
+      "line_number": 74,
+      "page_number": null,
+      "is_in_table": true,
+      "text_original": "|||||||||||",
+      "text_cleaned": "",
+      "search_pages": [
+        2,
+        3
+      ]
+    },
+    {
+      "line_number": 75,
+      "page_number": null,
+      "is_in_table": true,
+      "text_original": "|||||||||||",
+      "text_cleaned": "",
+      "search_pages": [
+        2,
+        3
+      ]
+    },
+    {
+      "line_number": 76,
+      "page_number": null,
+      "is_in_table": true,
+      "text_original": "|||||||||||",
+      "text_cleaned": "",
+      "search_pages": [
+        2,
+        3
+      ]
+    },
+    {
+      "line_number": 77,
+      "page_number": null,
+      "is_in_table": true,
+      "text_original": "|||||||||||",
+      "text_cleaned": "",
+      "search_pages": [
+        2,
+        3
+      ]
+    },
+    {
+      "line_number": 78,
+      "page_number": null,
+      "is_in_table": true,
+      "text_original": "|||||||||||",
+      "text_cleaned": "",
+      "search_pages": [
+        2,
+        3
+      ]
+    },
+    {
+      "line_number": 79,
+      "page_number": null,
+      "is_in_table": true,
+      "text_original": "|||||||||||",
+      "text_cleaned": "",
+      "search_pages": [
+        2,
+        3
+      ]
+    },
+    {
+      "line_number": 80,
+      "page_number": null,
+      "is_in_table": true,
+      "text_original": "|||||||||||",
+      "text_cleaned": "",
+      "search_pages": [
+        2,
+        3
+      ]
+    },
+    {
+      "line_number": 81,
+      "page_number": null,
+      "is_in_table": true,
+      "text_original": "|||||||||||",
+      "text_cleaned": "",
+      "search_pages": [
+        2,
+        3
+      ]
+    },
+    {
+      "line_number": 91,
+      "page_number": null,
+      "is_in_table": true,
+      "text_original": "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|",
+      "text_cleaned": "",
+      "search_pages": [
+        3
+      ]
+    },
+    {
+      "line_number": 94,
+      "page_number": null,
+      "is_in_table": true,
+      "text_original": "|||||||||||||||||||",
+      "text_cleaned": "",
+      "search_pages": [
+        3
+      ]
+    },
+    {
+      "line_number": 95,
+      "page_number": null,
+      "is_in_table": true,
+      "text_original": "|||||||||||||||||||",
+      "text_cleaned": "",
+      "search_pages": [
+        3
+      ]
+    },
+    {
+      "line_number": 96,
+      "page_number": null,
+      "is_in_table": true,
+      "text_original": "|||||||||||||||||||",
+      "text_cleaned": "",
+      "search_pages": [
+        3
+      ]
+    },
+    {
+      "line_number": 97,
+      "page_number": null,
+      "is_in_table": true,
+      "text_original": "|||||||||||||||||||",
+      "text_cleaned": "",
+      "search_pages": [
+        3
+      ]
+    },
+    {
+      "line_number": 98,
+      "page_number": null,
+      "is_in_table": true,
+      "text_original": "|||||||||||||||||||",
+      "text_cleaned": "",
+      "search_pages": [
+        3
+      ]
+    },
+    {
+      "line_number": 99,
+      "page_number": null,
+      "is_in_table": true,
+      "text_original": "|||||||||||||||||||",
+      "text_cleaned": "",
+      "search_pages": [
+        3
+      ]
+    },
+    {
+      "line_number": 105,
+      "page_number": null,
+      "is_in_table": true,
+      "text_original": "|||||||||||||||||||",
+      "text_cleaned": "",
+      "search_pages": [
+        3
+      ]
+    },
+    {
+      "line_number": 106,
+      "page_number": null,
+      "is_in_table": true,
+      "text_original": "|||||||||||||||||||",
+      "text_cleaned": "",
+      "search_pages": [
+        3
+      ]
+    },
+    {
+      "line_number": 107,
+      "page_number": null,
+      "is_in_table": true,
+      "text_original": "|||||||||||||||||||",
+      "text_cleaned": "",
+      "search_pages": [
+        3
+      ]
+    },
+    {
+      "line_number": 108,
+      "page_number": null,
+      "is_in_table": true,
+      "text_original": "|||||||||||||||||||",
+      "text_cleaned": "",
+      "search_pages": [
+        3
+      ]
+    },
+    {
+      "line_number": 109,
+      "page_number": null,
+      "is_in_table": true,
+      "text_original": "|||||||||||||||||||",
+      "text_cleaned": "",
+      "search_pages": [
+        3
+      ]
+    },
+    {
+      "line_number": 110,
+      "page_number": null,
+      "is_in_table": true,
+      "text_original": "|||||||||||||||||||",
+      "text_cleaned": "",
+      "search_pages": [
+        3
+      ]
+    },
+    {
+      "line_number": 111,
+      "page_number": null,
+      "is_in_table": true,
+      "text_original": "|||||||||||||||||||",
+      "text_cleaned": "",
+      "search_pages": [
+        3
+      ]
+    },
+    {
+      "line_number": 112,
+      "page_number": null,
+      "is_in_table": true,
+      "text_original": "|||||||||||||||||||",
+      "text_cleaned": "",
+      "search_pages": [
+        3
+      ]
+    }
+  ]
+}

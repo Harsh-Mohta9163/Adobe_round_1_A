@@ -1,0 +1,160 @@
+{
+  "summary": {
+    "total_md_lines": 6,
+    "matched_lines": 0,
+    "unmatched_lines": 6,
+    "table_lines_processed": 0,
+    "table_lines_matched": 0,
+    "table_match_percentage": 0,
+    "match_percentage": 0.0,
+    "total_spans_available": 571,
+    "spans_used": 0,
+    "processing_time_seconds": 0.03,
+    "lines_per_second": 211.19,
+    "avg_spans_searched_per_line": 24.0,
+    "optimization_speedup": "23.8x faster than full search",
+    "pages_available": 19
+  },
+  "aggregated_data": [
+    {
+      "line_number": 1,
+      "page_number": null,
+      "is_in_table": false,
+      "md_text_original": "**For the Bailey's Buttercream:** Place the butter in the bowl of a stand mixer fitted with the",
+      "md_text_cleaned": "For the Bailey's Buttercream: Place the butter in the bowl of a stand mixer fitted with the",
+      "span_text": null,
+      "matched_page": null,
+      "span_match": false,
+      "features": null,
+      "match_confidence": null
+    },
+    {
+      "line_number": 2,
+      "page_number": null,
+      "is_in_table": false,
+      "md_text_original": "paddle attachment. Beat on medium-high speed until light and fluffy, about 2-3 minutes.",
+      "md_text_cleaned": "paddle attachment. Beat on medium-high speed until light and fluffy, about 2-3 minutes.",
+      "span_text": null,
+      "matched_page": null,
+      "span_match": false,
+      "features": null,
+      "match_confidence": null
+    },
+    {
+      "line_number": 3,
+      "page_number": null,
+      "is_in_table": false,
+      "md_text_original": "Gradually add the powdered sugar until it is all incorporated. Mix in the vanilla and Bailey's until",
+      "md_text_cleaned": "Gradually add the powdered sugar until it is all incorporated. Mix in the vanilla and Bailey's until",
+      "span_text": null,
+      "matched_page": null,
+      "span_match": false,
+      "features": null,
+      "match_confidence": null
+    },
+    {
+      "line_number": 4,
+      "page_number": null,
+      "is_in_table": false,
+      "md_text_original": "smooth. Add more Bailey's if necessary until the frosting has reached a good consistency for",
+      "md_text_cleaned": "smooth. Add more Bailey's if necessary until the frosting has reached a good consistency for",
+      "span_text": null,
+      "matched_page": null,
+      "span_match": false,
+      "features": null,
+      "match_confidence": null
+    },
+    {
+      "line_number": 5,
+      "page_number": null,
+      "is_in_table": false,
+      "md_text_original": "piping or spreading. Frost the cupcakes as desired.",
+      "md_text_cleaned": "piping or spreading. Frost the cupcakes as desired.",
+      "span_text": null,
+      "matched_page": null,
+      "span_match": false,
+      "features": null,
+      "match_confidence": null
+    },
+    {
+      "line_number": 7,
+      "page_number": null,
+      "is_in_table": false,
+      "md_text_original": "**Yield: 24 cupcakes**",
+      "md_text_cleaned": "Yield: 24 cupcakes",
+      "span_text": null,
+      "matched_page": null,
+      "span_match": false,
+      "features": null,
+      "match_confidence": null
+    }
+  ],
+  "unmatched_lines": [
+    {
+      "line_number": 1,
+      "page_number": null,
+      "is_in_table": false,
+      "text_original": "**For the Bailey's Buttercream:** Place the butter in the bowl of a stand mixer fitted with the",
+      "text_cleaned": "For the Bailey's Buttercream: Place the butter in the bowl of a stand mixer fitted with the",
+      "search_pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "line_number": 2,
+      "page_number": null,
+      "is_in_table": false,
+      "text_original": "paddle attachment. Beat on medium-high speed until light and fluffy, about 2-3 minutes.",
+      "text_cleaned": "paddle attachment. Beat on medium-high speed until light and fluffy, about 2-3 minutes.",
+      "search_pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "line_number": 3,
+      "page_number": null,
+      "is_in_table": false,
+      "text_original": "Gradually add the powdered sugar until it is all incorporated. Mix in the vanilla and Bailey's until",
+      "text_cleaned": "Gradually add the powdered sugar until it is all incorporated. Mix in the vanilla and Bailey's until",
+      "search_pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "line_number": 4,
+      "page_number": null,
+      "is_in_table": false,
+      "text_original": "smooth. Add more Bailey's if necessary until the frosting has reached a good consistency for",
+      "text_cleaned": "smooth. Add more Bailey's if necessary until the frosting has reached a good consistency for",
+      "search_pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "line_number": 5,
+      "page_number": null,
+      "is_in_table": false,
+      "text_original": "piping or spreading. Frost the cupcakes as desired.",
+      "text_cleaned": "piping or spreading. Frost the cupcakes as desired.",
+      "search_pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "line_number": 7,
+      "page_number": null,
+      "is_in_table": false,
+      "text_original": "**Yield: 24 cupcakes**",
+      "text_cleaned": "Yield: 24 cupcakes",
+      "search_pages": [
+        1,
+        2
+      ]
+    }
+  ]
+}

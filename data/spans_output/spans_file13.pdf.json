@@ -1,0 +1,6284 @@
+[
+  {
+    "page_num": 1,
+    "column": 0,
+    "bbox": [
+      62,
+      216,
+      595,
+      740
+    ],
+    "text": "Part 1: Administrative information",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPS-BoldMT",
+        "font_size": 20.040000915527344,
+        "font_flags": 20
+      }
+    ]
+  },
+  {
+    "page_num": 1,
+    "column": 0,
+    "bbox": [
+      62,
+      216,
+      595,
+      740
+    ],
+    "text": "Application form",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPS-BoldMT",
+        "font_size": 20.040000915527344,
+        "font_flags": 20
+      }
+    ]
+  },
+  {
+    "page_num": 1,
+    "column": 0,
+    "bbox": [
+      62,
+      216,
+      595,
+      740
+    ],
+    "text": "USER GUIDE FOR THE ELECTRONIC",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPS-BoldMT",
+        "font_size": 20.040000915527344,
+        "font_flags": 20
+      }
+    ]
+  },
+  {
+    "page_num": 1,
+    "column": 0,
+    "bbox": [
+      62,
+      216,
+      595,
+      740
+    ],
+    "text": "APPLICATION FORM FOR A MARKETING",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPS-BoldMT",
+        "font_size": 20.040000915527344,
+        "font_flags": 20
+      }
+    ]
+  },
+  {
+    "page_num": 1,
+    "column": 0,
+    "bbox": [
+      62,
+      216,
+      595,
+      740
+    ],
+    "text": "AUTHORISATION (Veterinary)",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPS-BoldMT",
+        "font_size": 20.040000915527344,
+        "font_flags": 20
+      }
+    ]
+  },
+  {
+    "page_num": 1,
+    "column": 0,
+    "bbox": [
+      62,
+      216,
+      595,
+      740
+    ],
+    "text": "June 2015",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPS-BoldMT",
+        "font_size": 20.040000915527344,
+        "font_flags": 20
+      }
+    ]
+  },
+  {
+    "page_num": 1,
+    "column": 0,
+    "bbox": [
+      62,
+      216,
+      595,
+      740
+    ],
+    "text": "Version 1.0",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 12.0,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 2,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      771
+    ],
+    "text": "PURPOSE AND GENERAL RULES",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPS-BoldMT",
+        "font_size": 14.039999961853027,
+        "font_flags": 20
+      }
+    ]
+  },
+  {
+    "page_num": 2,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      771
+    ],
+    "text": "This user guide has been prepared in order to facilitate the work of applicants when completing the electronic",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 2,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      771
+    ],
+    "text": "application form as part of an application for a marketing authorisation / extension of a medicinal product for",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 2,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      771
+    ],
+    "text": "veterinary use.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 2,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      771
+    ],
+    "text": "How to fill in the electronic application form?",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPS-BoldItalicMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 22
+      },
+      {
+        "font_name": "TimesNewRomanPS-BoldItalicMT",
+        "font_size": 12.0,
+        "font_flags": 22
+      }
+    ]
+  },
+  {
+    "page_num": 2,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      771
+    ],
+    "text": "The electronic application form has been prepared to be filled in by the applicant in case of an application made",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 2,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      771
+    ],
+    "text": "either by national route or by mutual recognition, decentralised or centralised procedures.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 2,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      771
+    ],
+    "text": "In the case of a mutual recognition or decentralised procedure an application form should be filled in for all",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 2,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      771
+    ],
+    "text": "competent authorities where the application is made.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 2,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      771
+    ],
+    "text": "Since some information may differ between Member States (e.g. name of the product, marketing authorisation",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 2,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      771
+    ],
+    "text": "holder (MAH), legal status, contact persons etc…), the appropriate sections should be replicated where",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 2,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      771
+    ],
+    "text": "necessary. Fields can be duplicated by clicking on a boxed “+” symbol. For relevant sections, the applicant is",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 2,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      771
+    ],
+    "text": "requested to specify to which Member State the information relates.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 2,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      771
+    ],
+    "text": "Where EEA is indicated in the application form, the applicant should understand EEA countries therefore",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 2,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      771
+    ],
+    "text": "including EU countries.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 2,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      771
+    ],
+    "text": "For national, mutual recognition and decentralised procedures, a completed separate application form is usually",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 2,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      771
+    ],
+    "text": "required for each strength and pharmaceutical form. For centralised procedures a combined application form for",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 2,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      771
+    ],
+    "text": "all strengths and pharmaceutical forms is recommended, the relevant sections should be replicated as necessary.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 2,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      771
+    ],
+    "text": "Fields relevant for certain types of applications or related to legal basis do only appear after ticking the",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 2,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      771
+    ],
+    "text": "concerned box.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 2,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      771
+    ],
+    "text": "Square boxes indicate that multiple choices are possible while round boxes indicate that one choice excludes",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 2,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      771
+    ],
+    "text": "the other possibilities.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 2,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      771
+    ],
+    "text": "Some fields have to be filled in by choosing a value from a drop-down list that is based on a controlled",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 2,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      771
+    ],
+    "text": "dictionary. Further information on the dictionaries used is provided in this document.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 2,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      771
+    ],
+    "text": "The e-submissions website (http://esubmission.ema.europa.eu/eaf/index.html) provides further guidance on:",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      },
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      },
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 2,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      771
+    ],
+    "text": "- Technical aspects of the electronic application form, in particular the technical user guide and Questions &",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 2,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      771
+    ],
+    "text": "Answers documents relating to practical and technical aspects of the electronic Application Forms;",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 2,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      771
+    ],
+    "text": "- Information on the dictionaries, including instructions on requesting additional terms to some of the lists.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 2,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      771
+    ],
+    "text": "Which language should be used?",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPS-BoldItalicMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 22
+      }
+    ]
+  },
+  {
+    "page_num": 2,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      771
+    ],
+    "text": "- English should be used for a centralised procedure.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 2,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      771
+    ],
+    "text": "- English should be used for a mutual recognition or decentralised procedures, except in some",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 2,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      771
+    ],
+    "text": "Member States where the national language should be used. - National language should be used preferably in",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 2,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      771
+    ],
+    "text": "the case of a national application, except if subsequent mutual recognition procedure is already considered and",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 2,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      771
+    ],
+    "text": "if the national competent authority where this application is made accepts English.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 2,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      771
+    ],
+    "text": "Language requirements apply also to the annexes to the application form therefore, as applicable, translations",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 2,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      771
+    ],
+    "text": "may have to be provided.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      },
+      {
+        "font_name": "TimesNewRomanPS-BoldMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 20
+      }
+    ]
+  },
+  {
+    "page_num": 2,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      771
+    ],
+    "text": "Further guidance can be found in http://www.hma.eu/uploads/media/HR_GUI-28_Dossier_languages.pdf.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      },
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      },
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      },
+      {
+        "font_name": "TimesNewRomanPS-BoldMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 20
+      }
+    ]
+  },
+  {
+    "page_num": 3,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      738
+    ],
+    "text": "ADMINISTRATIVE DATA",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPS-BoldMT",
+        "font_size": 14.039999961853027,
+        "font_flags": 20
+      }
+    ]
+  },
+  {
+    "page_num": 3,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      738
+    ],
+    "text": "DECLARATION and SIGNATURE",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPS-BoldMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 20
+      }
+    ]
+  },
+  {
+    "page_num": 3,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      738
+    ],
+    "text": "In this declaration, data must be identical to the information provided in other sections, as well as in the",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 3,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      738
+    ],
+    "text": "supportive documents provided (e.g. annexes to the application form, proposed product information, other parts",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 3,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      738
+    ],
+    "text": "of the dossier).",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 3,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      738
+    ],
+    "text": "When this section is completed the data should be populated to corresponding fields in other sections of the",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 3,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      738
+    ],
+    "text": "application form by clicking on the respective push-button “Populate data in section 2.2.1. and 2.6.1.”",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 3,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      738
+    ],
+    "text": "Product (Invented) name",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPS-BoldMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 20
+      }
+    ]
+  },
+  {
+    "page_num": 3,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      738
+    ],
+    "text": "In case of an application under the mutual recognition (MRP) or decentralised (DCP) procedure the product",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 3,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      738
+    ],
+    "text": "name used in the reference Member State should be listed. Please refer to the CMDv document “Clarification",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      },
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 3,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      738
+    ],
+    "text": "Paper – Agreeing Product Name During the Decentralised Procedure”. Here should be quoted only the product",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      },
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 3,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      738
+    ],
+    "text": "or invented name in the box and not the FULL name of the product. A list of the different proposed invented",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 3,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      738
+    ],
+    "text": "names and marketing authorisation holders in the concerned Member States should be appended to the",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 3,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      738
+    ],
+    "text": "application form in annex 5.18.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 3,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      738
+    ],
+    "text": "For an application under the centralised procedure, the invented name should be agreed by CVMP prior",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 3,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      738
+    ],
+    "text": "submission.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 3,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      738
+    ],
+    "text": "Please",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 3,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      738
+    ],
+    "text": "refer",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 3,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      738
+    ],
+    "text": "to",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 3,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      738
+    ],
+    "text": "the",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 3,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      738
+    ],
+    "text": "EMA",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 3,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      738
+    ],
+    "text": "website",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 3,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      738
+    ],
+    "text": "for",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 3,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      738
+    ],
+    "text": "further",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 3,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      738
+    ],
+    "text": "information",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 3,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      738
+    ],
+    "text": "(http://www.ema.europa.eu/ema/index.jsp?curl=pages/regulation/landing/veterinary_medicines_regulatory.jsp",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      },
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 3,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      738
+    ],
+    "text": "&mid=).",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      },
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 3,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      738
+    ],
+    "text": "Pharmaceutical form",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPS-BoldMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 20
+      }
+    ]
+  },
+  {
+    "page_num": 3,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      738
+    ],
+    "text": "The pharmaceutical form should be selected in the drop-down list, which includes the pharmaceutical forms",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 3,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      738
+    ],
+    "text": "described in the Standard terms published in the European Pharmacopoeia that provides standardised",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 3,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      738
+    ],
+    "text": "nomenclatures and quality standards for medicinal substances and products (https://www.edqm.eu/en/standard-",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      },
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 3,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      738
+    ],
+    "text": "terms-590.html). Only the full term should be mentioned (not the short term).",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      },
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 3,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      738
+    ],
+    "text": "For centralised procedure only: If the application is made for several pharmaceutical forms in a single",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 3,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      738
+    ],
+    "text": "application form, the pharmaceutical form field should be duplicated and all pharmaceutical forms included.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 3,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      738
+    ],
+    "text": "Strength (s)",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPS-BoldMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 20
+      }
+    ]
+  },
+  {
+    "page_num": 3,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      738
+    ],
+    "text": "Active Substance(s)",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPS-BoldMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 20
+      }
+    ]
+  },
+  {
+    "page_num": 3,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      738
+    ],
+    "text": "The two fields “Strength” and “Active substance” should be considered as linked and corresponding values",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 3,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      738
+    ],
+    "text": "listed in the same order for both fields. Strength is to be entered as a free text and active substance selected",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 3,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      738
+    ],
+    "text": "from the drop-down list (based on a controlled dictionary).",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 3,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      738
+    ],
+    "text": "To see the drop-down list click on “Add Active Substance(s)”. If the product contains more than one active",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 3,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      738
+    ],
+    "text": "substance, each active substance should be added.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 3,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      738
+    ],
+    "text": "Duplicate the field by clicking on +.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 3,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      738
+    ],
+    "text": "For the Centralised Procedure only, if the concerned pharmaceutical form has several strengths that are applied",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 3,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      738
+    ],
+    "text": "for in the same application form, the field should be duplicated and all strengths included.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 3,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      738
+    ],
+    "text": "Applicant details",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPS-BoldMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 20
+      }
+    ]
+  },
+  {
+    "page_num": 3,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      738
+    ],
+    "text": "The same applicant should apply in all concerned Member States. For MRP and DCP applications, the",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 3,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      738
+    ],
+    "text": "applicant should be the same as the marketing authorisation holder (MAH)/applicant in the reference Member",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 3,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      738
+    ],
+    "text": "State (RMS).",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 3,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      738
+    ],
+    "text": "The name of the applicant should be included in the field ‘Applicant’, while contact person on behalf of the",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 3,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      738
+    ],
+    "text": "applicant should be indicated in the fields “Title”, “First Name” and “Surname” of this section.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 4,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      758
+    ],
+    "text": "Person authorised for communication, on behalf of the Applicant",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPS-BoldMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 20
+      }
+    ]
+  },
+  {
+    "page_num": 4,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      758
+    ],
+    "text": "Letter of authorisation for communication/signing on behalf of the applicant should be attached in Annex 5.4.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 4,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      758
+    ],
+    "text": "Person signing the application form should have the letter of authorisation referred to above.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 4,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      758
+    ],
+    "text": "1. TYPE OF APPLICATION",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPS-BoldMT",
+        "font_size": 14.039999961853027,
+        "font_flags": 20
+      },
+      {
+        "font_name": "Arial-BoldMT",
+        "font_size": 14.039999961853027,
+        "font_flags": 16
+      },
+      {
+        "font_name": "TimesNewRomanPS-BoldMT",
+        "font_size": 14.039999961853027,
+        "font_flags": 20
+      }
+    ]
+  },
+  {
+    "page_num": 4,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      758
+    ],
+    "text": "1.1 This application concerns",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPS-BoldMT",
+        "font_size": 12.0,
+        "font_flags": 20
+      }
+    ]
+  },
+  {
+    "page_num": 4,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      758
+    ],
+    "text": "1.1.1. A Centralised procedure",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPS-BoldItalicMT",
+        "font_size": 12.0,
+        "font_flags": 22
+      }
+    ]
+  },
+  {
+    "page_num": 4,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      758
+    ],
+    "text": "Article 3 of Regulation (EC) No 726/2004 defines the eligibility of applications for evaluation under the",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 4,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      758
+    ],
+    "text": "centralised procedure through which medicinal products must or may be authorised by the Union. The",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 4,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      758
+    ],
+    "text": "eligibility to centralised procedure should be confirmed by the CVMP well in advance of the submission of the",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 4,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      758
+    ],
+    "text": "application for the marketing authorisation.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 4,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      758
+    ],
+    "text": "The basis for eligibility should be indicated in line with the CVMP acceptance/confirmation of the eligibility to",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 4,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      758
+    ],
+    "text": "the centralised procedure, indicating also the date of acceptance/confirmation of eligibility. Only one eligibility",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 4,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      758
+    ],
+    "text": "basis should be indicated. If the product falls under ‘mandatory’ eligibility scope, this scope should be",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 4,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      758
+    ],
+    "text": "indicated, even if the product falls also under an ‘optional’ scope.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 4,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      758
+    ],
+    "text": "The rapporteur and co-rapporteur appointed by the CVMP should be indicated in this section (Title, First name,",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 4,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      758
+    ],
+    "text": "Surname).",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 4,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      758
+    ],
+    "text": "For further guidance on the procedure for confirmation of eligibility to centralised procedure and rapporteur",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 4,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      758
+    ],
+    "text": "appointment",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 4,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      758
+    ],
+    "text": "please",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 4,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      758
+    ],
+    "text": "refer",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 4,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      758
+    ],
+    "text": "to",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 4,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      758
+    ],
+    "text": "the",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 4,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      758
+    ],
+    "text": "website",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 4,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      758
+    ],
+    "text": "of",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 4,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      758
+    ],
+    "text": "European",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 4,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      758
+    ],
+    "text": "Medicines",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 4,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      758
+    ],
+    "text": "Agency",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 4,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      758
+    ],
+    "text": "(http://www.ema.europa.eu/ema/index.jsp?curl=pages/regulation/landing/veterinary_medicines_regulatory.jsp",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      },
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 4,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      758
+    ],
+    "text": "&mid=).",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      },
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 4,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      758
+    ],
+    "text": "1.1.2. A Mutual recognition procedure",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPS-BoldItalicMT",
+        "font_size": 12.0,
+        "font_flags": 22
+      }
+    ]
+  },
+  {
+    "page_num": 4,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      758
+    ],
+    "text": "The applicant should indicate the reference Member State, details of the marketing authorisation (date of",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 4,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      758
+    ],
+    "text": "authorisation and marketing authorisation number), procedure number, and for each “wave” of mutual",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 4,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      758
+    ],
+    "text": "recognition procedure concerned Member State(s) and the proposed (or agreed) common renewal date.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 4,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      758
+    ],
+    "text": "The procedure number is the Mutual Recognition Procedure number allocated by the reference Member State.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 4,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      758
+    ],
+    "text": "“First Use” means the first mutual recognition procedure.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 4,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      758
+    ],
+    "text": "All the concerned Member States should be indicated (by replication of the box).",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 4,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      758
+    ],
+    "text": "“Repeat use” means a new use (“wave”) of the same mutual recognition or decentralised procedure made to",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 4,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      758
+    ],
+    "text": "include new concerned Member State(s).",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 4,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      758
+    ],
+    "text": "When applying for a repeat use, the applicant should complete “first use/wave” by stating the Member States",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 4,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      758
+    ],
+    "text": "which have recognised the marketing authorisation during the first use (or during the decentralised procedure)",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 4,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      758
+    ],
+    "text": "and complete, when necessary, section 4.2 indicating the Member States where the application has (have) been",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 4,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      758
+    ],
+    "text": "withdrawn during the “first use/wave”. For each subsequent use the applicant should indicate the rank (2nd,",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 4,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      758
+    ],
+    "text": "third, fourth…) and states the Member States which have recognised the marketing authorisation during the",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 4,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      758
+    ],
+    "text": "first use/wave and subsequent finalised use of the procedure. Last “wave” should reflect the current application.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 5,
+    "column": 0,
+    "bbox": [
+      48,
+      84,
+      595,
+      250
+    ],
+    "text": "Further information on previous applications should be provided in section 4 of the application.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 5,
+    "column": 0,
+    "bbox": [
+      48,
+      84,
+      595,
+      250
+    ],
+    "text": "1.1.3. A Decentralised procedure",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPS-BoldItalicMT",
+        "font_size": 12.0,
+        "font_flags": 22
+      }
+    ]
+  },
+  {
+    "page_num": 5,
+    "column": 0,
+    "bbox": [
+      48,
+      84,
+      595,
+      250
+    ],
+    "text": "The applicant should indicate the reference Member State, procedure number allocated by the RMS, and",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 5,
+    "column": 0,
+    "bbox": [
+      48,
+      84,
+      595,
+      250
+    ],
+    "text": "concerned Member State(s) and proposed common renewal date.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 5,
+    "column": 0,
+    "bbox": [
+      48,
+      84,
+      595,
+      250
+    ],
+    "text": "For repeat-use of decentralised procedure, please complete section 1.1.2.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 5,
+    "column": 0,
+    "bbox": [
+      48,
+      84,
+      595,
+      250
+    ],
+    "text": "1.1.4. A National procedure",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPS-BoldItalicMT",
+        "font_size": 12.0,
+        "font_flags": 22
+      }
+    ]
+  },
+  {
+    "page_num": 5,
+    "column": 0,
+    "bbox": [
+      48,
+      84,
+      595,
+      250
+    ],
+    "text": "The Member State in which the application is made should be mentioned. Optionally procedure number",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 5,
+    "column": 0,
+    "bbox": [
+      48,
+      84,
+      595,
+      250
+    ],
+    "text": "allocated prior to the submission should be indicated.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 5,
+    "column": 1,
+    "bbox": [
+      48,
+      262,
+      595,
+      749
+    ],
+    "text": "1.2. Application for a change to existing marketing authorisation leading to an extension",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPS-BoldMT",
+        "font_size": 12.0,
+        "font_flags": 20
+      }
+    ]
+  },
+  {
+    "page_num": 5,
+    "column": 1,
+    "bbox": [
+      48,
+      262,
+      595,
+      749
+    ],
+    "text": "as referred to in Annex I of Commission Regulation (EC) No 1234/2008, or any national",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPS-BoldMT",
+        "font_size": 12.0,
+        "font_flags": 20
+      }
+    ]
+  },
+  {
+    "page_num": 5,
+    "column": 1,
+    "bbox": [
+      48,
+      262,
+      595,
+      749
+    ],
+    "text": "legislation, where applicable",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPS-BoldMT",
+        "font_size": 12.0,
+        "font_flags": 20
+      }
+    ]
+  },
+  {
+    "page_num": 5,
+    "column": 1,
+    "bbox": [
+      48,
+      262,
+      595,
+      749
+    ],
+    "text": "Certain changes to a marketing authorisation are considered to fundamentally alter the terms of a marketing",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 5,
+    "column": 1,
+    "bbox": [
+      48,
+      262,
+      595,
+      749
+    ],
+    "text": "authorisation and therefore cannot be considered as a variation. For these changes, set out in Annex I of",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 5,
+    "column": 1,
+    "bbox": [
+      48,
+      262,
+      595,
+      749
+    ],
+    "text": "Regulation (EC) No 1234/2008, a new application must be made that shall be evaluated in accordance with the",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 5,
+    "column": 1,
+    "bbox": [
+      48,
+      262,
+      595,
+      749
+    ],
+    "text": "same procedure as for the initial marketing authorisation to which it relates.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 5,
+    "column": 1,
+    "bbox": [
+      48,
+      262,
+      595,
+      749
+    ],
+    "text": "Applications for changes or additions falling under the scope of Annex I of Commission Regulation (EC) No",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 5,
+    "column": 1,
+    "bbox": [
+      48,
+      262,
+      595,
+      749
+    ],
+    "text": "1234/2008 (“extension application”) can only be submitted by the marketing authorisation holder. In this case,",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 5,
+    "column": 1,
+    "bbox": [
+      48,
+      262,
+      595,
+      749
+    ],
+    "text": "the applicant must be the same as the marketing authorisation holder of the existing marketing authorisation.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 5,
+    "column": 1,
+    "bbox": [
+      48,
+      262,
+      595,
+      749
+    ],
+    "text": "Reference should be made to the following guidance:",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 5,
+    "column": 1,
+    "bbox": [
+      48,
+      262,
+      595,
+      749
+    ],
+    "text": "http://www.hma.eu/uploads/media/063_Q_A_Referring_to_data_in_another_dossier_EMA-CMDv-",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 5,
+    "column": 1,
+    "bbox": [
+      48,
+      262,
+      595,
+      749
+    ],
+    "text": "69345-2011.pdf",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      },
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 5,
+    "column": 1,
+    "bbox": [
+      48,
+      262,
+      595,
+      749
+    ],
+    "text": "The same procedure should be followed, not the same legal basis.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 5,
+    "column": 1,
+    "bbox": [
+      48,
+      262,
+      595,
+      749
+    ],
+    "text": "1.2.1 Changes applied for",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPS-BoldItalicMT",
+        "font_size": 12.0,
+        "font_flags": 22
+      }
+    ]
+  },
+  {
+    "page_num": 5,
+    "column": 1,
+    "bbox": [
+      48,
+      262,
+      595,
+      749
+    ],
+    "text": "The applicant should specify which of the changes set out in Annex I of Commission Regulation (EC) No",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 5,
+    "column": 1,
+    "bbox": [
+      48,
+      262,
+      595,
+      749
+    ],
+    "text": "1234/2008 this application concerns:",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 5,
+    "column": 1,
+    "bbox": [
+      48,
+      262,
+      595,
+      749
+    ],
+    "text": "-",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 12.0,
+        "font_flags": 4
+      },
+      {
+        "font_name": "ArialMT",
+        "font_size": 12.0,
+        "font_flags": 0
+      }
+    ]
+  },
+  {
+    "page_num": 5,
+    "column": 1,
+    "bbox": [
+      48,
+      262,
+      595,
+      749
+    ],
+    "text": "a qualitative change in declared active substance not defined as a new active substance (indicating",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 5,
+    "column": 1,
+    "bbox": [
+      48,
+      262,
+      595,
+      749
+    ],
+    "text": "the type of change),",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 5,
+    "column": 1,
+    "bbox": [
+      48,
+      262,
+      595,
+      749
+    ],
+    "text": "-",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 12.0,
+        "font_flags": 4
+      },
+      {
+        "font_name": "ArialMT",
+        "font_size": 12.0,
+        "font_flags": 0
+      }
+    ]
+  },
+  {
+    "page_num": 5,
+    "column": 1,
+    "bbox": [
+      48,
+      262,
+      595,
+      749
+    ],
+    "text": "change in bioavailability,",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 5,
+    "column": 1,
+    "bbox": [
+      48,
+      262,
+      595,
+      749
+    ],
+    "text": "-",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 12.0,
+        "font_flags": 4
+      },
+      {
+        "font_name": "ArialMT",
+        "font_size": 12.0,
+        "font_flags": 0
+      }
+    ]
+  },
+  {
+    "page_num": 5,
+    "column": 1,
+    "bbox": [
+      48,
+      262,
+      595,
+      749
+    ],
+    "text": "change in pharmacokinetics,",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 5,
+    "column": 1,
+    "bbox": [
+      48,
+      262,
+      595,
+      749
+    ],
+    "text": "-",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 12.0,
+        "font_flags": 4
+      },
+      {
+        "font_name": "ArialMT",
+        "font_size": 12.0,
+        "font_flags": 0
+      }
+    ]
+  },
+  {
+    "page_num": 5,
+    "column": 1,
+    "bbox": [
+      48,
+      262,
+      595,
+      749
+    ],
+    "text": "change or addition of a new strength/potency,",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 5,
+    "column": 1,
+    "bbox": [
+      48,
+      262,
+      595,
+      749
+    ],
+    "text": "-",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 12.0,
+        "font_flags": 4
+      },
+      {
+        "font_name": "ArialMT",
+        "font_size": 12.0,
+        "font_flags": 0
+      }
+    ]
+  },
+  {
+    "page_num": 5,
+    "column": 1,
+    "bbox": [
+      48,
+      262,
+      595,
+      749
+    ],
+    "text": "change or addition of a new pharmaceutical form,",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 5,
+    "column": 1,
+    "bbox": [
+      48,
+      262,
+      595,
+      749
+    ],
+    "text": "-",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 12.0,
+        "font_flags": 4
+      },
+      {
+        "font_name": "ArialMT",
+        "font_size": 12.0,
+        "font_flags": 0
+      }
+    ]
+  },
+  {
+    "page_num": 5,
+    "column": 1,
+    "bbox": [
+      48,
+      262,
+      595,
+      749
+    ],
+    "text": "change or addition of a new route of administration",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 5,
+    "column": 1,
+    "bbox": [
+      48,
+      262,
+      595,
+      749
+    ],
+    "text": "-",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 12.0,
+        "font_flags": 4
+      },
+      {
+        "font_name": "ArialMT",
+        "font_size": 12.0,
+        "font_flags": 0
+      }
+    ]
+  },
+  {
+    "page_num": 5,
+    "column": 1,
+    "bbox": [
+      48,
+      262,
+      595,
+      749
+    ],
+    "text": "change or addition of a food-producing target animal species",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 5,
+    "column": 1,
+    "bbox": [
+      48,
+      262,
+      595,
+      749
+    ],
+    "text": "Multiple concomitant changes are possible in a single application form if applied for at the same time. All",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 5,
+    "column": 1,
+    "bbox": [
+      48,
+      262,
+      595,
+      749
+    ],
+    "text": "changes applied for should be indicated, therefore all relevant boxes should be ticked (e.g. change of",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 5,
+    "column": 1,
+    "bbox": [
+      48,
+      262,
+      595,
+      749
+    ],
+    "text": "pharmaceutical form and change of strength).",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 5,
+    "column": 1,
+    "bbox": [
+      48,
+      262,
+      595,
+      749
+    ],
+    "text": "The European Commission has published a guideline to clarify the terms 'pharmaceutical form' and 'strength'",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 5,
+    "column": 1,
+    "bbox": [
+      48,
+      262,
+      595,
+      749
+    ],
+    "text": "and to include relevant examples for this classification: Guideline on the categorisation of new applications",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      },
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 5,
+    "column": 1,
+    "bbox": [
+      48,
+      262,
+      595,
+      749
+    ],
+    "text": "versus variation applications.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      },
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 6,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      756
+    ],
+    "text": "This guideline on categorisation should be read in conjunction with the European Directorate for the Quality of",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      },
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 6,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      756
+    ],
+    "text": "Medicines and Healthcare (EDQM) guidance: Standard terms: Introduction and guidance for use and",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      },
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 6,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      756
+    ],
+    "text": "Regulation (EC) No 1234/2008.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 6,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      756
+    ],
+    "text": "In case of doubt, the MAH is advised to contact the concerned Competent Authority in advance of the",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 6,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      756
+    ],
+    "text": "submission.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 6,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      756
+    ],
+    "text": "1.3 This application is submitted in accordance with the following article in Directive",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPS-BoldMT",
+        "font_size": 12.0,
+        "font_flags": 20
+      }
+    ]
+  },
+  {
+    "page_num": 6,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      756
+    ],
+    "text": "2001/82/EC",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPS-BoldMT",
+        "font_size": 12.0,
+        "font_flags": 20
+      }
+    ]
+  },
+  {
+    "page_num": 6,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      756
+    ],
+    "text": "The section should be completed for each application and only one box should be ticked.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 6,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      756
+    ],
+    "text": "The applicant should indicate the “legal basis” of the application – the corresponding Article of Directive",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 6,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      756
+    ],
+    "text": "2001/82/EC, according to which the application is made. Please refer to Notice to Applicants, Volume 6A,",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 6,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      756
+    ],
+    "text": "Chapter 1 for further guidance.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 6,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      756
+    ],
+    "text": "For applications for a change to an existing marketing authorisation leading to an extension as referred to in",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 6,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      756
+    ],
+    "text": "Annex I of Regulation (EC) No 1234/2008. For extensions, cross references to safety and residue data,",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 6,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      756
+    ],
+    "text": "environmental risk assessment or pre-clinical and clinical data of the existing marketing authorisation could be",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 6,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      756
+    ],
+    "text": "made.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 6,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      756
+    ],
+    "text": "1.3.1 Article 12(3) application",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPS-BoldItalicMT",
+        "font_size": 12.0,
+        "font_flags": 22
+      }
+    ]
+  },
+  {
+    "page_num": 6,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      756
+    ],
+    "text": "For applications made according to Article 12(3) of Directive 2001/82/EC, the applicant should indicate",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 6,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      756
+    ],
+    "text": "whether it concerns a new active substance (at time of submission) or a known active substance. In case the",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 6,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      756
+    ],
+    "text": "claim of a new active substance is made, the corresponding justification should be provided as Annex 5.22 to",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 6,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      756
+    ],
+    "text": "the Application Form and the corresponding box in section 1.4.1 ticked.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 6,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      756
+    ],
+    "text": "1.3.2 Article 13(1) generic application",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPS-BoldItalicMT",
+        "font_size": 12.0,
+        "font_flags": 22
+      }
+    ]
+  },
+  {
+    "page_num": 6,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      756
+    ],
+    "text": "For applications made according to Article 13(1) of Directive 2001/82/EC the applicant should indicate under:",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 6,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      756
+    ],
+    "text": "-",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 12.0,
+        "font_flags": 4
+      },
+      {
+        "font_name": "ArialMT",
+        "font_size": 12.0,
+        "font_flags": 0
+      }
+    ]
+  },
+  {
+    "page_num": 6,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      756
+    ],
+    "text": "“Veterinary medicinal product which is or has been authorised in accordance with Union provisions",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPS-ItalicMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 6
+      }
+    ]
+  },
+  {
+    "page_num": 6,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      756
+    ],
+    "text": "in force (acquis communautaire) for not less than 6/10years in the EEA” – a reference medicinal",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPS-ItalicMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 6
+      },
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      },
+      {
+        "font_name": "TimesNewRomanPS-ItalicMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 6
+      },
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 6,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      756
+    ],
+    "text": "product for which data protection has expired;",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 6,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      756
+    ],
+    "text": "-",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 12.0,
+        "font_flags": 4
+      },
+      {
+        "font_name": "ArialMT",
+        "font_size": 12.0,
+        "font_flags": 0
+      }
+    ]
+  },
+  {
+    "page_num": 6,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      756
+    ],
+    "text": "“Veterinary medicinal product authorised in the Union/Member State where the application is made",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPS-ItalicMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 6
+      }
+    ]
+  },
+  {
+    "page_num": 6,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      756
+    ],
+    "text": "or European reference medicinal product” – a reference medicinal product with the same",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPS-ItalicMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 6
+      },
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 6,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      756
+    ],
+    "text": "pharmaceutical form(s) (please see Article 13(2) of Directive 2001/82/EC regarding immediate",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 6,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      756
+    ],
+    "text": "release oral forms), strength(s) and route of administration, on which the product information of the",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 6,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      756
+    ],
+    "text": "generic product is based);",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      },
+      {
+        "font_name": "TimesNewRomanPS-ItalicMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 6
+      }
+    ]
+  },
+  {
+    "page_num": 6,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      756
+    ],
+    "text": "-",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 12.0,
+        "font_flags": 4
+      },
+      {
+        "font_name": "ArialMT",
+        "font_size": 12.0,
+        "font_flags": 0
+      }
+    ]
+  },
+  {
+    "page_num": 6,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      756
+    ],
+    "text": "“Veterinary medicinal product which is or has been authorised in accordance with Union provisions",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPS-ItalicMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 6
+      }
+    ]
+  },
+  {
+    "page_num": 6,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      756
+    ],
+    "text": "in force and to which bioequivalence has been demonstrated by appropriate bioavailability studies”",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPS-ItalicMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 6
+      },
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 6,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      756
+    ],
+    "text": "– a reference medicinal product used as the reference product in bioequivalence studies.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 6,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      756
+    ],
+    "text": "Reference product boxes can be replicated when information is different in the Member States.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 6,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      756
+    ],
+    "text": "All 3 subsections must be filled out, otherwise the applicant should justify.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPS-BoldMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 20
+      },
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 6,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      756
+    ],
+    "text": "The reference medicinal products listed above must belong to the same Global Marketing Authorisation,",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 6,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      756
+    ],
+    "text": "contain the same active substance(s) as the generic product and being authorised on the basis of a complete",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 6,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      756
+    ],
+    "text": "dossier. When there are any differences between products indicated under second and third indent of this",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 6,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      756
+    ],
+    "text": "section, the applicant should justify in Part 1C the relevance of the bioequivalence data.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 7,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      333
+    ],
+    "text": "Please refer to Notice to Applicants, Volume 6A, Chapter 1 for further guidance.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 7,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      333
+    ],
+    "text": "For each of the reference medicinal products in this section the applicant should indicate all the particulars",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 7,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      333
+    ],
+    "text": "listed in the application form:",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 7,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      333
+    ],
+    "text": "-",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 12.0,
+        "font_flags": 4
+      },
+      {
+        "font_name": "ArialMT",
+        "font_size": 12.0,
+        "font_flags": 0
+      }
+    ]
+  },
+  {
+    "page_num": 7,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      333
+    ],
+    "text": "Product (invented) name",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 7,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      333
+    ],
+    "text": "-",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 12.0,
+        "font_flags": 4
+      },
+      {
+        "font_name": "ArialMT",
+        "font_size": 12.0,
+        "font_flags": 0
+      }
+    ]
+  },
+  {
+    "page_num": 7,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      333
+    ],
+    "text": "Pharmaceutical form(s)",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 7,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      333
+    ],
+    "text": "-",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 12.0,
+        "font_flags": 4
+      },
+      {
+        "font_name": "ArialMT",
+        "font_size": 12.0,
+        "font_flags": 0
+      }
+    ]
+  },
+  {
+    "page_num": 7,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      333
+    ],
+    "text": "Strength(s)",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 7,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      333
+    ],
+    "text": "-",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 12.0,
+        "font_flags": 4
+      },
+      {
+        "font_name": "ArialMT",
+        "font_size": 12.0,
+        "font_flags": 0
+      }
+    ]
+  },
+  {
+    "page_num": 7,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      333
+    ],
+    "text": "Name of the marketing authorisation holder",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 7,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      333
+    ],
+    "text": "-",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 12.0,
+        "font_flags": 4
+      },
+      {
+        "font_name": "ArialMT",
+        "font_size": 12.0,
+        "font_flags": 0
+      }
+    ]
+  },
+  {
+    "page_num": 7,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      333
+    ],
+    "text": "Marketing authorisation number",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 7,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      333
+    ],
+    "text": "-",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 12.0,
+        "font_flags": 4
+      },
+      {
+        "font_name": "ArialMT",
+        "font_size": 12.0,
+        "font_flags": 0
+      }
+    ]
+  },
+  {
+    "page_num": 7,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      333
+    ],
+    "text": "Date of authorisation",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 7,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      333
+    ],
+    "text": "-",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 12.0,
+        "font_flags": 4
+      },
+      {
+        "font_name": "ArialMT",
+        "font_size": 12.0,
+        "font_flags": 0
+      }
+    ]
+  },
+  {
+    "page_num": 7,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      333
+    ],
+    "text": "The EEA (including EU) Member State or EU that has granted the marketing authorisation",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 7,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      333
+    ],
+    "text": "For the product to which the bioequivalence has been demonstrated the applicant should also indicate the",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 7,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      333
+    ],
+    "text": "Member State in which the product has been sourced for the bioequivalence studies and the references",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 7,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      333
+    ],
+    "text": "numbers/ EudraCT numbers of those studies.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 7,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      333
+    ],
+    "text": "1.3.3. Article 13(3) hybrid application",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPS-BoldItalicMT",
+        "font_size": 12.0,
+        "font_flags": 22
+      }
+    ]
+  },
+  {
+    "page_num": 7,
+    "column": 0,
+    "bbox": [
+      48,
+      69,
+      595,
+      333
+    ],
+    "text": "For applications made according to Article 13(3) of Directive 2001/82/EC the applicant should indicate:",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 7,
+    "column": 1,
+    "bbox": [
+      48,
+      333,
+      595,
+      748
+    ],
+    "text": "-",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 12.0,
+        "font_flags": 4
+      },
+      {
+        "font_name": "ArialMT",
+        "font_size": 12.0,
+        "font_flags": 0
+      }
+    ]
+  },
+  {
+    "page_num": 7,
+    "column": 1,
+    "bbox": [
+      48,
+      333,
+      595,
+      748
+    ],
+    "text": "“Veterinary medicinal product which is or has been authorised in accordance with Union provisions",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPS-ItalicMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 6
+      }
+    ]
+  },
+  {
+    "page_num": 7,
+    "column": 1,
+    "bbox": [
+      48,
+      333,
+      595,
+      748
+    ],
+    "text": "in force (acquis communautaire) for not less than 6/10 years in the EEA” – medicinal product for",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPS-ItalicMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 6
+      },
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      },
+      {
+        "font_name": "TimesNewRomanPS-ItalicMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 6
+      },
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 7,
+    "column": 1,
+    "bbox": [
+      48,
+      333,
+      595,
+      748
+    ],
+    "text": "which regulatory data protection periods have expired;",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 7,
+    "column": 1,
+    "bbox": [
+      48,
+      333,
+      595,
+      748
+    ],
+    "text": "-",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 12.0,
+        "font_flags": 4
+      },
+      {
+        "font_name": "ArialMT",
+        "font_size": 12.0,
+        "font_flags": 0
+      }
+    ]
+  },
+  {
+    "page_num": 7,
+    "column": 1,
+    "bbox": [
+      48,
+      333,
+      595,
+      748
+    ],
+    "text": "“Veterinary medicinal product authorised in the Union/Member State where the application is made",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPS-ItalicMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 6
+      }
+    ]
+  },
+  {
+    "page_num": 7,
+    "column": 1,
+    "bbox": [
+      48,
+      333,
+      595,
+      748
+    ],
+    "text": "or European reference medicinal product” – medicinal product, on which the product information of",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPS-ItalicMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 6
+      },
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 7,
+    "column": 1,
+    "bbox": [
+      48,
+      333,
+      595,
+      748
+    ],
+    "text": "the hybrid product is based;",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 7,
+    "column": 1,
+    "bbox": [
+      48,
+      333,
+      595,
+      748
+    ],
+    "text": "-",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 12.0,
+        "font_flags": 4
+      },
+      {
+        "font_name": "ArialMT",
+        "font_size": 12.0,
+        "font_flags": 0
+      }
+    ]
+  },
+  {
+    "page_num": 7,
+    "column": 1,
+    "bbox": [
+      48,
+      333,
+      595,
+      748
+    ],
+    "text": "Differences (several possible) to the reference medicinal product on which the product information of",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 7,
+    "column": 1,
+    "bbox": [
+      48,
+      333,
+      595,
+      748
+    ],
+    "text": "the hybrid product is based:",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 7,
+    "column": 1,
+    "bbox": [
+      48,
+      333,
+      595,
+      748
+    ],
+    "text": "• change in the active substance(s),",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      },
+      {
+        "font_name": "ArialMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 0
+      },
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 7,
+    "column": 1,
+    "bbox": [
+      48,
+      333,
+      595,
+      748
+    ],
+    "text": "• change in therapeutic indications,",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      },
+      {
+        "font_name": "ArialMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 0
+      },
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 7,
+    "column": 1,
+    "bbox": [
+      48,
+      333,
+      595,
+      748
+    ],
+    "text": "• change in pharmaceutical form,",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      },
+      {
+        "font_name": "ArialMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 0
+      },
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 7,
+    "column": 1,
+    "bbox": [
+      48,
+      333,
+      595,
+      748
+    ],
+    "text": "• change in strength (quantitative change to the active substance(s)),",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      },
+      {
+        "font_name": "ArialMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 0
+      },
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 7,
+    "column": 1,
+    "bbox": [
+      48,
+      333,
+      595,
+      748
+    ],
+    "text": "• change in route of administration,",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      },
+      {
+        "font_name": "ArialMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 0
+      },
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 7,
+    "column": 1,
+    "bbox": [
+      48,
+      333,
+      595,
+      748
+    ],
+    "text": "• bioequivalence cannot be demonstrated through bioavailability studies.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      },
+      {
+        "font_name": "ArialMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 0
+      },
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 7,
+    "column": 1,
+    "bbox": [
+      48,
+      333,
+      595,
+      748
+    ],
+    "text": "-",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 12.0,
+        "font_flags": 4
+      },
+      {
+        "font_name": "ArialMT",
+        "font_size": 12.0,
+        "font_flags": 0
+      }
+    ]
+  },
+  {
+    "page_num": 7,
+    "column": 1,
+    "bbox": [
+      48,
+      333,
+      595,
+      748
+    ],
+    "text": "If applicable, “veterinary medicinal product which is or has been authorised in accordance with",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      },
+      {
+        "font_name": "TimesNewRomanPS-ItalicMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 6
+      }
+    ]
+  },
+  {
+    "page_num": 7,
+    "column": 1,
+    "bbox": [
+      48,
+      333,
+      595,
+      748
+    ],
+    "text": "Union provisions in force and to which bioequivalence has been demonstrated by appropriate",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPS-ItalicMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 6
+      }
+    ]
+  },
+  {
+    "page_num": 7,
+    "column": 1,
+    "bbox": [
+      48,
+      333,
+      595,
+      748
+    ],
+    "text": "bioavailability studies” – medicinal product used as the reference product in bioequivalence studies.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPS-ItalicMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 6
+      },
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 7,
+    "column": 1,
+    "bbox": [
+      48,
+      333,
+      595,
+      748
+    ],
+    "text": "Reference product boxes can be replicated when information is different in the Member States.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 7,
+    "column": 1,
+    "bbox": [
+      48,
+      333,
+      595,
+      748
+    ],
+    "text": "All subsections must be filled out, otherwise the applicant should justify.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPS-BoldMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 20
+      }
+    ]
+  },
+  {
+    "page_num": 7,
+    "column": 1,
+    "bbox": [
+      48,
+      333,
+      595,
+      748
+    ],
+    "text": "For each of the products in this section the applicant should indicate all the particulars listed in the application",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 7,
+    "column": 1,
+    "bbox": [
+      48,
+      333,
+      595,
+      748
+    ],
+    "text": "form.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 7,
+    "column": 1,
+    "bbox": [
+      48,
+      333,
+      595,
+      748
+    ],
+    "text": "The products referred to must belong to the same Global Marketing Authorisation, contain the same active",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 7,
+    "column": 1,
+    "bbox": [
+      48,
+      333,
+      595,
+      748
+    ],
+    "text": "substance(s) and be authorised on the basis of a complete dossier. When there are any differences between",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 7,
+    "column": 1,
+    "bbox": [
+      48,
+      333,
+      595,
+      748
+    ],
+    "text": "products indicated under second and third indent of this section, the applicant should justify in Part 1C the",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 7,
+    "column": 1,
+    "bbox": [
+      48,
+      333,
+      595,
+      748
+    ],
+    "text": "relevance of the bioequivalence data.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 7,
+    "column": 1,
+    "bbox": [
+      48,
+      333,
+      595,
+      748
+    ],
+    "text": "Please refer to Notice to Applicants, Volume 6A, Chapter 1 for further guidance.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 8,
+    "column": 0,
+    "bbox": [
+      62,
+      69,
+      524,
+      111
+    ],
+    "text": "1.3.4. Article 13(4) similar biological application",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPS-BoldItalicMT",
+        "font_size": 12.0,
+        "font_flags": 22
+      }
+    ]
+  },
+  {
+    "page_num": 8,
+    "column": 0,
+    "bbox": [
+      62,
+      69,
+      524,
+      111
+    ],
+    "text": "For applications made according to Article 13(4) of Directive 2001/82/EC the applicant should indicate:",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 8,
+    "column": 1,
+    "bbox": [
+      83,
+      109,
+      536,
+      215
+    ],
+    "text": "pp",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 8,
+    "column": 1,
+    "bbox": [
+      83,
+      109,
+      536,
+      215
+    ],
+    "text": "g",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 8,
+    "column": 1,
+    "bbox": [
+      83,
+      109,
+      536,
+      215
+    ],
+    "text": "( )",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 8,
+    "column": 1,
+    "bbox": [
+      83,
+      109,
+      536,
+      215
+    ],
+    "text": "pp",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 8,
+    "column": 1,
+    "bbox": [
+      83,
+      109,
+      536,
+      215
+    ],
+    "text": "“Veterinary medicinal product which is or has been authorised in accordance with Union provisions",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPS-ItalicMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 6
+      }
+    ]
+  },
+  {
+    "page_num": 8,
+    "column": 1,
+    "bbox": [
+      83,
+      109,
+      536,
+      215
+    ],
+    "text": "in force (acquis communautaire) for not less than 6/(8)/10 years in the EEA” – medicinal product for",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPS-ItalicMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 6
+      },
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      },
+      {
+        "font_name": "TimesNewRomanPS-ItalicMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 6
+      },
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 8,
+    "column": 1,
+    "bbox": [
+      83,
+      109,
+      536,
+      215
+    ],
+    "text": "which data protection periods have expired;",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 8,
+    "column": 1,
+    "bbox": [
+      83,
+      109,
+      536,
+      215
+    ],
+    "text": "“Veterinary medicinal product authorised in the Union/Member State where the application is made",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPS-ItalicMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 6
+      }
+    ]
+  },
+  {
+    "page_num": 8,
+    "column": 1,
+    "bbox": [
+      83,
+      109,
+      536,
+      215
+    ],
+    "text": "or European reference medicinal product” – medicinal product on which the product information of",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPS-ItalicMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 6
+      },
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 8,
+    "column": 1,
+    "bbox": [
+      83,
+      109,
+      536,
+      215
+    ],
+    "text": "the biosimilar product is based;",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 8,
+    "column": 1,
+    "bbox": [
+      83,
+      109,
+      536,
+      215
+    ],
+    "text": "Differences (several possible) to the reference medicinal product on which the product information of",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 8,
+    "column": 1,
+    "bbox": [
+      83,
+      109,
+      536,
+      215
+    ],
+    "text": "the biosimilar product is based:",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 8,
+    "column": 2,
+    "bbox": [
+      48,
+      212,
+      545,
+      556
+    ],
+    "text": "p",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 8,
+    "column": 2,
+    "bbox": [
+      48,
+      212,
+      545,
+      556
+    ],
+    "text": "• change(s) in the raw material(s),",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      },
+      {
+        "font_name": "ArialMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 0
+      },
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 8,
+    "column": 2,
+    "bbox": [
+      48,
+      212,
+      545,
+      556
+    ],
+    "text": "• change(s) in the manufacturing process(es),",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      },
+      {
+        "font_name": "ArialMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 0
+      },
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 8,
+    "column": 2,
+    "bbox": [
+      48,
+      212,
+      545,
+      556
+    ],
+    "text": "• change in therapeutic indication(s),",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      },
+      {
+        "font_name": "ArialMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 0
+      },
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 8,
+    "column": 2,
+    "bbox": [
+      48,
+      212,
+      545,
+      556
+    ],
+    "text": "• change in pharmaceutical form(s),",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      },
+      {
+        "font_name": "ArialMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 0
+      },
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 8,
+    "column": 2,
+    "bbox": [
+      48,
+      212,
+      545,
+      556
+    ],
+    "text": "• change in strength (quantitative change to the active substance(s)),",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      },
+      {
+        "font_name": "ArialMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 0
+      },
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 8,
+    "column": 2,
+    "bbox": [
+      48,
+      212,
+      545,
+      556
+    ],
+    "text": "• change in route(s) of administration,",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      },
+      {
+        "font_name": "ArialMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 0
+      },
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 8,
+    "column": 2,
+    "bbox": [
+      48,
+      212,
+      545,
+      556
+    ],
+    "text": "• other changes",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      },
+      {
+        "font_name": "ArialMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 0
+      },
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 8,
+    "column": 2,
+    "bbox": [
+      48,
+      212,
+      545,
+      556
+    ],
+    "text": "-",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 12.0,
+        "font_flags": 4
+      },
+      {
+        "font_name": "ArialMT",
+        "font_size": 12.0,
+        "font_flags": 0
+      }
+    ]
+  },
+  {
+    "page_num": 8,
+    "column": 2,
+    "bbox": [
+      48,
+      212,
+      545,
+      556
+    ],
+    "text": "“Veterinary medicinal product which is or has been authorised in accordance with Union provisions",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      },
+      {
+        "font_name": "TimesNewRomanPS-ItalicMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 6
+      }
+    ]
+  },
+  {
+    "page_num": 8,
+    "column": 2,
+    "bbox": [
+      48,
+      212,
+      545,
+      556
+    ],
+    "text": "in force and to which comparability tests and studies have been conducted” – medicinal product used",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPS-ItalicMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 6
+      },
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 8,
+    "column": 2,
+    "bbox": [
+      48,
+      212,
+      545,
+      556
+    ],
+    "text": "as the reference product in comparability tests and studies.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 8,
+    "column": 2,
+    "bbox": [
+      48,
+      212,
+      545,
+      556
+    ],
+    "text": "-",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 12.0,
+        "font_flags": 4
+      },
+      {
+        "font_name": "ArialMT",
+        "font_size": 12.0,
+        "font_flags": 0
+      }
+    ]
+  },
+  {
+    "page_num": 8,
+    "column": 2,
+    "bbox": [
+      48,
+      212,
+      545,
+      556
+    ],
+    "text": "Reference product boxes can be replicated when information is different in the Member States.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 8,
+    "column": 2,
+    "bbox": [
+      48,
+      212,
+      545,
+      556
+    ],
+    "text": "For each of the products in this section the applicant should indicate all the particulars listed in the application",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 8,
+    "column": 2,
+    "bbox": [
+      48,
+      212,
+      545,
+      556
+    ],
+    "text": "form.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 8,
+    "column": 2,
+    "bbox": [
+      48,
+      212,
+      545,
+      556
+    ],
+    "text": "The reference medicinal product to which comparability tests and studies have been conducted must be",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 8,
+    "column": 2,
+    "bbox": [
+      48,
+      212,
+      545,
+      556
+    ],
+    "text": "authorised in the EEA. When a non-EEA authorised comparator has been used for certain clinical or in vivo",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 8,
+    "column": 2,
+    "bbox": [
+      48,
+      212,
+      545,
+      556
+    ],
+    "text": "non-clinical studies in the comparability programme, it must be clearly identified but should not be additionally",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 8,
+    "column": 2,
+    "bbox": [
+      48,
+      212,
+      545,
+      556
+    ],
+    "text": "listed under third indent of this section of the application form. The “Guideline on similar biological medicinal",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 8,
+    "column": 2,
+    "bbox": [
+      48,
+      212,
+      545,
+      556
+    ],
+    "text": "products” should be consulted on the acceptability of a Non-EU comparator.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 8,
+    "column": 2,
+    "bbox": [
+      48,
+      212,
+      545,
+      556
+    ],
+    "text": "The products referred to must belong to the same Global Marketing Authorisation, and be authorised on the",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 8,
+    "column": 2,
+    "bbox": [
+      48,
+      212,
+      545,
+      556
+    ],
+    "text": "basis of a complete dossier. When there are any differences between products indicated under the second and",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 8,
+    "column": 2,
+    "bbox": [
+      48,
+      212,
+      545,
+      556
+    ],
+    "text": "third indent of this section, the applicant should justify the relevance of the comparability data. Please refer to",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 8,
+    "column": 2,
+    "bbox": [
+      48,
+      212,
+      545,
+      556
+    ],
+    "text": "Notice to Applicants, Volume 6A, Chapter 1 for further guidance.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 8,
+    "column": 3,
+    "bbox": [
+      48,
+      568,
+      595,
+      707
+    ],
+    "text": "1.3.5. Article 13a - Well-established use application",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPS-BoldItalicMT",
+        "font_size": 12.0,
+        "font_flags": 22
+      }
+    ]
+  },
+  {
+    "page_num": 8,
+    "column": 3,
+    "bbox": [
+      48,
+      568,
+      595,
+      707
+    ],
+    "text": "Further details and justification for the type of application should be provided. Please refer to Notice to",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 8,
+    "column": 3,
+    "bbox": [
+      48,
+      568,
+      595,
+      707
+    ],
+    "text": "Applicants, Volume 6A, Chapter 1 for further guidance.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 8,
+    "column": 3,
+    "bbox": [
+      48,
+      568,
+      595,
+      707
+    ],
+    "text": "1.3.6. Article 13b - Fixed combination application",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPS-BoldItalicMT",
+        "font_size": 12.0,
+        "font_flags": 22
+      }
+    ]
+  },
+  {
+    "page_num": 8,
+    "column": 3,
+    "bbox": [
+      48,
+      568,
+      595,
+      707
+    ],
+    "text": "This applies for fixed combinations of known substances. If not, section 1.3.1 is suitable for combinations",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 8,
+    "column": 3,
+    "bbox": [
+      48,
+      568,
+      595,
+      707
+    ],
+    "text": "including new active substances. Please refer to Notice to Applicants, Volume 6A, Chapter 1 for further",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  },
+  {
+    "page_num": 8,
+    "column": 3,
+    "bbox": [
+      48,
+      568,
+      595,
+      707
+    ],
+    "text": "guidance.",
+    "fonts": [
+      {
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 11.039999961853027,
+        "font_flags": 4
+      }
+    ]
+  }
+]
