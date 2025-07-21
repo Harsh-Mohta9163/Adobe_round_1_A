@@ -1,6 +1,9 @@
+venv/
 
-# Keep the directories but ignore their contents initially
-data/input/*
-data/labelled_grundtruth_csv/*
-!data/input/.gitkeep
-!data/labelled_grundtruth_csv/.gitkeep
+# Ignore specific data subdirectories
+data/aggregator_output/
+data/md_files/
+data/spans_output/
+data/textlines_csv_output/
+
+# Keep data/input/ and data/labelled_groundtruth_csv/ tracked
