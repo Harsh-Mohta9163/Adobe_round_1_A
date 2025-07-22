@@ -5,9 +5,9 @@ import glob
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix, precision_score, recall_score, f1_score
 
 # --- Configuration ---
-TEST_FOLDER = '../data/test_csv/'
-MODEL_FILE = 'text_block_merger_model.joblib'
-OUTPUT_FOLDER = '../data/test_results_with_predictions/'
+TEST_FOLDER = '../../data/model_input_textlines/'
+MODEL_FILE = '../../data/output_model1/text_block_merger_model.joblib'
+OUTPUT_FOLDER = '../../data/test_results/'
 
 # Create output folder if it doesn't exist
 os.makedirs(OUTPUT_FOLDER, exist_ok=True)
@@ -19,23 +19,26 @@ try:
     # Handle both old and new model formats
     if isinstance(model_data, dict):
         model = model_data['model']
+        feature_cols = model_data.get('feature_columns', [])
     else:
         model = model_data
+        # Fallback feature list if not stored in model
+        feature_cols = [
+            'normalized_vertical_gap', 'indentation_change', 'same_alignment',
+            'is_centered_A', 'is_centered_B', 'font_size_a', 'font_size_b', 'font_size_diff',
+            'same_font', 'is_bold_A', 'is_bold_B', 'is_italic_A', 'is_italic_B',
+            'is_monospace_A', 'is_monospace_B', 'same_bold', 'same_italic', 'same_monospace',
+            'line_a_ends_punctuation', 'line_b_starts_lowercase', 'is_linea_in_rectangle',
+            'is_lineb_in_rectangle', 'both_in_table', 'neither_in_table'
+        ]
     
     print("Model loaded successfully. ✅")
+    print(f"Using {len(feature_cols)} features for prediction")
     
 except FileNotFoundError:
     print(f"Error: Model file not found at '{MODEL_FILE}'.")
+    print("Make sure you have trained the model first using model_trainer.py")
     exit()
-
-# --- Define Features ---
-feature_cols = [
-    'normalized_vertical_gap', 'indentation_change', 'font_size_diff',
-    'same_font', 'line_a_ends_punctuation', 'line_b_starts_lowercase',
-    'same_alignment', 'is_centered_A', 'is_centered_B',
-    'is_linea_in_rectangle', 'is_lineb_in_rectangle', 'both_in_table',
-    'neither_in_table'
-]
 
 try:
     # --- Find all CSV files in test folder ---

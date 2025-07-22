@@ -59,6 +59,12 @@ data/aggregator_output/
 data/md_files/
 data/spans_output/
 data/textlines_csv_output/
+data/merged_textblocks_gt/
+merged_textblocks_test/
+data/model_input_textlines/
+data/output_model1/
+data/test_results/
+app/models/
 
 # Logs and monitoring
 logs/

@@ -333,8 +333,8 @@ def test_title_classifier(model_dir: str, test_folder: str, output_folder: str =
 if __name__ == '__main__':
     # --- CONFIGURATION ---
     MODEL_DIR = '../models'  # Directory with trained model
-    TEST_FOLDER = '../data/test_textblocks'  # Folder with test CSV files
-    OUTPUT_FOLDER = '../data/test_results'  # Optional: save predictions
+    TEST_FOLDER = '../../data/merged_textblocks_test'  # Folder with test CSV files
+    OUTPUT_FOLDER = '../../data/test_results'  # Optional: save predictions
     # -------------------
     
     print("🧪 Starting Title Classifier Testing")

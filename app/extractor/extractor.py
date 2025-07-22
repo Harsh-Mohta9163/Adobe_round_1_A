@@ -320,9 +320,8 @@ def extract_all_pdfs(pdf_names):
 if __name__ == "__main__":
     # Define list of PDF files to process
     pdf_names = [
-       "dataset01.pdf",
-         "dataset02.pdf",
-            "dataset03.pdf",
+      
+            "file03.pdf",
       
     ]
     

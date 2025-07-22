@@ -345,7 +345,7 @@ def train_title_classifier(input_folder: str, model_dir: str):
     print(f"🔧 Dependencies: scikit-learn, pandas, numpy only")
 
 if __name__ == '__main__':
-    INPUT_FOLDER = '../data/merged_textblocks_gt'
+    INPUT_FOLDER = '../../data/merged_textblocks_gt'
     MODEL_SAVE_DIR = '../models'
     
     print("🚀 Starting Lightweight Title Classifier Training")
