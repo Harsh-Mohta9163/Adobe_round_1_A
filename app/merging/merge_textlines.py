@@ -36,10 +36,19 @@ def calculate_capitalized_ratio(text):
     capitalized_words = [word for word in words if word[0].isupper()]
     return len(capitalized_words) / len(words)
 
+def get_feature_value(row, feature_name, default_value=0):
+    """Safely get feature value from row with fallback to default."""
+    try:
+        if feature_name in row and pd.notna(row[feature_name]):
+            return row[feature_name]
+        else:
+            return default_value
+    except:
+        return default_value
+
 def finalize_block(block_parts):
     """
     Processes a list of block parts to create a single, finalized textblock dictionary.
-    Now calculates average font size from all individual font sizes in the block.
     """
     if not block_parts:
         return None
@@ -63,17 +72,40 @@ def finalize_block(block_parts):
     ratio_of_verbs = calculate_verb_ratio(full_text)
     ratio_capitalized = calculate_capitalized_ratio(full_text)
     
-    return {
+    # Base block data (without title_label yet)
+    block_data = {
         'text': full_text,
         'bbox': union_bbox,
-        'avg_font_size': avg_font_size,  # This is now the average of all font sizes in the block
+        'avg_font_size': avg_font_size,
         'word_count': word_count,
         'is_all_caps': is_all_caps,
         'char_density': char_density,
         'ratio_of_verbs': ratio_of_verbs,
-        'ratio_capitalized': ratio_capitalized,
-        'title_label': ''
+        'ratio_capitalized': ratio_capitalized
     }
+    
+    # Add additional features from the first block part (use average if numeric)
+    if block_parts[0].get('additional_features'):
+        first_part_features = block_parts[0]['additional_features']
+        for feature_name, feature_value in first_part_features.items():
+            if isinstance(feature_value, (int, float)):
+                # For numeric features, calculate average across all parts
+                all_values = []
+                for part in block_parts:
+                    if part.get('additional_features', {}).get(feature_name) is not None:
+                        all_values.append(part['additional_features'][feature_name])
+                if all_values:
+                    block_data[feature_name] = round(sum(all_values) / len(all_values), 4)
+                else:
+                    block_data[feature_name] = feature_value
+            else:
+                # For non-numeric features, take the first value
+                block_data[feature_name] = feature_value
+    
+    # Add title_label as the last column
+    block_data['title_label'] = ''
+    
+    return block_data
 
 def detect_column_names(df):
     """Detect the correct column names for text and other features."""
@@ -82,39 +114,49 @@ def detect_column_names(df):
     # Find text columns
     text_a_col = None
     text_b_col = None
-    bbox_a_col = None
-    bbox_b_col = None
     font_size_a_col = None
     font_size_b_col = None
     
     for col in columns:
         col_lower = col.lower()
-        if 'text_a' in col_lower or 'line_a_text' in col_lower:
+        if 'text_a' in col_lower and 'span' not in col_lower:
             text_a_col = col
-        elif 'text_b' in col_lower or 'line_b_text' in col_lower:
+        elif 'text_b' in col_lower and 'span' not in col_lower:
             text_b_col = col
-        elif 'line_a_bbox' in col_lower or 'bbox_a' in col_lower:
-            bbox_a_col = col
-        elif 'line_b_bbox' in col_lower or 'bbox_b' in col_lower:
-            bbox_b_col = col
-        elif 'line_a_font_size' in col_lower or 'font_size_a' in col_lower:
+        elif 'font_size_a' in col_lower:
             font_size_a_col = col
-        elif 'line_b_font_size' in col_lower or 'font_size_b' in col_lower:
+        elif 'font_size_b' in col_lower:
             font_size_b_col = col
     
     return {
         'text_a': text_a_col,
         'text_b': text_b_col,
-        'bbox_a': bbox_a_col,
-        'bbox_b': bbox_b_col,
         'font_size_a': font_size_a_col,
         'font_size_b': font_size_b_col
     }
 
+def get_additional_features(df):
+    """Get additional features excluding span_text columns, line_b specific columns, and basic columns."""
+    exclude_patterns = [
+        'text_a', 'text_b', 'span_text_a', 'span_text_b', 
+        'font_size_a', 'font_size_b', 'label'
+    ]
+    
+    additional_features = []
+    for col in df.columns:
+        col_lower = col.lower()
+        # Skip if column matches any exclude pattern
+        if not any(pattern in col_lower for pattern in exclude_patterns):
+            # Skip line_b specific columns (anything ending with _b or _B)
+            if not (col.endswith('_b') or col.endswith('_B')):
+                additional_features.append(col)
+    
+    return additional_features
+
 def merge_textlines_guaranteed(input_csv_path: str, output_csv_path: str):
     """
     A robust script to merge textlines that guarantees no lines are dropped.
-    Now properly uses font_size_a and font_size_b from CSV to calculate block averages.
+    Now properly merges lines based on labels and excludes line_b features.
     """
     try:
         # Try multiple encodings to handle different file formats
@@ -148,33 +190,32 @@ def merge_textlines_guaranteed(input_csv_path: str, output_csv_path: str):
     if not cols['text_a'] or not cols['text_b']:
         print(f"❌ Required text columns not found in {os.path.basename(input_csv_path)}")
         print(f"Available columns: {list(df.columns)}")
-        print(f"Looking for columns like: text_a, text_b, line_A_text, line_B_text")
         return False
     
     if 'label' not in df.columns:
         print(f"❌ 'label' column not found in {os.path.basename(input_csv_path)}")
         return False
 
+    # Get additional features (excluding span_text, line_b columns, basic columns)
+    additional_feature_cols = get_additional_features(df)
+    
     print(f"📋 Using columns: text_a='{cols['text_a']}', text_b='{cols['text_b']}'")
-    if cols['font_size_a'] and cols['font_size_b']:
-        print(f"📋 Font size columns: font_size_a='{cols['font_size_a']}', font_size_b='{cols['font_size_b']}'")
-    else:
-        print(f"⚠️  Font size columns not found, using defaults")
+    print(f"📋 Font size columns: font_size_a='{cols['font_size_a']}', font_size_b='{cols['font_size_b']}'")
+    
+    if additional_feature_cols:
+        print(f"📋 Additional features found: {len(additional_feature_cols)} features")
+        print(f"📋 Features: {', '.join(additional_feature_cols[:5])}{'...' if len(additional_feature_cols) > 5 else ''}")
 
-    # Step 1: Create a definitive, ordered list of unique lines with their font sizes
+    # Step 1: Create ordered list of unique lines with their features
     unique_lines = []
     seen_texts = set()
     
+    # Process each row to build the sequence of unique lines
     for index, row in df.iterrows():
-        # Get text values
         text_a = str(row[cols['text_a']])
         text_b = str(row[cols['text_b']])
         
-        # Get bbox values (with defaults)
-        bbox_a = safe_eval_bbox(row.get(cols['bbox_a'], '[0,0,100,20]')) if cols['bbox_a'] else [0,0,100,20]
-        bbox_b = safe_eval_bbox(row.get(cols['bbox_b'], '[100,0,200,20]')) if cols['bbox_b'] else [100,0,200,20]
-        
-        # Get font sizes from the CSV columns (this is the key change!)
+        # Get font sizes
         try:
             font_size_a = float(row[cols['font_size_a']]) if cols['font_size_a'] and pd.notna(row.get(cols['font_size_a'])) else 12.0
         except (ValueError, TypeError):
@@ -185,12 +226,18 @@ def merge_textlines_guaranteed(input_csv_path: str, output_csv_path: str):
         except (ValueError, TypeError):
             font_size_b = 12.0
         
+        # Get additional features for this row
+        additional_features = {}
+        for feature_col in additional_feature_cols:
+            additional_features[feature_col] = get_feature_value(row, feature_col)
+        
         # Add line_A if we haven't seen it before
         if text_a not in seen_texts:
             unique_lines.append({
                 'text': text_a,
-                'bbox': bbox_a,
-                'font_size': font_size_a  # Use actual font size from CSV
+                'bbox': [0, 0, 100, 20],  # Default bbox
+                'font_size': font_size_a,
+                'additional_features': additional_features
             })
             seen_texts.add(text_a)
         
@@ -198,23 +245,26 @@ def merge_textlines_guaranteed(input_csv_path: str, output_csv_path: str):
         if text_b not in seen_texts:
             unique_lines.append({
                 'text': text_b,
-                'bbox': bbox_b,
-                'font_size': font_size_b  # Use actual font size from CSV
+                'bbox': [100, 0, 200, 20],  # Default bbox
+                'font_size': font_size_b,
+                'additional_features': additional_features
             })
             seen_texts.add(text_b)
 
-    # Step 2: Iterate through the sequence of lines and group them
-    text_blocks = []
-    if not unique_lines:
-        print(f"⚠️  No unique lines found in {os.path.basename(input_csv_path)}")
-        return False
+    print(f"📊 Found {len(unique_lines)} unique lines to process")
 
-    # Create a lookup for merge decisions
+    # Step 2: Create merge decision lookup
     merge_labels = {}
     for _, row in df.iterrows():
         text_a = str(row[cols['text_a']])
         text_b = str(row[cols['text_b']])
         merge_labels[(text_a, text_b)] = row['label']
+
+    # Step 3: Merge lines based on labels
+    text_blocks = []
+    if not unique_lines:
+        print(f"⚠️  No unique lines found")
+        return False
 
     current_block_parts = [unique_lines[0]]
 
@@ -222,46 +272,60 @@ def merge_textlines_guaranteed(input_csv_path: str, output_csv_path: str):
         current_line_text = unique_lines[i]['text']
         next_line_text = unique_lines[i+1]['text']
         
-        # Decide whether to merge with the next line
+        # Check if we should merge with the next line
         should_merge = merge_labels.get((current_line_text, next_line_text), 0) == 1
 
         if should_merge:
+            # Add next line to current block
             current_block_parts.append(unique_lines[i+1])
+            print(f"🔗 Merging: '{current_line_text[:30]}...' + '{next_line_text[:30]}...'")
         else:
-            # Finalize the completed block (this will calculate avg font size from all parts)
+            # Finalize current block and start new one
             final_block = finalize_block(current_block_parts)
             if final_block:
                 text_blocks.append(final_block)
-            # Start a new block with the next line
+                print(f"✅ Created block: '{final_block['text'][:50]}...' ({len(current_block_parts)} lines)")
+            
+            # Start new block with next line
             current_block_parts = [unique_lines[i+1]]
             
-    # Finalize the very last block after the loop
+    # Finalize the last block
     if current_block_parts:
         final_block = finalize_block(current_block_parts)
         if final_block:
             text_blocks.append(final_block)
+            print(f"✅ Created final block: '{final_block['text'][:50]}...' ({len(current_block_parts)} lines)")
 
     # Create and save the final DataFrame
     output_df = pd.DataFrame(text_blocks)
+    
+    # Ensure title_label is the last column
+    if 'title_label' in output_df.columns:
+        cols_order = [col for col in output_df.columns if col != 'title_label'] + ['title_label']
+        output_df = output_df[cols_order]
     
     # Create output directory if needed
     os.makedirs(os.path.dirname(output_csv_path), exist_ok=True)
     output_df.to_csv(output_csv_path, index=False)
     
-    print(f"✅ Success! All {len(unique_lines)} unique lines have been merged into {len(output_df)} blocks.")
+    print(f"✅ Success! Merged {len(unique_lines)} unique lines into {len(output_df)} text blocks.")
     print(f"📁 Output saved to: '{output_csv_path}'")
     
-    # Show font size statistics
-    font_sizes = output_df['avg_font_size'].tolist()
-    print(f"📊 Font size range: {min(font_sizes):.1f} - {max(font_sizes):.1f}")
-    print(f"📊 Average font size across all blocks: {sum(font_sizes)/len(font_sizes):.1f}")
+    # Show statistics
+    if len(output_df) > 0:
+        font_sizes = output_df['avg_font_size'].tolist()
+        print(f"📊 Font size range: {min(font_sizes):.1f} - {max(font_sizes):.1f}")
+        print(f"📊 Average font size: {sum(font_sizes)/len(font_sizes):.1f}")
+        
+        if additional_feature_cols:
+            print(f"📊 Additional features included: {len(additional_feature_cols)}")
     
     return True
 
 if __name__ == '__main__':
     # --- CONFIGURATION ---
-    INPUT_FOLDER = '../data/merge_lines_gt'  # Folder containing labeled CSV files
-    OUTPUT_FOLDER = '../data/merged_textblocks_gt'  # Output folder for merged textblocks
+    INPUT_FOLDER = '../../data/textlines_csv_output'  # Folder containing labeled CSV files
+    OUTPUT_FOLDER = '../../data/merged_textblocks_gt'  # Output folder for merged textblocks
     # -------------------
 
     # Create output folder if it doesn't exist
@@ -273,8 +337,6 @@ if __name__ == '__main__':
     
     if not csv_files:
         print(f"❌ No CSV files found in '{INPUT_FOLDER}'")
-        print(f"Please make sure you have labeled CSV files in the folder.")
-        print(f"Expected files like: merging_features_for_labeling_*.csv")
         exit()
     
     print(f"🔍 Found {len(csv_files)} CSV files to process:")
@@ -289,11 +351,9 @@ if __name__ == '__main__':
         filename = os.path.basename(input_csv)
         
         # Create output filename
-        # Change from 'merging_features_for_labeling_*.csv' to 'merged_textblocks_*.csv'
-        if 'merging_features_for_labeling_' in filename:
-            output_filename = filename.replace('merging_features_for_labeling_', 'merged_textblocks_')
+        if 'textlines_ground_truth_' in filename:
+            output_filename = filename.replace('textlines_ground_truth_', 'merged_textblocks_')
         else:
-            # Fallback: just add prefix
             name_without_ext = os.path.splitext(filename)[0]
             output_filename = f"merged_textblocks_{name_without_ext}.csv"
         
@@ -314,21 +374,8 @@ if __name__ == '__main__':
     print(f"📊 PROCESSING SUMMARY")
     print(f"{'='*60}")
     print(f"✅ Successfully processed: {successful_files}/{len(csv_files)} files")
-    print(f"📁 Input folder: {INPUT_FOLDER}")
-    print(f"📁 Output folder: {OUTPUT_FOLDER}")
     
     if failed_files:
         print(f"\n❌ Failed files:")
         for file in failed_files:
             print(f"  - {file}")
-    
-    if successful_files > 0:
-        print(f"\n💡 Next steps:")
-        print(f"   1. Review the generated CSV files in '{OUTPUT_FOLDER}'")
-        print(f"   2. Manually label the 'title_label' column (1 for titles/headings, 0 for body text)")
-        print(f"   3. Use the labeled data to train your title classifier")
-
-    # Prerequisite reminder
-    print(f"\n📋 Prerequisites (if not already done):")
-    print(f"   pip install pandas textblob")
-    print(f"   python -m textblob.download_corpora")

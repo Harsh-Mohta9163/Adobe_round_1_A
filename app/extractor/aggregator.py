@@ -496,6 +496,13 @@ def load_md_json_file(md_json_file: str) -> Tuple[Dict, List[Dict]]:
     
     return metadata, lines
 
+def is_hashed_header(md_text: str) -> bool:
+    """
+    Check if the markdown text is a header (starts with #)
+    """
+    text = md_text.strip()
+    return text.startswith('#')
+
 def is_table_content(md_text: str) -> bool:
     """
     Determine if the markdown text is part of a table.
@@ -749,6 +756,8 @@ def aggregate_md_to_spans(pdf_name: str):
     unmatched_lines = []
     table_lines_processed = 0
     table_lines_matched = 0
+    hashed_lines_processed = 0  # Track header lines
+    hashed_lines_matched = 0    # Track matched header lines
     page_matches = {}  # Track matches per page
     
     for md_line_data in md_lines:
@@ -767,6 +776,11 @@ def aggregate_md_to_spans(pdf_name: str):
         if is_table:
             table_lines_processed += 1
         
+        # Check if this line is a hashed header
+        is_hashed = is_hashed_header(md_text)
+        if is_hashed:
+            hashed_lines_processed += 1
+        
         # Track page matches
         if page_num not in page_matches:
             page_matches[page_num] = {'total': 0, 'matched': 0}
@@ -780,6 +794,8 @@ def aggregate_md_to_spans(pdf_name: str):
         if matching_span:
             if is_table:
                 table_lines_matched += 1
+            if is_hashed:
+                hashed_lines_matched += 1
             
             page_matches[page_num]['matched'] += 1
                 
@@ -811,6 +827,7 @@ def aggregate_md_to_spans(pdf_name: str):
                 "line_number": line_num,
                 "page_number": page_num,
                 "is_in_table": is_table,
+                "is_hashed": is_hashed,  # Added is_hashed field
                 "md_text_original": md_text,
                 "md_text_cleaned": clean_md_line(md_text),
                 "span_text": matching_span["text"],
@@ -824,6 +841,7 @@ def aggregate_md_to_spans(pdf_name: str):
                 "line_number": line_num,
                 "page_number": page_num,
                 "is_in_table": is_table,
+                "is_hashed": is_hashed,  # Added is_hashed field
                 "text_original": md_text,
                 "text_cleaned": clean_md_line(md_text)
             })
@@ -832,6 +850,7 @@ def aggregate_md_to_spans(pdf_name: str):
                 "line_number": line_num,
                 "page_number": page_num,
                 "is_in_table": is_table,
+                "is_hashed": is_hashed,  # Added is_hashed field
                 "md_text_original": md_text,
                 "md_text_cleaned": clean_md_line(md_text),
                 "span_text": None,
@@ -857,7 +876,7 @@ def aggregate_md_to_spans(pdf_name: str):
             "matched_lines": stats['matched'],
             "match_percentage": round(match_rate, 2)
         }
-    
+    print(f"page_stats: {page_stats}")
     summary = {
         "document_metadata": metadata,
         "total_md_lines": total_lines,
@@ -866,6 +885,9 @@ def aggregate_md_to_spans(pdf_name: str):
         "table_lines_processed": table_lines_processed,
         "table_lines_matched": table_lines_matched,
         "table_match_percentage": round((table_lines_matched / table_lines_processed) * 100, 2) if table_lines_processed > 0 else 0,
+        "hashed_lines_processed": hashed_lines_processed,  # Added hashed lines stats
+        "hashed_lines_matched": hashed_lines_matched,
+        "hashed_match_percentage": round((hashed_lines_matched / hashed_lines_processed) * 100, 2) if hashed_lines_processed > 0 else 0,
         "overall_match_percentage": round((matched_lines / total_lines) * 100, 2) if total_lines > 0 else 0,
         "total_spans_available": total_spans_available,
         "spans_used": len(used_spans),
@@ -904,6 +926,8 @@ def aggregate_md_to_spans(pdf_name: str):
     print(f"  Overall match percentage: {summary['overall_match_percentage']}%")
     print(f"  Table lines processed: {summary['table_lines_processed']}")
     print(f"  Table lines matched: {summary['table_lines_matched']} ({summary['table_match_percentage']}%)")
+    print(f"  Hashed lines processed: {summary['hashed_lines_processed']}")  # Added hashed lines reporting
+    print(f"  Hashed lines matched: {summary['hashed_lines_matched']} ({summary['hashed_match_percentage']}%)")
     print(f"  Spans used: {summary['spans_used']}/{summary['total_spans_available']}")
     print(f"  Total time: {total_time:.2f} seconds")
     
@@ -918,9 +942,11 @@ def aggregate_md_to_spans(pdf_name: str):
         print(f"\nFirst 5 unmatched lines:")
         for i, line in enumerate(unmatched_lines[:5]):
             table_indicator = " (TABLE)" if line.get("is_in_table") else ""
-            print(f"  Line {line['line_number']} (Page {line['page_number']}){table_indicator}: {line['text_cleaned'][:100]}...")
+            header_indicator = " (HEADER)" if line.get("is_hashed") else ""
+            print(f"  Line {line['line_number']} (Page {line['page_number']}){table_indicator}{header_indicator}: {line['text_cleaned'][:100]}...")
 
 if __name__ == "__main__":
+    import sys
     if len(sys.argv) < 2:
         print("Usage: python aggregator.py input.pdf")
         sys.exit(1)

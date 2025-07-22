@@ -51,16 +51,18 @@ def load_and_prepare_data(folder_path='.'):
     return df
 
 try:
-    # Make sure to point this to the correct folder containing your CSVs
-    data = load_and_prepare_data('../data/merge_lines_gt')
+    # Load data from textlines_csv_output folder
+    data = load_and_prepare_data('../../data/labelled_textlines')
     
     # --- Define Features (X) and Target (y) ---
+    # Including all features except span_text_a and span_text_b
     feature_cols = [
-        'normalized_vertical_gap', 'indentation_change', 'font_size_diff',
-        'same_font', 'line_a_ends_punctuation', 'line_b_starts_lowercase',
-        'same_alignment', 'is_centered_A', 'is_centered_B',
-        'is_linea_in_rectangle', 'is_lineb_in_rectangle', 'both_in_table',
-        'neither_in_table'
+        'normalized_vertical_gap', 'indentation_change', 'same_alignment',
+        'is_centered_A', 'is_centered_B', 'font_size_a', 'font_size_b', 'font_size_diff',
+        'same_font', 'is_bold_A', 'is_bold_B', 'is_italic_A', 'is_italic_B',
+        'is_monospace_A', 'is_monospace_B', 'same_bold', 'same_italic', 'same_monospace',
+        'line_a_ends_punctuation', 'line_b_starts_lowercase', 'is_linea_in_rectangle',
+        'is_lineb_in_rectangle', 'both_in_table', 'neither_in_table'
     ]
     
     X = data[feature_cols]
@@ -130,7 +132,11 @@ try:
     print(importances.sort_values(ascending=False))
 
     # --- Save the Trained Model ---
-    model_filename = 'text_block_merger_model.joblib'
+    model_filename = '../../data/output_model1/text_block_merger_model.joblib'
+    
+    # Create the directory if it doesn't exist
+    os.makedirs(os.path.dirname(model_filename), exist_ok=True)
+    
     joblib.dump({
         'model': model,
         'feature_columns': feature_cols

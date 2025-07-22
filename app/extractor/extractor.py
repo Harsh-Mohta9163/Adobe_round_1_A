@@ -80,6 +80,7 @@ def process_aggregation(pdf_name):
         # Check if required input files exist
         base_filename = pdf_name.replace('.pdf', '')
         md_file_json = f"../../data/md_files/{base_filename}.json"
+        md_file_json = f"../../data/md_files/{base_filename}.json"
         json_file = f"../../data/spans_output/spans_{pdf_name}.json"
         
         if not os.path.exists(md_file_json):
