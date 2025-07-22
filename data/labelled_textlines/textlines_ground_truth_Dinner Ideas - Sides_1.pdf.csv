@@ -1,0 +1,566 @@
+﻿text_a,span_text_a,text_b,span_text_b,normalized_vertical_gap,indentation_change,same_alignment,is_centered_A,is_centered_B,font_size_a,font_size_b,font_size_diff,same_font,is_bold_A,is_bold_B,is_italic_A,is_italic_B,is_monospace_A,is_monospace_B,same_bold,same_italic,same_monospace,line_a_ends_punctuation,line_b_starts_lowercase,is_linea_in_rectangle,is_lineb_in_rectangle,both_in_table,neither_in_table,is_linea_hashed,is_lineb_hashed,both_hashed,neither_hashed,label
+Acarajé,Acarajé,Ingredients :,Ingredients:,0.6,36.02,0,0,0,12,12,0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Ingredients :,Ingredients:,o 2 cups black-eyed peas,o 2 cups black-eyed peas,0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+o 2 cups black-eyed peas,o 2 cups black-eyed peas,o 1 small onion,o 1 small onion,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 small onion,o 1 small onion,o 2 cloves garlic,o 2 cloves garlic,1.02,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 2 cloves garlic,o 2 cloves garlic,o 1 teaspoon salt,o 1 teaspoon salt,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 teaspoon salt,o 1 teaspoon salt,o Oil for frying,o Oil for frying,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o Oil for frying,o Oil for frying,Instructions :,Instructions:,0.85,-18,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0
+Instructions :,Instructions:,"o Soak black-eyed peas overnight, then peel and rinse.","o Soak black-eyed peas overnight, then peel and rinse.",0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+"o Soak black-eyed peas overnight, then peel and rinse.","o Soak black-eyed peas overnight, then peel and rinse.","o Blend peas with diced onion, minced garlic, and salt until smooth.","o Blend peas with diced onion, minced garlic, and salt until smooth.",1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+"o Blend peas with diced onion, minced garlic, and salt until smooth.","o Blend peas with diced onion, minced garlic, and salt until smooth.",o Form mixture into balls and fry in hot oil until golden.,o Form mixture into balls and fry in hot oil until golden.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Form mixture into balls and fry in hot oil until golden.,o Form mixture into balls and fry in hot oil until golden.,o Drain on paper towels and serve warm.,o Drain on paper towels and serve warm.,1.01,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Drain on paper towels and serve warm.,o Drain on paper towels and serve warm.,Agedashi Tofu,Agedashi Tofu,4.17,-54.02,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0,1,0
+Agedashi Tofu,Agedashi Tofu,Ingredients :,Ingredients:,0.6,36.02,0,0,0,12,12,0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Ingredients :,Ingredients:,o 1 block tofu,o 1 block tofu,0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+o 1 block tofu,o 1 block tofu,o 1/4 cup cornstarch,o 1/4 cup cornstarch,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/4 cup cornstarch,o 1/4 cup cornstarch,o 1 cup dashi broth,o 1 cup dashi broth,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 cup dashi broth,o 1 cup dashi broth,o 2 tablespoons soy sauce,o 2 tablespoons soy sauce,1.01,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 2 tablespoons soy sauce,o 2 tablespoons soy sauce,o 1 tablespoon mirin,o 1 tablespoon mirin,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 tablespoon mirin,o 1 tablespoon mirin,o 1/4 cup green onions,o 1/4 cup green onions,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/4 cup green onions,o 1/4 cup green onions,o 1/4 cup grated daikon,o 1/4 cup grated daikon,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/4 cup grated daikon,o 1/4 cup grated daikon,Instructions :,Instructions:,0.85,-18,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0
+Instructions :,Instructions:,o Cut tofu into cubes and coat with cornstarch.,o Cut tofu into cubes and coat with cornstarch.,0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+o Cut tofu into cubes and coat with cornstarch.,o Cut tofu into cubes and coat with cornstarch.,o Fry in hot oil until golden.,o Fry in hot oil until golden.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Fry in hot oil until golden.,o Fry in hot oil until golden.,o Heat dashi broth with soy sauce and mirin.,o Heat dashi broth with soy sauce and mirin.,1.01,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Heat dashi broth with soy sauce and mirin.,o Heat dashi broth with soy sauce and mirin.,"o Serve tofu in broth, topped with green onions and grated daikon.","o Serve tofu in broth, topped with green onions and grated daikon.",1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+"o Serve tofu in broth, topped with green onions and grated daikon.","o Serve tofu in broth, topped with green onions and grated daikon.",Aloo Gobi,Aloo Gobi,4.17,-54.02,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0,1,0
+Aloo Gobi,Aloo Gobi,Ingredients :,Ingredients:,0.6,36.02,0,0,0,12,12,0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Ingredients :,Ingredients:,o 2 potatoes,o 2 potatoes,0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+o 2 potatoes,o 2 potatoes,o 1 cauliflower,o 1 cauliflower,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 cauliflower,o 1 cauliflower,o 1 small onion,o 1 small onion,1.01,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 small onion,o 1 small onion,o 2 cloves garlic,o 2 cloves garlic,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 2 cloves garlic,o 2 cloves garlic,o 1 teaspoon cumin,o 1 teaspoon cumin,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 teaspoon cumin,o 1 teaspoon cumin,o 1 teaspoon turmeric,o 1 teaspoon turmeric,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 teaspoon turmeric,o 1 teaspoon turmeric,o 1 teaspoon coriander,o 1 teaspoon coriander,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 teaspoon coriander,o 1 teaspoon coriander,o 1 teaspoon garam masala,o 1 teaspoon garam masala,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 teaspoon garam masala,o 1 teaspoon garam masala,o 1 teaspoon salt,o 1 teaspoon salt,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 teaspoon salt,o 1 teaspoon salt,o 2 tablespoons oil,o 2 tablespoons oil,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 2 tablespoons oil,o 2 tablespoons oil,Instructions :,Instructions:,0.87,-18,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0
+Instructions :,Instructions:,"o Peel and dice potatoes, cut cauliflower into florets.","o Peel and dice potatoes, cut cauliflower into florets.",0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+"o Peel and dice potatoes, cut cauliflower into florets.","o Peel and dice potatoes, cut cauliflower into florets.",o Heat oil in a pan and sauté diced onion and minced garlic until translucent.,o Heat oil in a pan and sauté diced onion and minced garlic until translucent.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Heat oil in a pan and sauté diced onion and minced garlic until translucent.,o Heat oil in a pan and sauté diced onion and minced garlic until translucent.,"o Add cumin, turmeric, coriander, and garam masala, cook for 1 minute.","o Add cumin, turmeric, coriander, and garam masala, cook for 1 minute.",1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+"o Add potatoes and cauliflower, stir to coat with spices.","o Add potatoes and cauliflower, stir to coat with spices.","o Cover and cook until vegetables are tender, stirring occasionally.","o Cover and cook until vegetables are tender, stirring occasionally.",1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+"o Cover and cook until vegetables are tender, stirring occasionally.","o Cover and cook until vegetables are tender, stirring occasionally.",o Add salt to taste and serve.,o Add salt to taste and serve.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Add salt to taste and serve.,o Add salt to taste and serve.,Albondigas,Albondigas,4.19,-54.02,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0,1,0
+Albondigas,Albondigas,Ingredients :,Ingredients:,0.6,36.02,0,0,0,12,12,0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Ingredients :,Ingredients:,o 1/2 pound ground beef,o 1/2 pound ground beef,0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+o 1/2 pound ground beef,o 1/2 pound ground beef,o 1/2 pound ground pork,o 1/2 pound ground pork,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/2 pound ground pork,o 1/2 pound ground pork,o 1 small onion,o 1 small onion,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 small onion,o 1 small onion,o 2 cloves garlic,o 2 cloves garlic,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 2 cloves garlic,o 2 cloves garlic,o 1/4 cup breadcrumbs,o 1/4 cup breadcrumbs,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/4 cup breadcrumbs,o 1/4 cup breadcrumbs,o 1 egg,o 1 egg,1.01,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 egg,o 1 egg,o 1 teaspoon paprika,o 1 teaspoon paprika,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 teaspoon paprika,o 1 teaspoon paprika,o 1 teaspoon salt,o 1 teaspoon salt,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 teaspoon salt,o 1 teaspoon salt,o 1/2 teaspoon pepper,o 1/2 teaspoon pepper,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/2 teaspoon pepper,o 1/2 teaspoon pepper,o 1/4 cup olive oil,o 1/4 cup olive oil,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/4 cup olive oil,o 1/4 cup olive oil,o 1 cup tomato sauce,o 1 cup tomato sauce,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 cup tomato sauce,o 1 cup tomato sauce,Instructions :,Instructions:,0.85,-18,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0
+Instructions :,Instructions:,"o Mix ground beef, ground pork, diced onion, minced garlic, breadcrumbs, beaten","o Mix ground beef, ground pork, diced onion, minced garlic, breadcrumbs, beaten",0.76,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+"o Mix ground beef, ground pork, diced onion, minced garlic, breadcrumbs, beaten","o Mix ground beef, ground pork, diced onion, minced garlic, breadcrumbs, beaten","egg, paprika, salt, and pepper in a bowl.","egg, paprika, salt, and pepper in a bowl.",0.85,18,0,0,0,10.02,12,1.98,0,0,0,0,0,1,0,1,1,0,0,1,0,0,0,1,0,0,0,1,1
+"egg, paprika, salt, and pepper in a bowl.","egg, paprika, salt, and pepper in a bowl.",o Form mixture into meatballs.,o Form mixture into meatballs.,0.75,-18,0,0,0,12,10.02,-1.98,0,0,0,0,0,0,1,1,1,0,1,1,0,0,0,1,0,0,0,1,1
+o Form mixture into meatballs.,o Form mixture into meatballs.,o Heat olive oil in a pan and brown meatballs on all sides.,o Heat olive oil in a pan and brown meatballs on all sides.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Heat olive oil in a pan and brown meatballs on all sides.,o Heat olive oil in a pan and brown meatballs on all sides.,o Add tomato sauce and simmer for 20 minutes.,o Add tomato sauce and simmer for 20 minutes.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Add tomato sauce and simmer for 20 minutes.,o Add tomato sauce and simmer for 20 minutes.,o Serve warm.,o Serve warm.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Serve warm.,o Serve warm.,Antipasto,Antipasto,4.19,-54.02,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0,1,0
+Antipasto,Antipasto,Ingredients :,Ingredients:,0.6,36.02,0,0,0,12,12,0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Ingredients :,Ingredients:,"o Assorted cured meats salami, prosciutto","o Assorted cured meats (salami, prosciutto)",0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+"o Assorted cured meats salami, prosciutto","o Assorted cured meats (salami, prosciutto)","o Cheeses mozzarella, provolone","o Cheeses (mozzarella, provolone)",1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+"o Cheeses mozzarella, provolone","o Cheeses (mozzarella, provolone)",o Olives,o Olives,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o Olives,o Olives,"o Marinated vegetables artichokes, peppers","o Marinated vegetables (artichokes, peppers)",1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+"o Marinated vegetables artichokes, peppers","o Marinated vegetables (artichokes, peppers)",o Breadsticks,o Breadsticks,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o Breadsticks,o Breadsticks,Instructions :,Instructions:,0.87,-18,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0
+Instructions :,Instructions:,"o Arrange meats, cheeses, olives, and vegetables on a platter.","o Arrange meats, cheeses, olives, and vegetables on a platter.",0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+"o Arrange meats, cheeses, olives, and vegetables on a platter.","o Arrange meats, cheeses, olives, and vegetables on a platter.",o Serve with breadsticks.,o Serve with breadsticks.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Serve with breadsticks.,o Serve with breadsticks.,Arancini,Arancini,4.17,-54.02,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0,1,0
+Arancini,Arancini,Ingredients :,Ingredients:,0.6,36.02,0,0,0,12,12,0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Ingredients :,Ingredients:,o 2 cups cooked risotto,o 2 cups cooked risotto,0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+o 2 cups cooked risotto,o 2 cups cooked risotto,o 1/2 cup mozzarella,o 1/2 cup mozzarella,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/2 cup mozzarella,o 1/2 cup mozzarella,o 1/2 cup flour,o 1/2 cup flour,1.01,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/2 cup flour,o 1/2 cup flour,o 2 eggs,o 2 eggs,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 2 eggs,o 2 eggs,o 1 cup breadcrumbs,o 1 cup breadcrumbs,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 cup breadcrumbs,o 1 cup breadcrumbs,o 1 cup vegetable oil,o 1 cup vegetable oil,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,0
+Instructions :,Instructions:,o Form risotto into balls and stuff with a cube of mozzarella.,o Form risotto into balls and stuff with a cube of mozzarella.,0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+o Form risotto into balls and stuff with a cube of mozzarella.,o Form risotto into balls and stuff with a cube of mozzarella.,"o Dredge balls in flour, dip in beaten eggs, and coat with breadcrumbs.","o Dredge balls in flour, dip in beaten eggs, and coat with breadcrumbs.",1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+"o Dredge balls in flour, dip in beaten eggs, and coat with breadcrumbs.","o Dredge balls in flour, dip in beaten eggs, and coat with breadcrumbs.",o Fry in hot oil until golden.,o Fry in hot oil until golden.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Fry in hot oil until golden.,o Fry in hot oil until golden.,o Drain on paper towels and serve warm.,o Drain on paper towels and serve warm.,1.02,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Drain on paper towels and serve warm.,o Drain on paper towels and serve warm.,Baba Ganoush,Baba Ganoush,4.17,-54.02,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0,1,0
+Baba Ganoush,Baba Ganoush,Ingredients :,Ingredients:,0.6,36.02,0,0,0,12,12,0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Ingredients :,Ingredients:,o 2 eggplants,o 2 eggplants,0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+o 2 eggplants,o 2 eggplants,o 1/4 cup tahini,o 1/4 cup tahini,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/4 cup tahini,o 1/4 cup tahini,o 1/4 cup lemon juice,o 1/4 cup lemon juice,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/4 cup lemon juice,o 1/4 cup lemon juice,o 2 cloves garlic,o 2 cloves garlic,1.01,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 2 cloves garlic,o 2 cloves garlic,o 1/4 cup olive oil,o 1/4 cup olive oil,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/4 cup olive oil,o 1/4 cup olive oil,o 1 teaspoon salt,o 1 teaspoon salt,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 teaspoon salt,o 1 teaspoon salt,Instructions :,Instructions:,0.85,-18,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0
+Instructions :,Instructions:,"o Roast eggplants until soft, then peel and mash.","o Roast eggplants until soft, then peel and mash.",0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+"o Roast eggplants until soft, then peel and mash.","o Roast eggplants until soft, then peel and mash.","o Blend mashed eggplant, tahini, lemon juice, minced garlic, and salt in a food","o Blend mashed eggplant, tahini, lemon juice, minced garlic, and salt in a food",1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+"o Blend mashed eggplant, tahini, lemon juice, minced garlic, and salt in a food","o Blend mashed eggplant, tahini, lemon juice, minced garlic, and salt in a food",processor.,processor.,0.85,18,0,0,0,10.02,12,1.98,0,0,0,0,0,1,0,1,1,0,0,1,0,0,0,1,0,0,0,1,1
+processor.,processor.,o Slowly add olive oil while blending until smooth.,o Slowly add olive oil while blending until smooth.,0.76,-18,0,0,0,12,10.02,-1.98,0,0,0,0,0,0,1,1,1,0,1,1,0,0,0,1,0,0,0,1,1
+o Slowly add olive oil while blending until smooth.,o Slowly add olive oil while blending until smooth.,o Serve with a drizzle of olive oil.,o Serve with a drizzle of olive oil.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Serve with a drizzle of olive oil.,o Serve with a drizzle of olive oil.,Baked Beans,Baked Beans,4.17,-54.02,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0,1,0
+Baked Beans,Baked Beans,Ingredients :,Ingredients:,0.6,36.02,0,0,0,12,12,0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Ingredients :,Ingredients:,o 4 cups cooked navy beans,o 4 cups cooked navy beans,0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+o 4 cups cooked navy beans,o 4 cups cooked navy beans,o 1 small onion,o 1 small onion,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 small onion,o 1 small onion,o 1/2 cup molasses,o 1/2 cup molasses,1.01,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/2 cup molasses,o 1/2 cup molasses,o 1/4 cup brown sugar,o 1/4 cup brown sugar,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/4 cup brown sugar,o 1/4 cup brown sugar,o 1/4 cup ketchup,o 1/4 cup ketchup,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/4 cup ketchup,o 1/4 cup ketchup,o 1 tablespoon mustard,o 1 tablespoon mustard,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 tablespoon mustard,o 1 tablespoon mustard,o 1 teaspoon salt,o 1 teaspoon salt,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 teaspoon salt,o 1 teaspoon salt,o 1/2 teaspoon pepper,o 1/2 teaspoon pepper,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/2 teaspoon pepper,o 1/2 teaspoon pepper,Instructions :,Instructions:,0.85,-18,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0
+Instructions :,Instructions:,o Preheat oven to 350°F 175°C.,o Preheat oven to 350°F (175°C).,0.76,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+o Preheat oven to 350°F 175°C.,o Preheat oven to 350°F (175°C).,o Sauté diced onion until translucent.,o Sauté diced onion until translucent.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Sauté diced onion until translucent.,o Sauté diced onion until translucent.,"o Mix beans, onion, molasses, brown sugar, ketchup, mustard, salt, and pepper in a","o Mix beans, onion, molasses, brown sugar, ketchup, mustard, salt, and pepper in a",1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+"o Mix beans, onion, molasses, brown sugar, ketchup, mustard, salt, and pepper in a","o Mix beans, onion, molasses, brown sugar, ketchup, mustard, salt, and pepper in a",baking dish.,baking dish.,0.85,18,0,0,0,10.02,12,1.98,0,0,0,0,0,1,0,1,1,0,0,1,0,0,0,1,0,0,0,1,1
+baking dish.,baking dish.,"o Bake for 1 hour, stirring occasionally.","o Bake for 1 hour, stirring occasionally.",0.75,-18,0,0,0,12,10.02,-1.98,0,0,0,0,0,0,1,1,1,0,1,1,0,0,0,1,0,0,0,1,1
+"o Bake for 1 hour, stirring occasionally.","o Bake for 1 hour, stirring occasionally.",o Serve warm.,o Serve warm.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Serve warm.,o Serve warm.,Bammy,Bammy,4.17,-54.02,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0,1,0
+Bammy,Bammy,Ingredients :,Ingredients:,0.61,36.02,0,0,0,12,12,0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Ingredients :,Ingredients:,o 2 cups grated cassava,o 2 cups grated cassava,0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+o 2 cups grated cassava,o 2 cups grated cassava,o 1/4 cup coconut milk,o 1/4 cup coconut milk,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/4 cup coconut milk,o 1/4 cup coconut milk,o 1 teaspoon salt,o 1 teaspoon salt,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o Oil for frying,o Oil for frying,Instructions :,Instructions:,0.85,-18,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0
+Instructions :,Instructions:,o Mix grated cassava with coconut milk and salt.,o Mix grated cassava with coconut milk and salt.,0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+o Mix grated cassava with coconut milk and salt.,o Mix grated cassava with coconut milk and salt.,o Form mixture into flat cakes.,o Form mixture into flat cakes.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Form mixture into flat cakes.,o Form mixture into flat cakes.,o Fry in hot oil until golden.,o Fry in hot oil until golden.,1.02,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Fry in hot oil until golden.,o Fry in hot oil until golden.,o Drain on paper towels and serve warm.,o Drain on paper towels and serve warm.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Drain on paper towels and serve warm.,o Drain on paper towels and serve warm.,Banchan,Banchan,4.17,-54.02,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0,1,0
+Banchan,Banchan,Ingredients :,Ingredients:,0.6,36.02,0,0,0,12,12,0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Ingredients :,Ingredients:,"o Assorted small side dishes like pickled radish, spinach, bean sprouts, kimchi","o Assorted small side dishes like pickled radish, spinach, bean sprouts, kimchi",0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+"o Assorted small side dishes like pickled radish, spinach, bean sprouts, kimchi","o Assorted small side dishes like pickled radish, spinach, bean sprouts, kimchi",Instructions :,Instructions:,0.85,-18,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0
+Instructions :,Instructions:,o Prepare each side dish separately.,o Prepare each side dish separately.,0.76,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+o Prepare each side dish separately.,o Prepare each side dish separately.,o Arrange on small plates.,o Arrange on small plates.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Arrange on small plates.,o Arrange on small plates.,o Serve as accompaniments to the main meal.,o Serve as accompaniments to the main meal.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Serve as accompaniments to the main meal.,o Serve as accompaniments to the main meal.,Banh Beo,Banh Beo,4.17,-54.02,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0,1,0
+Banh Beo,Banh Beo,Ingredients :,Ingredients:,0.6,36.02,0,0,0,12,12,0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Ingredients :,Ingredients:,o 1 cup rice flour,o 1 cup rice flour,0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+o 1 cup rice flour,o 1 cup rice flour,o 1/2 cup water,o 1/2 cup water,1.01,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/2 cup water,o 1/2 cup water,o 1/2 cup coconut milk,o 1/2 cup coconut milk,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/2 cup coconut milk,o 1/2 cup coconut milk,o 1/4 cup shrimp,o 1/4 cup shrimp,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/4 cup shrimp,o 1/4 cup shrimp,o 1/4 cup green onions,o 1/4 cup green onions,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/4 cup green onions,o 1/4 cup green onions,o 1/4 cup fried shallots,o 1/4 cup fried shallots,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/4 cup fried shallots,o 1/4 cup fried shallots,o 1 teaspoon salt,o 1 teaspoon salt,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 teaspoon salt,o 1 teaspoon salt,o 1/2 teaspoon sugar,o 1/2 teaspoon sugar,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/2 teaspoon sugar,o 1/2 teaspoon sugar,Instructions :,Instructions:,0.87,-18,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0
+Instructions :,Instructions:,"o Mix rice flour, water, coconut milk, salt, and sugar to form a batter.","o Mix rice flour, water, coconut milk, salt, and sugar to form a batter.",0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+"o Mix rice flour, water, coconut milk, salt, and sugar to form a batter.","o Mix rice flour, water, coconut milk, salt, and sugar to form a batter.",o Pour batter into small dishes and steam until set.,o Pour batter into small dishes and steam until set.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Pour batter into small dishes and steam until set.,o Pour batter into small dishes and steam until set.,o Sauté chopped shrimp and green onions until cooked.,o Sauté chopped shrimp and green onions until cooked.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Sauté chopped shrimp and green onions until cooked.,o Sauté chopped shrimp and green onions until cooked.,"o Top steamed cakes with shrimp, green onions, and fried shallots.","o Top steamed cakes with shrimp, green onions, and fried shallots.",1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+"o Top steamed cakes with shrimp, green onions, and fried shallots.","o Top steamed cakes with shrimp, green onions, and fried shallots.",o Serve with dipping sauce.,o Serve with dipping sauce.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Serve with dipping sauce.,o Serve with dipping sauce.,Banh Xeo,Banh Xeo,4.19,-54.02,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0,1,0
+Banh Xeo,Banh Xeo,Ingredients :,Ingredients:,0.6,36.02,0,0,0,12,12,0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Ingredients :,Ingredients:,o 1 cup rice flour,o 1 cup rice flour,0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+o 1 cup rice flour,o 1 cup rice flour,o 1/2 cup coconut milk,o 1/2 cup coconut milk,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/2 cup coconut milk,o 1/2 cup coconut milk,o 1/2 cup water,o 1/2 cup water,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/2 cup water,o 1/2 cup water,o 1/2 pound shrimp,o 1/2 pound shrimp,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/2 pound shrimp,o 1/2 pound shrimp,o 1/2 pound pork,o 1/2 pound pork,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/2 pound pork,o 1/2 pound pork,o 1 small onion,o 1 small onion,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 small onion,o 1 small onion,o 1/2 cup bean sprouts,o 1/2 cup bean sprouts,1.01,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/2 cup bean sprouts,o 1/2 cup bean sprouts,o 1/4 cup green onions,o 1/4 cup green onions,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/4 cup green onions,o 1/4 cup green onions,o 1/4 cup cilantro,o 1/4 cup cilantro,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/4 cup cilantro,o 1/4 cup cilantro,o 1 teaspoon turmeric,o 1 teaspoon turmeric,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 teaspoon salt,o 1 teaspoon salt,o Oil for frying,o Oil for frying,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o Oil for frying,o Oil for frying,Instructions :,Instructions:,0.85,-18,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0
+Instructions :,Instructions:,"o Mix rice flour, coconut milk, water, turmeric, and salt to form a batter.","o Mix rice flour, coconut milk, water, turmeric, and salt to form a batter.",0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+"o Mix rice flour, coconut milk, water, turmeric, and salt to form a batter.","o Mix rice flour, coconut milk, water, turmeric, and salt to form a batter.","o Sauté sliced pork, shrimp, and diced onion until cooked.","o Sauté sliced pork, shrimp, and diced onion until cooked.",1.02,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+"o Sauté sliced pork, shrimp, and diced onion until cooked.","o Sauté sliced pork, shrimp, and diced onion until cooked.","o Heat oil in a pan and pour in a ladle of batter, swirling to coat the pan.","o Heat oil in a pan and pour in a ladle of batter, swirling to coat the pan.",1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+"o Heat oil in a pan and pour in a ladle of batter, swirling to coat the pan.","o Heat oil in a pan and pour in a ladle of batter, swirling to coat the pan.","o Add cooked pork, shrimp, bean sprouts, green onions, and cilantro.","o Add cooked pork, shrimp, bean sprouts, green onions, and cilantro.",1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+"o Add cooked pork, shrimp, bean sprouts, green onions, and cilantro.","o Add cooked pork, shrimp, bean sprouts, green onions, and cilantro.",o Fold pancake in half and cook until crispy.,o Fold pancake in half and cook until crispy.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Fold pancake in half and cook until crispy.,o Fold pancake in half and cook until crispy.,o Serve with lettuce and dipping sauce.,o Serve with lettuce and dipping sauce.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Serve with lettuce and dipping sauce.,o Serve with lettuce and dipping sauce.,Basturma,Basturma,4.17,-54.02,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0,1,0
+Basturma,Basturma,Ingredients :,Ingredients:,0.61,36.02,0,0,0,12,12,0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Ingredients :,Ingredients:,o 1 pound beef tenderloin,o 1 pound beef tenderloin,0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+o 1 pound beef tenderloin,o 1 pound beef tenderloin,o 1/4 cup paprika,o 1/4 cup paprika,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/4 cup paprika,o 1/4 cup paprika,o 2 tablespoons cumin,o 2 tablespoons cumin,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 2 tablespoons cumin,o 2 tablespoons cumin,o 2 tablespoons fenugreek,o 2 tablespoons fenugreek,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 2 tablespoons fenugreek,o 2 tablespoons fenugreek,o 1 tablespoon garlic powder,o 1 tablespoon garlic powder,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 tablespoon garlic powder,o 1 tablespoon garlic powder,o 1 tablespoon salt,o 1 tablespoon salt,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 tablespoon salt,o 1 tablespoon salt,Instructions :,Instructions:,0.87,-18,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0
+Instructions :,Instructions:,o Rub beef with salt and let cure in the refrigerator for 24 hours.,o Rub beef with salt and let cure in the refrigerator for 24 hours.,0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+o Rub beef with salt and let cure in the refrigerator for 24 hours.,o Rub beef with salt and let cure in the refrigerator for 24 hours.,o Rinse and pat dry.,o Rinse and pat dry.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Rinse and pat dry.,o Rinse and pat dry.,"o Mix paprika, cumin, fenugreek, and garlic powder, then coat beef with the","o Mix paprika, cumin, fenugreek, and garlic powder, then coat beef with the",1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+"o Mix paprika, cumin, fenugreek, and garlic powder, then coat beef with the","o Mix paprika, cumin, fenugreek, and garlic powder, then coat beef with the",mixture.,mixture.,0.85,18,0,0,0,10.02,12,1.98,0,0,0,0,0,1,0,1,1,0,0,1,0,0,0,1,0,0,0,1,1
+mixture.,mixture.,"o Wrap in cheesecloth and hang in a cool, dry place for 1-2 weeks.","o Wrap in cheesecloth and hang in a cool, dry place for 1-2 weeks.",0.75,-18,0,0,0,12,10.02,-1.98,0,0,0,0,0,0,1,1,1,0,1,1,0,0,0,1,0,0,0,1,1
+"o Wrap in cheesecloth and hang in a cool, dry place for 1-2 weeks.","o Wrap in cheesecloth and hang in a cool, dry place for 1-2 weeks.",o Slice thinly and serve.,o Slice thinly and serve.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Slice thinly and serve.,o Slice thinly and serve.,Batbout,Batbout,4.19,-54.02,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0,1,0
+Batbout,Batbout,Ingredients :,Ingredients:,0.6,36.02,0,0,0,12,12,0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Ingredients :,Ingredients:,o 2 1/4 teaspoons active dry yeast,o 2 1/4 teaspoons active dry yeast,0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+o 2 1/4 teaspoons active dry yeast,o 2 1/4 teaspoons active dry yeast,o 1 teaspoon sugar,o 1 teaspoon sugar,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 teaspoon sugar,o 1 teaspoon sugar,o 1 cup warm water,o 1 cup warm water,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 cup warm water,o 1 cup warm water,o 3 cups flour,o 3 cups flour,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 3 cups flour,o 3 cups flour,o 1 teaspoon salt,o 1 teaspoon salt,1.01,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 teaspoon salt,o 1 teaspoon salt,o 1/4 cup olive oil,o 1/4 cup olive oil,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/4 cup olive oil,o 1/4 cup olive oil,Instructions :,Instructions:,0.85,-18,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0
+Instructions :,Instructions:,"o Dissolve yeast and sugar in warm water, let sit until foamy.","o Dissolve yeast and sugar in warm water, let sit until foamy.",0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+"o Dissolve yeast and sugar in warm water, let sit until foamy.","o Dissolve yeast and sugar in warm water, let sit until foamy.","o Mix flour and salt in a bowl, then add yeast mixture and olive oil.","o Mix flour and salt in a bowl, then add yeast mixture and olive oil.",1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+"o Mix flour and salt in a bowl, then add yeast mixture and olive oil.","o Mix flour and salt in a bowl, then add yeast mixture and olive oil.","o Knead until smooth, then let rise until doubled.","o Knead until smooth, then let rise until doubled.",1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+"o Knead until smooth, then let rise until doubled.","o Knead until smooth, then let rise until doubled.",o Divide dough into balls and roll out into circles.,o Divide dough into balls and roll out into circles.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Divide dough into balls and roll out into circles.,o Divide dough into balls and roll out into circles.,o Cook on a hot griddle until puffed and golden.,o Cook on a hot griddle until puffed and golden.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Cook on a hot griddle until puffed and golden.,o Cook on a hot griddle until puffed and golden.,o Serve warm.,o Serve warm.,1.01,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Serve warm.,o Serve warm.,Bhindi Masala,Bhindi Masala,4.18,-54.02,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0,1,0
+Bhindi Masala,Bhindi Masala,Ingredients :,Ingredients:,0.6,36.02,0,0,0,12,12,0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+o 1 pound okra,o 1 pound okra,o 1 small onion,o 1 small onion,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 small onion,o 1 small onion,o 2 cloves garlic,o 2 cloves garlic,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 2 cloves garlic,o 2 cloves garlic,o 1 teaspoon cumin,o 1 teaspoon cumin,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 teaspoon cumin,o 1 teaspoon cumin,o 1 teaspoon coriander,o 1 teaspoon coriander,1.02,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 teaspoon coriander,o 1 teaspoon coriander,o 1 teaspoon turmeric,o 1 teaspoon turmeric,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 teaspoon turmeric,o 1 teaspoon turmeric,o 1 teaspoon garam masala,o 1 teaspoon garam masala,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 teaspoon garam masala,o 1 teaspoon garam masala,o 1 teaspoon salt,o 1 teaspoon salt,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 teaspoon salt,o 1 teaspoon salt,o 2 tablespoons oil,o 2 tablespoons oil,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 2 tablespoons oil,o 2 tablespoons oil,Instructions :,Instructions:,0.85,-18,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0
+Instructions :,Instructions:,"o Wash and dry okra, then cut into pieces.","o Wash and dry okra, then cut into pieces.",0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+"o Wash and dry okra, then cut into pieces.","o Wash and dry okra, then cut into pieces.",o Heat oil in a pan and sauté diced onion and minced garlic until translucent.,o Heat oil in a pan and sauté diced onion and minced garlic until translucent.,1.01,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Heat oil in a pan and sauté diced onion and minced garlic until translucent.,o Heat oil in a pan and sauté diced onion and minced garlic until translucent.,"o Add cumin, coriander, turmeric, and garam masala, cook for 1 minute.","o Add cumin, coriander, turmeric, and garam masala, cook for 1 minute.",1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+"o Add cumin, coriander, turmeric, and garam masala, cook for 1 minute.","o Add cumin, coriander, turmeric, and garam masala, cook for 1 minute.",o Add okra and stir to coat with spices.,o Add okra and stir to coat with spices.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Add okra and stir to coat with spices.,o Add okra and stir to coat with spices.,"o Cook until okra is tender, stirring occasionally.","o Cook until okra is tender, stirring occasionally.",1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+"o Cook until okra is tender, stirring occasionally.","o Cook until okra is tender, stirring occasionally.",o Add salt to taste and serve.,o Add salt to taste and serve.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Add salt to taste and serve.,o Add salt to taste and serve.,Bobotie,Bobotie,4.17,-54.02,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0,1,0
+Bobotie,Bobotie,Ingredients :,Ingredients:,0.61,36.02,0,0,0,12,12,0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Ingredients :,Ingredients:,o 1 pound ground beef,o 1 pound ground beef,0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+o 1 pound ground beef,o 1 pound ground beef,o 1 small onion,o 1 small onion,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 small onion,o 1 small onion,o 2 cloves garlic,o 2 cloves garlic,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 2 cloves garlic,o 2 cloves garlic,o 1/4 cup raisins,o 1/4 cup raisins,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/4 cup raisins,o 1/4 cup raisins,o 1/4 cup almonds,o 1/4 cup almonds,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/4 cup almonds,o 1/4 cup almonds,o 1 tablespoon curry powder,o 1 tablespoon curry powder,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 tablespoon curry powder,o 1 tablespoon curry powder,o 1 teaspoon salt,o 1 teaspoon salt,1.01,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 teaspoon salt,o 1 teaspoon salt,o 1/2 teaspoon pepper,o 1/2 teaspoon pepper,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/2 teaspoon pepper,o 1/2 teaspoon pepper,o 2 eggs,o 2 eggs,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 2 eggs,o 2 eggs,o 1/2 cup milk,o 1/2 cup milk,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/2 cup milk,o 1/2 cup milk,o 1/4 cup breadcrumbs,o 1/4 cup breadcrumbs,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/4 cup breadcrumbs,o 1/4 cup breadcrumbs,Instructions :,Instructions:,0.85,-18,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0
+Instructions :,Instructions:,o Preheat oven to 350°F 175°C.,o Preheat oven to 350°F (175°C).,0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+o Preheat oven to 350°F 175°C.,o Preheat oven to 350°F (175°C).,o Sauté diced onion and minced garlic until softened.,o Sauté diced onion and minced garlic until softened.,1.01,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Sauté diced onion and minced garlic until softened.,o Sauté diced onion and minced garlic until softened.,"o Add ground beef, raisins, almonds, curry powder, salt, and pepper, cook until","o Add ground beef, raisins, almonds, curry powder, salt, and pepper, cook until",1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+"o Add ground beef, raisins, almonds, curry powder, salt, and pepper, cook until","o Add ground beef, raisins, almonds, curry powder, salt, and pepper, cook until",beef is browned.,beef is browned.,0.85,18,0,0,0,10.02,12,1.98,0,0,0,0,0,1,0,1,1,0,0,1,0,0,0,1,0,0,0,1,1
+beef is browned.,beef is browned.,o Transfer mixture to a baking dish.,o Transfer mixture to a baking dish.,0.75,-18,0,0,0,12,10.02,-1.98,0,0,0,0,0,0,1,1,1,0,1,1,0,0,0,1,0,0,0,1,1
+o Transfer mixture to a baking dish.,o Transfer mixture to a baking dish.,o Beat eggs with milk and pour over the beef mixture.,o Beat eggs with milk and pour over the beef mixture.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Beat eggs with milk and pour over the beef mixture.,o Beat eggs with milk and pour over the beef mixture.,o Sprinkle with breadcrumbs.,o Sprinkle with breadcrumbs.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Sprinkle with breadcrumbs.,o Sprinkle with breadcrumbs.,o Bake for 30 minutes until set and golden.,o Bake for 30 minutes until set and golden.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Bake for 30 minutes until set and golden.,o Bake for 30 minutes until set and golden.,o Serve warm.,o Serve warm.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Serve warm.,o Serve warm.,Bok Choy with Garlic,Bok Choy with Garlic,4.19,-54.02,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0,1,0
+Bok Choy with Garlic,Bok Choy with Garlic,Ingredients :,Ingredients:,0.6,36.02,0,0,0,12,12,0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Ingredients :,Ingredients:,o 1 pound bok choy,o 1 pound bok choy,0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+o 2 cloves garlic,o 2 cloves garlic,o 2 tablespoons soy sauce,o 2 tablespoons soy sauce,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 2 tablespoons soy sauce,o 2 tablespoons soy sauce,o 1 tablespoon sesame oil,o 1 tablespoon sesame oil,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 tablespoon sesame oil,o 1 tablespoon sesame oil,Instructions :,Instructions:,0.85,-18,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0
+Instructions :,Instructions:,o Sauté minced garlic in sesame oil until fragrant.,o Sauté minced garlic in sesame oil until fragrant.,0.77,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+o Sauté minced garlic in sesame oil until fragrant.,o Sauté minced garlic in sesame oil until fragrant.,o Add bok choy and stir-fry until tender.,o Add bok choy and stir-fry until tender.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Add bok choy and stir-fry until tender.,o Add bok choy and stir-fry until tender.,o Add soy sauce and cook for 2 minutes.,o Add soy sauce and cook for 2 minutes.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Add soy sauce and cook for 2 minutes.,o Add soy sauce and cook for 2 minutes.,o Serve warm.,o Serve warm.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Serve warm.,o Serve warm.,Bolinho de Bacalhau,Bolinho de Bacalhau,4.17,-54.02,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0,1,0
+Bolinho de Bacalhau,Bolinho de Bacalhau,Ingredients :,Ingredients:,0.6,36.02,0,0,0,12,12,0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Ingredients :,Ingredients:,o 1 pound salted cod,o 1 pound salted cod,0.76,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+o 1 pound salted cod,o 1 pound salted cod,o 4 potatoes,o 4 potatoes,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 4 potatoes,o 4 potatoes,o 1 small onion,o 1 small onion,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 small onion,o 1 small onion,o 2 cloves garlic,o 2 cloves garlic,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 2 cloves garlic,o 2 cloves garlic,o 1/4 cup parsley,o 1/4 cup parsley,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/4 cup parsley,o 1/4 cup parsley,o 2 eggs,o 2 eggs,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 2 eggs,o 2 eggs,o 1 cup breadcrumbs,o 1 cup breadcrumbs,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 cup breadcrumbs,o 1 cup breadcrumbs,o Oil for frying,o Oil for frying,1.01,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o Oil for frying,o Oil for frying,Instructions :,Instructions:,0.85,-18,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0
+Instructions :,Instructions:,"o Soak salted cod in water overnight, then rinse and flake.","o Soak salted cod in water overnight, then rinse and flake.",0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+"o Soak salted cod in water overnight, then rinse and flake.","o Soak salted cod in water overnight, then rinse and flake.","o Boil potatoes until tender, then mash.","o Boil potatoes until tender, then mash.",1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+"o Boil potatoes until tender, then mash.","o Boil potatoes until tender, then mash.","o Mix cod with mashed potatoes, diced onion, minced garlic, chopped parsley, and","o Mix cod with mashed potatoes, diced onion, minced garlic, chopped parsley, and",1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+"o Mix cod with mashed potatoes, diced onion, minced garlic, chopped parsley, and","o Mix cod with mashed potatoes, diced onion, minced garlic, chopped parsley, and",beaten eggs.,beaten eggs.,0.86,18,0,0,0,10.02,12,1.98,0,0,0,0,0,1,0,1,1,0,0,1,0,0,0,1,0,0,0,1,1
+beaten eggs.,beaten eggs.,o Form mixture into balls and coat with breadcrumbs.,o Form mixture into balls and coat with breadcrumbs.,0.75,-18,0,0,0,12,10.02,-1.98,0,0,0,0,0,0,1,1,1,0,1,1,0,0,0,1,0,0,0,1,1
+o Form mixture into balls and coat with breadcrumbs.,o Form mixture into balls and coat with breadcrumbs.,o Fry in hot oil until golden.,o Fry in hot oil until golden.,1.01,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Fry in hot oil until golden.,o Fry in hot oil until golden.,o Drain on paper towels and serve warm.,o Drain on paper towels and serve warm.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Drain on paper towels and serve warm.,o Drain on paper towels and serve warm.,Bouillabaisse,Bouillabaisse,4.17,-54.02,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0,1,0
+Bouillabaisse,Bouillabaisse,Ingredients :,Ingredients:,0.6,36.02,0,0,0,12,12,0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Ingredients :,Ingredients:,o 1 pound fish fillets,o 1 pound fish fillets,0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+o 1 pound fish fillets,o 1 pound fish fillets,o 1/2 pound shrimp,o 1/2 pound shrimp,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/2 pound shrimp,o 1/2 pound shrimp,o 1/2 pound mussels,o 1/2 pound mussels,1.01,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/2 pound mussels,o 1/2 pound mussels,o 1 small onion,o 1 small onion,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 small onion,o 1 small onion,o 2 cloves garlic,o 2 cloves garlic,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 2 cloves garlic,o 2 cloves garlic,o 4 tomatoes,o 4 tomatoes,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 4 tomatoes,o 4 tomatoes,o 4 cups fish stock,o 4 cups fish stock,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 4 cups fish stock,o 4 cups fish stock,o 1/2 cup white wine,o 1/2 cup white wine,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/2 cup white wine,o 1/2 cup white wine,o 1 teaspoon saffron,o 1 teaspoon saffron,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 teaspoon saffron,o 1 teaspoon saffron,o 1 teaspoon thyme,o 1 teaspoon thyme,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 teaspoon thyme,o 1 teaspoon thyme,o 1 teaspoon salt,o 1 teaspoon salt,1.01,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 teaspoon salt,o 1 teaspoon salt,o 1/2 teaspoon pepper,o 1/2 teaspoon pepper,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/2 teaspoon pepper,o 1/2 teaspoon pepper,Instructions :,Instructions:,0.86,-18,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0
+Instructions :,Instructions:,o Sauté diced onion and minced garlic in olive oil until softened.,o Sauté diced onion and minced garlic in olive oil until softened.,0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+"o Add diced tomatoes, fish stock, wine, saffron, thyme, salt, and pepper, simmer","o Add diced tomatoes, fish stock, wine, saffron, thyme, salt, and pepper, simmer",for 20 minutes.,for 20 minutes.,0.85,18,0,0,0,10.02,12,1.98,0,0,0,0,0,1,0,1,1,0,0,1,0,0,0,1,0,0,0,1,1
+for 20 minutes.,for 20 minutes.,"o Add fish fillets, shrimp, and mussels, cook until seafood is done.","o Add fish fillets, shrimp, and mussels, cook until seafood is done.",0.75,-18,0,0,0,12,10.02,-1.98,0,0,0,0,0,0,1,1,1,0,1,1,0,0,0,1,0,0,0,1,1
+"o Add fish fillets, shrimp, and mussels, cook until seafood is done.","o Add fish fillets, shrimp, and mussels, cook until seafood is done.",o Serve hot with crusty bread.,o Serve hot with crusty bread.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Serve hot with crusty bread.,o Serve hot with crusty bread.,Bratkartoffeln Fried Potatoes,Bratkartoffeln (Fried Potatoes),4.19,-54.02,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0,1,0
+Bratkartoffeln Fried Potatoes,Bratkartoffeln (Fried Potatoes),Ingredients :,Ingredients:,0.6,36.02,0,0,0,12,12,0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Ingredients :,Ingredients:,o 4 potatoes,o 4 potatoes,0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+o 4 potatoes,o 4 potatoes,o 1 small onion,o 1 small onion,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 small onion,o 1 small onion,o 1/4 cup bacon,o 1/4 cup bacon,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/4 cup bacon,o 1/4 cup bacon,o 2 tablespoons butter,o 2 tablespoons butter,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 2 tablespoons butter,o 2 tablespoons butter,o 1 teaspoon salt,o 1 teaspoon salt,1.01,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 teaspoon salt,o 1 teaspoon salt,o 1/2 teaspoon pepper,o 1/2 teaspoon pepper,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/2 teaspoon pepper,o 1/2 teaspoon pepper,Instructions :,Instructions:,0.85,-18,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0
+Instructions :,Instructions:,"o Boil potatoes until tender, then slice.","o Boil potatoes until tender, then slice.",0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+"o Boil potatoes until tender, then slice.","o Boil potatoes until tender, then slice.","o Cook diced bacon until crispy, then remove and set aside.","o Cook diced bacon until crispy, then remove and set aside.",1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+"o Cook diced bacon until crispy, then remove and set aside.","o Cook diced bacon until crispy, then remove and set aside.",o Sauté sliced potatoes and diced onion in butter until golden.,o Sauté sliced potatoes and diced onion in butter until golden.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Sauté sliced potatoes and diced onion in butter until golden.,o Sauté sliced potatoes and diced onion in butter until golden.,"o Stir in bacon, salt, and pepper.","o Stir in bacon, salt, and pepper.",1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+"o Stir in bacon, salt, and pepper.","o Stir in bacon, salt, and pepper.",o Serve warm.,o Serve warm.,1.01,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Serve warm.,o Serve warm.,Briam,Briam,4.17,-54.02,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0,1,0
+Briam,Briam,Ingredients :,Ingredients:,0.6,36.02,0,0,0,12,12,0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Ingredients :,Ingredients:,o 2 potatoes,o 2 potatoes,0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+o 2 potatoes,o 2 potatoes,o 2 zucchinis,o 2 zucchinis,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 2 zucchinis,o 2 zucchinis,o 2 eggplants,o 2 eggplants,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 2 eggplants,o 2 eggplants,o 2 tomatoes,o 2 tomatoes,1.01,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 2 tomatoes,o 2 tomatoes,o 1 small onion,o 1 small onion,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 small onion,o 1 small onion,o 4 cloves garlic,o 4 cloves garlic,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 4 cloves garlic,o 4 cloves garlic,o 1/4 cup olive oil,o 1/4 cup olive oil,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/4 cup olive oil,o 1/4 cup olive oil,o 1 teaspoon oregano,o 1 teaspoon oregano,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 teaspoon oregano,o 1 teaspoon oregano,o 1 teaspoon salt,o 1 teaspoon salt,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 teaspoon salt,o 1 teaspoon salt,o 1/2 teaspoon pepper,o 1/2 teaspoon pepper,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/2 teaspoon pepper,o 1/2 teaspoon pepper,Instructions :,Instructions:,0.87,-18,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0
+Instructions :,Instructions:,o Preheat oven to 375°F 190°C.,o Preheat oven to 375°F (190°C).,0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+o Preheat oven to 375°F 190°C.,o Preheat oven to 375°F (190°C).,"o Slice potatoes, zucchinis, eggplants, and tomatoes.","o Slice potatoes, zucchinis, eggplants, and tomatoes.",1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+"o Slice potatoes, zucchinis, eggplants, and tomatoes.","o Slice potatoes, zucchinis, eggplants, and tomatoes.",o Sauté diced onion and minced garlic in olive oil until softened.,o Sauté diced onion and minced garlic in olive oil until softened.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Sauté diced onion and minced garlic in olive oil until softened.,o Sauté diced onion and minced garlic in olive oil until softened.,"o Layer vegetables in a baking dish, seasoning with oregano, salt, and pepper.","o Layer vegetables in a baking dish, seasoning with oregano, salt, and pepper.",1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+"o Layer vegetables in a baking dish, seasoning with oregano, salt, and pepper.","o Layer vegetables in a baking dish, seasoning with oregano, salt, and pepper.",o Pour sautéed onion and garlic over the top.,o Pour sautéed onion and garlic over the top.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Pour sautéed onion and garlic over the top.,o Pour sautéed onion and garlic over the top.,o Bake for 45 minutes until vegetables are tender.,o Bake for 45 minutes until vegetables are tender.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Bake for 45 minutes until vegetables are tender.,o Bake for 45 minutes until vegetables are tender.,o Serve warm.,o Serve warm.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Serve warm.,o Serve warm.,Briouats,Briouats,4.19,-54.02,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0,1,0
+Briouats,Briouats,Ingredients :,Ingredients:,0.6,36.02,0,0,0,12,12,0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Ingredients :,Ingredients:,o 1/2 pound ground beef,o 1/2 pound ground beef,0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+o 1 small onion,o 1 small onion,o 2 cloves garlic,o 2 cloves garlic,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 2 cloves garlic,o 2 cloves garlic,o 1/4 cup parsley,o 1/4 cup parsley,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/4 cup parsley,o 1/4 cup parsley,o 1 teaspoon cumin,o 1 teaspoon cumin,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 teaspoon cumin,o 1 teaspoon cumin,o 1 teaspoon cinnamon,o 1 teaspoon cinnamon,1.02,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 teaspoon cinnamon,o 1 teaspoon cinnamon,o 1 teaspoon salt,o 1 teaspoon salt,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 teaspoon salt,o 1 teaspoon salt,o 1/2 teaspoon pepper,o 1/2 teaspoon pepper,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/2 teaspoon pepper,o 1/2 teaspoon pepper,o 1 package phyllo dough,o 1 package phyllo dough,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 package phyllo dough,o 1 package phyllo dough,o 1/4 cup butter,o 1/4 cup butter,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/4 cup butter,o 1/4 cup butter,o Oil for frying,o Oil for frying,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o Oil for frying,o Oil for frying,Instructions :,Instructions:,0.85,-18,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0
+Instructions :,Instructions:,"o Sauté ground beef, diced onion, and minced garlic until cooked.","o Sauté ground beef, diced onion, and minced garlic until cooked.",0.76,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+"o Sauté ground beef, diced onion, and minced garlic until cooked.","o Sauté ground beef, diced onion, and minced garlic until cooked.","o Stir in chopped parsley, cumin, cinnamon, salt, and pepper.","o Stir in chopped parsley, cumin, cinnamon, salt, and pepper.",1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+"o Stir in chopped parsley, cumin, cinnamon, salt, and pepper.","o Stir in chopped parsley, cumin, cinnamon, salt, and pepper.",o Cut phyllo dough into strips and brush with melted butter.,o Cut phyllo dough into strips and brush with melted butter.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Cut phyllo dough into strips and brush with melted butter.,o Cut phyllo dough into strips and brush with melted butter.,o Place a spoonful of filling on each strip and fold into triangles.,o Place a spoonful of filling on each strip and fold into triangles.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Place a spoonful of filling on each strip and fold into triangles.,o Place a spoonful of filling on each strip and fold into triangles.,o Fry in hot oil until golden.,o Fry in hot oil until golden.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Fry in hot oil until golden.,o Fry in hot oil until golden.,o Drain on paper towels and serve warm.,o Drain on paper towels and serve warm.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Drain on paper towels and serve warm.,o Drain on paper towels and serve warm.,Bruschetta,Bruschetta,4.19,-54.02,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0,1,0
+Bruschetta,Bruschetta,Ingredients :,Ingredients:,0.6,36.02,0,0,0,12,12,0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Ingredients :,Ingredients:,o 1 baguette,o 1 baguette,0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+o 1 baguette,o 1 baguette,o 4 tomatoes,o 4 tomatoes,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 4 tomatoes,o 4 tomatoes,o 1/4 cup basil,o 1/4 cup basil,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/4 cup basil,o 1/4 cup basil,o 2 cloves garlic,o 2 cloves garlic,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 2 cloves garlic,o 2 cloves garlic,o 1/4 cup olive oil,o 1/4 cup olive oil,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/4 cup olive oil,o 1/4 cup olive oil,o 1 teaspoon salt,o 1 teaspoon salt,1.01,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 teaspoon salt,o 1 teaspoon salt,Instructions :,Instructions:,0.85,-18,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0
+Instructions :,Instructions:,o Slice baguette and toast until golden.,o Slice baguette and toast until golden.,0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+o Slice baguette and toast until golden.,o Slice baguette and toast until golden.,o Dice tomatoes and chop basil.,o Dice tomatoes and chop basil.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Dice tomatoes and chop basil.,o Dice tomatoes and chop basil.,"o Mix tomatoes, basil, minced garlic, olive oil, and salt.","o Mix tomatoes, basil, minced garlic, olive oil, and salt.",1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+"o Mix tomatoes, basil, minced garlic, olive oil, and salt.","o Mix tomatoes, basil, minced garlic, olive oil, and salt.",o Spoon mixture onto toasted bread and serve.,o Spoon mixture onto toasted bread and serve.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Spoon mixture onto toasted bread and serve.,o Spoon mixture onto toasted bread and serve.,Bulgur Pilaf,Bulgur Pilaf,4.19,-54.02,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0,1,0
+Bulgur Pilaf,Bulgur Pilaf,Ingredients :,Ingredients:,0.6,36.02,0,0,0,12,12,0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Ingredients :,Ingredients:,o 1 cup bulgur,o 1 cup bulgur,0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+o 1 cup bulgur,o 1 cup bulgur,o 2 cups chicken broth,o 2 cups chicken broth,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 2 cups chicken broth,o 2 cups chicken broth,o 1 small onion,o 1 small onion,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 small onion,o 1 small onion,o 1 carrot,o 1 carrot,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 carrot,o 1 carrot,o 1/4 cup parsley,o 1/4 cup parsley,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/4 cup parsley,o 1/4 cup parsley,o 2 tablespoons olive oil,o 2 tablespoons olive oil,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 2 tablespoons olive oil,o 2 tablespoons olive oil,o 1 teaspoon salt,o 1 teaspoon salt,1.01,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 teaspoon salt,o 1 teaspoon salt,Instructions :,Instructions:,0.85,-18,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0
+Instructions :,Instructions:,o Sauté diced onion and grated carrot in olive oil until softened.,o Sauté diced onion and grated carrot in olive oil until softened.,0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+o Sauté diced onion and grated carrot in olive oil until softened.,o Sauté diced onion and grated carrot in olive oil until softened.,o Add bulgur and cook for 2 minutes.,o Add bulgur and cook for 2 minutes.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Pour in chicken broth and bring to a boil.,o Pour in chicken broth and bring to a boil.,"o Reduce heat, cover, and simmer until bulgur is tender.","o Reduce heat, cover, and simmer until bulgur is tender.",1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+"o Reduce heat, cover, and simmer until bulgur is tender.","o Reduce heat, cover, and simmer until bulgur is tender.",o Stir in chopped parsley and salt.,o Stir in chopped parsley and salt.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Stir in chopped parsley and salt.,o Stir in chopped parsley and salt.,o Serve warm.,o Serve warm.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Serve warm.,o Serve warm.,Ca Tim Nuong Grilled Eggplant,Ca Tim Nuong (Grilled Eggplant),4.19,-54.02,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0,1,0
+Ca Tim Nuong Grilled Eggplant,Ca Tim Nuong (Grilled Eggplant),Ingredients :,Ingredients:,0.6,36.02,0,0,0,12,12,0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Ingredients :,Ingredients:,o 2 eggplants,o 2 eggplants,0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+o 2 eggplants,o 2 eggplants,o 2 cloves garlic,o 2 cloves garlic,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 2 cloves garlic,o 2 cloves garlic,o 2 tablespoons fish sauce,o 2 tablespoons fish sauce,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 2 tablespoons fish sauce,o 2 tablespoons fish sauce,o 1 tablespoon lime juice,o 1 tablespoon lime juice,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 tablespoon lime juice,o 1 tablespoon lime juice,o 1 tablespoon sugar,o 1 tablespoon sugar,1.01,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 tablespoon sugar,o 1 tablespoon sugar,o 1/4 cup cilantro,o 1/4 cup cilantro,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/4 cup cilantro,o 1/4 cup cilantro,Instructions :,Instructions:,0.85,-18,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0
+Instructions :,Instructions:,o Grill eggplants until charred and tender.,o Grill eggplants until charred and tender.,0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+o Grill eggplants until charred and tender.,o Grill eggplants until charred and tender.,o Peel and slice eggplants.,o Peel and slice eggplants.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Peel and slice eggplants.,o Peel and slice eggplants.,"o Mix minced garlic, fish sauce, lime juice, and sugar in a bowl.","o Mix minced garlic, fish sauce, lime juice, and sugar in a bowl.",1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+"o Mix minced garlic, fish sauce, lime juice, and sugar in a bowl.","o Mix minced garlic, fish sauce, lime juice, and sugar in a bowl.",o Toss eggplants with the dressing.,o Toss eggplants with the dressing.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Toss eggplants with the dressing.,o Toss eggplants with the dressing.,o Garnish with chopped cilantro and serve.,o Garnish with chopped cilantro and serve.,1.01,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Garnish with chopped cilantro and serve.,o Garnish with chopped cilantro and serve.,Callaloo,Callaloo,4.17,-54.02,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0,1,0
+Callaloo,Callaloo,Ingredients :,Ingredients:,0.6,36.02,0,0,0,12,12,0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Ingredients :,Ingredients:,o 1 pound callaloo leaves,o 1 pound callaloo leaves,0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+o 1 pound callaloo leaves,o 1 pound callaloo leaves,o 1 small onion,o 1 small onion,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 small onion,o 1 small onion,o 2 cloves garlic,o 2 cloves garlic,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 2 cloves garlic,o 2 cloves garlic,o 1/4 cup coconut milk,o 1/4 cup coconut milk,1.01,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/4 cup coconut milk,o 1/4 cup coconut milk,o 1 teaspoon thyme,o 1 teaspoon thyme,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 teaspoon thyme,o 1 teaspoon thyme,o 1 teaspoon salt,o 1 teaspoon salt,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 teaspoon salt,o 1 teaspoon salt,o 1/2 teaspoon pepper,o 1/2 teaspoon pepper,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/2 teaspoon pepper,o 1/2 teaspoon pepper,Instructions :,Instructions:,0.85,-18,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0
+Instructions :,Instructions:,o Sauté diced onion and minced garlic until softened.,o Sauté diced onion and minced garlic until softened.,0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+o Sauté diced onion and minced garlic until softened.,o Sauté diced onion and minced garlic until softened.,o Add callaloo leaves and cook until wilted.,o Add callaloo leaves and cook until wilted.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Add callaloo leaves and cook until wilted.,o Add callaloo leaves and cook until wilted.,"o Stir in coconut milk, thyme, salt, and pepper.","o Stir in coconut milk, thyme, salt, and pepper.",1.01,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+"o Stir in coconut milk, thyme, salt, and pepper.","o Stir in coconut milk, thyme, salt, and pepper.",o Simmer for 10 minutes.,o Simmer for 10 minutes.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Simmer for 10 minutes.,o Simmer for 10 minutes.,o Serve warm.,o Serve warm.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Serve warm.,o Serve warm.,Canh Chua,Canh Chua,4.17,-54.02,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0,1,0
+Canh Chua,Canh Chua,Ingredients :,Ingredients:,0.6,36.02,0,0,0,12,12,0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Ingredients :,Ingredients:,o 4 cups fish stock,o 4 cups fish stock,0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+o 4 cups fish stock,o 4 cups fish stock,o 1/2 pound fish fillets,o 1/2 pound fish fillets,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/2 pound fish fillets,o 1/2 pound fish fillets,o 1 cup pineapple,o 1 cup pineapple,1.01,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 cup pineapple,o 1 cup pineapple,o 1 cup tomatoes,o 1 cup tomatoes,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 cup tomatoes,o 1 cup tomatoes,o 1 cup bean sprouts,o 1 cup bean sprouts,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 cup bean sprouts,o 1 cup bean sprouts,o 2 stalks lemongrass,o 2 stalks lemongrass,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 2-3 Thai chilies,o 2-3 Thai chilies,o 2 tablespoons fish sauce,o 2 tablespoons fish sauce,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 2 tablespoons fish sauce,o 2 tablespoons fish sauce,o 2 tablespoons tamarind paste,o 2 tablespoons tamarind paste,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 2 tablespoons tamarind paste,o 2 tablespoons tamarind paste,o 1 tablespoon sugar,o 1 tablespoon sugar,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 tablespoon sugar,o 1 tablespoon sugar,o 1/4 cup cilantro,o 1/4 cup cilantro,1.02,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/4 cup cilantro,o 1/4 cup cilantro,Instructions :,Instructions:,0.85,-18,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0
+Instructions :,Instructions:,o Bring fish stock to a boil.,o Bring fish stock to a boil.,0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+o Bring fish stock to a boil.,o Bring fish stock to a boil.,"o Add lemongrass, chilies, and tamarind paste, simmer for 10 minutes.","o Add lemongrass, chilies, and tamarind paste, simmer for 10 minutes.",1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+"o Add lemongrass, chilies, and tamarind paste, simmer for 10 minutes.","o Add lemongrass, chilies, and tamarind paste, simmer for 10 minutes.","o Add pineapple, tomatoes, and fish fillets, cook until fish is done.","o Add pineapple, tomatoes, and fish fillets, cook until fish is done.",1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+"o Add pineapple, tomatoes, and fish fillets, cook until fish is done.","o Add pineapple, tomatoes, and fish fillets, cook until fish is done.","o Stir in fish sauce, sugar, and bean sprouts.","o Stir in fish sauce, sugar, and bean sprouts.",1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+"o Stir in fish sauce, sugar, and bean sprouts.","o Stir in fish sauce, sugar, and bean sprouts.",o Garnish with chopped cilantro and serve.,o Garnish with chopped cilantro and serve.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Garnish with chopped cilantro and serve.,o Garnish with chopped cilantro and serve.,Caprese Salad,Caprese Salad,4.19,-54.02,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0,1,0
+Caprese Salad,Caprese Salad,Ingredients :,Ingredients:,0.6,36.02,0,0,0,12,12,0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Ingredients :,Ingredients:,o 4 tomatoes,o 4 tomatoes,0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+o 4 tomatoes,o 4 tomatoes,o 1 pound fresh mozzarella,o 1 pound fresh mozzarella,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 pound fresh mozzarella,o 1 pound fresh mozzarella,o 1/4 cup basil,o 1/4 cup basil,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/4 cup basil,o 1/4 cup basil,o 2 tablespoons olive oil,o 2 tablespoons olive oil,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 2 tablespoons olive oil,o 2 tablespoons olive oil,o 1 tablespoon balsamic glaze,o 1 tablespoon balsamic glaze,1.01,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 tablespoon balsamic glaze,o 1 tablespoon balsamic glaze,o 1 teaspoon salt,o 1 teaspoon salt,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 teaspoon salt,o 1 teaspoon salt,Instructions :,Instructions:,0.85,-18,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0
+Instructions :,Instructions:,o Slice tomatoes and mozzarella.,o Slice tomatoes and mozzarella.,0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+o Slice tomatoes and mozzarella.,o Slice tomatoes and mozzarella.,"o Arrange on a plate, alternating slices.","o Arrange on a plate, alternating slices.",1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+"o Arrange on a plate, alternating slices.","o Arrange on a plate, alternating slices.","o Sprinkle with chopped basil, olive oil, balsamic glaze, and salt.","o Sprinkle with chopped basil, olive oil, balsamic glaze, and salt.",1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+"o Sprinkle with chopped basil, olive oil, balsamic glaze, and salt.","o Sprinkle with chopped basil, olive oil, balsamic glaze, and salt.",o Serve immediately.,o Serve immediately.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Serve immediately.,o Serve immediately.,Carrot Salad,Carrot Salad,4.19,-54.02,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0,1,0
+Carrot Salad,Carrot Salad,Ingredients :,Ingredients:,0.6,36.02,0,0,0,12,12,0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Ingredients :,Ingredients:,o 4 carrots,o 4 carrots,0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+o 4 carrots,o 4 carrots,o 1/4 cup raisins,o 1/4 cup raisins,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/4 cup raisins,o 1/4 cup raisins,o 1/4 cup parsley,o 1/4 cup parsley,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/4 cup parsley,o 1/4 cup parsley,o 1/4 cup lemon juice,o 1/4 cup lemon juice,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/4 cup lemon juice,o 1/4 cup lemon juice,o 1/4 cup olive oil,o 1/4 cup olive oil,1.01,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/4 cup olive oil,o 1/4 cup olive oil,o 1 teaspoon cumin,o 1 teaspoon cumin,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 teaspoon cumin,o 1 teaspoon cumin,o 1 teaspoon salt,o 1 teaspoon salt,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 teaspoon salt,o 1 teaspoon salt,Instructions :,Instructions:,0.85,-18,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0
+Instructions :,Instructions:,o Grate carrots and mix with raisins and chopped parsley.,o Grate carrots and mix with raisins and chopped parsley.,0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+o Grate carrots and mix with raisins and chopped parsley.,o Grate carrots and mix with raisins and chopped parsley.,"o Whisk lemon juice, olive oil, cumin, and salt, then pour over salad.","o Whisk lemon juice, olive oil, cumin, and salt, then pour over salad.",1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+"o Whisk lemon juice, olive oil, cumin, and salt, then pour over salad.","o Whisk lemon juice, olive oil, cumin, and salt, then pour over salad.",o Toss well and serve chilled.,o Toss well and serve chilled.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Toss well and serve chilled.,o Toss well and serve chilled.,Ceviche,Ceviche,4.19,-54.02,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0,1,0
+Ceviche,Ceviche,Ingredients :,Ingredients:,0.6,36.02,0,0,0,12,12,0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Ingredients :,Ingredients:,o 1 pound fresh fish or shrimp,o 1 pound fresh fish or shrimp,0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+o 1 pound fresh fish or shrimp,o 1 pound fresh fish or shrimp,o 1 cup lime juice,o 1 cup lime juice,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 small onion,o 1 small onion,o 2 tomatoes,o 2 tomatoes,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 2 tomatoes,o 2 tomatoes,o 1 jalapeño,o 1 jalapeño,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 jalapeño,o 1 jalapeño,o 1/4 cup cilantro,o 1/4 cup cilantro,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/4 cup cilantro,o 1/4 cup cilantro,o 1 teaspoon salt,o 1 teaspoon salt,1.02,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 teaspoon salt,o 1 teaspoon salt,Instructions :,Instructions:,0.85,-18,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0
+Instructions :,Instructions:,o Dice fish or shrimp and place in a bowl.,o Dice fish or shrimp and place in a bowl.,0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+o Dice fish or shrimp and place in a bowl.,o Dice fish or shrimp and place in a bowl.,o Pour lime juice over the seafood and let marinate for 30 minutes.,o Pour lime juice over the seafood and let marinate for 30 minutes.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Pour lime juice over the seafood and let marinate for 30 minutes.,o Pour lime juice over the seafood and let marinate for 30 minutes.,"o Dice onion, tomatoes, and jalapeño.","o Dice onion, tomatoes, and jalapeño.",1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+"o Dice onion, tomatoes, and jalapeño.","o Dice onion, tomatoes, and jalapeño.",o Chop cilantro.,o Chop cilantro.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Chop cilantro.,o Chop cilantro.,o Mix all ingredients together and add salt.,o Mix all ingredients together and add salt.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Mix all ingredients together and add salt.,o Mix all ingredients together and add salt.,o Serve chilled.,o Serve chilled.,1.01,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Serve chilled.,o Serve chilled.,Cha Gio,Cha Gio,4.17,-54.02,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0,1,0
+Cha Gio,Cha Gio,Ingredients :,Ingredients:,0.6,36.02,0,0,0,12,12,0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Ingredients :,Ingredients:,o 1 package spring roll wrappers,o 1 package spring roll wrappers,0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+o 1 package spring roll wrappers,o 1 package spring roll wrappers,o 1/2 pound ground pork,o 1/2 pound ground pork,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/2 pound ground pork,o 1/2 pound ground pork,o 1/2 cup shrimp,o 1/2 cup shrimp,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/2 cup shrimp,o 1/2 cup shrimp,o 1/2 cup mushrooms,o 1/2 cup mushrooms,1.01,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/2 cup mushrooms,o 1/2 cup mushrooms,o 1/4 cup carrots,o 1/4 cup carrots,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/4 cup carrots,o 1/4 cup carrots,o 1/4 cup green onions,o 1/4 cup green onions,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/4 cup green onions,o 1/4 cup green onions,o 2 cloves garlic,o 2 cloves garlic,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 2 cloves garlic,o 2 cloves garlic,o 2 tablespoons fish sauce,o 2 tablespoons fish sauce,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 2 tablespoons fish sauce,o 2 tablespoons fish sauce,o 1 tablespoon sugar,o 1 tablespoon sugar,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 tablespoon sugar,o 1 tablespoon sugar,o Oil for frying,o Oil for frying,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o Oil for frying,o Oil for frying,Instructions :,Instructions:,0.87,-18,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0
+Instructions :,Instructions:,"o Mix ground pork, chopped shrimp, diced mushrooms, julienned carrots, chopped","o Mix ground pork, chopped shrimp, diced mushrooms, julienned carrots, chopped",0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+"o Mix ground pork, chopped shrimp, diced mushrooms, julienned carrots, chopped","o Mix ground pork, chopped shrimp, diced mushrooms, julienned carrots, chopped","green onions, minced garlic, fish sauce, and sugar in a bowl.","green onions, minced garlic, fish sauce, and sugar in a bowl.",0.85,18,0,0,1,10.02,12,1.98,0,0,0,0,0,1,0,1,1,0,0,1,0,0,0,1,0,0,0,1,1
+"green onions, minced garlic, fish sauce, and sugar in a bowl.","green onions, minced garlic, fish sauce, and sugar in a bowl.",o Place a spoonful of filling on each wrapper and roll tightly.,o Place a spoonful of filling on each wrapper and roll tightly.,0.75,-18,0,1,0,12,10.02,-1.98,0,0,0,0,0,0,1,1,1,0,1,1,0,0,0,1,0,0,0,1,1
+o Place a spoonful of filling on each wrapper and roll tightly.,o Place a spoonful of filling on each wrapper and roll tightly.,o Fry in hot oil until golden.,o Fry in hot oil until golden.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Fry in hot oil until golden.,o Fry in hot oil until golden.,o Drain on paper towels and serve with dipping sauce.,o Drain on paper towels and serve with dipping sauce.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Drain on paper towels and serve with dipping sauce.,o Drain on paper towels and serve with dipping sauce.,Chakchouka,Chakchouka,4.19,-54.02,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0,1,0
+Chakchouka,Chakchouka,Ingredients :,Ingredients:,0.6,36.02,0,0,0,12,12,0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Ingredients :,Ingredients:,o 4 tomatoes,o 4 tomatoes,0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+o 4 tomatoes,o 4 tomatoes,o 2 bell peppers,o 2 bell peppers,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 2 bell peppers,o 2 bell peppers,o 1 small onion,o 1 small onion,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 small onion,o 1 small onion,o 2 cloves garlic,o 2 cloves garlic,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 2 cloves garlic,o 2 cloves garlic,o 1/4 cup olive oil,o 1/4 cup olive oil,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/4 cup olive oil,o 1/4 cup olive oil,o 1 teaspoon cumin,o 1 teaspoon cumin,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 teaspoon cumin,o 1 teaspoon cumin,o 1 teaspoon paprika,o 1 teaspoon paprika,1.01,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 teaspoon paprika,o 1 teaspoon paprika,o 1 teaspoon salt,o 1 teaspoon salt,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 teaspoon salt,o 1 teaspoon salt,o 4 eggs,o 4 eggs,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 4 eggs,o 4 eggs,o 1/4 cup cilantro,o 1/4 cup cilantro,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+Instructions :,Instructions:,"o Sauté diced onion, minced garlic, and sliced bell peppers in olive oil until","o Sauté diced onion, minced garlic, and sliced bell peppers in olive oil until",0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+"o Sauté diced onion, minced garlic, and sliced bell peppers in olive oil until","o Sauté diced onion, minced garlic, and sliced bell peppers in olive oil until",softened.,softened.,0.85,18,0,0,0,10.02,12,1.98,0,0,0,0,0,1,0,1,1,0,0,1,0,0,0,1,0,0,0,1,1
+softened.,softened.,"o Add diced tomatoes, cumin, paprika, and salt, simmer for 10 minutes.","o Add diced tomatoes, cumin, paprika, and salt, simmer for 10 minutes.",0.75,-18,0,0,0,12,10.02,-1.98,0,0,0,0,0,0,1,1,1,0,1,1,0,0,0,1,0,0,0,1,1
+"o Add diced tomatoes, cumin, paprika, and salt, simmer for 10 minutes.","o Add diced tomatoes, cumin, paprika, and salt, simmer for 10 minutes.",o Make wells in the sauce and crack eggs into each well.,o Make wells in the sauce and crack eggs into each well.,1.02,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Make wells in the sauce and crack eggs into each well.,o Make wells in the sauce and crack eggs into each well.,o Cover and cook until eggs are set.,o Cover and cook until eggs are set.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Cover and cook until eggs are set.,o Cover and cook until eggs are set.,o Garnish with chopped cilantro and serve warm.,o Garnish with chopped cilantro and serve warm.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Garnish with chopped cilantro and serve warm.,o Garnish with chopped cilantro and serve warm.,Chana Masala,Chana Masala,4.17,-54.02,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0,1,0
+Chana Masala,Chana Masala,Ingredients :,Ingredients:,0.6,36.02,0,0,0,12,12,0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Ingredients :,Ingredients:,o 2 cups cooked chickpeas,o 2 cups cooked chickpeas,0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+o 2 cups cooked chickpeas,o 2 cups cooked chickpeas,o 1 small onion,o 1 small onion,1.01,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 small onion,o 1 small onion,o 2 cloves garlic,o 2 cloves garlic,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 2 cloves garlic,o 2 cloves garlic,o 1 teaspoon cumin,o 1 teaspoon cumin,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 teaspoon cumin,o 1 teaspoon cumin,o 1 teaspoon coriander,o 1 teaspoon coriander,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 teaspoon coriander,o 1 teaspoon coriander,o 1 teaspoon garam masala,o 1 teaspoon garam masala,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 teaspoon garam masala,o 1 teaspoon garam masala,o 1 teaspoon turmeric,o 1 teaspoon turmeric,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 teaspoon turmeric,o 1 teaspoon turmeric,o 1 teaspoon salt,o 1 teaspoon salt,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 teaspoon salt,o 1 teaspoon salt,o 1 can diced tomatoes,o 1 can diced tomatoes,1.01,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 can diced tomatoes,o 1 can diced tomatoes,o 2 tablespoons oil,o 2 tablespoons oil,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 2 tablespoons oil,o 2 tablespoons oil,Instructions :,Instructions:,0.85,-18,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0
+Instructions :,Instructions:,o Heat oil in a pan and sauté diced onion and minced garlic until translucent.,o Heat oil in a pan and sauté diced onion and minced garlic until translucent.,0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+o Heat oil in a pan and sauté diced onion and minced garlic until translucent.,o Heat oil in a pan and sauté diced onion and minced garlic until translucent.,"o Add cumin, coriander, garam masala, and turmeric, cook for 1 minute.","o Add cumin, coriander, garam masala, and turmeric, cook for 1 minute.",1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+"o Add cumin, coriander, garam masala, and turmeric, cook for 1 minute.","o Add cumin, coriander, garam masala, and turmeric, cook for 1 minute.","o Add chickpeas and diced tomatoes, stir to combine.","o Add chickpeas and diced tomatoes, stir to combine.",1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+"o Add chickpeas and diced tomatoes, stir to combine.","o Add chickpeas and diced tomatoes, stir to combine.","o Simmer for 15 minutes, stirring occasionally.","o Simmer for 15 minutes, stirring occasionally.",1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+"o Simmer for 15 minutes, stirring occasionally.","o Simmer for 15 minutes, stirring occasionally.",o Add salt to taste and serve.,o Add salt to taste and serve.,1.01,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Add salt to taste and serve.,o Add salt to taste and serve.,Chapati,Chapati,4.17,-54.02,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0,1,0
+Chapati,Chapati,Ingredients :,Ingredients:,0.6,36.02,0,0,0,12,12,0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Ingredients :,Ingredients:,o 2 cups flour,o 2 cups flour,0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+o 2 cups flour,o 2 cups flour,o 1/4 cup oil,o 1/4 cup oil,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/4 cup oil,o 1/4 cup oil,o 1/2 cup water,o 1/2 cup water,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/2 cup water,o 1/2 cup water,o 1 teaspoon salt,o 1 teaspoon salt,1.01,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 teaspoon salt,o 1 teaspoon salt,Instructions :,Instructions:,0.85,-18,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0
+Instructions :,Instructions:,"o Mix flour, oil, water, and salt to form a dough, then let rest.","o Mix flour, oil, water, and salt to form a dough, then let rest.",0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+"o Mix flour, oil, water, and salt to form a dough, then let rest.","o Mix flour, oil, water, and salt to form a dough, then let rest.",o Divide dough into balls and roll out into circles.,o Divide dough into balls and roll out into circles.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Divide dough into balls and roll out into circles.,o Divide dough into balls and roll out into circles.,o Cook on a hot griddle until golden on both sides.,o Cook on a hot griddle until golden on both sides.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Cook on a hot griddle until golden on both sides.,o Cook on a hot griddle until golden on both sides.,o Serve warm.,o Serve warm.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Serve warm.,o Serve warm.,Char Siu,Char Siu,4.17,-54.02,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0,1,0
+Char Siu,Char Siu,Ingredients :,Ingredients:,0.61,36.02,0,0,0,12,12,0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Ingredients :,Ingredients:,o 1 pound pork shoulder,o 1 pound pork shoulder,0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+o 1 pound pork shoulder,o 1 pound pork shoulder,o 1/4 cup hoisin sauce,o 1/4 cup hoisin sauce,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/4 cup hoisin sauce,o 1/4 cup hoisin sauce,o 2 tablespoons soy sauce,o 2 tablespoons soy sauce,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 2 tablespoons honey,o 2 tablespoons honey,o 1 tablespoon rice wine,o 1 tablespoon rice wine,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 tablespoon rice wine,o 1 tablespoon rice wine,o 1 teaspoon five-spice powder,o 1 teaspoon five-spice powder,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 teaspoon five-spice powder,o 1 teaspoon five-spice powder,o 1 teaspoon garlic powder,o 1 teaspoon garlic powder,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 teaspoon garlic powder,o 1 teaspoon garlic powder,Instructions :,Instructions:,0.87,-18,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0
+Instructions :,Instructions:,"o Mix hoisin sauce, soy sauce, honey, rice wine, five-spice powder, and garlic","o Mix hoisin sauce, soy sauce, honey, rice wine, five-spice powder, and garlic",0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+"o Mix hoisin sauce, soy sauce, honey, rice wine, five-spice powder, and garlic","o Mix hoisin sauce, soy sauce, honey, rice wine, five-spice powder, and garlic",powder in a bowl.,powder in a bowl.,0.85,18,0,0,0,10.02,12,1.98,0,0,0,0,0,1,0,1,1,0,0,1,0,0,0,1,0,0,0,1,1
+powder in a bowl.,powder in a bowl.,o Marinate pork in the mixture for at least 2 hours.,o Marinate pork in the mixture for at least 2 hours.,0.75,-18,0,0,0,12,10.02,-1.98,0,0,0,0,0,0,1,1,1,0,1,1,0,0,0,1,0,0,0,1,1
+o Marinate pork in the mixture for at least 2 hours.,o Marinate pork in the mixture for at least 2 hours.,o Preheat oven to 375°F 190°C.,o Preheat oven to 375°F (190°C).,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Preheat oven to 375°F 190°C.,o Preheat oven to 375°F (190°C).,"o Place pork on a baking sheet and roast for 45 minutes, basting occasionally.","o Place pork on a baking sheet and roast for 45 minutes, basting occasionally.",1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+"o Place pork on a baking sheet and roast for 45 minutes, basting occasionally.","o Place pork on a baking sheet and roast for 45 minutes, basting occasionally.",o Let rest before slicing and serving.,o Let rest before slicing and serving.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Let rest before slicing and serving.,o Let rest before slicing and serving.,Chawanmushi,Chawanmushi,4.19,-54.02,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0,1,0
+Chawanmushi,Chawanmushi,Ingredients :,Ingredients:,0.6,36.02,0,0,0,12,12,0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Ingredients :,Ingredients:,o 2 eggs,o 2 eggs,0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+o 2 eggs,o 2 eggs,o 1 cup dashi broth,o 1 cup dashi broth,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 cup dashi broth,o 1 cup dashi broth,o 1 tablespoon soy sauce,o 1 tablespoon soy sauce,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 tablespoon soy sauce,o 1 tablespoon soy sauce,o 1 tablespoon mirin,o 1 tablespoon mirin,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 tablespoon mirin,o 1 tablespoon mirin,o 1/4 cup chicken,o 1/4 cup chicken,1.01,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/4 cup chicken,o 1/4 cup chicken,o 1/4 cup shrimp,o 1/4 cup shrimp,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/4 cup shrimp,o 1/4 cup shrimp,o 1/4 cup mushrooms,o 1/4 cup mushrooms,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/4 cup mushrooms,o 1/4 cup mushrooms,Instructions :,Instructions:,0.85,-18,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0
+Instructions :,Instructions:,"o Beat eggs with dashi broth, soy sauce, and mirin.","o Beat eggs with dashi broth, soy sauce, and mirin.",0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+"o Beat eggs with dashi broth, soy sauce, and mirin.","o Beat eggs with dashi broth, soy sauce, and mirin.","o Place chicken, shrimp, and mushrooms in small bowls.","o Place chicken, shrimp, and mushrooms in small bowls.",1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+"o Place chicken, shrimp, and mushrooms in small bowls.","o Place chicken, shrimp, and mushrooms in small bowls.",o Pour egg mixture over the top.,o Pour egg mixture over the top.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Pour egg mixture over the top.,o Pour egg mixture over the top.,o Steam for 15 minutes until set.,o Steam for 15 minutes until set.,1.01,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Steam for 15 minutes until set.,o Steam for 15 minutes until set.,o Serve warm.,o Serve warm.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Serve warm.,o Serve warm.,Chiles Rellenos,Chiles Rellenos,4.17,-54.02,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0,1,0
+Chiles Rellenos,Chiles Rellenos,Ingredients :,Ingredients:,0.6,36.02,0,0,0,12,12,0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Ingredients :,Ingredients:,o 4 poblano peppers,o 4 poblano peppers,0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+o 4 poblano peppers,o 4 poblano peppers,o 1 cup shredded cheese,o 1 cup shredded cheese,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 cup shredded cheese,o 1 cup shredded cheese,o 1/2 cup flour,o 1/2 cup flour,1.01,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1/2 cup flour,o 1/2 cup flour,o 4 eggs,o 4 eggs,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 4 eggs,o 4 eggs,o 1 cup vegetable oil,o 1 cup vegetable oil,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 cup vegetable oil,o 1 cup vegetable oil,o 1 cup tomato sauce,o 1 cup tomato sauce,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+o 1 cup tomato sauce,o 1 cup tomato sauce,Instructions :,Instructions:,0.85,-18,0,0,0,10.02,12,1.98,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0
+Instructions :,Instructions:,"o Roast peppers until charred, then peel and remove seeds.","o Roast peppers until charred, then peel and remove seeds.",0.75,18,0,0,0,12,10.02,-1.98,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,0
+"o Roast peppers until charred, then peel and remove seeds.","o Roast peppers until charred, then peel and remove seeds.",o Stuff peppers with cheese.,o Stuff peppers with cheese.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Stuff peppers with cheese.,o Stuff peppers with cheese.,"o Separate eggs and beat whites until stiff, then fold in yolks.","o Separate eggs and beat whites until stiff, then fold in yolks.",1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+"o Separate eggs and beat whites until stiff, then fold in yolks.","o Separate eggs and beat whites until stiff, then fold in yolks.","o Dredge peppers in flour, then dip in egg mixture.","o Dredge peppers in flour, then dip in egg mixture.",1.01,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+"o Dredge peppers in flour, then dip in egg mixture.","o Dredge peppers in flour, then dip in egg mixture.",o Fry in hot oil until golden.,o Fry in hot oil until golden.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
+o Fry in hot oil until golden.,o Fry in hot oil until golden.,o Serve with warmed tomato sauce.,o Serve with warmed tomato sauce.,1,0,1,0,0,10.02,10.02,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1
