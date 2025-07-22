@@ -327,7 +327,12 @@ if __name__ == "__main__":
         "South of France - Restaurants and Hotels.pdf",
         "South of France - Things to Do.pdf",
         "South of France - Tips and Tricks.pdf",
-        "South of France - Traditions and Culture.pdf"
+        "South of France - Traditions and Culture.pdf",
+        "file14.pdf",
+        "file15.pdf",
+        "file12.pdf",
+        "file06.pdf",
+        "file04.pdf",
     ]
     
     # You can also specify PDFs via command line arguments
