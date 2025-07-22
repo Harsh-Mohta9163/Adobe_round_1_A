@@ -215,6 +215,7 @@ def main():
         'is_all_caps',
         'char_density',
         'ratio_of_verbs',
+        'is_hashed',  # NEW: Add is_hashed feature
         'normalized_vertical_gap',
         'indentation_change',
         'same_alignment',

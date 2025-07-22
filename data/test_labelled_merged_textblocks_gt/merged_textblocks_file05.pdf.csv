@@ -1,6 +1,6 @@
-text,bbox,avg_font_size,word_count,is_all_caps,char_density,ratio_of_verbs,ratio_capitalized,normalized_vertical_gap,indentation_change,same_alignment,is_centered_A,font_size_diff,same_font,is_bold_A,is_italic_A,is_monospace_A,same_bold,same_italic,same_monospace,line_a_ends_punctuation,line_b_starts_lowercase,is_linea_in_rectangle,is_lineb_in_rectangle,both_in_table,neither_in_table,title_label
-"TOPJUMP 3735 PARKWAY PIGEON FORGE, TN 37863 NEAR DIXIE STAMPEDE ON THE PARKWAY","[0, 0, 200, 20]",11.65,13,1,0.0165,0,0.846153846,-24.4,0,1,0,-0.755,1,0,0,0,1,1,1,0,0,0,0,0,1,0
-CLOSED TOED SHOES ARE REQUIRED FOR CLIMBING,"[100, 0, 200, 20]",7.2,7,1,0.0185,0,1,-24.4,0,1,0,-2.2,1,0,0,0,1,1,1,0,0,0,0,0,1,0
-"PARENTS OR GUARDIANS NOT ATTENDING THE PARTY, PLEASE VISIT TOPJUMP.COMhttp://TOPJUMP.COM TO FILL OUT WAIVER SO YOUR CHILD CAN ATTEND.","[100, 0, 200, 20]",7.2,19,0,0.0575,0,1,-11.1333,1.3333,1,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0
-HOPE To SEE Y ou T HERE !,"[100, 0, 200, 20]",22.7,8,0,0.009,0.142857143,0.857142857,-17.2,0,1,0,15.5,0,0,0,0,0,1,1,1,0,0,0,0,1,1
-WWW.TOPJUMP.COM,"[100, 0, 200, 20]",18.03,1,1,0.0075,0,1,-17.2,0,1,0,-4.67,0,1,0,0,0,1,1,1,0,0,0,0,1,0
+text,bbox,avg_font_size,word_count,is_all_caps,char_density,ratio_of_verbs,ratio_capitalized,normalized_vertical_gap,indentation_change,same_alignment,is_centered_A,font_size_diff,same_font,is_bold_A,is_italic_A,is_monospace_A,same_bold,same_italic,same_monospace,line_a_ends_punctuation,line_b_starts_lowercase,is_linea_in_rectangle,is_lineb_in_rectangle,both_in_table,neither_in_table,is_linea_hashed,is_lineb_hashed,both_hashed,neither_hashed,title_label
+"TOPJUMP 3735 PARKWAY PIGEON FORGE, TN 37863 NEAR DIXIE STAMPEDE ON THE PARKWAY","[0, 0, 200, 20]",11.65,13,1,0.0165,0,0.846153846,-24.4,0,1,0,-0.755,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+CLOSED TOED SHOES ARE REQUIRED FOR CLIMBING,"[100, 0, 200, 20]",7.2,7,1,0.0185,0,1,-24.4,0,1,0,-2.2,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+"PARENTS OR GUARDIANS NOT ATTENDING THE PARTY, PLEASE VISIT TOPJUMP.COMhttp://TOPJUMP.COM TO FILL OUT WAIVER SO YOUR CHILD CAN ATTEND.","[100, 0, 200, 20]",7.2,19,0,0.0575,0,1,-11.1333,1.3333,1,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+HOPE To SEE Y ou T HERE !,"[100, 0, 200, 20]",22.7,8,0,0.009,0,0.857142857,-17.2,0,1,0,15.5,0,0,0,0,0,1,1,1,0,0,0,0,1,0,1,0,0,1
+WWW.TOPJUMP.COM,"[100, 0, 200, 20]",18.03,1,1,0.0075,0,1,-17.2,0,1,0,-4.67,0,1,0,0,0,1,1,1,0,0,0,0,1,1,1,1,0,0

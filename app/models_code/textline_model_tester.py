@@ -29,7 +29,8 @@ try:
             'same_font', 'is_bold_A', 'is_bold_B', 'is_italic_A', 'is_italic_B',
             'is_monospace_A', 'is_monospace_B', 'same_bold', 'same_italic', 'same_monospace',
             'line_a_ends_punctuation', 'line_b_starts_lowercase', 'is_linea_in_rectangle',
-            'is_lineb_in_rectangle', 'both_in_table', 'neither_in_table'
+            'is_lineb_in_rectangle', 'both_in_table', 'neither_in_table',
+            'is_linea_hashed', 'is_lineb_hashed', 'both_hashed', 'neither_hashed'
         ]
     
     print("Model loaded successfully. ✅")

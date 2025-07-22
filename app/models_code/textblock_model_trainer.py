@@ -193,7 +193,7 @@ def train_title_classifier(input_folder: str, model_dir: str):
     # 1. Basic CSV features (with error handling) - REMOVED is_all_caps
     try:
         basic_feature_columns = ['avg_font_size', 'word_count', 'char_density', 
-                               'ratio_of_verbs', 'ratio_capitalized']
+                               'ratio_of_verbs', 'ratio_capitalized', 'is_hashed']
         # Check which columns exist
         available_basic_cols = [col for col in basic_feature_columns if col in df.columns]
         if not available_basic_cols:
@@ -287,7 +287,7 @@ def train_title_classifier(input_folder: str, model_dir: str):
     if hasattr(clf, 'coef_'):
         feature_names = []
         if 'basic_features' in locals():
-            feature_names.extend(['avg_font_size', 'word_count', 'char_density', 'ratio_of_verbs', 'ratio_capitalized'])
+            feature_names.extend(['avg_font_size', 'word_count', 'char_density', 'ratio_of_verbs', 'ratio_capitalized', 'is_hashed'])
         if 'bbox_features' in locals():
             feature_names.extend(['width', 'height', 'aspect_ratio'])
         if 'text_features' in locals():
