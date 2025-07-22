@@ -52,7 +52,7 @@ def load_and_prepare_data(folder_path='.'):
 
 try:
     # Load data from textlines_csv_output folder
-    data = load_and_prepare_data('../../data/textlines_csv_output')
+    data = load_and_prepare_data('../../data/labelled_textlines')
     
     # --- Define Features (X) and Target (y) ---
     # Including all features except span_text_a and span_text_b

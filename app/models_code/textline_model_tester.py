@@ -5,7 +5,7 @@ import glob
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix, precision_score, recall_score, f1_score
 
 # --- Configuration ---
-TEST_FOLDER = '../../data/model_input_textlines/'
+TEST_FOLDER = '../../data/test_labelled_textlines/'
 MODEL_FILE = '../../data/output_model1/text_block_merger_model.joblib'
 OUTPUT_FOLDER = '../../data/test_results/'
 

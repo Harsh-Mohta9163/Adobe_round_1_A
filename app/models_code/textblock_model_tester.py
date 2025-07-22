@@ -53,13 +53,12 @@ def extract_text_features(text, word_count, avg_font_size):
     # Starting/ending patterns
     starts_with_number = 1 if text.strip() and text.strip()[0].isdigit() else 0
     ends_with_colon = 1 if text.strip().endswith(':') else 0
-    ends_with_period = 1 if text.strip().endswith('.') else 0
     
     return [
         text_len, char_count, avg_word_len, is_large_font, is_small_font, is_very_large_font,
         has_numbers, has_special_chars, has_punctuation, is_very_short, is_short_text, 
         is_medium_text, is_long_text, is_title_case, has_uppercase_words, 
-        starts_with_number, ends_with_colon, ends_with_period
+        starts_with_number, ends_with_colon
     ]
 
 def load_csv_with_multiple_encodings(csv_file):
@@ -125,7 +124,7 @@ def extract_features_from_dataframe(df):
         
         text_features = np.array(text_features)
         feature_list.append(text_features)
-        print(f"  ✅ Text features: 18 columns")
+        print(f"  ✅ Text features: 17 columns")
     except Exception as e:
         print(f"  ⚠️  Error processing text features: {e}")
     
@@ -332,8 +331,8 @@ def test_title_classifier(model_dir: str, test_folder: str, output_folder: str =
 
 if __name__ == '__main__':
     # --- CONFIGURATION ---
-    MODEL_DIR = '../models'  # Directory with trained model
-    TEST_FOLDER = '../../data/merged_textblocks_test'  # Folder with test CSV files
+    MODEL_DIR = '../../output_model1'  # Directory with trained model
+    TEST_FOLDER = '../../data/test_labelled_merged_textblocks_gt'  # Folder with test CSV files
     OUTPUT_FOLDER = '../../data/test_results'  # Optional: save predictions
     # -------------------
     
