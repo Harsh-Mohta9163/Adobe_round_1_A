@@ -333,6 +333,7 @@ if __name__ == "__main__":
         "file12.pdf",
         "file06.pdf",
         "file04.pdf",
+        "file03.pdf"
     ]
     
     # You can also specify PDFs via command line arguments
