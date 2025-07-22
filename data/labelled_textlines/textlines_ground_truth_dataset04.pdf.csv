@@ -1,8 +1,10 @@
 ﻿text_a,span_text_a,text_b,span_text_b,normalized_vertical_gap,indentation_change,same_alignment,is_centered_A,is_centered_B,font_size_a,font_size_b,font_size_diff,same_font,is_bold_A,is_bold_B,is_italic_A,is_italic_B,is_monospace_A,is_monospace_B,same_bold,same_italic,same_monospace,line_a_ends_punctuation,line_b_starts_lowercase,is_linea_in_rectangle,is_lineb_in_rectangle,both_in_table,neither_in_table,is_linea_hashed,is_lineb_hashed,both_hashed,neither_hashed,label
-Idaho Public School Fall Membership,Idaho Public School,"2,50,000","50,000",0.71,-143,0,0,0,20.04,12,-8.04,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,1,0,0,0,0
-"2,50,000","50,000","2,00,000","2,00,000",-3.11,0,1,0,0,12,12,0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
-"2,00,000","2,00,000","1,50,000","1,50,000",-3.11,0,1,0,0,12,12,0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
-"1,50,000","1,50,000","1,00,000","1,00,000",-3.11,0,1,0,0,12,12,0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
-"1,00,000","1,00,000","50,000","2,50,000",-3.11,0,1,0,0,12,12,0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
-"50,000","2,50,000",Fall enrollment as of the last Friday in September,Fall enrollment as of the last Friday in September,1.29,110,0,0,1,12,12,0,0,1,0,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,0
-Fall enrollment as of the last Friday in September,Fall enrollment as of the last Friday in September,Fall enrollment as of the first Friday in November,Fall enrollment as of the first Friday in November,-0.32,0,1,1,1,12,12,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+"2,50,000","2,50,000","2,00,000","2,00,000",1,0,1,0,0,12,12,0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+"2,00,000","2,00,000","1,50,000","1,50,000",1,0,1,0,0,12,12,0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+"1,50,000","1,50,000","1,00,000","1,00,000",1,0,1,0,0,12,12,0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+"1,00,000","1,00,000","50,000","50,000",1,6.72,0,0,0,12,12,0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+"50,000","50,000",Idaho Public School Fall Membership,Idaho Public School,-6.93,135.72,0,0,1,12,20.04,8.04,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,1,0,0,0
+Idaho Public School Fall Membership,Idaho Public School,"236,774 240,448 243,097 245,252 244,403 244,623 245,142 245,694 246,405","236,774 240,448 243,097 245,252 244,403 244,623 245,142 245,694 246,405",1.6,-42.36,0,1,0,20.04,9.96,-10.08,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,1,0,0,0,0
+"236,774 240,448 243,097 245,252 244,403 244,623 245,142 245,694 246,405","236,774 240,448 243,097 245,252 244,403 244,623 245,142 245,694 246,405","2,31,668","2,31,668",-0.02,-41.28,0,0,0,9.96,9.96,0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+"2,31,668","2,31,668",Fall enrollment as of the last Friday in September,Fall enrollment as of the last Friday in September,6.7,50.76,0,0,1,9.96,12,2.04,0,1,0,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,0
+Fall enrollment as of the last Friday in September,Fall enrollment as of the last Friday in September,Fall enrollment as of the first Friday in November,Fall enrollment as of the first Friday in November,0.07,0,1,1,1,12,12,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,1
