@@ -127,7 +127,7 @@ def extract_page_lines(page_data: Dict, page_index: int, max_lines: int = 5) -> 
     }
 
 
-def identify_header_footer_patterns(page_analyses: List[Dict], min_frequency: float = 0.99) -> Tuple[Set[str], Set[str]]:
+def identify_header_footer_patterns(page_analyses: List[Dict], min_frequency: float = 0.8) -> Tuple[Set[str], Set[str]]:
     """
     Identify header and footer patterns that appear consistently across pages.
     Only checks first 5 and last 5 lines of each page for safety.
@@ -159,10 +159,10 @@ def identify_header_footer_patterns(page_analyses: List[Dict], min_frequency: fl
             # For longer pages, only check first 5 and last 5 lines
             lines_to_check = []
             # First 5 lines
-            for i in range(min(5, len(all_lines))):
+            for i in range(min(6, len(all_lines))):
                 lines_to_check.append((i, all_lines[i]))
             # Last 5 lines
-            for i in range(max(5, len(all_lines) - 5), len(all_lines)):
+            for i in range(max(6, len(all_lines) - 5), len(all_lines)):
                 lines_to_check.append((i, all_lines[i]))
         
         for i, line in lines_to_check:
@@ -184,11 +184,11 @@ def identify_header_footer_patterns(page_analyses: List[Dict], min_frequency: fl
             avg_position = sum(info['positions']) / len(info['positions'])
             
             # Much stricter position thresholds: first 10% = header, last 10% = footer
-            if avg_position <= 0.1:
+            if avg_position <= 0.2:
                 header_patterns.add(pattern)
                 print(f"  Header pattern: '{pattern}' (appears on {len(info['pages'])} pages, avg pos: {avg_position:.3f})")
                 print(f"    Examples: {info['examples'][:2]}")
-            elif avg_position >= 0.9:
+            elif avg_position >= 0.8:
                 footer_patterns.add(pattern)
                 print(f"  Footer pattern: '{pattern}' (appears on {len(info['pages'])} pages, avg pos: {avg_position:.3f})")
                 print(f"    Examples: {info['examples'][:2]}")

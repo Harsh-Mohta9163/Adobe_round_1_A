@@ -319,31 +319,23 @@ def extract_all_pdfs(pdf_names):
     return successful_pdfs, failed_pdfs, all_results, all_timing_data
 
 if __name__ == "__main__":
-    # Define list of PDF files to process
-    pdf_names = [
-        "South of France - Cities.pdf",
-        "South of France - Cuisine.pdf",
-        "South of France - History.pdf",
-        "South of France - Restaurants and Hotels.pdf",
-        "South of France - Things to Do.pdf",
-        "South of France - Tips and Tricks.pdf",
-        "South of France - Traditions and Culture.pdf",
-        "file14.pdf",
-        "file15.pdf",
-        "file12.pdf",
-        "file06.pdf",
-        "file04.pdf",
-        "file03.pdf"
-    ]
-    
-    # You can also specify PDFs via command line arguments
+    # Automatically get all PDF files from the input folder
+    input_folder = "../../data/input"
+    pdf_names = [f for f in os.listdir(input_folder) if f.lower().endswith(".pdf")]
+    pdf_names.sort()  # Optional: sort alphabetically
+
+    # If a filename is provided as a command line argument, only process that file
     if len(sys.argv) > 1:
         pdf_names = sys.argv[1:]
         print(f"Using PDFs from command line: {pdf_names}")
-    
+    else:
+        print(f"Found {len(pdf_names)} PDF files in {input_folder}:")
+        for name in pdf_names:
+            print(f"  - {name}")
+
     # Run the extraction pipeline
     successful, failed, results, timing_data = extract_all_pdfs(pdf_names)
-    
+
     # Exit with appropriate code
     if failed:
         sys.exit(1)  # Exit with error if any PDF failed
