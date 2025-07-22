@@ -80,8 +80,9 @@ def process_aggregation(pdf_name):
         # Check if required input files exist
         base_filename = pdf_name.replace('.pdf', '')
         md_file_json = f"../../data/md_files/{base_filename}.json"
+        md_file_json = f"../../data/md_files/{base_filename}.json"
         json_file = f"../../data/spans_output/spans_{pdf_name}.json"
-
+        
         if not os.path.exists(md_file_json):
             raise FileNotFoundError(f"Markdown file not found: {md_file_json}")
         if not os.path.exists(json_file):
@@ -320,9 +321,13 @@ def extract_all_pdfs(pdf_names):
 if __name__ == "__main__":
     # Define list of PDF files to process
     pdf_names = [
-      
-            "file03.pdf",
-      
+        "South of France - Cities.pdf",
+        "South of France - Cuisine.pdf",
+        "South of France - History.pdf",
+        "South of France - Restaurants and Hotels.pdf",
+        "South of France - Things to Do.pdf",
+        "South of France - Tips and Tricks.pdf",
+        "South of France - Traditions and Culture.pdf"
     ]
     
     # You can also specify PDFs via command line arguments
