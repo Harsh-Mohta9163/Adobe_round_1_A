@@ -88,10 +88,12 @@ def extract_features_from_dataframe(df):
     """
     feature_list = []
     
-    # 1. Basic CSV features - REMOVED is_all_caps
+    # 1. Basic CSV features - now includes is_all_caps
     try:
-        basic_feature_columns = ['avg_font_size', 'word_count', 'char_density', 
-                               'ratio_of_verbs', 'ratio_capitalized', 'is_hashed']
+        basic_feature_columns = [
+            'avg_font_size', 'word_count', 'char_density', 
+            'ratio_of_verbs', 'ratio_capitalized', 'is_hashed', 'is_all_caps'
+        ]
         available_basic_cols = [col for col in basic_feature_columns if col in df.columns]
         if available_basic_cols:
             basic_features = df[available_basic_cols].fillna(0).values

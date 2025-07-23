@@ -190,10 +190,12 @@ def train_title_classifier(input_folder: str, model_dir: str):
     
     feature_list = []
     
-    # 1. Basic CSV features (with error handling) - REMOVED is_all_caps
+    # 1. Basic CSV features (with error handling) - NOW INCLUDES is_all_caps
     try:
-        basic_feature_columns = ['avg_font_size', 'word_count', 'char_density', 
-                               'ratio_of_verbs', 'ratio_capitalized', 'is_hashed']
+        basic_feature_columns = [
+            'avg_font_size', 'word_count', 'char_density', 
+            'ratio_of_verbs', 'ratio_capitalized', 'is_hashed', 'is_all_caps'
+        ]
         # Check which columns exist
         available_basic_cols = [col for col in basic_feature_columns if col in df.columns]
         if not available_basic_cols:
@@ -283,11 +285,14 @@ def train_title_classifier(input_folder: str, model_dir: str):
     print(f"\nConfusion Matrix:")
     print(confusion_matrix(y_test, y_pred))
     
-    # Feature importance - REMOVED is_all_caps from feature names
+    # Feature importance - NOW INCLUDES is_all_caps in feature names
     if hasattr(clf, 'coef_'):
         feature_names = []
         if 'basic_features' in locals():
-            feature_names.extend(['avg_font_size', 'word_count', 'char_density', 'ratio_of_verbs', 'ratio_capitalized', 'is_hashed'])
+            feature_names.extend([
+                'avg_font_size', 'word_count', 'char_density', 
+                'ratio_of_verbs', 'ratio_capitalized', 'is_hashed', 'is_all_caps'
+            ])
         if 'bbox_features' in locals():
             feature_names.extend(['width', 'height', 'aspect_ratio'])
         if 'text_features' in locals():
