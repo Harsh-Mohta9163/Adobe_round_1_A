@@ -128,7 +128,20 @@ def merge_textlines(input_csv_path: str, output_csv_path: str):
     Merges text lines based on pairwise labels and page numbers from a CSV file.
     """
     try:
-        df = pd.read_csv(input_csv_path)
+        # Try different encodings
+        encodings = ['utf-8', 'utf-8-sig', 'latin-1', 'cp1252', 'iso-8859-1']
+        df = None
+        
+        for encoding in encodings:
+            try:
+                df = pd.read_csv(input_csv_path, encoding=encoding)
+                break
+            except UnicodeDecodeError:
+                continue
+        
+        if df is None:
+            raise Exception("Could not decode file with any supported encoding")
+            
     except Exception as e:
         print(f"❌ Error loading {input_csv_path}: {e}")
         return False
