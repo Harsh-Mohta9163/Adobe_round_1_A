@@ -1,0 +1,206 @@
+text,bbox,page_number,avg_font_size,word_count,is_all_caps,char_density,ratio_of_verbs,ratio_capitalized,normalized_vertical_gap,indentation_change,same_alignment,is_centered_A,font_size_diff,same_font,is_bold_A,is_italic_A,is_monospace_A,same_bold,same_italic,same_monospace,line_a_ends_punctuation,line_b_starts_lowercase,is_linea_in_rectangle,is_lineb_in_rectangle,both_in_table,neither_in_table,is_linea_hashed,is_lineb_hashed,both_hashed,neither_hashed,title_label
+Pancakes,"[0, 0, 100, 20]",2,12,1,0,0.004,0,1,0,0,1,1,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,1
+Ingredients:,"[0, 0, 100, 20]",2,12,1,0,0.006,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+1 cup all-purpose flour 2 tablespoons sugar 1 teaspoon baking powder 1/2 teaspoon baking soda 1/4 teaspoon salt 1 cup buttermilk 1 large egg 2 tablespoons melted butter 1 teaspoon vanilla extract,"[0, 0, 100, 20]",2,12,32,0,0.082,0,0,-20,0,1,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Instructions:,"[0, 0, 100, 20]",2,12,1,0,0.0065,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+"In a bowl, whisk together flour, sugar, baking powder, baking soda, and salt. In another bowl, combine buttermilk, egg, melted butter, and vanilla extract. Pour the wet ingredients into the dry ingredients and stir until just combined. Heat a non-stick skillet over medium heat and lightly grease it. Pour 1/4 cup of batter onto the skillet for each pancake. Cook until bubbles form on the surface, then flip and cook until golden brown. Serve with syrup and your favorite toppings.","[0, 0, 100, 20]",2,12,80,0,0.2015,0,0.085365854,-20,0,1,0,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,0
+Scrambled Eggs,"[0, 0, 100, 20]",2,12,2,0,0.0065,0,1,0,0,1,1,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,1
+Ingredients:,"[0, 0, 100, 20]",2,12,1,0,0.006,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+4 large eggs 1/4 cup milk Salt and pepper to taste 1 tablespoon butter,"[0, 0, 100, 20]",2,12,14,0,0.0285,0,0.066666667,-20,0,1,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Instructions:,"[0, 0, 100, 20]",2,12,1,0,0.0065,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+"In a bowl, whisk together eggs, milk, salt, and pepper. Heat a non-stick skillet over medium heat and melt the butter. Pour the egg mixture into the skillet. Cook, stirring gently, until the eggs are set but still soft. Serve immediately.","[0, 0, 100, 20]",2,12,41,0,0.099,0,0.119047619,-20,0,1,0,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,0
+French Toast,"[0, 0, 100, 20]",2,12,2,0,0.0055,0,1,0,0,1,1,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,1
+Ingredients:,"[0, 0, 100, 20]",2,12,1,0,0.006,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+4 slices of bread 2 large eggs 1/2 cup milk 1 teaspoon vanilla extract,"[0, 0, 100, 20]",2,12,14,0,0.0285,0,0,-20,0,1,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+1/2 teaspoon ground cinnamon 1 tablespoon butter,"[0, 0, 100, 20]",3,12,7,0,0.021,0,0,-20,0,1,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Instructions:,"[0, 0, 100, 20]",2,12,1,0,0.0065,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+"In a shallow dish, whisk together eggs, milk, vanilla extract, and cinnamon. Dip each slice of bread into the egg mixture, coating both sides. Heat a non-stick skillet over medium heat and melt the butter. Cook the bread slices until golden brown on both sides. Serve with syrup and powdered sugar.","[0, 0, 100, 20]",3,12,51,0,0.124,0,0.096153846,-20,0,1,0,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,0
+Smoothie Bowl,"[0, 0, 100, 20]",3,12,2,0,0.006,0,1,0,0,1,1,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,1
+Ingredients:,"[0, 0, 100, 20]",2,12,1,0,0.006,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+"1 banana 1/2 cup frozen berries 1/2 cup Greek yogurt 1/4 cup milk Toppings: granola, fresh fruit, nuts, seeds","[0, 0, 100, 20]",3,12,19,0,0.0455,0,0.090909091,-20,0,1,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Instructions:,"[0, 0, 100, 20]",2,12,1,0,0.0065,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+"In a blender, combine banana, frozen berries, Greek yogurt, and milk. Blend until smooth. Pour into a bowl and top with granola, fresh fruit, nuts, and seeds.","[0, 0, 100, 20]",3,12,27,0,0.066,0,0.148148148,-20,0,1,0,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,0
+Avocado Toast,"[0, 0, 100, 20]",3,12,2,0,0.006,0,1,0,0,1,1,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,1
+Ingredients:,"[0, 0, 100, 20]",2,12,1,0,0.006,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+"2 slices of bread 1 ripe avocado Salt and pepper to taste Optional toppings: cherry tomatoes, red pepper flakes, poached egg","[0, 0, 100, 20]",3,12,21,0,0.052,0,0.095238095,-20,0,1,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Instructions:,"[0, 0, 100, 20]",2,12,1,0,0.0065,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+Toast the bread slices. Mash the avocado in a bowl and season with salt and pepper. Spread the mashed avocado on the toast. Add optional toppings if desired.,"[0, 0, 100, 20]",3,12,28,0,0.065,0,0.142857143,-20,0,1,0,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,0
+Breakfast Burrito,"[0, 0, 100, 20]",3,12,2,0,0.008,0,1,0,0,1,1,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,1
+Ingredients:,"[0, 0, 100, 20]",2,12,1,0,0.006,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+2 large eggs 1/4 cup shredded cheese,"[0, 0, 100, 20]",2,12,7,0,0.015,0,0,-20,0,1,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+1/4 cup cooked sausage or bacon 1/4 cup diced bell pepper 1/4 cup diced onion 1 large flour tortilla Salsa for serving,"[0, 0, 100, 20]",4,12,22,0,0.0485,0,0.04,-20,0,1,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Instructions:,"[0, 0, 100, 20]",2,12,1,0,0.0065,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+"In a bowl, whisk the eggs and cook them in a skillet over medium heat. Add cheese, sausage or bacon, bell pepper, and onion to the eggs. Cook until the eggs are set and the vegetables are tender. Place the egg mixture in the center of the tortilla and roll it up. Serve with salsa.","[0, 0, 100, 20]",4,12,55,0,0.1135,0,0.090909091,-20,0,1,0,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,0
+Oatmeal,"[0, 0, 100, 20]",4,12,1,0,0.0035,0,1,0,0,1,1,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,1
+Ingredients:,"[0, 0, 100, 20]",2,12,1,0,0.006,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+"1 cup rolled oats 2 cups water or milk 1/4 teaspoon salt Toppings: fresh fruit, nuts, honey, cinnamon","[0, 0, 100, 20]",4,12,18,0,0.042,0,0.052631579,-20,0,1,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Instructions:,"[0, 0, 100, 20]",2,12,1,0,0.0065,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+"In a saucepan, bring water or milk to a boil. Add oats and salt, reduce heat to low, and simmer for 5 minutes, stirring occasionally. Remove from heat and let sit for a few minutes. Serve with your favorite toppings.","[0, 0, 100, 20]",4,12,40,0,0.0885,0,0.1,-20,0,1,0,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,0
+Yogurt Parfait,"[0, 0, 100, 20]",4,12,2,0,0.0065,0,1,0,0,1,1,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,1
+Ingredients:,"[0, 0, 100, 20]",2,12,1,0,0.006,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+1 cup Greek yogurt 1/2 cup granola 1/2 cup fresh berries Honey for drizzling,"[0, 0, 100, 20]",4,12,14,0,0.0315,0,0.125,-20,0,1,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Instructions:,"[0, 0, 100, 20]",2,12,1,0,0.0065,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+"In a glass or bowl, layer Greek yogurt, granola, and fresh berries. Drizzle with honey. Repeat layers if desired.","[0, 0, 100, 20]",4,12,19,0,0.0475,0,0.210526316,-20,0,1,0,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,0
+Breakfast Sandwich,"[0, 0, 100, 20]",5,12,2,0,0.0085,0,1,0,0,1,1,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,1
+Ingredients:,"[0, 0, 100, 20]",2,12,1,0,0.006,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+"1 English muffin, split and toasted 1 large egg 1 slice of cheese 1 slice of ham or bacon Salt and pepper to taste","[0, 0, 100, 20]",5,12,24,0,0.0455,0,0.083333333,-20,0,1,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Instructions:,"[0, 0, 100, 20]",2,12,1,0,0.0065,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+"Cook the egg in a skillet over medium heat, seasoning with salt and pepper. Place the cheese on top of the egg to melt. Assemble the sandwich with the egg, cheese, and ham or bacon between the English muffin halves.","[0, 0, 100, 20]",5,12,40,0,0.088,0,0.1,-20,0,1,0,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,0
+Chia Pudding,"[0, 0, 100, 20]",5,12,2,0,0.0055,0,1,0,0,1,1,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,1
+Ingredients:,"[0, 0, 100, 20]",2,12,1,0,0.006,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+"1/4 cup chia seeds 1 cup almond milk 1 tablespoon honey or maple syrup 1/2 teaspoon vanilla extract Toppings: fresh fruit, nuts, coconut flakes","[0, 0, 100, 20]",5,12,24,0,0.06,0,0.038461538,-20,0,1,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Instructions:,"[0, 0, 100, 20]",2,12,1,0,0.0065,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+"In a bowl, whisk together chia seeds, almond milk, honey or maple syrup, and vanilla extract. Cover and refrigerate for at least 4 hours or overnight. Stir well before serving and top with your favorite toppings.","[0, 0, 100, 20]",5,12,36,0,0.0885,0,0.083333333,-20,0,1,0,0,1,0,0,0,1,1,1,0,1,0,0,0,1,0,0,0,1,0
+Breakfast Quesadilla,"[0, 0, 100, 20]",5,12,2,0,0.0095,0,1,0,0,1,1,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,1
+Ingredients:,"[0, 0, 100, 20]",2,12,1,0,0.006,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+1 large flour tortilla 2 large eggs 1/4 cup shredded cheese 1/4 cup cooked sausage or bacon 1/4 cup diced bell pepper Salsa for serving,"[0, 0, 100, 20]",4,12,25,0,0.0555,0,0.035714286,-20,0,1,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Instructions:,"[0, 0, 100, 20]",2,12,1,0,0.0065,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+"In a bowl, whisk the eggs and cook them in a skillet over medium heat. Add cheese, sausage or bacon, and bell pepper to the eggs. Cook until the eggs are set and the vegetables are tender. Place the egg mixture on one half of the tortilla and fold the other half over.","[0, 0, 100, 20]",4,12,53,0,0.108,0,0.075471698,-20,0,1,0,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,0
+Cook in the skillet until the tortilla is golden brown and crispy. Serve with salsa.,"[0, 0, 100, 20]",6,12,15,0,0.035,0,0.133333333,-20,0,1,0,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,0
+Banana Bread,"[0, 0, 100, 20]",6,12,2,0,0.0055,0,1,0,0,1,1,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,1
+Ingredients:,"[0, 0, 100, 20]",2,12,1,0,0.006,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+"3 ripe bananas, mashed 1/3 cup melted butter 1/2 cup sugar 1 large egg, beaten 1 teaspoon vanilla extract 1 teaspoon baking soda Pinch of salt 1 1/2 cups all-purpose flour","[0, 0, 100, 20]",6,12,31,0,0.0705,0,0.028571429,-20,0,1,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Instructions:,"[0, 0, 100, 20]",2,12,1,0,0.0065,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+"Preheat oven to 350°F 175°C. In a bowl, mix mashed bananas and melted butter. Add sugar, beaten egg, and vanilla extract, and mix well. Stir in baking soda, salt, and flour until just combined. Pour the batter into a greased loaf pan. Bake for 60 minutes or until a toothpick inserted into the center comes out clean. Let cool before slicing.","[0, 0, 100, 20]",6,12,61,0,0.141,0,0.142857143,-20,0,1,0,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,0
+Breakfast Tacos,"[0, 0, 100, 20]",6,12,2,0,0.007,0,1,0,0,1,1,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,1
+Ingredients:,"[0, 0, 100, 20]",2,12,1,0,0.006,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+2 large eggs 1/4 cup shredded cheese 1/4 cup cooked sausage or bacon 1/4 cup diced bell pepper 1/4 cup diced onions 2 small flour tortillas Salsa for serving,"[0, 0, 100, 20]",2,12,29,0,0.0645,0,0.03030303,-20,0,1,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Instructions:,"[0, 0, 100, 20]",2,12,1,0,0.0065,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+"In a bowl, whisk the eggs and cook them in a skillet over medium heat. Add cheese, sausage or bacon, onions and bell pepper to the eggs. Cook until the eggs are set and the vegetables are tender. Divide the egg mixture between the tortillas. Serve with salsa.","[0, 0, 100, 20]",4,12,48,0,0.106,0,0.104166667,-20,0,1,0,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,0
+Granola Bars,"[0, 0, 100, 20]",7,12,2,0,0.0055,0,1,0,0,1,1,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,1
+Ingredients:,"[0, 0, 100, 20]",2,12,1,0,0.006,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+2 cups rolled oats 1/2 cup honey or maple syrup 1/2 cup peanut butter 1/2 cup chopped nuts 1/2 cup dried fruit 1 teaspoon vanilla extract,"[0, 0, 100, 20]",7,12,26,0,0.056,0,0,-20,0,1,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Instructions:,"[0, 0, 100, 20]",2,12,1,0,0.0065,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+"Preheat oven to 350°F 175°C. In a bowl, mix oats, honey or maple syrup, peanut butter, nuts, dried fruit, and vanilla extract. Press the mixture into a greased baking dish. Bake for 20-25 minutes or until golden brown. Let cool before cutting into bars.","[0, 0, 100, 20]",6,12,44,0,0.105,0,0.14893617,-20,0,1,0,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,0
+Smoothie,"[0, 0, 100, 20]",7,12,1,0,0.004,0,1,0,0,1,1,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,1
+Ingredients:,"[0, 0, 100, 20]",2,12,1,0,0.006,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+1 banana 1/2 cup frozen berries 1/2 cup Greek yogurt 1/2 cup milk 1 tablespoon honey,"[0, 0, 100, 20]",3,12,16,0,0.0345,0,0.052631579,-20,0,1,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Instructions:,"[0, 0, 100, 20]",2,12,1,0,0.0065,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+"In a blender, combine banana, frozen berries, Greek yogurt, milk, and honey. Blend until smooth. Serve immediately.","[0, 0, 100, 20]",7,12,17,0,0.0495,0,0.235294118,-20,0,1,0,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,0
+Breakfast Pizza,"[0, 0, 100, 20]",7,12,2,0,0.007,0,1,0,0,1,1,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,1
+Ingredients:,"[0, 0, 100, 20]",2,12,1,0,0.006,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+1 pre-made pizza crust 1/2 cup marinara sauce 1 cup shredded mozzarella cheese 2 large eggs 1/4 cup cooked sausage or bacon 1/4 cup diced bell pepper,"[0, 0, 100, 20]",7,12,27,0,0.0615,0,0,-20,0,1,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Instructions:,"[0, 0, 100, 20]",2,12,1,0,0.0065,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+Preheat oven to 425°F 220°C. Spread marinara sauce over the pizza crust. Sprinkle mozzarella cheese on top. Crack the eggs onto the pizza. Add sausage or bacon and bell pepper. Bake for 10-12 minutes or until the eggs are set and the cheese is melted. Serve immediately.,"[0, 0, 100, 20]",8,12,47,0,0.112,0,0.18,-20,0,1,0,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,0
+Muffins,"[0, 0, 100, 20]",8,12,1,0,0.0035,0,1,0,0,1,1,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,1
+Ingredients:,"[0, 0, 100, 20]",2,12,1,0,0.006,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+2 cups all-purpose flour 1/2 cup sugar 1 tablespoon baking powder 1/2 teaspoon salt 1 cup milk 1/4 cup vegetable oil 1 large egg 1 teaspoon vanilla extract 1 cup fresh or frozen berries,"[0, 0, 100, 20]",8,12,34,0,0.076,0,0,-20,0,1,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Instructions:,"[0, 0, 100, 20]",2,12,1,0,0.0065,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+"Preheat oven to 375°F 190°C. In a bowl, mix flour, sugar, baking powder, and salt. In another bowl, combine milk, vegetable oil, egg, and vanilla extract. Pour the wet ingredients into the dry ingredients and stir until just combined. Fold in the berries. Divide the batter evenly among a greased muffin tin. Bake for 20-25 minutes or until a toothpick inserted into the center comes out clean. Let cool before serving.","[0, 0, 100, 20]",8,12,71,0,0.1745,0,0.135135135,-20,0,1,0,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,0
+Breakfast Casserole,"[0, 0, 100, 20]",8,12,2,0,0.009,0,1,0,0,1,1,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,1
+Ingredients:,"[0, 0, 100, 20]",2,12,1,0,0.006,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+6 large eggs 1 cup milk 1 cup shredded cheese 1/2 cup cooked sausage or bacon 1/2 cup diced bell pepper 1/2 cup diced onion,"[0, 0, 100, 20]",8,12,25,0,0.0495,0,0,-20,0,1,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Salt and pepper to taste,"[0, 0, 100, 20]",2,12,5,0,0.01,0,0.2,0,0,1,1,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Instructions:,"[0, 0, 100, 20]",2,12,1,0,0.0065,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+"Preheat oven to 350°F 175°C. In a bowl, whisk together eggs, milk, salt, and pepper. Stir in cheese, sausage or bacon, bell pepper, and onion. Pour the mixture into a greased baking dish. Bake for 30-35 minutes or until the eggs are set. Let cool slightly before serving.","[0, 0, 100, 20]",6,12,48,0,0.112,0,0.156862745,-20,0,1,0,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,0
+Bagel with Cream Cheese,"[0, 0, 100, 20]",9,12,4,0,0.01,0,0.75,0,0,1,1,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,1
+Ingredients:,"[0, 0, 100, 20]",2,12,1,0,0.006,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+"1 bagel, sliced and toasted 2 tablespoons cream cheese Optional toppings: smoked salmon, capers, red onion, tomato slices","[0, 0, 100, 20]",9,12,18,0,0.052,0,0.055555556,-20,0,1,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Instructions:,"[0, 0, 100, 20]",2,12,1,0,0.0065,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+Spread cream cheese on each half of the toasted bagel. Add optional toppings if desired. Serve immediately.,"[0, 0, 100, 20]",9,12,17,0,0.0455,0,0.176470588,-20,0,1,0,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,0
+Breakfast Skillet,"[0, 0, 100, 20]",9,12,2,0,0.008,0,1,0,0,1,1,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,1
+Ingredients:,"[0, 0, 100, 20]",2,12,1,0,0.006,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+2 large eggs 1/2 cup diced potatoes 1/4 cup diced bell pepper 1/4 cup diced onion 1/4 cup cooked sausage or bacon Salt and pepper to taste 1 tablespoon olive oil,"[0, 0, 100, 20]",2,12,31,0,0.0655,0,0.028571429,-20,0,1,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Instructions:,"[0, 0, 100, 20]",2,12,1,0,0.0065,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+"Heat olive oil in a skillet over medium heat. Add potatoes, bell pepper, and onion, and cook until tender. Add sausage or bacon and cook until heated through. Make two wells in the mixture and crack an egg into each well. Cover and cook until the eggs are set. Season with salt and pepper.","[0, 0, 100, 20]",9,12,54,0,0.118,0,0.111111111,-20,0,1,0,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,0
+Serve immediately.,"[0, 0, 100, 20]",2,12,2,0,0.0085,0,0.5,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,0
+Breakfast Bowl,"[0, 0, 100, 20]",10,12,2,0,0.0065,0,1,0,0,1,1,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,1
+Ingredients:,"[0, 0, 100, 20]",2,12,1,0,0.006,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+"1/2 cup cooked quinoa 1/4 cup black beans, rinsed and drained 1/4 cup diced avocado 1/4 cup cherry tomatoes, halved 1 large egg, poached or fried Salt and pepper to taste 1 tablespoon olive oil","[0, 0, 100, 20]",10,12,35,0,0.0795,0,0.025641026,-20,0,1,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Instructions:,"[0, 0, 100, 20]",2,12,1,0,0.0065,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+"In a bowl, combine quinoa, black beans, avocado, and cherry tomatoes. Top with the poached or fried egg. Drizzle with olive oil and season with salt and pepper. Serve immediately.","[0, 0, 100, 20]",10,12,30,0,0.075,0,0.133333333,-20,0,1,0,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,0
+Breakfast Croissant,"[0, 0, 100, 20]",10,12,2,0,0.009,0,1,0,0,1,1,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,1
+Ingredients:,"[0, 0, 100, 20]",2,12,1,0,0.006,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+"1 croissant, sliced in half 1 large egg 1 slice of cheese 1 slice of ham or bacon Salt and pepper to taste","[0, 0, 100, 20]",10,12,23,0,0.042,0,0.043478261,-20,0,1,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Instructions:,"[0, 0, 100, 20]",2,12,1,0,0.0065,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+"Cook the egg in a skillet over medium heat, seasoning with salt and pepper. Place the cheese on top of the egg to melt. Assemble the sandwich with the egg, cheese, and ham or bacon between the croissant halves. Serve immediately.","[0, 0, 100, 20]",5,12,41,0,0.0945,0,0.097560976,-20,0,1,0,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,0
+Breakfast Frittata,"[0, 0, 100, 20]",10,12,2,0,0.0085,0,1,0,0,1,1,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,1
+Ingredients:,"[0, 0, 100, 20]",2,12,1,0,0.006,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+6 large eggs 1/4 cup milk 1/2 cup shredded cheese 1/4 cup diced bell pepper,"[0, 0, 100, 20]",8,12,15,0,0.0305,0,0,-20,0,1,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+1/4 cup diced onion 1/4 cup cooked sausage or bacon Salt and pepper to taste 1 tablespoon olive oil,"[0, 0, 100, 20]",4,12,19,0,0.0405,0,0.047619048,-20,0,1,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Instructions:,"[0, 0, 100, 20]",2,12,1,0,0.0065,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+"Preheat oven to 350°F 175°C. In a bowl, whisk together eggs, milk, salt, and pepper. Stir in cheese, bell pepper, onion, and sausage or bacon. Heat olive oil in a skillet over medium heat. Pour the egg mixture into the skillet and cook until the edges are set. Transfer the skillet to the oven and bake for 15-20 minutes or until the eggs are set. Let cool slightly before slicing and serving.","[0, 0, 100, 20]",6,12,72,0,0.161,0,0.12,-20,0,1,0,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,0
+Breakfast Bagel Sandwich,"[0, 0, 100, 20]",11,12,3,0,0.011,0,1,0,0,1,1,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,1
+Ingredients:,"[0, 0, 100, 20]",2,12,1,0,0.006,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+"1 bagel, sliced and toasted 1 large egg 1 slice of cheese 1 slice of ham or bacon Salt and pepper to taste","[0, 0, 100, 20]",9,12,23,0,0.042,0,0.043478261,-20,0,1,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Instructions:,"[0, 0, 100, 20]",2,12,1,0,0.0065,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+"Cook the egg in a skillet over medium heat, seasoning with salt and pepper. Place the cheese on top of the egg to melt. Assemble the sandwich with the egg, cheese, and ham or bacon between the bagel halves. Serve immediately.","[0, 0, 100, 20]",5,12,41,0,0.0925,0,0.097560976,-20,0,1,0,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,0
+Overnight Oats,"[0, 0, 100, 20]",11,12,2,0,0.0065,0,1,0,0,1,1,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,1
+Ingredients:,"[0, 0, 100, 20]",2,12,1,0,0.006,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+"1/2 cup rolled oats 1/2 cup almond milk 1 tablespoon chia seeds 1 tablespoon honey or maple syrup 1/2 teaspoon vanilla extract Toppings: fresh fruit, nuts, seeds","[0, 0, 100, 20]",11,12,27,0,0.0675,0,0.033333333,-20,0,1,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Instructions:,"[0, 0, 100, 20]",2,12,1,0,0.0065,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+"In a jar, combine oats, almond milk, chia seeds, honey or maple syrup, and vanilla extract. Stir well, cover, and refrigerate overnight.","[0, 0, 100, 20]",11,12,22,0,0.0575,0,0.090909091,-20,0,1,0,0,1,0,0,0,1,1,1,0,1,0,0,0,1,0,0,0,1,0
+"In the morning, stir again and add your favorite toppings.","[0, 0, 100, 20]",12,12,10,0,0.0245,0,0.1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,0
+Egg Muffins,"[0, 0, 100, 20]",12,12,2,0,0.005,0,1,0,0,1,1,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,1
+Ingredients:,"[0, 0, 100, 20]",2,12,1,0,0.006,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+6 large eggs 1/4 cup milk 1/2 cup diced bell pepper 1/2 cup diced spinach 1/4 cup shredded cheese Salt and pepper to taste,"[0, 0, 100, 20]",8,12,24,0,0.0495,0,0.035714286,-20,0,1,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Instructions:,"[0, 0, 100, 20]",2,12,1,0,0.0065,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+"Preheat oven to 350°F 175°C. In a bowl, whisk together eggs, milk, salt, and pepper. Stir in bell pepper, spinach, and cheese. Pour the mixture into a greased muffin tin. Bake for 20-25 minutes or until the eggs are set. Let cool before removing from the tin.","[0, 0, 100, 20]",6,12,47,0,0.1065,0,0.16,-20,0,1,0,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,0
+Apple Peanut Butter Sandwiches,"[0, 0, 100, 20]",12,12,4,0,0.0135,0,1,0,0,1,1,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,1
+Ingredients:,"[0, 0, 100, 20]",2,12,1,0,0.006,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+"1 apple, cored and sliced into rings 2 tablespoons peanut butter Optional toppings: granola, raisins, coconut flakes","[0, 0, 100, 20]",12,12,17,0,0.05,0,0.058823529,-20,0,1,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Instructions:,"[0, 0, 100, 20]",2,12,1,0,0.0065,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+Spread peanut butter on one side of each apple ring. Add optional toppings if desired. Sandwich two apple rings together with the peanut butter sides facing in.,"[0, 0, 100, 20]",12,12,27,0,0.067,0,0.111111111,-20,0,1,0,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,0
+Protein Smoothie,"[0, 0, 100, 20]",12,12,2,0,0.0075,0,1,0,0,1,1,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,1
+Ingredients:,"[0, 0, 100, 20]",2,12,1,0,0.006,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+1 banana 1/2 cup Greek yogurt 1/2 cup almond milk 1 scoop protein powder 1 tablespoon peanut butter,"[0, 0, 100, 20]",3,12,18,0,0.041,0,0.05,-20,0,1,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Instructions:,"[0, 0, 100, 20]",2,12,1,0,0.0065,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+"In a blender, combine banana, Greek yogurt, almond milk, protein powder, and peanut butter. Blend until smooth. Serve immediately.","[0, 0, 100, 20]",13,12,19,0,0.056,0,0.210526316,-20,0,1,0,0,1,0,0,0,1,1,1,0,1,0,0,0,1,0,0,0,1,0
+Cottage Cheese and Fruit,"[0, 0, 100, 20]",13,12,4,0,0.0105,0,0.75,0,0,1,1,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,1
+Ingredients:,"[0, 0, 100, 20]",2,12,1,0,0.006,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+1 cup cottage cheese 1/2 cup fresh berries 1 tablespoon honey,"[0, 0, 100, 20]",13,12,11,0,0.0255,0,0,-20,0,1,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Instructions:,"[0, 0, 100, 20]",2,12,1,0,0.0065,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+"In a bowl, combine cottage cheese and fresh berries. Drizzle with honey. Serve immediately.","[0, 0, 100, 20]",13,12,14,0,0.039,0,0.214285714,-20,0,1,0,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,0
+Veggie Wrap,"[0, 0, 100, 20]",13,12,2,0,0.005,0,1,0,0,1,1,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,1
+Ingredients:,"[0, 0, 100, 20]",2,12,1,0,0.006,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+1 large whole wheat tortilla 1/4 cup hummus 1/4 cup shredded carrots 1/4 cup sliced cucumber 1/4 cup baby spinach 1/4 cup sliced bell pepper,"[0, 0, 100, 20]",13,12,25,0,0.058,0,0,-20,0,1,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Instructions:,"[0, 0, 100, 20]",2,12,1,0,0.0065,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+"Spread hummus on the tortilla. Layer with shredded carrots, cucumber, spinach, and bell pepper. Roll up the tortilla tightly. Slice in half and serve.","[0, 0, 100, 20]",13,12,24,0,0.0635,0,0.166666667,-20,0,1,0,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,0
+Almond Butter Banana Toast,"[0, 0, 100, 20]",13,12,4,0,0.0115,0,1,0,0,1,1,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,1
+Ingredients:,"[0, 0, 100, 20]",2,12,1,0,0.006,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+"2 slices whole grain bread, toasted 2 tablespoons almond butter 1 banana, sliced 1 teaspoon chia seeds","[0, 0, 100, 20]",13,12,17,0,0.043,0,0,-20,0,1,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Instructions:,"[0, 0, 100, 20]",2,12,1,0,0.0065,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+Spread almond butter on the toasted bread.,"[0, 0, 100, 20]",13,12,7,0,0.018,0,0.142857143,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,0
+Top with banana slices and sprinkle with chia seeds. Serve immediately.,"[0, 0, 100, 20]",14,12,11,0,0.0305,0,0.181818182,-20,0,1,0,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,0
+Greek Yogurt with Honey and Nuts,"[0, 0, 100, 20]",14,12,6,0,0.0135,0,0.666666667,0,0,1,1,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,1
+Ingredients:,"[0, 0, 100, 20]",2,12,1,0,0.006,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+1 cup Greek yogurt 1 tablespoon honey 1/4 cup mixed nuts,"[0, 0, 100, 20]",4,12,11,0,0.023,0,0.083333333,-20,0,1,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Instructions:,"[0, 0, 100, 20]",2,12,1,0,0.0065,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+"In a bowl, combine Greek yogurt and honey. Top with mixed nuts. Serve immediately.","[0, 0, 100, 20]",14,12,14,0,0.0345,0,0.285714286,-20,0,1,0,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,0
+Avocado and Egg Toast,"[0, 0, 100, 20]",14,12,4,0,0.009,0,0.75,0,0,1,1,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,1
+Ingredients:,"[0, 0, 100, 20]",2,12,1,0,0.006,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+"2 slices whole grain bread, toasted 1 ripe avocado 1 large egg, poached or fried Crushed red pepper flakes to taste Salt and pepper to taste","[0, 0, 100, 20]",13,12,26,0,0.0575,0,0.076923077,-20,0,1,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Instructions:,"[0, 0, 100, 20]",2,12,1,0,0.0065,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+Mash the avocado and spread it on the toasted bread. Top with the poached or fried egg. Season with crushed red pepper flakes + salt and pepper. Serve immediately.,"[0, 0, 100, 20]",14,12,29,0,0.0675,0,0.142857143,-20,0,1,0,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,0
+Quinoa Breakfast Bowl,"[0, 0, 100, 20]",14,12,3,0,0.0095,0,1,0,0,1,1,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,1
+Ingredients:,"[0, 0, 100, 20]",2,12,1,0,0.006,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+"1/2 cup cooked quinoa 1/4 cup diced avocado 1/4 cup cherry tomatoes, halved 1 large egg, poached or fried Salt and pepper to taste","[0, 0, 100, 20]",10,12,24,0,0.0535,0,0.037037037,-20,0,1,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Instructions:,"[0, 0, 100, 20]",2,12,1,0,0.0065,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+"In a bowl, combine cooked quinoa, avocado, and cherry tomatoes. Top with the poached or fried egg. Season with salt and pepper.","[0, 0, 100, 20]",14,12,22,0,0.053,0,0.136363636,-20,0,1,0,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,0
+Serve immediately.,"[0, 0, 100, 20]",2,12,2,0,0.0085,0,0.5,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,0
+Berry and Spinach Smoothie,"[0, 0, 100, 20]",15,12,4,0,0.0115,0,0.75,0,0,1,1,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,1
+Ingredients:,"[0, 0, 100, 20]",2,12,1,0,0.006,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+1/2 cup frozen berries 1/2 cup spinach 1/2 cup Greek yogurt 1/2 cup almond milk 1 tablespoon honey,"[0, 0, 100, 20]",3,12,18,0,0.0405,0,0.045454545,-20,0,1,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Instructions:,"[0, 0, 100, 20]",2,12,1,0,0.0065,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+"In a blender, combine frozen berries, spinach, Greek yogurt, almond milk, and honey. Blend until smooth. Serve immediately.","[0, 0, 100, 20]",15,12,18,0,0.053,0,0.222222222,-20,0,1,0,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,0
+Fruit and Nut Bars,"[0, 0, 100, 20]",15,12,4,0,0.0075,0,0.75,0,0,1,1,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,1
+Ingredients:,"[0, 0, 100, 20]",2,12,1,0,0.006,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+"1 cup dates, pitted 1 cup mixed nuts 1/4 cup dried fruit 1 tablespoon honey","[0, 0, 100, 20]",15,12,15,0,0.0305,0,0,-20,0,1,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Instructions:,"[0, 0, 100, 20]",2,12,1,0,0.0065,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+"In a food processor, combine dates, mixed nuts, dried fruit, and honey. Process until the mixture comes together. Press the mixture into a greased baking dish. Refrigerate for at least 1 hour before cutting into bars. Store in an airtight container.","[0, 0, 100, 20]",15,12,41,0,0.1045,0,0.12195122,-20,0,1,0,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,0
+Peanut Butter and Banana Smoothie,"[0, 0, 100, 20]",15,12,5,0,0.0145,0,0.8,0,0,1,1,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,1
+Ingredients:,"[0, 0, 100, 20]",2,12,1,0,0.006,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+1 banana 1/2 cup Greek yogurt 1/2 cup almond milk 1 tablespoon peanut butter 1 tablespoon honey,"[0, 0, 100, 20]",3,12,17,0,0.0395,0,0.052631579,-20,0,1,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Instructions:,"[0, 0, 100, 20]",2,12,1,0,0.0065,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+"In a blender, combine banana, Greek yogurt, almond milk, peanut butter, and honey. Blend until smooth.","[0, 0, 100, 20]",15,12,16,0,0.0435,0,0.1875,-20,0,1,0,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,0
+Serve immediately.,"[0, 0, 100, 20]",2,12,2,0,0.0085,0,0.5,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,0
+Cottage Cheese and Veggie Bowl,"[0, 0, 100, 20]",16,12,5,0,0.013,0,0.8,0,0,1,1,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,1
+Ingredients:,"[0, 0, 100, 20]",2,12,1,0,0.006,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+"1 cup cottage cheese 1/4 cup diced cucumber 1/4 cup cherry tomatoes, halved 1/4 cup diced bell pepper Salt and pepper to taste","[0, 0, 100, 20]",13,12,23,0,0.052,0,0.038461538,-20,0,1,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Instructions:,"[0, 0, 100, 20]",2,12,1,0,0.0065,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+"In a bowl, combine cottage cheese, cucumber, cherry tomatoes, and bell pepper. Season with salt and pepper. Serve immediately.","[0, 0, 100, 20]",16,12,19,0,0.054,0,0.157894737,-20,0,1,0,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,0
+Almond Butter and Apple Slices,"[0, 0, 100, 20]",16,12,5,0,0.013,0,0.8,0,0,1,1,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,1
+Ingredients:,"[0, 0, 100, 20]",2,12,1,0,0.006,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+"1 apple, sliced 2 tablespoons almond butter","[0, 0, 100, 20]",16,12,7,0,0.0185,0,0,-20,0,1,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0
+Instructions:,"[0, 0, 100, 20]",2,12,1,0,0.0065,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1
+Spread almond butter on each apple slice. Serve immediately.,"[0, 0, 100, 20]",16,12,9,0,0.026,0,0.222222222,-20,0,1,0,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,0
