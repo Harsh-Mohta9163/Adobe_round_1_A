@@ -3,20 +3,6 @@
 # import csv
 # from collections import defaultdict
 # import numpy as np
-# import re
-
-# def clean_span_text(span_text: str) -> str:
-#     """Clean span text by removing bullet points and formatting characters"""
-#     if not span_text:
-#         return ""
-    
-#     # Remove leading/trailing whitespace
-#     cleaned = span_text.strip()
-    
-#     # Remove bullet points and list markers at the beginning
-#     cleaned = re.sub(r'^[-+=@•·▪▫◦‣⁃]+\s*', '', cleaned)
-
-#     return cleaned.strip()
 
 # def get_page_statistics(textlines_on_page: list) -> dict:
 #     """Calculate page-level statistics like median gap"""
@@ -127,15 +113,6 @@
 #     features['both_in_table'] = 1 if (is_linea_in_table and is_lineb_in_table) else 0
 #     features['neither_in_table'] = 1 if (not is_linea_in_table and not is_lineb_in_table) else 0
     
-#     # Header/hash-related features (NEW)
-#     is_linea_hashed = line_a.get('is_hashed', False)
-#     is_lineb_hashed = line_b.get('is_hashed', False)
-    
-#     features['is_linea_hashed'] = 1 if is_linea_hashed else 0
-#     features['is_lineb_hashed'] = 1 if is_lineb_hashed else 0
-#     features['both_hashed'] = 1 if (is_linea_hashed and is_lineb_hashed) else 0
-#     features['neither_hashed'] = 1 if (not is_linea_hashed and not is_lineb_hashed) else 0
-    
 #     return features
 
 # def generate_csv_from_aggregated(pdf_name: str):
@@ -183,32 +160,14 @@
 #     # Generate CSV
 #     with open(output_csv_path, 'w', newline='', encoding='utf-8-sig') as csvfile:
 #         fieldnames = [
-#             # Text fields - markdown and corresponding span text
-#             'text_a', 'span_text_a', 'text_b', 'span_text_b',
-            
-#             # Layout features
-#             'normalized_vertical_gap', 'indentation_change', 'same_alignment', 
-#             'is_centered_A', 'is_centered_B',
-            
-#             # Font features
-#             'font_size_a', 'font_size_b', 'font_size_diff', 'same_font',
+#             'text_a', 'text_b', 'normalized_vertical_gap', 'indentation_change', 
+#             'font_size_a', 'font_size_b', 'font_size_diff', 'same_font', 'line_a_ends_punctuation', 
+#             'line_b_starts_lowercase', 'same_alignment', 'is_centered_A', 
+#             'is_centered_B', 'is_linea_in_rectangle', 'is_lineb_in_rectangle', 
+#             'both_in_table', 'neither_in_table', 
 #             'is_bold_A', 'is_bold_B', 'is_italic_A', 'is_italic_B', 
 #             'is_monospace_A', 'is_monospace_B', 'same_bold', 'same_italic', 
-#             'same_monospace',
-            
-#             # Text pattern features
-#             'line_a_ends_punctuation', 'line_b_starts_lowercase',
-            
-#             # Table features
-#             'is_linea_in_rectangle', 'is_lineb_in_rectangle', 
-#             'both_in_table', 'neither_in_table',
-            
-#             # Header/hash features (NEW)
-#             'is_linea_hashed', 'is_lineb_hashed', 
-#             'both_hashed', 'neither_hashed',
-            
-#             # Label for manual annotation
-#             'label'
+#             'same_monospace', 'label'
 #         ]
 #         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
 #         writer.writeheader()
@@ -398,15 +357,6 @@
 #     features['both_in_table'] = 1 if (is_linea_in_table and is_lineb_in_table) else 0
 #     features['neither_in_table'] = 1 if (not is_linea_in_table and not is_lineb_in_table) else 0
     
-#     # Header/hash-related features (NEW)
-#     is_linea_hashed = line_a.get('is_hashed', False)
-#     is_lineb_hashed = line_b.get('is_hashed', False)
-    
-#     features['is_linea_hashed'] = 1 if is_linea_hashed else 0
-#     features['is_lineb_hashed'] = 1 if is_lineb_hashed else 0
-#     features['both_hashed'] = 1 if (is_linea_hashed and is_lineb_hashed) else 0
-#     features['neither_hashed'] = 1 if (not is_linea_hashed and not is_lineb_hashed) else 0
-    
 #     return features
 
 # def generate_csv_from_aggregated(pdf_name: str):
@@ -454,32 +404,14 @@
 #     # Generate CSV
 #     with open(output_csv_path, 'w', newline='', encoding='utf-8-sig') as csvfile:
 #         fieldnames = [
-#             # Text fields - markdown and corresponding span text
-#             'text_a', 'span_text_a', 'text_b', 'span_text_b',
-            
-#             # Layout features
-#             'normalized_vertical_gap', 'indentation_change', 'same_alignment', 
-#             'is_centered_A', 'is_centered_B',
-            
-#             # Font features
-#             'font_size_a', 'font_size_b', 'font_size_diff', 'same_font',
+#             'text_a', 'text_b', 'normalized_vertical_gap', 'indentation_change', 
+#             'font_size_a', 'font_size_b', 'font_size_diff', 'same_font', 'line_a_ends_punctuation', 
+#             'line_b_starts_lowercase', 'same_alignment', 'is_centered_A', 
+#             'is_centered_B', 'is_linea_in_rectangle', 'is_lineb_in_rectangle', 
+#             'both_in_table', 'neither_in_table', 
 #             'is_bold_A', 'is_bold_B', 'is_italic_A', 'is_italic_B', 
 #             'is_monospace_A', 'is_monospace_B', 'same_bold', 'same_italic', 
-#             'same_monospace',
-            
-#             # Text pattern features
-#             'line_a_ends_punctuation', 'line_b_starts_lowercase',
-            
-#             # Table features
-#             'is_linea_in_rectangle', 'is_lineb_in_rectangle', 
-#             'both_in_table', 'neither_in_table',
-            
-#             # Header/hash features (NEW)
-#             'is_linea_hashed', 'is_lineb_hashed', 
-#             'both_hashed', 'neither_hashed',
-            
-#             # Label for manual annotation
-#             'label'
+#             'same_monospace', 'label'
 #         ]
 #         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
 #         writer.writeheader()
@@ -784,9 +716,14 @@
 #             # Calculate features
 #             features = calculate_features_for_merging(line_a, line_b, page_stats)
             
-#             # Add text fields - remove the extra quote you added
+#             # Add text fields - both markdown and span text
 #             features['text_a'] = line_a.get('md_text_cleaned', '').strip()
 #             features['text_b'] = line_b.get('md_text_cleaned', '').strip()
+            
+#             # Add span text fields - cleaned to remove bullet points and formatting
+#             features['span_text_a'] = clean_span_text(line_a.get('span_text', ''))
+#             features['span_text_b'] = clean_span_text(line_b.get('span_text', ''))
+            
 #             features['label'] = ''  # Empty label for manual annotation
             
 #             # Skip if either text is empty
@@ -798,22 +735,37 @@
 #             row_count += 1
     
 #     print(f"Successfully created '{output_csv_path}' with {row_count} feature rows for {pdf_name}")
+    
+#     # Print statistics about hash features
+#     hash_stats = {
+#         'total_pairs': row_count,
+#         'hashed_a': sum(1 for line in matched_lines if line.get('is_hashed', False)),
+#         'both_hashed_pairs': 0,
+#         'neither_hashed_pairs': 0
+#     }
+    
+#     # Count hash pair statistics from the generated CSV
+#     with open(output_csv_path, 'r', encoding='utf-8-sig') as csvfile:
+#         reader = csv.DictReader(csvfile)
+#         for row in reader:
+#             if row.get('both_hashed') == '1':
+#                 hash_stats['both_hashed_pairs'] += 1
+#             elif row.get('neither_hashed') == '1':
+#                 hash_stats['neither_hashed_pairs'] += 1
+    
+#     print(f"Hash feature statistics:")
+#     print(f"  Total hashed lines: {hash_stats['hashed_a']}")
+#     print(f"  Pairs where both are hashed: {hash_stats['both_hashed_pairs']}")
+#     print(f"  Pairs where neither is hashed: {hash_stats['neither_hashed_pairs']}")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# if __name__ == "__main__":
+#     import sys
+#     if len(sys.argv) < 2:
+#         print("Usage: python csv_generator.py input.pdf")
+#         sys.exit(1)
+    
+#     pdf_name = sys.argv[1]
+#     generate_csv_from_aggregated(pdf_name)
 
 
 
@@ -905,7 +857,11 @@ def calculate_features_for_merging(line_a: dict, line_b: dict, page_stats: dict)
         features['indentation_change'] = round(bbox_b[0] - bbox_a[0], 2)
     else:
         features['indentation_change'] = 0
-    
+
+    page_num_a = line_a.get('page_number', 1)
+    page_num_b = line_b.get('page_number', 1)
+    features['page_number_a'] = page_num_a
+    features['page_number_b'] = page_num_b
     # Font sizes
     font_size_a = features_a.get('font_size', 12.0)
     font_size_b = features_b.get('font_size', 12.0)
@@ -1041,16 +997,13 @@ def generate_csv_from_aggregated(pdf_name: str):
             'line_a_ends_punctuation', 'line_b_starts_lowercase',
             
             # Table features
-#             'is_linea_in_rectangle', 'is_lineb_in_rectangle', 
-#             'both_in_table', 'neither_in_table',
+            'is_linea_in_rectangle', 'is_lineb_in_rectangle', 
+            'both_in_table', 'neither_in_table',
             
             # Header/hash features (NEW)
             'is_linea_hashed', 'is_lineb_hashed', 
             'both_hashed', 'neither_hashed',
-            
-            # Page number feature
-            'page_number',
-            
+            'page_number_a','page_number_b',
             # Label for manual annotation
             'label'
         ]
@@ -1079,9 +1032,6 @@ def generate_csv_from_aggregated(pdf_name: str):
             # Add span text fields - cleaned to remove bullet points and formatting
             features['span_text_a'] = clean_span_text(line_a.get('span_text', ''))
             features['span_text_b'] = clean_span_text(line_b.get('span_text', ''))
-            
-            # Add page number
-            features['page_number'] = page_num
             
             features['label'] = ''  # Empty label for manual annotation
             
