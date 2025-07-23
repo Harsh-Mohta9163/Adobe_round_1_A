@@ -324,7 +324,7 @@ def merge_textlines_guaranteed(input_csv_path: str, output_csv_path: str):
 
 if __name__ == '__main__':
     # --- CONFIGURATION ---
-    INPUT_FOLDER = '../../data/textlines_csv_output'  # Folder containing labeled CSV files
+    INPUT_FOLDER = '../../data/labelled_textlines'  # Folder containing labeled CSV files
     OUTPUT_FOLDER = '../../data/merged_textblocks_gt'  # Output folder for merged textblocks
     # -------------------
 
