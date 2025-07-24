@@ -2,6 +2,7 @@ import pandas as pd
 import joblib
 import os
 import glob
+import numpy as np # Import numpy
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix, precision_score, recall_score, f1_score
 
 # --- Configuration ---
@@ -11,6 +12,77 @@ OUTPUT_FOLDER = '../../data/test_results/'
 
 # Create output folder if it doesn't exist
 os.makedirs(OUTPUT_FOLDER, exist_ok=True)
+
+def load_and_prepare_test_data(folder_path='.'):
+    """
+    Loads all CSV files from a folder, combines them, and engineers the
+    same features used for training the model.
+    """
+    csv_files = glob.glob(os.path.join(folder_path, '*.csv'))
+    if not csv_files:
+        raise FileNotFoundError(f"No CSV files found in the directory: {folder_path}")
+
+    print(f"Found {len(csv_files)} CSV files to load: {csv_files}")
+
+    df_list = []
+    for f in csv_files:
+        try:
+            df = pd.read_csv(f, encoding='utf-8')
+            print(f"Successfully loaded {f} with utf-8 encoding")
+            df_list.append(df)
+        except UnicodeDecodeError:
+            try:
+                df = pd.read_csv(f, encoding='latin-1')
+                print(f"Successfully loaded {f} with latin-1 encoding")
+                df_list.append(df)
+            except Exception as e:
+                print(f"Warning: Could not load {f}. Error: {e}")
+
+    if not df_list:
+        raise ValueError("No CSV files could be loaded.")
+
+    df = pd.concat(df_list, ignore_index=True)
+    print(f"Total rows loaded: {len(df)}")
+    
+    # Check if text columns exist before cleaning them
+    if 'span_text_a' in df.columns and 'span_text_b' in df.columns:
+        df.dropna(subset=['span_text_a', 'span_text_b'], inplace=True)
+        df['span_text_a'] = df['span_text_a'].astype(str)
+        df['span_text_b'] = df['span_text_b'].astype(str)
+        text_col_a = 'span_text_a'
+        text_col_b = 'span_text_b'
+    elif 'text_a' in df.columns and 'text_b' in df.columns:
+        df.dropna(subset=['text_a', 'text_b'], inplace=True)
+        df['text_a'] = df['text_a'].astype(str)
+        df['text_b'] = df['text_b'].astype(str)
+        text_col_a = 'text_a'
+        text_col_b = 'text_b'
+    else:
+        print("Warning: No text columns found for feature engineering")
+        text_col_a = None
+        text_col_b = None
+
+    # --- Feature Engineering (Must be identical to training script) ---
+    if text_col_a and text_col_b:
+        print("\nEngineering features for test data...")
+        # 1. Check if the first line ends with sentence-terminating punctuation
+        if 'line_a_ends_punctuation' not in df.columns:
+            df['line_a_ends_punctuation'] = df[text_col_a].str.strip().str.endswith(('.', '!', '?', ':', ';')).astype(int)
+
+        # 2. Check if the second line starts with a capital letter
+        if 'line_b_starts_lowercase' not in df.columns:
+            df['line_b_starts_lowercase'] = df[text_col_b].str.strip().str.match(r'^[a-z]').astype(int)
+
+        # 3. Calculate the ratio of line lengths
+        if 'line_length_ratio' not in df.columns:
+            # Replace zero length with a small number to avoid division by zero errors
+            len_b = df[text_col_b].str.len().replace(0, np.nan)
+            df['line_length_ratio'] = df[text_col_a].str.len() / len_b
+            df['line_length_ratio'].fillna(0, inplace=True) # Fill cases where line_b had 0 length
+
+        print("Feature engineering complete. ✅")
+    
+    return df
 
 try:
     print(f"Loading model from '{MODEL_FILE}'...")
@@ -82,6 +154,39 @@ try:
             if df is None:
                 print(f"❌ Could not load with any encoding")
                 continue
+            
+            # Process data to add engineered features
+            original_rows = len(df)
+            
+            # Check if text columns exist and engineer features
+            if 'span_text_a' in df.columns and 'span_text_b' in df.columns:
+                df.dropna(subset=['span_text_a', 'span_text_b'], inplace=True)
+                df['span_text_a'] = df['span_text_a'].astype(str)
+                df['span_text_b'] = df['span_text_b'].astype(str)
+                text_col_a = 'span_text_a'
+                text_col_b = 'span_text_b'
+            elif 'text_a' in df.columns and 'text_b' in df.columns:
+                df.dropna(subset=['text_a', 'text_b'], inplace=True)
+                df['text_a'] = df['text_a'].astype(str)
+                df['text_b'] = df['text_b'].astype(str)
+                text_col_a = 'text_a'
+                text_col_b = 'text_b'
+            else:
+                text_col_a = None
+                text_col_b = None
+
+            # Engineer features if text columns exist
+            if text_col_a and text_col_b:
+                if 'line_a_ends_punctuation' not in df.columns:
+                    df['line_a_ends_punctuation'] = df[text_col_a].str.strip().str.endswith(('.', '!', '?', ':', ';')).astype(int)
+
+                if 'line_b_starts_lowercase' not in df.columns:
+                    df['line_b_starts_lowercase'] = df[text_col_b].str.strip().str.match(r'^[a-z]').astype(int)
+
+                if 'line_length_ratio' not in df.columns:
+                    len_b = df[text_col_b].str.len().replace(0, np.nan)
+                    df['line_length_ratio'] = df[text_col_a].str.len() / len_b
+                    df['line_length_ratio'].fillna(0, inplace=True)
                 
             # Check if all required features are present
             missing_features = [col for col in feature_cols if col not in df.columns]
@@ -95,7 +200,6 @@ try:
                 print(f"ℹ️  No ground truth labels found - will only generate predictions")
             
             # Clean data
-            original_rows = len(df)
             if has_labels:
                 df.dropna(subset=['label'], inplace=True)
                 df['label'] = df['label'].astype(int)
@@ -110,7 +214,8 @@ try:
             print(f"✅ Loaded {len(df)} samples (dropped {original_rows - len(df)} invalid rows)")
             
             # Extract features and make predictions
-            X_test = df[feature_cols]
+            X_test = df[feature_cols].copy()
+            X_test.fillna(0, inplace=True) # Fill any potential NaN values with 0
             y_pred = model.predict(X_test)
             
             # Add model predictions to dataframe

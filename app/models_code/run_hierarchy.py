@@ -202,7 +202,7 @@ def process_single_file(input_file: str, output_file: str, style_feature_cols: l
 def main():
     """Main function to orchestrate the hierarchy building process for multiple files."""
     # --- CONFIGURATION ---
-    INPUT_FOLDER = '../../data/test_results'  # Folder containing prediction CSV files
+    INPUT_FOLDER = '../../data/test_labelled_merged_textblocks_gt'  # Folder containing prediction CSV files
     OUTPUT_FOLDER = '../../data/final_results'  # Output folder for hierarchy results
     
     font_size_col = 'avg_font_size'
