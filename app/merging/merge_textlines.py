@@ -66,6 +66,13 @@ def finalize_block(block_parts):
     ratio_of_verbs = calculate_verb_ratio(full_text)
     ratio_capitalized = calculate_capitalized_ratio(full_text)
     
+    # Check if textblock ends with colon
+    ends_with_colon = 1 if full_text.strip().endswith(':') else 0
+    
+    # Check if textblock is bold (majority rule)
+    bold_count = sum(1 for part in block_parts if part.get('is_bold', 0))
+    is_bold = 1 if bold_count > len(block_parts) / 2 else 0
+    
     # Calculate normalized vertical gap (average gap between parts)
     normalized_vertical_gap = 0.0
     if len(block_parts) > 1:
@@ -96,7 +103,7 @@ def finalize_block(block_parts):
     # Check if all parts have same font size
     same_font = 1 if len(set(part['font_size'] for part in block_parts)) == 1 else 0
     
-    # Check formatting properties (assuming these are in additional_features)
+    # Check formatting properties (using first part for _A features)
     is_bold_A = block_parts[0].get('is_bold', 0) if block_parts else 0
     is_italic_A = block_parts[0].get('is_italic', 0) if block_parts else 0
     is_monospace_A = block_parts[0].get('is_monospace', 0) if block_parts else 0
@@ -133,6 +140,8 @@ def finalize_block(block_parts):
         'char_density': char_density,
         'ratio_of_verbs': ratio_of_verbs,
         'ratio_capitalized': ratio_capitalized,
+        'ends_with_colon': ends_with_colon,
+        'is_bold': is_bold,
         'normalized_vertical_gap': normalized_vertical_gap,
         'indentation_change': indentation_change,
         'same_alignment': same_alignment,
