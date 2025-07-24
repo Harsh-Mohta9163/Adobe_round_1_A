@@ -1,372 +1,200 @@
 import pandas as pd
 import os
 import glob
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import SGDClassifier
-from sklearn.preprocessing import StandardScaler
-from sklearn.metrics import classification_report, confusion_matrix
 import numpy as np
 import joblib
-import ast
+import nltk
+import re
+from collections import Counter
 
-def safe_eval_bbox(bbox_str):
-    """Safely evaluates a string representation of a bbox list."""
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
+from sklearn.metrics import classification_report, recall_score
+from imblearn.over_sampling import SMOTE
+
+from sklearn.ensemble import GradientBoostingClassifier
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.linear_model import SGDClassifier
+
+def setup_nltk():
+    """Downloads necessary NLTK models if not already present."""
     try:
-        return ast.literal_eval(str(bbox_str))
-    except (ValueError, SyntaxError):
-        return [0, 0, 100, 20]
+        nltk.data.find('tokenizers/punkt')
+        nltk.data.find('taggers/averaged_perceptron_tagger')
+        print("✅ NLTK models are ready.")
+    except nltk.downloader.DownloadError:
+        print("Downloading necessary NLTK models...")
+        nltk.download('punkt', quiet=True)
+        nltk.download('averaged_perceptron_tagger', quiet=True)
+        print("✅ NLTK models downloaded.")
 
-def extract_bbox_features(bbox_list):
-    """Extract additional features from bounding box."""
-    bbox = safe_eval_bbox(bbox_list)
-    width = bbox[2] - bbox[0]
-    height = bbox[3] - bbox[1]
-    aspect_ratio = width / height if height > 0 else 1.0
-    return [width, height, aspect_ratio]
+def get_pos_features(text):
+    """Extracts Parts-of-Speech (POS) features."""
+    tokens = nltk.word_tokenize(str(text))
+    tag_counts = Counter(tag for _, tag in nltk.pos_tag(tokens))
+    features = {
+        'noun_count': sum(tag_counts.get(t, 0) for t in ['NN', 'NNS', 'NNP', 'NNPS']),
+        'verb_count': sum(tag_counts.get(t, 0) for t in ['VB', 'VBD', 'VBG', 'VBN', 'VBP', 'VBZ']),
+        'adj_count': sum(tag_counts.get(t, 0) for t in ['JJ', 'JJR', 'JJS']),
+        'cardinal_num_count': tag_counts.get('CD', 0)
+    }
+    return features
 
-def extract_text_features(text, word_count, avg_font_size):
-    """Extract text-based features without embeddings."""
-    text = str(text)
-    
-    # Basic text statistics
-    text_len = len(text)
-    char_count = len(text.replace(" ", ""))
-    avg_word_len = text_len / max(word_count, 1)
-    
-    # Font size features
-    is_large_font = 1 if avg_font_size > 12 else 0
-    is_small_font = 1 if avg_font_size < 10 else 0
-    is_very_large_font = 1 if avg_font_size > 16 else 0
-    
-    # Text pattern features
-    has_numbers = 1 if any(c.isdigit() for c in text) else 0
-    has_special_chars = 1 if any(c in '()[]{}:;-_' for c in text) else 0
-    has_punctuation = 1 if any(c in '.!?,' for c in text) else 0
-    
-    # Length-based features
-    is_very_short = 1 if word_count <= 3 else 0
-    is_short_text = 1 if word_count <= 5 else 0
-    is_medium_text = 1 if 6 <= word_count <= 15 else 0
-    is_long_text = 1 if word_count >= 20 else 0
-    
-    # Case features
-    is_title_case = 1 if text.istitle() else 0
-    has_uppercase_words = 1 if any(word.isupper() for word in text.split()) else 0
-    
-    # Starting/ending patterns
-    starts_with_number = 1 if text.strip() and text.strip()[0].isdigit() else 0
-    ends_with_colon = 1 if text.strip().endswith(':') else 0
-    
-    return [
-        text_len, char_count, avg_word_len, is_large_font, is_small_font, is_very_large_font,
-        has_numbers, has_special_chars, has_punctuation, is_very_short, is_short_text, 
-        is_medium_text, is_long_text, is_title_case, has_uppercase_words, 
-        starts_with_number, ends_with_colon
-    ]
-
-def load_csv_with_multiple_encodings(csv_file):
+def advanced_feature_engineering(df):
     """
-    Try to load CSV with multiple encodings to handle different character sets.
+    Generates a more robust set of features for classification, including
+    pattern detection and interaction features.
     """
-    encodings_to_try = ['utf-8', 'latin-1', 'cp1252', 'iso-8859-1', 'utf-16', 'ascii']
+    # --- Basic Text and Font Features ---
+    df['word_count'] = df['text'].apply(lambda x: len(str(x).split()))
+    df['char_count'] = df['text'].apply(len)
+    df['is_all_caps'] = df['text'].apply(lambda x: str(x).isupper() and len(x) > 1).astype(int)
+    df['is_title_case'] = df['text'].apply(lambda x: str(x).istitle() and len(x) > 1).astype(int)
+    df['ends_with_colon'] = df['text'].apply(lambda x: str(x).strip().endswith(':')).astype(int)
+
+    # --- NEW: Pattern-Matching Feature ---
+    # Looks for text starting with "1.", "A.", "i.", etc.
+    df['starts_with_list_pattern'] = df['text'].apply(lambda x: 1 if re.match(r'^\s*(\d+\.|[a-zA-Z]\.)', str(x)) else 0)
+
+    # --- Structural and Positional Features ---
+    df['page_median_font'] = df.groupby('page_number')['avg_font_size'].transform('median')
+    df['relative_font_size'] = df['avg_font_size'] / df['page_median_font']
+
+    if 'normalized_vertical_gap' not in df.columns:
+        df['normalized_vertical_gap'] = 0
+    df['space_above'] = df['normalized_vertical_gap'].shift(-1).fillna(0)
+
+    # --- NEW: Interaction Feature ---
+    # Boost the importance of font size for all-caps text
+    df['caps_x_font'] = df['is_all_caps'] * df['relative_font_size']
+
+    # --- Part-of-Speech (POS) Features ---
+    pos_df = pd.DataFrame(df['text'].apply(get_pos_features).tolist())
+    df = pd.concat([df.reset_index(drop=True), pos_df], axis=1)
+
+    df['noun_ratio'] = df['noun_count'] / (df['word_count'] + 1e-6)
+    df['verb_ratio'] = df['verb_count'] / (df['word_count'] + 1e-6)
+
+    return df
+
+
+def load_data(input_folder):
+    """Loads and combines all labeled CSV files from a directory."""
+    csv_files = glob.glob(os.path.join(input_folder, '*.csv'))
+    if not csv_files:
+        return None
     
-    for encoding in encodings_to_try:
+    all_dataframes = []
+    for csv_file in csv_files:
         try:
-            df = pd.read_csv(csv_file, encoding=encoding)
-            print(f"✅ Loaded {os.path.basename(csv_file)} with {encoding} encoding - {len(df)} rows")
-            return df, encoding
-        except UnicodeDecodeError:
-            continue
+            df = pd.read_csv(csv_file, encoding='utf-8')
+            all_dataframes.append(df)
         except Exception as e:
-            # If it's not an encoding error, report it and continue
-            if encoding == encodings_to_try[-1]:  # Last encoding attempt
-                print(f"❌ Error loading {os.path.basename(csv_file)}: {e}")
-            continue
+            print(f"Warning: Could not load {os.path.basename(csv_file)}: {e}")
+
+    if not all_dataframes:
+        return None
+
+    df = pd.concat(all_dataframes, ignore_index=True)
     
-    print(f"❌ Could not load {os.path.basename(csv_file)} with any encoding")
-    return None, None
+    # Clean and prepare data
+    df.dropna(subset=['text', 'title_label'], inplace=True)
+    df['title_label'] = pd.to_numeric(df['title_label'], errors='coerce').fillna(0).astype(int)
+    df = df[df['title_label'].isin([0, 1])]
+    
+    return df
 
 def train_title_classifier(input_folder: str, model_dir: str):
     """
-    Trains a lightweight SGD classifier using only structural features.
-    No embeddings needed - works completely offline.
+    Trains and evaluates multiple classifiers, prioritizing RECALL for headings.
     """
-    print("🚀 Loading data for lightweight SGD classifier...")
-    
-    # Find all CSV files in the input folder
-    csv_pattern = os.path.join(input_folder, '*.csv')
-    csv_files = glob.glob(csv_pattern)
-    
-    if not csv_files:
-        print(f"Error: No CSV files found in '{input_folder}'")
+    setup_nltk()
+
+    print(f"🚀 Loading labeled data from '{input_folder}'...")
+    df = load_data(input_folder)
+    if df is None or df.empty:
+        print("❌ Error: No valid labeled CSV files found.")
         return
-    
-    print(f"Found {len(csv_files)} CSV files to load:")
-    for file in csv_files:
-        print(f"  - {os.path.basename(file)}")
-    
-    # Load and combine all CSV files with multiple encoding support
-    all_dataframes = []
-    successful_files = 0
-    failed_files = []
-    
-    for csv_file in csv_files:
-        df, encoding_used = load_csv_with_multiple_encodings(csv_file)
         
-        if df is not None:
-            # Only include files that have the title_label column filled
-            if 'title_label' in df.columns and not df['title_label'].isna().all():
-                # Clean text data to handle any remaining encoding issues
-                if 'text' in df.columns:
-                    df['text'] = df['text'].astype(str)
-                    # Remove any problematic characters
-                    df['text'] = df['text'].apply(lambda x: x.encode('ascii', 'ignore').decode('ascii') if isinstance(x, str) else str(x))
-                
-                all_dataframes.append(df)
-                successful_files += 1
-                print(f"✅ Added {os.path.basename(csv_file)} to training data")
-            else:
-                print(f"⚠️  Skipped {os.path.basename(csv_file)} - no labels found")
-        else:
-            failed_files.append(os.path.basename(csv_file))
-    
-    print(f"\n📊 File loading summary:")
-    print(f"✅ Successfully loaded: {successful_files} files")
-    if failed_files:
-        print(f"❌ Failed to load: {len(failed_files)} files")
-        for file in failed_files:
-            print(f"   - {file}")
-    
-    if not all_dataframes:
-        print("Error: No valid labeled CSV files found.")
-        print("Please make sure your CSV files have labeled 'title_label' column with values 0 or 1.")
-        return
-    
-    # Combine all dataframes
-    df = pd.concat(all_dataframes, ignore_index=True)
-    print(f"\nCombined dataset: {len(df)} total rows")
-    print(f"Available columns: {list(df.columns)}")
-
-    # Ensure model directory exists
-    os.makedirs(model_dir, exist_ok=True)
-
-    # Clean data
-    print("Cleaning data...")
-    original_len = len(df)
-    df.dropna(subset=['title_label', 'text'], inplace=True)
-    df['text'] = df['text'].astype(str)
-    
-    # Handle title_label conversion more robustly
-    try:
-        df['title_label'] = pd.to_numeric(df['title_label'], errors='coerce')
-        df = df.dropna(subset=['title_label'])  # Remove rows where conversion failed
-        df['title_label'] = df['title_label'].astype(int)
-    except Exception as e:
-        print(f"Warning: Issue converting title_label column: {e}")
-        return
-    
-    # Filter out invalid labels
-    df = df[df['title_label'].isin([0, 1])]
-    
-    print(f"After cleaning: {len(df)} rows (dropped {original_len - len(df)} rows)")
-    
-    if len(df) == 0:
-        print("Error: No valid labeled data found after cleaning.")
-        return
-    
-    # Check label distribution
-    label_counts = df['title_label'].value_counts().sort_index()
-    print(f"\nLabel distribution:")
-    for label, count in label_counts.items():
-        label_name = "Text/Paragraph" if label == 0 else "Title/Heading"
-        print(f"  Label {label} ({label_name}): {count} samples ({count/len(df)*100:.1f}%)")
-    
-    if len(label_counts) < 2:
-        print("Error: Need at least 2 different labels (title and text) to train classifier.")
+    print(f"Found {len(df)} labeled text blocks.")
+    if len(df['title_label'].unique()) < 2:
+        print("❌ Error: Dataset contains only one class. Need both titles (1) and text (0) to train.")
         return
 
-    # Feature Engineering (Lightweight - No Embeddings)
-    print("Engineering structural features...")
+    print("\n🛠️  Engineering advanced features...")
+    df_features = advanced_feature_engineering(df)
     
-    feature_list = []
+    # --- UPDATED: Added new feature names ---
+    feature_names = [
+        'avg_font_size', 'word_count', 'char_count', 'relative_font_size',
+        'is_all_caps', 'is_bold', 'is_title_case', 'ends_with_colon',
+        'space_above', 'noun_count', 'verb_count', 'adj_count',
+        'cardinal_num_count', 'noun_ratio', 'verb_ratio',
+        'starts_with_list_pattern', # New feature
+        'caps_x_font'               # New feature
+    ]
     
-    # 1. Basic CSV features (with error handling) - NOW INCLUDES is_all_caps
-    try:
-        basic_feature_columns = [
-            'avg_font_size', 'word_count', 'char_density', 
-            'ratio_of_verbs', 'ratio_capitalized', 'is_hashed', 'is_all_caps'
-        ]
-        # Check which columns exist
-        available_basic_cols = [col for col in basic_feature_columns if col in df.columns]
-        if not available_basic_cols:
-            print("Warning: No basic feature columns found")
-        else:
-            basic_features = df[available_basic_cols].fillna(0).values  # Fill NaN with 0
-            feature_list.append(basic_features)
-            print(f"✅ Basic features: {len(available_basic_cols)} columns")
-    except Exception as e:
-        print(f"Warning: Error processing basic features: {e}")
-    
-    # 2. Bbox features (with error handling)
-    try:
-        if 'bbox' in df.columns:
-            bbox_features = np.array([extract_bbox_features(bbox) for bbox in df['bbox']])
-            feature_list.append(bbox_features)
-            print(f"✅ Bbox features: 3 columns")
-        else:
-            print("Warning: No bbox column found")
-    except Exception as e:
-        print(f"Warning: Error processing bbox features: {e}")
-    
-    # 3. Enhanced text features (with error handling)
-    try:
-        text_features = []
-        for _, row in df.iterrows():
-            word_count = row.get('word_count', 1)
-            avg_font_size = row.get('avg_font_size', 12.0)
-            text_feats = extract_text_features(row['text'], word_count, avg_font_size)
-            text_features.append(text_feats)
-        
-        text_features = np.array(text_features)
-        feature_list.append(text_features)
-        print(f"✅ Text features: 17 columns")
-    except Exception as e:
-        print(f"Warning: Error processing text features: {e}")
-    
-    if not feature_list:
-        print("Error: No features could be extracted")
-        return
-    
-    # Combine all features
-    X = np.hstack(feature_list)
-    y = df['title_label'].values
-    
-    print(f"Final feature matrix shape: {X.shape}")
-    print(f"Features breakdown:")
-    print(f"  - Basic CSV features: {basic_features.shape[1] if 'basic_features' in locals() else 0}")
-    print(f"  - Bbox features: {bbox_features.shape[1] if 'bbox_features' in locals() else 0}") 
-    print(f"  - Enhanced text features: {text_features.shape[1] if 'text_features' in locals() else 0}")
-    print(f"  - Total features: {X.shape[1]}")
+    # Ensure all feature columns exist, fill with 0 if not
+    for col in feature_names:
+        if col not in df_features.columns:
+            print(f"⚠️ Warning: Feature '{col}' not found. Filling with zeros.")
+            df_features[col] = 0
+            
+    X = df_features[feature_names].fillna(0).values
+    y = df_features['title_label'].values
+    print(f"\n✅ Feature engineering complete. Total features: {X.shape[1]}")
 
-    # Train-Test Split
-    print("Splitting data and training model...")
+    # --- Data Splitting and Scaling ---
     X_train, X_test, y_train, y_test = train_test_split(
-        X, y, test_size=0.2, random_state=42, stratify=y
+        X, y, test_size=0.25, random_state=42, stratify=y
     )
+    
+    print(f"\nOriginal training distribution: {Counter(y_train)}")
+    smote = SMOTE(random_state=42)
+    X_train_resampled, y_train_resampled = smote.fit_resample(X_train, y_train)
+    print(f"Resampled training distribution with SMOTE: {Counter(y_train_resampled)}")
 
-    # Scale features
     scaler = StandardScaler()
-    X_train_scaled = scaler.fit_transform(X_train)
+    X_train_scaled = scaler.fit_transform(X_train_resampled)
     X_test_scaled = scaler.transform(X_test)
-    
-    # Train SGD Classifier
-    clf = SGDClassifier(
-        loss='log_loss',  # Logistic regression
-        random_state=42,
-        class_weight='balanced',
-        max_iter=2000,
-        alpha=0.0001  # Regularization
-    )
-    clf.fit(X_train_scaled, y_train)
 
-    # Evaluation
-    train_accuracy = clf.score(X_train_scaled, y_train)
-    test_accuracy = clf.score(X_test_scaled, y_test)
-    
-    print(f"\n🎯 Model Performance:")
-    print(f"Training Accuracy: {train_accuracy:.4f}")
-    print(f"Test Accuracy: {test_accuracy:.4f}")
-    
-    # Detailed evaluation
-    y_pred = clf.predict(X_test_scaled)
-    print(f"\nDetailed Classification Report:")
-    print(classification_report(y_test, y_pred, target_names=['Text/Paragraph', 'Title/Heading']))
-    
-    print(f"\nConfusion Matrix:")
-    print(confusion_matrix(y_test, y_pred))
-    
-    # Feature importance - NOW INCLUDES is_all_caps in feature names
-    if hasattr(clf, 'coef_'):
-        feature_names = []
-        if 'basic_features' in locals():
-            feature_names.extend([
-                'avg_font_size', 'word_count', 'char_density', 
-                'ratio_of_verbs', 'ratio_capitalized', 'is_hashed', 'is_all_caps'
-            ])
-        if 'bbox_features' in locals():
-            feature_names.extend(['width', 'height', 'aspect_ratio'])
-        if 'text_features' in locals():
-            feature_names.extend([
-                'text_len', 'char_count', 'avg_word_len', 'is_large_font', 'is_small_font', 'is_very_large_font',
-                'has_numbers', 'has_special_chars', 'has_punctuation', 'is_very_short', 'is_short_text',
-                'is_medium_text', 'is_long_text', 'is_title_case', 'has_uppercase_words',
-                'starts_with_number', 'ends_with_colon'
-            ])
-        
-        feature_importance = np.abs(clf.coef_[0])
-        top_features_idx = np.argsort(feature_importance)[-10:][::-1]
-        
-        print(f"\n📊 Top 10 Most Important Features:")
-        for i, idx in enumerate(top_features_idx):
-            if idx < len(feature_names):
-                print(f"  {i+1}. {feature_names[idx]}: {feature_importance[idx]:.4f}")
-
-    # Save models
-    model_path = os.path.join(model_dir, 'title_classifier_lightweight.joblib')
-    scaler_path = os.path.join(model_dir, 'title_scaler_lightweight.joblib')
-    config_path = os.path.join(model_dir, 'feature_config_lightweight.joblib')
-    
-    joblib.dump(clf, model_path)
-    joblib.dump(scaler, scaler_path)
-    
-    # Save feature configuration
-    feature_config = {
-        'feature_names': feature_names if 'feature_names' in locals() else [],
-        'feature_count': X.shape[1],
-        'model_type': 'SGD_lightweight',
-        'uses_embeddings': False,
-        'offline_ready': True,
-        'successful_files': successful_files,
-        'failed_files': failed_files
+    models = {
+        "Decision Tree": DecisionTreeClassifier(random_state=42, min_samples_leaf=3),
+        "Gradient Boosting": GradientBoostingClassifier(random_state=42, n_estimators=150, max_depth=4),
+        "SGD Classifier": SGDClassifier(loss='log_loss', random_state=42, class_weight='balanced')
     }
-    joblib.dump(feature_config, config_path)
+    
+    results = {}
+    print("\n" + "="*50)
+    print("--- Model Training and Evaluation (Optimizing for Recall) ---")
+    for name, model in models.items():
+        print(f"\n--- Training: {name} ---")
+        model.fit(X_train_scaled, y_train_resampled)
+        y_pred = model.predict(X_test_scaled)
+        
+        recall = recall_score(y_test, y_pred, pos_label=1)
+        results[name] = (recall, model)
+        
+        print(f"🎯 Heading Recall: {recall:.4f}")
+        print("\nFull Classification Report:")
+        print(classification_report(y_test, y_pred, target_names=['Text (0)', 'Title (1)'], zero_division=0))
 
-    print(f"\n✅ Model saved successfully!")
-    print(f"📁 Model: {model_path}")
-    print(f"📁 Scaler: {scaler_path}")
-    print(f"📁 Config: {config_path}")
-    
-    # File sizes
-    model_size = os.path.getsize(model_path) / 1024  # KB
-    scaler_size = os.path.getsize(scaler_path) / 1024  # KB
-    total_size = model_size + scaler_size
-    
-    print(f"\n📊 Model Statistics:")
-    print(f"💾 Model size: {model_size:.1f} KB")
-    print(f"💾 Scaler size: {scaler_size:.1f} KB")
-    print(f"💾 Total size: {total_size:.1f} KB")
-    print(f"🌐 Offline ready: ✅ Yes")
-    print(f"🔧 Dependencies: scikit-learn, pandas, numpy only")
+    # --- Save the Best Model based on RECALL ---
+    best_name = max(results, key=lambda name: results[name][0])
+    best_recall, best_model = results[best_name]
+    print("="*50)
+    print(f"\n🏆 Best Model for Finding Headings: '{best_name}' with Recall: {best_recall:.4f}")
+
+    os.makedirs(model_dir, exist_ok=True)
+    joblib.dump(best_model, os.path.join(model_dir, 'title_classifier.joblib'))
+    joblib.dump(scaler, os.path.join(model_dir, 'title_scaler.joblib'))
+    joblib.dump(feature_names, os.path.join(model_dir, 'feature_names.joblib'))
+
+    print(f"\n✅ Best model optimized for recall saved to '{model_dir}'")
+
 
 if __name__ == '__main__':
-    INPUT_FOLDER = '../../data/labelled_merged_textblocks_gt'
-    MODEL_SAVE_DIR = '../../output_model1'
+    LABELED_DATA_FOLDER = '../../data/labelled_merged_textblocks_gt'
+    MODEL_SAVE_DIR = 'models'
     
-    print("🚀 Starting Lightweight Title Classifier Training")
-    print("📋 Features: Structural only (no embeddings)")
-    print("💾 Model: SGD Classifier")
-    print("🌐 Offline: Completely offline")
-    print("🔧 Encoding: Multi-encoding support (utf-8, latin-1, cp1252, etc.)")
-    print(f"📁 Input folder: {INPUT_FOLDER}")
-    print(f"💾 Model save directory: {MODEL_SAVE_DIR}")
-    print("\n" + "="*60)
-    
-    train_title_classifier(INPUT_FOLDER, MODEL_SAVE_DIR)
-    
-    print("\n" + "="*60)
-    print("🎯 Training completed!")
-    print(f"\n💡 Next steps:")
-    print(f"   1. Review the model performance above")
-    print(f"   2. Test the model on new documents")
-    print(f"   3. Use the model for title/heading detection")
-    print(f"   4. Model works completely offline!")
+    train_title_classifier(LABELED_DATA_FOLDER, MODEL_SAVE_DIR)

@@ -322,7 +322,7 @@ def merge_textlines(input_csv_path: str, output_csv_path: str):
 
 if __name__ == '__main__':
     # --- CONFIGURATION ---
-    INPUT_FOLDER = '../../data/labelled_textlines'
+    INPUT_FOLDER = '../../data/test_labelled_textlines'
     OUTPUT_FOLDER = '../../data/merged_textblocks_gt'
     # -------------------
 
