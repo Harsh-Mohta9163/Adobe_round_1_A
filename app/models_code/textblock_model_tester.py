@@ -124,8 +124,29 @@ def predict_on_new_data(model_dir: str, input_csv_path: str, output_csv_path: st
     print("Preparing output file...")
     output_df = original_df.copy()
     output_df['model_labels'] = predictions
-    output_df['predicted_category'] = output_df['model_labels'].map({0: 'Text/Paragraph', 1: 'Title/Heading'})
     output_df['confidence_score'] = np.max(probabilities, axis=1)
+
+    # --- ✅ START: POST-PROCESSING RULE TO FIX INCORRECT PREDICTIONS ---
+    # This rule corrects predictions where the model identified a heading (1)
+    # but the text starts with a lowercase letter.
+
+    # Identify rows to correct
+    condition_to_correct = (output_df['model_labels'] == 1) & \
+                           (output_df['text'].apply(lambda x: str(x).strip() and str(x).strip()[0].islower()))
+
+    # If any such rows exist, apply the correction
+    if condition_to_correct.sum() > 0:
+        print(f"⚙️  Applying correction rule: Overriding {condition_to_correct.sum()} incorrect heading prediction(s).")
+        
+        # Invert the confidence score for the corrected rows
+        output_df.loc[condition_to_correct, 'confidence_score'] = 1.0 - output_df.loc[condition_to_correct, 'confidence_score']
+        
+        # Change the label from 1 (Title/Heading) to 0 (Text/Paragraph)
+        output_df.loc[condition_to_correct, 'model_labels'] = 0
+    # --- ✅ END: POST-PROCESSING RULE ---
+
+    # Map the final labels to human-readable categories
+    output_df['predicted_category'] = output_df['model_labels'].map({0: 'Text/Paragraph', 1: 'Title/Heading'})
     
     try:
         Path(output_csv_path).parent.mkdir(parents=True, exist_ok=True)
@@ -153,7 +174,7 @@ def predict_on_new_data(model_dir: str, input_csv_path: str, output_csv_path: st
 
 if __name__ == '__main__':
     MODEL_DIRECTORY = 'models'
-    INPUT_CSV_TO_TEST = '../../data/test_labelled_merged_textblocks_gt/textblock_predictions_textlines_ground_truth_file02.pdf.csv' 
+    INPUT_CSV_TO_TEST = '../../data/test_labelled_merged_textblocks_gt/merged_textblocks_file03.pdf.csv' 
     OUTPUT_CSV_WITH_PREDICTIONS = './predictions/predicted_output_advanced.csv'
     
     if not os.path.exists(MODEL_DIRECTORY):
