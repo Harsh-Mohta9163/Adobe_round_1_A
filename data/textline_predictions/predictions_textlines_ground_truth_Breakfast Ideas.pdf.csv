@@ -1,6 +1,6 @@
 text_a,span_text_a,text_b,span_text_b,normalized_vertical_gap,indentation_change,same_alignment,is_centered_A,is_centered_B,font_size_a,font_size_b,font_size_diff,same_font,is_bold_A,is_bold_B,is_italic_A,is_italic_B,is_monospace_A,is_monospace_B,same_bold,same_italic,same_monospace,line_a_ends_punctuation,line_b_starts_lowercase,is_linea_in_rectangle,is_lineb_in_rectangle,both_in_table,neither_in_table,is_linea_hashed,is_lineb_hashed,both_hashed,neither_hashed,page_number_a,page_number_b,label,model_labels,predicted_merge
-Pancakes,Pancakes,Ingredients:,Ingredients:,-786.25,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,2,2,,0,0
-Ingredients:,Ingredients:,1 cup all-purpose flour,1 cup all-purpose flour,3146.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,2,2,,0,0
+Pancakes,Pancakes,Ingredients:,Ingredients:,-786.25,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,2,2,,1,1
+Ingredients:,Ingredients:,1 cup all-purpose flour,1 cup all-purpose flour,3146.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,2,2,,1,1
 1 cup all-purpose flour,1 cup all-purpose flour,2 tablespoons sugar,2 tablespoons sugar,-1.75,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,2,2,,1,1
 2 tablespoons sugar,2 tablespoons sugar,1 teaspoon baking powder,1 teaspoon baking powder,0.5,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,2,2,,1,1
 1 teaspoon baking powder,1 teaspoon baking powder,1/2 teaspoon baking soda,1/2 teaspoon baking soda,0.5,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,2,2,,1,1
@@ -9,136 +9,136 @@ Ingredients:,Ingredients:,1 cup all-purpose flour,1 cup all-purpose flour,3146.0
 1 cup buttermilk,1 cup buttermilk,1 large egg,1 large egg,0.5,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,2,2,,1,1
 1 large egg,1 large egg,2 tablespoons melted butter,2 tablespoons melted butter,-1.5,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,2,2,,1,1
 2 tablespoons melted butter,2 tablespoons melted butter,1 teaspoon vanilla extract,1 teaspoon vanilla extract,0.5,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,2,2,,1,1
-1 teaspoon vanilla extract,1 teaspoon vanilla extract,Instructions:,Instructions: l,-1966.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,2,2,,0,0
-Instructions:,Instructions: l,"In a bowl, whisk together flour, sugar, baking powder, baking soda, and salt.","In a bowl, whisk together flour, sugar, baking powder, baking soda, and salt.",1180.5,36.0,0,0,1,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,2,2,,0,0
+1 teaspoon vanilla extract,1 teaspoon vanilla extract,Instructions:,Instructions: l,-1966.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,2,2,,1,1
+Instructions:,Instructions: l,"In a bowl, whisk together flour, sugar, baking powder, baking soda, and salt.","In a bowl, whisk together flour, sugar, baking powder, baking soda, and salt.",1180.5,36.0,0,0,1,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,2,2,,1,1
 "In a bowl, whisk together flour, sugar, baking powder, baking soda, and salt.","In a bowl, whisk together flour, sugar, baking powder, baking soda, and salt.","In another bowl, combine buttermilk, egg, melted butter, and vanilla extract.","In another bowl, combine buttermilk, egg, melted butter, and vanilla extract.",1.0,0.0,1,1,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,2,2,,1,1
 "In another bowl, combine buttermilk, egg, melted butter, and vanilla extract.","In another bowl, combine buttermilk, egg, melted butter, and vanilla extract.",Pour the wet ingredients into the dry ingredients and stir until just combined.,Pour the wet ingredients into the dry ingredients and stir until just combined.,0.0,0.0,1,1,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,2,2,,1,1
 Pour the wet ingredients into the dry ingredients and stir until just combined.,Pour the wet ingredients into the dry ingredients and stir until just combined.,Heat a non-stick skillet over medium heat and lightly grease it.,Heat a non-stick skillet over medium heat and lightly grease it.,1.0,0.0,1,1,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,2,2,,1,1
 Heat a non-stick skillet over medium heat and lightly grease it.,Heat a non-stick skillet over medium heat and lightly grease it.,Pour 1/4 cup of batter onto the skillet for each pancake.,Pour 1/4 cup of batter onto the skillet for each pancake.,1.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,2,2,,1,1
 Pour 1/4 cup of batter onto the skillet for each pancake.,Pour 1/4 cup of batter onto the skillet for each pancake.,"Cook until bubbles form on the surface, then flip and cook until golden brown.","Cook until bubbles form on the surface, then flip and cook until golden brown.",0.0,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,2,2,,1,1
 "Cook until bubbles form on the surface, then flip and cook until golden brown.","Cook until bubbles form on the surface, then flip and cook until golden brown.",Serve with syrup and your favorite toppings.,Serve with syrup and your favorite toppings.,1.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,2,2,,1,1
-Serve with syrup and your favorite toppings.,Serve with syrup and your favorite toppings.,Scrambled Eggs,Scrambled Eggs,1450968.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,2,2,,0,0
-Scrambled Eggs,Scrambled Eggs,Ingredients:,Ingredients:,-786.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,2,2,,0,0
-Ingredients:,Ingredients:,4 large eggs,4 large eggs,1179.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,2,2,,0,0
+Serve with syrup and your favorite toppings.,Serve with syrup and your favorite toppings.,Scrambled Eggs,Scrambled Eggs,1450968.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,2,2,,1,1
+Scrambled Eggs,Scrambled Eggs,Ingredients:,Ingredients:,-786.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,2,2,,1,1
+Ingredients:,Ingredients:,4 large eggs,4 large eggs,1179.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,2,2,,1,1
 4 large eggs,4 large eggs,1/4 cup milk,1/4 cup milk,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,2,2,,1,1
 1/4 cup milk,1/4 cup milk,Salt and pepper to taste,Salt and pepper to taste,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,2,2,,1,1
 Salt and pepper to taste,Salt and pepper to taste,1 tablespoon butter,1 tablespoon butter,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,2,2,,1,1
-1 tablespoon butter,1 tablespoon butter,Instructions:,Instructions:,-1965.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,2,2,,0,0
-Instructions:,Instructions:,"In a bowl, whisk together eggs, milk, salt, and pepper.","In a bowl, whisk together eggs, milk, salt, and pepper.",3146.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,2,2,,0,0
+1 tablespoon butter,1 tablespoon butter,Instructions:,Instructions:,-1965.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,2,2,,1,1
+Instructions:,Instructions:,"In a bowl, whisk together eggs, milk, salt, and pepper.","In a bowl, whisk together eggs, milk, salt, and pepper.",3146.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,2,2,,1,1
 "In a bowl, whisk together eggs, milk, salt, and pepper.","In a bowl, whisk together eggs, milk, salt, and pepper.",Heat a non-stick skillet over medium heat and melt the butter.,Heat a non-stick skillet over medium heat and melt the butter.,-2.0,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,2,2,,1,1
 Heat a non-stick skillet over medium heat and melt the butter.,Heat a non-stick skillet over medium heat and melt the butter.,Pour the egg mixture into the skillet.,Pour the egg mixture into the skillet.,0.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,2,2,,1,1
 Pour the egg mixture into the skillet.,Pour the egg mixture into the skillet.,"Cook, stirring gently, until the eggs are set but still soft.","Cook, stirring gently, until the eggs are set but still soft.",0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,2,2,,1,1
 "Cook, stirring gently, until the eggs are set but still soft.","Cook, stirring gently, until the eggs are set but still soft.",Serve immediately.,Serve immediately.,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,2,2,,1,1
-Serve immediately.,Serve immediately.,French Toast,French Toast,1450966.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,2,2,,0,0
-French Toast,French Toast,Ingredients:,Ingredients:,-786.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,2,2,,0,0
-Ingredients:,Ingredients:,4 slices of bread,4 slices of bread,1180.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,2,2,,0,0
+Serve immediately.,Serve immediately.,French Toast,French Toast,1450966.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,2,2,,1,1
+French Toast,French Toast,Ingredients:,Ingredients:,-786.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,2,2,,1,1
+Ingredients:,Ingredients:,4 slices of bread,4 slices of bread,1180.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,2,2,,1,1
 4 slices of bread,4 slices of bread,2 large eggs,2 large eggs,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,2,2,,1,1
 2 large eggs,2 large eggs,1/2 cup milk,1/2 cup milk,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,2,2,,1,1
 1/2 cup milk,1/2 cup milk,1 teaspoon vanilla extract,1 teaspoon vanilla extract,-2.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,2,2,,1,1
 1/2 teaspoon ground cinnamon,1/2 teaspoon ground cinnamon,1 tablespoon butter,1 tablespoon butter,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,3,3,,1,1
-1 tablespoon butter,1 tablespoon butter,Instructions:,Instructions:,-1.67,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,3,3,,0,0
-Instructions:,Instructions:,"In a shallow dish, whisk together eggs, milk, vanilla extract, and cinnamon.","In a shallow dish, whisk together eggs, milk, vanilla extract, and cinnamon.",1.0,36.0,0,0,1,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,3,3,,0,0
+1 tablespoon butter,1 tablespoon butter,Instructions:,Instructions:,-1.67,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,3,3,,1,1
+Instructions:,Instructions:,"In a shallow dish, whisk together eggs, milk, vanilla extract, and cinnamon.","In a shallow dish, whisk together eggs, milk, vanilla extract, and cinnamon.",1.0,36.0,0,0,1,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,3,3,,1,1
 "In a shallow dish, whisk together eggs, milk, vanilla extract, and cinnamon.","In a shallow dish, whisk together eggs, milk, vanilla extract, and cinnamon.","Dip each slice of bread into the egg mixture, coating both sides.","Dip each slice of bread into the egg mixture, coating both sides.",0.0,0.0,1,1,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,3,3,,1,1
 "Dip each slice of bread into the egg mixture, coating both sides.","Dip each slice of bread into the egg mixture, coating both sides.",Heat a non-stick skillet over medium heat and melt the butter.,Heat a non-stick skillet over medium heat and melt the butter.,0.0,0.0,1,1,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,3,3,,1,1
 Heat a non-stick skillet over medium heat and melt the butter.,Heat a non-stick skillet over medium heat and melt the butter.,Cook the bread slices until golden brown on both sides.,Cook the bread slices until golden brown on both sides.,0.0,0.0,1,1,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,3,3,,1,1
 Cook the bread slices until golden brown on both sides.,Cook the bread slices until golden brown on both sides.,Serve with syrup and powdered sugar.,Serve with syrup and powdered sugar.,0.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,3,3,,1,1
-Serve with syrup and powdered sugar.,Serve with syrup and powdered sugar.,Smoothie Bowl,Smoothie Bowl,1231.2,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,3,3,,0,0
-Smoothie Bowl,Smoothie Bowl,Ingredients:,Ingredients:,1.0,-0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,3,3,,0,0
-Ingredients:,Ingredients:,1 banana,1 banana,1.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,3,3,,0,0
+Serve with syrup and powdered sugar.,Serve with syrup and powdered sugar.,Smoothie Bowl,Smoothie Bowl,1231.2,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,3,3,,1,1
+Smoothie Bowl,Smoothie Bowl,Ingredients:,Ingredients:,1.0,-0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,3,3,,1,1
+Ingredients:,Ingredients:,1 banana,1 banana,1.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,3,3,,1,1
 1 banana,1 banana,1/2 cup frozen berries,1/2 cup frozen berries,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,3,3,,1,1
 1/2 cup frozen berries,1/2 cup frozen berries,1/2 cup Greek yogurt,1/2 cup Greek yogurt,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,3,3,,1,1
 1/2 cup Greek yogurt,1/2 cup Greek yogurt,1/4 cup milk,1/4 cup milk,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,3,3,,1,1
 1/4 cup milk,1/4 cup milk,"Toppings: granola, fresh fruit, nuts, seeds","Toppings: granola, fresh fruit, nuts, seeds",0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,3,3,,1,1
-"Toppings: granola, fresh fruit, nuts, seeds","Toppings: granola, fresh fruit, nuts, seeds",Instructions:,Instructions:,-1.67,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,3,3,,0,0
-Instructions:,Instructions:,"In a blender, combine banana, frozen berries, Greek yogurt, and milk.","In a blender, combine banana, frozen berries, Greek yogurt, and milk.",1.0,36.0,0,0,1,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,3,3,,0,0
+"Toppings: granola, fresh fruit, nuts, seeds","Toppings: granola, fresh fruit, nuts, seeds",Instructions:,Instructions:,-1.67,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,3,3,,1,1
+Instructions:,Instructions:,"In a blender, combine banana, frozen berries, Greek yogurt, and milk.","In a blender, combine banana, frozen berries, Greek yogurt, and milk.",1.0,36.0,0,0,1,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,3,3,,1,1
 "In a blender, combine banana, frozen berries, Greek yogurt, and milk.","In a blender, combine banana, frozen berries, Greek yogurt, and milk.",Blend until smooth.,Blend until smooth.,0.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,3,3,,1,1
 Blend until smooth.,Blend until smooth.,"Pour into a bowl and top with granola, fresh fruit, nuts, and seeds.","Pour into a bowl and top with granola, fresh fruit, nuts, and seeds.",0.0,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,3,3,,1,1
-"Pour into a bowl and top with granola, fresh fruit, nuts, and seeds.","Pour into a bowl and top with granola, fresh fruit, nuts, and seeds.",Avocado Toast,Avocado Toast,1231.2,-36.0,0,1,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,3,3,,0,0
-Avocado Toast,Avocado Toast,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,3,3,,0,0
-Ingredients:,Ingredients:,2 slices of bread,2 slices of bread,1.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,3,3,,0,0
+"Pour into a bowl and top with granola, fresh fruit, nuts, and seeds.","Pour into a bowl and top with granola, fresh fruit, nuts, and seeds.",Avocado Toast,Avocado Toast,1231.2,-36.0,0,1,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,3,3,,1,1
+Avocado Toast,Avocado Toast,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,3,3,,1,1
+Ingredients:,Ingredients:,2 slices of bread,2 slices of bread,1.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,3,3,,1,1
 2 slices of bread,2 slices of bread,1 ripe avocado,1 ripe avocado,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,3,3,,1,1
 1 ripe avocado,1 ripe avocado,Salt and pepper to taste,Salt and pepper to taste,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,3,3,,1,1
 Salt and pepper to taste,Salt and pepper to taste,"Optional toppings: cherry tomatoes, red pepper flakes, poached egg","Optional toppings: cherry tomatoes, red pepper flakes, poached egg",-0.0,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,3,3,,1,1
-"Optional toppings: cherry tomatoes, red pepper flakes, poached egg","Optional toppings: cherry tomatoes, red pepper flakes, poached egg",Instructions:,Instructions:,-1.67,-36.0,0,1,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,3,3,,0,0
-Instructions:,Instructions:,Toast the bread slices.,Toast the bread slices.,1.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,3,3,,0,0
+"Optional toppings: cherry tomatoes, red pepper flakes, poached egg","Optional toppings: cherry tomatoes, red pepper flakes, poached egg",Instructions:,Instructions:,-1.67,-36.0,0,1,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,3,3,,1,1
+Instructions:,Instructions:,Toast the bread slices.,Toast the bread slices.,1.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,3,3,,1,1
 Toast the bread slices.,Toast the bread slices.,Mash the avocado in a bowl and season with salt and pepper.,Mash the avocado in a bowl and season with salt and pepper.,0.0,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,3,3,,1,1
 Mash the avocado in a bowl and season with salt and pepper.,Mash the avocado in a bowl and season with salt and pepper.,Spread the mashed avocado on the toast.,Spread the mashed avocado on the toast.,-0.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,3,3,,1,1
 Spread the mashed avocado on the toast.,Spread the mashed avocado on the toast.,Add optional toppings if desired.,Add optional toppings if desired.,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,3,3,,1,1
-Add optional toppings if desired.,Add optional toppings if desired.,Breakfast Burrito,Breakfast Burrito,1231.2,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,3,3,,0,0
-Breakfast Burrito,Breakfast Burrito,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,3,3,,0,0
-Ingredients:,Ingredients:,2 large eggs,2 large eggs,1.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,3,3,,0,0
+Add optional toppings if desired.,Add optional toppings if desired.,Breakfast Burrito,Breakfast Burrito,1231.2,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,3,3,,1,1
+Breakfast Burrito,Breakfast Burrito,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,3,3,,1,1
+Ingredients:,Ingredients:,2 large eggs,2 large eggs,1.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,3,3,,1,1
 2 large eggs,2 large eggs,1/4 cup shredded cheese,1/4 cup shredded cheese,-0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,3,3,,1,1
 1/4 cup cooked sausage or bacon,1/4 cup cooked sausage or bacon,1/4 cup diced bell pepper,1/4 cup diced bell pepper,0.25,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,4,4,,1,1
 1/4 cup diced bell pepper,1/4 cup diced bell pepper,1/4 cup diced onion,1/4 cup diced onion,0.25,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,4,4,,1,1
 1/4 cup diced onion,1/4 cup diced onion,1 large flour tortilla,1 large flour tortilla,-1.75,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,4,4,,1,1
 1 large flour tortilla,1 large flour tortilla,Salsa for serving,Salsa for serving,0.5,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,4,4,,1,1
-Salsa for serving,Salsa for serving,Instructions:,Instructions:,-1966.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,4,4,,0,0
-Instructions:,Instructions:,"In a bowl, whisk the eggs and cook them in a skillet over medium heat.","In a bowl, whisk the eggs and cook them in a skillet over medium heat.",1180.5,36.0,0,0,1,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,4,4,,0,0
+Salsa for serving,Salsa for serving,Instructions:,Instructions:,-1966.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,4,4,,1,1
+Instructions:,Instructions:,"In a bowl, whisk the eggs and cook them in a skillet over medium heat.","In a bowl, whisk the eggs and cook them in a skillet over medium heat.",1180.5,36.0,0,0,1,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,4,4,,1,1
 "In a bowl, whisk the eggs and cook them in a skillet over medium heat.","In a bowl, whisk the eggs and cook them in a skillet over medium heat.","Add cheese, sausage or bacon, bell pepper, and onion to the eggs.","Add cheese, sausage or bacon, bell pepper, and onion to the eggs.",0.5,0.0,1,1,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,4,4,,1,1
 "Add cheese, sausage or bacon, bell pepper, and onion to the eggs.","Add cheese, sausage or bacon, bell pepper, and onion to the eggs.",Cook until the eggs are set and the vegetables are tender.,Cook until the eggs are set and the vegetables are tender.,0.5,0.0,1,1,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,4,4,,1,1
 Cook until the eggs are set and the vegetables are tender.,Cook until the eggs are set and the vegetables are tender.,Place the egg mixture in the center of the tortilla and roll it up.,Place the egg mixture in the center of the tortilla and roll it up.,-1.5,0.0,1,1,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,4,4,,1,1
 Place the egg mixture in the center of the tortilla and roll it up.,Place the egg mixture in the center of the tortilla and roll it up.,Serve with salsa.,Serve with salsa.,0.5,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,4,4,,1,1
-Serve with salsa.,Serve with salsa.,Oatmeal,Oatmeal,1450968.5,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,4,4,,0,0
-Oatmeal,Oatmeal,Ingredients:,Ingredients:,1180.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,4,4,,0,0
-Ingredients:,Ingredients:,1 cup rolled oats,1 cup rolled oats,1179.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,4,4,,0,0
+Serve with salsa.,Serve with salsa.,Oatmeal,Oatmeal,1450968.5,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,4,4,,1,1
+Oatmeal,Oatmeal,Ingredients:,Ingredients:,1180.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,4,4,,1,1
+Ingredients:,Ingredients:,1 cup rolled oats,1 cup rolled oats,1179.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,4,4,,1,1
 1 cup rolled oats,1 cup rolled oats,2 cups water or milk,2 cups water or milk,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,4,4,,1,1
 2 cups water or milk,2 cups water or milk,1/4 teaspoon salt,1/4 teaspoon salt,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,4,4,,1,1
 1/4 teaspoon salt,1/4 teaspoon salt,"Toppings: fresh fruit, nuts, honey, cinnamon","Toppings: fresh fruit, nuts, honey, cinnamon",1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,4,4,,1,1
-"Toppings: fresh fruit, nuts, honey, cinnamon","Toppings: fresh fruit, nuts, honey, cinnamon",Instructions:,Instructions:,-1965.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,4,4,,0,0
-Instructions:,Instructions:,"In a saucepan, bring water or milk to a boil.","In a saucepan, bring water or milk to a boil.",1179.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,4,4,,0,0
+"Toppings: fresh fruit, nuts, honey, cinnamon","Toppings: fresh fruit, nuts, honey, cinnamon",Instructions:,Instructions:,-1965.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,4,4,,1,1
+Instructions:,Instructions:,"In a saucepan, bring water or milk to a boil.","In a saucepan, bring water or milk to a boil.",1179.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,4,4,,1,1
 "In a saucepan, bring water or milk to a boil.","In a saucepan, bring water or milk to a boil.","Add oats and salt, reduce heat to low, and simmer for 5 minutes, stirring occasionally.","Add oats and salt, reduce heat to low, and simmer for 5 minutes, stirring occasionally.",1.0,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,4,4,,1,1
 "Add oats and salt, reduce heat to low, and simmer for 5 minutes, stirring occasionally.","Add oats and salt, reduce heat to low, and simmer for 5 minutes, stirring occasionally.",Remove from heat and let sit for a few minutes.,Remove from heat and let sit for a few minutes.,0.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,4,4,,1,1
 Remove from heat and let sit for a few minutes.,Remove from heat and let sit for a few minutes.,Serve with your favorite toppings.,Serve with your favorite toppings.,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,4,4,,1,1
-Serve with your favorite toppings.,Serve with your favorite toppings.,Yogurt Parfait,Yogurt Parfait,1450968.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,4,4,,0,0
-Yogurt Parfait,Yogurt Parfait,Ingredients:,Ingredients:,1179.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,4,4,,0,0
-Ingredients:,Ingredients:,1 cup Greek yogurt,1 cup Greek yogurt,1180.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,4,4,,0,0
+Serve with your favorite toppings.,Serve with your favorite toppings.,Yogurt Parfait,Yogurt Parfait,1450968.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,4,4,,1,1
+Yogurt Parfait,Yogurt Parfait,Ingredients:,Ingredients:,1179.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,4,4,,1,1
+Ingredients:,Ingredients:,1 cup Greek yogurt,1 cup Greek yogurt,1180.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,4,4,,1,1
 1 cup Greek yogurt,1 cup Greek yogurt,1/2 cup granola,1/2 cup granola,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,4,4,,1,1
 1/2 cup granola,1/2 cup granola,1/2 cup fresh berries,1/2 cup fresh berries,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,4,4,,1,1
 1/2 cup fresh berries,1/2 cup fresh berries,Honey for drizzling,Honey for drizzling,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,4,4,,1,1
-Honey for drizzling,Honey for drizzling,Instructions:,Instructions:,-1966.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,4,4,,0,0
-Instructions:,Instructions:,"In a glass or bowl, layer Greek yogurt, granola, and fresh berries.","In a glass or bowl, layer Greek yogurt, granola, and fresh berries.",1178.0,36.0,0,0,1,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,4,4,,0,0
+Honey for drizzling,Honey for drizzling,Instructions:,Instructions:,-1966.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,4,4,,1,1
+Instructions:,Instructions:,"In a glass or bowl, layer Greek yogurt, granola, and fresh berries.","In a glass or bowl, layer Greek yogurt, granola, and fresh berries.",1178.0,36.0,0,0,1,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,4,4,,1,1
 "In a glass or bowl, layer Greek yogurt, granola, and fresh berries.","In a glass or bowl, layer Greek yogurt, granola, and fresh berries.",Drizzle with honey.,Drizzle with honey.,0.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,4,4,,1,1
 Drizzle with honey.,Drizzle with honey.,Repeat layers if desired.,Repeat layers if desired.,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,4,4,,1,1
-Breakfast Sandwich,Breakfast Sandwich,Ingredients:,Ingredients:,-786.25,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,5,5,,0,0
-Ingredients:,Ingredients:,"1 English muffin, split and toasted","1 English muﬃn, split and toasted",3146.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,5,5,,0,0
+Breakfast Sandwich,Breakfast Sandwich,Ingredients:,Ingredients:,-786.25,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,5,5,,1,1
+Ingredients:,Ingredients:,"1 English muffin, split and toasted","1 English muﬃn, split and toasted",3146.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,5,5,,1,1
 "1 English muffin, split and toasted","1 English muﬃn, split and toasted",1 large egg,1 large egg,-1.75,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,5,5,,1,1
 1 large egg,1 large egg,1 slice of cheese,1 slice of cheese,0.5,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,5,5,,1,1
 1 slice of cheese,1 slice of cheese,1 slice of ham or bacon,1 slice of ham or bacon,0.5,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,5,5,,1,1
 1 slice of ham or bacon,1 slice of ham or bacon,Salt and pepper to taste,Salt and pepper to taste,0.5,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,5,5,,1,1
-Salt and pepper to taste,Salt and pepper to taste,Instructions:,Instructions:,-1966.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,5,5,,0,0
-Instructions:,Instructions:,"Cook the egg in a skillet over medium heat, seasoning with salt and pepper.","Cook the egg in a skillet over medium heat, seasoning with salt and pepper.",1180.5,36.0,0,0,1,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,5,5,,0,0
+Salt and pepper to taste,Salt and pepper to taste,Instructions:,Instructions:,-1966.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,5,5,,1,1
+Instructions:,Instructions:,"Cook the egg in a skillet over medium heat, seasoning with salt and pepper.","Cook the egg in a skillet over medium heat, seasoning with salt and pepper.",1180.5,36.0,0,0,1,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,5,5,,1,1
 "Cook the egg in a skillet over medium heat, seasoning with salt and pepper.","Cook the egg in a skillet over medium heat, seasoning with salt and pepper.",Place the cheese on top of the egg to melt.,Place the cheese on top of the egg to melt.,-1.5,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,5,5,,1,1
 Place the cheese on top of the egg to melt.,Place the cheese on top of the egg to melt.,"Assemble the sandwich with the egg, cheese, and ham or bacon between the English","Assemble the sandwich with the egg, cheese, and ham or bacon between the English",0.5,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,5,5,,1,1
 "Assemble the sandwich with the egg, cheese, and ham or bacon between the English","Assemble the sandwich with the egg, cheese, and ham or bacon between the English",muffin halves.,muﬃn halves.,0.5,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,1,0,0,0,1,0,0,0,1,5,5,,1,1
-muffin halves.,muﬃn halves.,Chia Pudding,Chia Pudding,1450967.5,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,5,5,,0,0
-Chia Pudding,Chia Pudding,Ingredients:,Ingredients:,-786.0,-0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,5,5,,0,0
-Ingredients:,Ingredients:,1/4 cup chia seeds,1/4 cup chia seeds,3145.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,5,5,,0,0
+muffin halves.,muﬃn halves.,Chia Pudding,Chia Pudding,1450967.5,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,5,5,,1,1
+Chia Pudding,Chia Pudding,Ingredients:,Ingredients:,-786.0,-0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,5,5,,1,1
+Ingredients:,Ingredients:,1/4 cup chia seeds,1/4 cup chia seeds,3145.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,5,5,,1,1
 1/4 cup chia seeds,1/4 cup chia seeds,1 cup almond milk,1 cup almond milk,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,5,5,,1,1
 1 cup almond milk,1 cup almond milk,1 tablespoon honey or maple syrup,1 tablespoon honey or maple syrup,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,5,5,,1,1
 1 tablespoon honey or maple syrup,1 tablespoon honey or maple syrup,1/2 teaspoon vanilla extract,1/2 teaspoon vanilla extract,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,5,5,,1,1
 1/2 teaspoon vanilla extract,1/2 teaspoon vanilla extract,"Toppings: fresh fruit, nuts, coconut flakes","Toppings: fresh fruit, nuts, coconut flakes",0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,5,5,,1,1
-"Toppings: fresh fruit, nuts, coconut flakes","Toppings: fresh fruit, nuts, coconut flakes",Instructions:,Instructions:,-1965.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,5,5,,0,0
-Instructions:,Instructions:,"In a bowl, whisk together chia seeds, almond milk, honey or maple syrup, and vanilla","In a bowl, whisk together chia seeds, almond milk, honey or maple syrup, and vanilla",1180.0,36.0,0,0,1,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,5,5,,0,0
+"Toppings: fresh fruit, nuts, coconut flakes","Toppings: fresh fruit, nuts, coconut flakes",Instructions:,Instructions:,-1965.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,5,5,,1,1
+Instructions:,Instructions:,"In a bowl, whisk together chia seeds, almond milk, honey or maple syrup, and vanilla","In a bowl, whisk together chia seeds, almond milk, honey or maple syrup, and vanilla",1180.0,36.0,0,0,1,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,5,5,,1,1
 "In a bowl, whisk together chia seeds, almond milk, honey or maple syrup, and vanilla","In a bowl, whisk together chia seeds, almond milk, honey or maple syrup, and vanilla",extract.,extract.,1.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,1,0,0,0,1,0,0,0,1,5,5,,1,1
 extract.,extract.,Cover and refrigerate for at least 4 hours or overnight.,Cover and refrigerate for at least 4 hours or overnight.,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,5,5,,1,1
 Cover and refrigerate for at least 4 hours or overnight.,Cover and refrigerate for at least 4 hours or overnight.,Stir well before serving and top with your favorite toppings.,Stir well before serving and top with your favorite toppings.,1.0,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,5,5,,1,1
-Stir well before serving and top with your favorite toppings.,Stir well before serving and top with your favorite toppings.,Breakfast Quesadilla,Breakfast Quesadilla,1450966.0,-36.0,0,1,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,5,5,,0,0
-Breakfast Quesadilla,Breakfast Quesadilla,Ingredients:,Ingredients: l,-786.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,5,5,,0,0
-Ingredients:,Ingredients: l,1 large flour tortilla,1 large flour tortilla,3146.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,5,5,,0,0
+Stir well before serving and top with your favorite toppings.,Stir well before serving and top with your favorite toppings.,Breakfast Quesadilla,Breakfast Quesadilla,1450966.0,-36.0,0,1,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,5,5,,1,1
+Breakfast Quesadilla,Breakfast Quesadilla,Ingredients:,Ingredients: l,-786.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,5,5,,1,1
+Ingredients:,Ingredients: l,1 large flour tortilla,1 large flour tortilla,3146.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,5,5,,1,1
 1 large flour tortilla,1 large flour tortilla,2 large eggs,2 large eggs,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,5,5,,1,1
 2 large eggs,2 large eggs,1/4 cup shredded cheese,1/4 cup shredded cheese,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,5,5,,1,1
 1/4 cup shredded cheese,1/4 cup shredded cheese,1/4 cup cooked sausage or bacon,1/4 cup cooked sausage or bacon,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,5,5,,1,1
 1/4 cup cooked sausage or bacon,1/4 cup cooked sausage or bacon,1/4 cup diced bell pepper,1/4 cup diced bell pepper,-2.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,5,5,,1,1
 1/4 cup diced bell pepper,1/4 cup diced bell pepper,Salsa for serving,Salsa for serving,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,5,5,,1,1
-Salsa for serving,Salsa for serving,Instructions:,Instructions:,-1966.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,5,5,,0,0
-Instructions:,Instructions:,"In a bowl, whisk the eggs and cook them in a skillet over medium heat.","In a bowl, whisk the eggs and cook them in a skillet over medium heat.",1180.0,36.0,0,0,1,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,5,5,,0,0
+Salsa for serving,Salsa for serving,Instructions:,Instructions:,-1966.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,5,5,,1,1
+Instructions:,Instructions:,"In a bowl, whisk the eggs and cook them in a skillet over medium heat.","In a bowl, whisk the eggs and cook them in a skillet over medium heat.",1180.0,36.0,0,0,1,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,5,5,,1,1
 "In a bowl, whisk the eggs and cook them in a skillet over medium heat.","In a bowl, whisk the eggs and cook them in a skillet over medium heat.","Add cheese, sausage or bacon, and bell pepper to the eggs.","Add cheese, sausage or bacon, and bell pepper to the eggs.",0.0,0.0,1,1,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,5,5,,1,1
 "Add cheese, sausage or bacon, and bell pepper to the eggs.","Add cheese, sausage or bacon, and bell pepper to the eggs.",Cook until the eggs are set and the vegetables are tender.,Cook until the eggs are set and the vegetables are tender.,-2.0,0.0,1,1,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,5,5,,1,1
 Cook until the eggs are set and the vegetables are tender.,Cook until the eggs are set and the vegetables are tender.,Place the egg mixture on one half of the tortilla and fold the other half over.,Place the egg mixture on one half of the tortilla and fold the other half over.,0.0,0.0,1,1,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,5,5,,1,1
 Cook in the skillet until the tortilla is golden brown and crispy.,Cook in the skillet until the tortilla is golden brown and crispy.,Serve with salsa.,Serve with salsa.,0.25,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,6,6,,1,1
-Serve with salsa.,Serve with salsa.,Banana Bread,Banana Bread,1934622.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,6,6,,0,0
-Banana Bread,Banana Bread,Ingredients:,Ingredients:,1180.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,6,6,,0,0
-Ingredients:,Ingredients:,"3 ripe bananas, mashed","3 ripe bananas, mashed",1180.5,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,6,6,,0,0
+Serve with salsa.,Serve with salsa.,Banana Bread,Banana Bread,1934622.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,6,6,,1,1
+Banana Bread,Banana Bread,Ingredients:,Ingredients:,1180.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,6,6,,1,1
+Ingredients:,Ingredients:,"3 ripe bananas, mashed","3 ripe bananas, mashed",1180.5,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,6,6,,1,1
 "3 ripe bananas, mashed","3 ripe bananas, mashed",1/3 cup melted butter,1/3 cup melted butter,-1.5,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,6,6,,1,1
 1/3 cup melted butter,1/3 cup melted butter,1/2 cup sugar,1/2 cup sugar,0.5,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,6,6,,1,1
 1/2 cup sugar,1/2 cup sugar,"1 large egg, beaten","1 large egg, beaten",0.5,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,6,6,,1,1
@@ -146,72 +146,72 @@ Ingredients:,Ingredients:,"3 ripe bananas, mashed","3 ripe bananas, mashed",1180
 1 teaspoon vanilla extract,1 teaspoon vanilla extract,1 teaspoon baking soda,1 teaspoon baking soda,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,6,6,,1,1
 1 teaspoon baking soda,1 teaspoon baking soda,Pinch of salt,Pinch of salt,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,6,6,,1,1
 Pinch of salt,Pinch of salt,1 1/2 cups all-purpose flour,1 1/2 cups all-purpose flour,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,6,6,,1,1
-1 1/2 cups all-purpose flour,1 1/2 cups all-purpose flour,Instructions:,Instructions:,-1965.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,6,6,,0,0
-Instructions:,Instructions:,Preheat oven to 350°F 175°C.,Preheat oven to 350°F (175°C).,1179.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,6,6,,0,0
+1 1/2 cups all-purpose flour,1 1/2 cups all-purpose flour,Instructions:,Instructions:,-1965.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,6,6,,1,1
+Instructions:,Instructions:,Preheat oven to 350°F 175°C.,Preheat oven to 350°F (175°C).,1179.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,6,6,,1,1
 Preheat oven to 350°F 175°C.,Preheat oven to 350°F (175°C).,"In a bowl, mix mashed bananas and melted butter.","In a bowl, mix mashed bananas and melted butter.",1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,6,6,,1,1
 "In a bowl, mix mashed bananas and melted butter.","In a bowl, mix mashed bananas and melted butter.","Add sugar, beaten egg, and vanilla extract, and mix well.","Add sugar, beaten egg, and vanilla extract, and mix well.",1.0,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,6,6,,1,1
 "Add sugar, beaten egg, and vanilla extract, and mix well.","Add sugar, beaten egg, and vanilla extract, and mix well.","Stir in baking soda, salt, and flour until just combined.","Stir in baking soda, salt, and flour until just combined.",0.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,6,6,,1,1
 "Stir in baking soda, salt, and flour until just combined.","Stir in baking soda, salt, and flour until just combined.",Pour the batter into a greased loaf pan.,Pour the batter into a greased loaf pan.,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,6,6,,1,1
 Pour the batter into a greased loaf pan.,Pour the batter into a greased loaf pan.,Bake for 60 minutes or until a toothpick inserted into the center comes out clean.,Bake for 60 minutes or until a toothpick inserted into the center comes out clean.,1.0,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,6,6,,1,1
 Bake for 60 minutes or until a toothpick inserted into the center comes out clean.,Bake for 60 minutes or until a toothpick inserted into the center comes out clean.,Let cool before slicing.,Let cool before slicing.,0.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,6,6,,1,1
-Let cool before slicing.,Let cool before slicing.,Breakfast Tacos,Breakfast Tacos,1447036.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,6,6,,0,0
-Breakfast Tacos,Breakfast Tacos,Ingredients:,Ingredients:,-786.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,6,6,,0,0
-Ingredients:,Ingredients:,2 large eggs,2 large eggs,1179.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,6,6,,0,0
+Let cool before slicing.,Let cool before slicing.,Breakfast Tacos,Breakfast Tacos,1447036.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,6,6,,1,1
+Breakfast Tacos,Breakfast Tacos,Ingredients:,Ingredients:,-786.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,6,6,,1,1
+Ingredients:,Ingredients:,2 large eggs,2 large eggs,1179.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,6,6,,1,1
 2 large eggs,2 large eggs,1/4 cup shredded cheese,1/4 cup shredded cheese,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,6,6,,1,1
 1/4 cup shredded cheese,1/4 cup shredded cheese,1/4 cup cooked sausage or bacon,1/4 cup cooked sausage or bacon,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,6,6,,1,1
 1/4 cup cooked sausage or bacon,1/4 cup cooked sausage or bacon,1/4 cup diced bell pepper,1/4 cup diced bell pepper,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,6,6,,1,1
 1/4 cup diced bell pepper,1/4 cup diced bell pepper,1/4 cup diced onions,1/4 cup diced onions,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,6,6,,1,1
 1/4 cup diced onions,1/4 cup diced onions,2 small flour tortillas,2 small flour tortillas,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,6,6,,1,1
 2 small flour tortillas,2 small flour tortillas,Salsa for serving,Salsa for serving,-2.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,6,6,,1,1
-Salsa for serving,Salsa for serving,Instructions:,Instructions:,-1966.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,6,6,,0,0
-Instructions:,Instructions:,"In a bowl, whisk the eggs and cook them in a skillet over medium heat.","In a bowl, whisk the eggs and cook them in a skillet over medium heat.",3146.0,36.0,0,0,1,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,6,6,,0,0
+Salsa for serving,Salsa for serving,Instructions:,Instructions:,-1966.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,6,6,,1,1
+Instructions:,Instructions:,"In a bowl, whisk the eggs and cook them in a skillet over medium heat.","In a bowl, whisk the eggs and cook them in a skillet over medium heat.",3146.0,36.0,0,0,1,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,6,6,,1,1
 "In a bowl, whisk the eggs and cook them in a skillet over medium heat.","In a bowl, whisk the eggs and cook them in a skillet over medium heat.","Add cheese, sausage or bacon, onions and bell pepper to the eggs.","Add cheese, sausage or bacon, onions and bell pepper to the eggs.",0.0,0.0,1,1,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,6,6,,1,1
 "Add cheese, sausage or bacon, onions and bell pepper to the eggs.","Add cheese, sausage or bacon, onions and bell pepper to the eggs.",Cook until the eggs are set and the vegetables are tender.,Cook until the eggs are set and the vegetables are tender.,0.0,0.0,1,1,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,6,6,,1,1
 Cook until the eggs are set and the vegetables are tender.,Cook until the eggs are set and the vegetables are tender.,Divide the egg mixture between the tortillas.,Divide the egg mixture between the tortillas.,0.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,6,6,,1,1
 Divide the egg mixture between the tortillas.,Divide the egg mixture between the tortillas.,Serve with salsa.,Serve with salsa.,-2.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,6,6,,1,1
-Granola Bars,Granola Bars,Ingredients:,Ingredients:,-786.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,7,7,,0,0
-Ingredients:,Ingredients:,2 cups rolled oats,2 cups rolled oats,1180.5,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,7,7,,0,0
+Granola Bars,Granola Bars,Ingredients:,Ingredients:,-786.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,7,7,,1,1
+Ingredients:,Ingredients:,2 cups rolled oats,2 cups rolled oats,1180.5,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,7,7,,1,1
 2 cups rolled oats,2 cups rolled oats,1/2 cup honey or maple syrup,1/2 cup honey or maple syrup,0.5,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,7,7,,1,1
 1/2 cup honey or maple syrup,1/2 cup honey or maple syrup,1/2 cup peanut butter,1/2 cup peanut butter,0.5,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,7,7,,1,1
 1/2 cup peanut butter,1/2 cup peanut butter,1/2 cup chopped nuts,1/2 cup chopped nuts,0.5,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,7,7,,1,1
 1/2 cup chopped nuts,1/2 cup chopped nuts,1/2 cup dried fruit,1/2 cup dried fruit,-1.5,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,7,7,,1,1
 1/2 cup dried fruit,1/2 cup dried fruit,1 teaspoon vanilla extract,1 teaspoon vanilla extract,0.5,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,7,7,,1,1
-1 teaspoon vanilla extract,1 teaspoon vanilla extract,Instructions:,Instructions:,-1966.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,7,7,,0,0
-Instructions:,Instructions:,Preheat oven to 350°F 175°C.,Preheat oven to 350°F (175°C).,3146.5,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,7,7,,0,0
+1 teaspoon vanilla extract,1 teaspoon vanilla extract,Instructions:,Instructions:,-1966.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,7,7,,1,1
+Instructions:,Instructions:,Preheat oven to 350°F 175°C.,Preheat oven to 350°F (175°C).,3146.5,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,7,7,,1,1
 Preheat oven to 350°F 175°C.,Preheat oven to 350°F (175°C).,"In a bowl, mix oats, honey or maple syrup, peanut butter, nuts, dried fruit, and vanilla","In a bowl, mix oats, honey or maple syrup, peanut butter, nuts, dried fruit, and vanilla",1.0,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,7,7,,1,1
 "In a bowl, mix oats, honey or maple syrup, peanut butter, nuts, dried fruit, and vanilla","In a bowl, mix oats, honey or maple syrup, peanut butter, nuts, dried fruit, and vanilla",extract.,extract.,1.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,1,0,0,0,1,0,0,0,1,7,7,,1,1
 extract.,extract.,Press the mixture into a greased baking dish.,Press the mixture into a greased baking dish.,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,7,7,,1,1
 Press the mixture into a greased baking dish.,Press the mixture into a greased baking dish.,Bake for 20-25 minutes or until golden brown.,Bake for 20-25 minutes or until golden brown.,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,7,7,,1,1
 Bake for 20-25 minutes or until golden brown.,Bake for 20-25 minutes or until golden brown.,Let cool before cutting into bars.,Let cool before cutting into bars.,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,7,7,,1,1
-Let cool before cutting into bars.,Let cool before cutting into bars.,Smoothie,Smoothie,1445070.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,7,7,,0,0
-Smoothie,Smoothie,Ingredients:,Ingredients:,-786.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,7,7,,0,0
-Ingredients:,Ingredients:,1 banana,1 banana,3145.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,7,7,,0,0
+Let cool before cutting into bars.,Let cool before cutting into bars.,Smoothie,Smoothie,1445070.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,7,7,,1,1
+Smoothie,Smoothie,Ingredients:,Ingredients:,-786.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,7,7,,1,1
+Ingredients:,Ingredients:,1 banana,1 banana,3145.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,7,7,,1,1
 1 banana,1 banana,1/2 cup frozen berries,1/2 cup frozen berries,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,7,7,,1,1
 1/2 cup frozen berries,1/2 cup frozen berries,1/2 cup Greek yogurt,1/2 cup Greek yogurt,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,7,7,,1,1
 1/2 cup Greek yogurt,1/2 cup Greek yogurt,1/2 cup milk,1/2 cup milk,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,7,7,,1,1
 1/2 cup milk,1/2 cup milk,1 tablespoon honey,1 tablespoon honey,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,7,7,,1,1
-1 tablespoon honey,1 tablespoon honey,Instructions:,Instructions:,-1965.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,7,7,,0,0
-Instructions:,Instructions:,"In a blender, combine banana, frozen berries, Greek yogurt, milk, and honey.","In a blender, combine banana, frozen berries, Greek yogurt, milk, and honey.",1179.0,36.0,0,0,1,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,7,7,,0,0
+1 tablespoon honey,1 tablespoon honey,Instructions:,Instructions:,-1965.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,7,7,,1,1
+Instructions:,Instructions:,"In a blender, combine banana, frozen berries, Greek yogurt, milk, and honey.","In a blender, combine banana, frozen berries, Greek yogurt, milk, and honey.",1179.0,36.0,0,0,1,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,7,7,,1,1
 "In a blender, combine banana, frozen berries, Greek yogurt, milk, and honey.","In a blender, combine banana, frozen berries, Greek yogurt, milk, and honey.",Blend until smooth.,Blend until smooth.,0.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,7,7,,1,1
 Blend until smooth.,Blend until smooth.,Serve immediately.,Serve immediately.,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,7,7,,1,1
-Serve immediately.,Serve immediately.,Breakfast Pizza,Breakfast Pizza,1445068.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,7,7,,0,0
-Breakfast Pizza,Breakfast Pizza,Ingredients:,Ingredients:,1180.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,7,7,,0,0
-Ingredients:,Ingredients:,1 pre-made pizza crust,1 pre-made pizza crust,1180.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,7,7,,0,0
+Serve immediately.,Serve immediately.,Breakfast Pizza,Breakfast Pizza,1445068.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,7,7,,1,1
+Breakfast Pizza,Breakfast Pizza,Ingredients:,Ingredients:,1180.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,7,7,,1,1
+Ingredients:,Ingredients:,1 pre-made pizza crust,1 pre-made pizza crust,1180.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,7,7,,1,1
 1 pre-made pizza crust,1 pre-made pizza crust,1/2 cup marinara sauce,1/2 cup marinara sauce,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,7,7,,1,1
 1/2 cup marinara sauce,1/2 cup marinara sauce,1 cup shredded mozzarella cheese,1 cup shredded mozzarella cheese,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,7,7,,1,1
 1 cup shredded mozzarella cheese,1 cup shredded mozzarella cheese,2 large eggs,2 large eggs,-2.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,7,7,,1,1
 2 large eggs,2 large eggs,1/4 cup cooked sausage or bacon,1/4 cup cooked sausage or bacon,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,7,7,,1,1
 1/4 cup cooked sausage or bacon,1/4 cup cooked sausage or bacon,1/4 cup diced bell pepper,1/4 cup diced bell pepper,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,7,7,,1,1
-Instructions:,Instructions:,Preheat oven to 425°F 220°C.,Preheat oven to 425°F (220°C).,1180.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,8,8,,0,0
+Instructions:,Instructions:,Preheat oven to 425°F 220°C.,Preheat oven to 425°F (220°C).,1180.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,8,8,,1,1
 Preheat oven to 425°F 220°C.,Preheat oven to 425°F (220°C).,Spread marinara sauce over the pizza crust.,Spread marinara sauce over the pizza crust.,-1.75,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,8,8,,1,1
 Spread marinara sauce over the pizza crust.,Spread marinara sauce over the pizza crust.,Sprinkle mozzarella cheese on top.,Sprinkle mozzarella cheese on top.,0.5,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,8,8,,1,1
 Sprinkle mozzarella cheese on top.,Sprinkle mozzarella cheese on top.,Crack the eggs onto the pizza.,Crack the eggs onto the pizza.,0.5,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,8,8,,1,1
 Crack the eggs onto the pizza.,Crack the eggs onto the pizza.,Add sausage or bacon and bell pepper.,Add sausage or bacon and bell pepper.,0.5,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,8,8,,1,1
 Add sausage or bacon and bell pepper.,Add sausage or bacon and bell pepper.,Bake for 10-12 minutes or until the eggs are set and the cheese is melted.,Bake for 10-12 minutes or until the eggs are set and the cheese is melted.,0.5,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,8,8,,1,1
 Bake for 10-12 minutes or until the eggs are set and the cheese is melted.,Bake for 10-12 minutes or until the eggs are set and the cheese is melted.,Serve immediately.,Serve immediately.,0.5,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,8,8,,1,1
-Serve immediately.,Serve immediately.,Muffins,Muﬃns,1447034.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,8,8,,0,0
-Muffins,Muﬃns,Ingredients:,Ingredients:,-786.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,8,8,,0,0
-Ingredients:,Ingredients:,2 cups all-purpose flour,2 cups all-purpose flour,1179.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,8,8,,0,0
+Serve immediately.,Serve immediately.,Muffins,Muﬃns,1447034.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,8,8,,1,1
+Muffins,Muﬃns,Ingredients:,Ingredients:,-786.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,8,8,,1,1
+Ingredients:,Ingredients:,2 cups all-purpose flour,2 cups all-purpose flour,1179.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,8,8,,1,1
 2 cups all-purpose flour,2 cups all-purpose flour,1/2 cup sugar,1/2 cup sugar,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,8,8,,1,1
 1/2 cup sugar,1/2 cup sugar,1 tablespoon baking powder,1 tablespoon baking powder,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,8,8,,1,1
 1 tablespoon baking powder,1 tablespoon baking powder,1/2 teaspoon salt,1/2 teaspoon salt,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,8,8,,1,1
@@ -220,270 +220,270 @@ Ingredients:,Ingredients:,2 cups all-purpose flour,2 cups all-purpose flour,1179
 1/4 cup vegetable oil,1/4 cup vegetable oil,1 large egg,1 large egg,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,8,8,,1,1
 1 large egg,1 large egg,1 teaspoon vanilla extract,1 teaspoon vanilla extract,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,8,8,,1,1
 1 teaspoon vanilla extract,1 teaspoon vanilla extract,1 cup fresh or frozen berries,1 cup fresh or frozen berries,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,8,8,,1,1
-1 cup fresh or frozen berries,1 cup fresh or frozen berries,Instructions:,Instructions:,-1965.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,8,8,,0,0
-Instructions:,Instructions:,Preheat oven to 375°F 190°C.,Preheat oven to 375°F (190°C).,3145.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,8,8,,0,0
-Preheat oven to 375°F 190°C.,Preheat oven to 375°F (190°C).,"In a bowl, mix flour, sugar, baking powder, and salt.","In a bowl, mix flour, sugar, baking powder, and salt.",1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,8,8,,0,0
+1 cup fresh or frozen berries,1 cup fresh or frozen berries,Instructions:,Instructions:,-1965.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,8,8,,1,1
+Instructions:,Instructions:,Preheat oven to 375°F 190°C.,Preheat oven to 375°F (190°C).,3145.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,8,8,,1,1
+Preheat oven to 375°F 190°C.,Preheat oven to 375°F (190°C).,"In a bowl, mix flour, sugar, baking powder, and salt.","In a bowl, mix flour, sugar, baking powder, and salt.",1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,8,8,,1,1
 "In a bowl, mix flour, sugar, baking powder, and salt.","In a bowl, mix flour, sugar, baking powder, and salt.","In another bowl, combine milk, vegetable oil, egg, and vanilla extract.","In another bowl, combine milk, vegetable oil, egg, and vanilla extract.",0.0,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,8,8,,1,1
 "In another bowl, combine milk, vegetable oil, egg, and vanilla extract.","In another bowl, combine milk, vegetable oil, egg, and vanilla extract.",Pour the wet ingredients into the dry ingredients and stir until just combined.,Pour the wet ingredients into the dry ingredients and stir until just combined.,1.0,0.0,1,1,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,8,8,,1,1
 Pour the wet ingredients into the dry ingredients and stir until just combined.,Pour the wet ingredients into the dry ingredients and stir until just combined.,Fold in the berries.,Fold in the berries.,1.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,8,8,,1,1
 Fold in the berries.,Fold in the berries.,Divide the batter evenly among a greased muffin tin.,Divide the batter evenly among a greased muﬃn tin.,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,8,8,,1,1
 Divide the batter evenly among a greased muffin tin.,Divide the batter evenly among a greased muﬃn tin.,Bake for 20-25 minutes or until a toothpick inserted into the center comes out clean.,Bake for 20-25 minutes or until a toothpick inserted into the center comes out clean.,0.0,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,8,8,,1,1
 Bake for 20-25 minutes or until a toothpick inserted into the center comes out clean.,Bake for 20-25 minutes or until a toothpick inserted into the center comes out clean.,Let cool before serving.,Let cool before serving.,0.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,8,8,,1,1
-Let cool before serving.,Let cool before serving.,Breakfast Casserole,Breakfast Casserole,1445068.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,8,8,,0,0
-Breakfast Casserole,Breakfast Casserole,Ingredients:,Ingredients:,-786.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,8,8,,0,0
-Ingredients:,Ingredients:,6 large eggs,6 large eggs,3146.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,8,8,,0,0
+Let cool before serving.,Let cool before serving.,Breakfast Casserole,Breakfast Casserole,1445068.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,8,8,,1,1
+Breakfast Casserole,Breakfast Casserole,Ingredients:,Ingredients:,-786.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,8,8,,1,1
+Ingredients:,Ingredients:,6 large eggs,6 large eggs,3146.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,8,8,,1,1
 6 large eggs,6 large eggs,1 cup milk,1 cup milk,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,8,8,,1,1
 1 cup milk,1 cup milk,1 cup shredded cheese,1 cup shredded cheese,-2.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,8,8,,1,1
 1 cup shredded cheese,1 cup shredded cheese,1/2 cup cooked sausage or bacon,1/2 cup cooked sausage or bacon,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,8,8,,1,1
 1/2 cup cooked sausage or bacon,1/2 cup cooked sausage or bacon,1/2 cup diced bell pepper,1/2 cup diced bell pepper,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,8,8,,1,1
 1/2 cup diced bell pepper,1/2 cup diced bell pepper,1/2 cup diced onion,1/2 cup diced onion,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,8,8,,1,1
-Salt and pepper to taste,Salt and pepper to taste,Instructions:,Instructions:,-3.33,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,9,9,,0,0
-Instructions:,Instructions:,Preheat oven to 350°F 175°C.,Preheat oven to 350°F (175°C).,2.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,9,9,,0,0
+Salt and pepper to taste,Salt and pepper to taste,Instructions:,Instructions:,-3.33,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,9,9,,1,1
+Instructions:,Instructions:,Preheat oven to 350°F 175°C.,Preheat oven to 350°F (175°C).,2.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,9,9,,1,1
 Preheat oven to 350°F 175°C.,Preheat oven to 350°F (175°C).,"In a bowl, whisk together eggs, milk, salt, and pepper.","In a bowl, whisk together eggs, milk, salt, and pepper.",-0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,9,9,,1,1
 "In a bowl, whisk together eggs, milk, salt, and pepper.","In a bowl, whisk together eggs, milk, salt, and pepper.","Stir in cheese, sausage or bacon, bell pepper, and onion.","Stir in cheese, sausage or bacon, bell pepper, and onion.",0.0,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,9,9,,1,1
 "Stir in cheese, sausage or bacon, bell pepper, and onion.","Stir in cheese, sausage or bacon, bell pepper, and onion.",Pour the mixture into a greased baking dish.,Pour the mixture into a greased baking dish.,0.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,9,9,,1,1
 Pour the mixture into a greased baking dish.,Pour the mixture into a greased baking dish.,Bake for 30-35 minutes or until the eggs are set.,Bake for 30-35 minutes or until the eggs are set.,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,9,9,,1,1
 Bake for 30-35 minutes or until the eggs are set.,Bake for 30-35 minutes or until the eggs are set.,Let cool slightly before serving.,Let cool slightly before serving.,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,9,9,,1,1
-Let cool slightly before serving.,Let cool slightly before serving.,Bagel with Cream Cheese,Bagel with Cream Cheese,2452.6,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,9,9,,0,0
-Bagel with Cream Cheese,Bagel with Cream Cheese,Ingredients:,Ingredients:,-1.33,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,9,9,,0,0
-Ingredients:,Ingredients:,"1 bagel, sliced and toasted","1 bagel, sliced and toasted",5.33,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,9,9,,0,0
+Let cool slightly before serving.,Let cool slightly before serving.,Bagel with Cream Cheese,Bagel with Cream Cheese,2452.6,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,9,9,,1,1
+Bagel with Cream Cheese,Bagel with Cream Cheese,Ingredients:,Ingredients:,-1.33,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,9,9,,1,1
+Ingredients:,Ingredients:,"1 bagel, sliced and toasted","1 bagel, sliced and toasted",5.33,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,9,9,,1,1
 "1 bagel, sliced and toasted","1 bagel, sliced and toasted",2 tablespoons cream cheese,2 tablespoons cream cheese,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,9,9,,1,1
 2 tablespoons cream cheese,2 tablespoons cream cheese,"Optional toppings: smoked salmon, capers, red onion, tomato slices","Optional toppings: smoked salmon, capers, red onion, tomato slices",0.0,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,9,9,,1,1
-"Optional toppings: smoked salmon, capers, red onion, tomato slices","Optional toppings: smoked salmon, capers, red onion, tomato slices",Instructions:,Instructions:,-3.33,-36.0,0,1,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,9,9,,0,0
-Instructions:,Instructions:,Spread cream cheese on each half of the toasted bagel.,Spread cream cheese on each half of the toasted bagel.,2.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,9,9,,0,0
+"Optional toppings: smoked salmon, capers, red onion, tomato slices","Optional toppings: smoked salmon, capers, red onion, tomato slices",Instructions:,Instructions:,-3.33,-36.0,0,1,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,9,9,,1,1
+Instructions:,Instructions:,Spread cream cheese on each half of the toasted bagel.,Spread cream cheese on each half of the toasted bagel.,2.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,9,9,,1,1
 Spread cream cheese on each half of the toasted bagel.,Spread cream cheese on each half of the toasted bagel.,Add optional toppings if desired.,Add optional toppings if desired.,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,9,9,,1,1
 Add optional toppings if desired.,Add optional toppings if desired.,Serve immediately.,Serve immediately.,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,9,9,,1,1
-Serve immediately.,Serve immediately.,Breakfast Skillet,Breakfast Skillet,5734.96,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,9,9,,0,0
-Breakfast Skillet,Breakfast Skillet,Ingredients:,Ingredients:,-1.33,-0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,9,9,,0,0
-Ingredients:,Ingredients:,2 large eggs,2 large eggs,5.33,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,9,9,,0,0
+Serve immediately.,Serve immediately.,Breakfast Skillet,Breakfast Skillet,5734.96,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,9,9,,1,1
+Breakfast Skillet,Breakfast Skillet,Ingredients:,Ingredients:,-1.33,-0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,9,9,,1,1
+Ingredients:,Ingredients:,2 large eggs,2 large eggs,5.33,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,9,9,,1,1
 2 large eggs,2 large eggs,1/2 cup diced potatoes,1/2 cup diced potatoes,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,9,9,,1,1
 1/2 cup diced potatoes,1/2 cup diced potatoes,1/4 cup diced bell pepper,1/4 cup diced bell pepper,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,9,9,,1,1
 1/4 cup diced bell pepper,1/4 cup diced bell pepper,1/4 cup diced onion,1/4 cup diced onion,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,9,9,,1,1
 1/4 cup diced onion,1/4 cup diced onion,1/4 cup cooked sausage or bacon,1/4 cup cooked sausage or bacon,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,9,9,,1,1
 1/4 cup cooked sausage or bacon,1/4 cup cooked sausage or bacon,Salt and pepper to taste,Salt and pepper to taste,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,9,9,,1,1
 Salt and pepper to taste,Salt and pepper to taste,1 tablespoon olive oil,1 tablespoon olive oil,-0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,9,9,,1,1
-1 tablespoon olive oil,1 tablespoon olive oil,Instructions:,Instructions:,-3.33,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,9,9,,0,0
-Instructions:,Instructions:,Heat olive oil in a skillet over medium heat.,Heat olive oil in a skillet over medium heat.,2.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,9,9,,0,0
+1 tablespoon olive oil,1 tablespoon olive oil,Instructions:,Instructions:,-3.33,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,9,9,,1,1
+Instructions:,Instructions:,Heat olive oil in a skillet over medium heat.,Heat olive oil in a skillet over medium heat.,2.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,9,9,,1,1
 Heat olive oil in a skillet over medium heat.,Heat olive oil in a skillet over medium heat.,"Add potatoes, bell pepper, and onion, and cook until tender.","Add potatoes, bell pepper, and onion, and cook until tender.",0.0,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,9,9,,1,1
 "Add potatoes, bell pepper, and onion, and cook until tender.","Add potatoes, bell pepper, and onion, and cook until tender.",Add sausage or bacon and cook until heated through.,Add sausage or bacon and cook until heated through.,0.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,9,9,,1,1
 Add sausage or bacon and cook until heated through.,Add sausage or bacon and cook until heated through.,Make two wells in the mixture and crack an egg into each well.,Make two wells in the mixture and crack an egg into each well.,-0.0,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,9,9,,1,1
 Make two wells in the mixture and crack an egg into each well.,Make two wells in the mixture and crack an egg into each well.,Cover and cook until the eggs are set.,Cover and cook until the eggs are set.,0.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,9,9,,1,1
 Cover and cook until the eggs are set.,Cover and cook until the eggs are set.,Season with salt and pepper.,Season with salt and pepper.,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,9,9,,1,1
-Serve immediately.,Serve immediately.,Breakfast Bowl,Breakfast Bowl,1441136.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,10,10,,0,0
-Breakfast Bowl,Breakfast Bowl,Ingredients:,Ingredients:,1180.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,10,10,,0,0
-Ingredients:,Ingredients:,1/2 cup cooked quinoa,1/2 cup cooked quinoa,1180.5,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,10,10,,0,0
+Serve immediately.,Serve immediately.,Breakfast Bowl,Breakfast Bowl,1441136.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,10,10,,1,1
+Breakfast Bowl,Breakfast Bowl,Ingredients:,Ingredients:,1180.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,10,10,,1,1
+Ingredients:,Ingredients:,1/2 cup cooked quinoa,1/2 cup cooked quinoa,1180.5,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,10,10,,1,1
 1/2 cup cooked quinoa,1/2 cup cooked quinoa,"1/4 cup black beans, rinsed and drained","1/4 cup black beans, rinsed and drained",0.5,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,10,10,,1,1
 "1/4 cup black beans, rinsed and drained","1/4 cup black beans, rinsed and drained",1/4 cup diced avocado,1/4 cup diced avocado,-1.5,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,10,10,,1,1
 1/4 cup diced avocado,1/4 cup diced avocado,"1/4 cup cherry tomatoes, halved","1/4 cup cherry tomatoes, halved",0.5,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,10,10,,1,1
 "1/4 cup cherry tomatoes, halved","1/4 cup cherry tomatoes, halved","1 large egg, poached or fried","1 large egg, poached or fried",0.5,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,10,10,,1,1
 "1 large egg, poached or fried","1 large egg, poached or fried",Salt and pepper to taste,Salt and pepper to taste,0.5,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,10,10,,1,1
 Salt and pepper to taste,Salt and pepper to taste,1 tablespoon olive oil,1 tablespoon olive oil,0.5,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,10,10,,1,1
-1 tablespoon olive oil,1 tablespoon olive oil,Instructions:,Instructions:,-1965.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,10,10,,0,0
-Instructions:,Instructions:,"In a bowl, combine quinoa, black beans, avocado, and cherry tomatoes.","In a bowl, combine quinoa, black beans, avocado, and cherry tomatoes.",1179.0,36.0,0,0,1,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,10,10,,0,0
+1 tablespoon olive oil,1 tablespoon olive oil,Instructions:,Instructions:,-1965.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,10,10,,1,1
+Instructions:,Instructions:,"In a bowl, combine quinoa, black beans, avocado, and cherry tomatoes.","In a bowl, combine quinoa, black beans, avocado, and cherry tomatoes.",1179.0,36.0,0,0,1,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,10,10,,1,1
 "In a bowl, combine quinoa, black beans, avocado, and cherry tomatoes.","In a bowl, combine quinoa, black beans, avocado, and cherry tomatoes.",Top with the poached or fried egg.,Top with the poached or fried egg.,1.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,10,10,,1,1
 Top with the poached or fried egg.,Top with the poached or fried egg.,Drizzle with olive oil and season with salt and pepper.,Drizzle with olive oil and season with salt and pepper.,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,10,10,,1,1
 Drizzle with olive oil and season with salt and pepper.,Drizzle with olive oil and season with salt and pepper.,Serve immediately.,Serve immediately.,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,10,10,,1,1
-Serve immediately.,Serve immediately.,Breakfast Croissant,Breakfast Croissant,1447036.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,10,10,,0,0
-Breakfast Croissant,Breakfast Croissant,Ingredients:,Ingredients:,-786.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,10,10,,0,0
-Ingredients:,Ingredients:,"1 croissant, sliced in half","1 croissant, sliced in half",1179.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,10,10,,0,0
+Serve immediately.,Serve immediately.,Breakfast Croissant,Breakfast Croissant,1447036.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,10,10,,1,1
+Breakfast Croissant,Breakfast Croissant,Ingredients:,Ingredients:,-786.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,10,10,,1,1
+Ingredients:,Ingredients:,"1 croissant, sliced in half","1 croissant, sliced in half",1179.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,10,10,,1,1
 "1 croissant, sliced in half","1 croissant, sliced in half",1 large egg,1 large egg,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,10,10,,1,1
 1 large egg,1 large egg,1 slice of cheese,1 slice of cheese,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,10,10,,1,1
 1 slice of cheese,1 slice of cheese,1 slice of ham or bacon,1 slice of ham or bacon,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,10,10,,1,1
 1 slice of ham or bacon,1 slice of ham or bacon,Salt and pepper to taste,Salt and pepper to taste,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,10,10,,1,1
-Salt and pepper to taste,Salt and pepper to taste,Instructions:,Instructions:,-1965.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,10,10,,0,0
-Instructions:,Instructions:,"Cook the egg in a skillet over medium heat, seasoning with salt and pepper.","Cook the egg in a skillet over medium heat, seasoning with salt and pepper.",3145.0,36.0,0,0,1,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,10,10,,0,0
+Salt and pepper to taste,Salt and pepper to taste,Instructions:,Instructions:,-1965.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,10,10,,1,1
+Instructions:,Instructions:,"Cook the egg in a skillet over medium heat, seasoning with salt and pepper.","Cook the egg in a skillet over medium heat, seasoning with salt and pepper.",3145.0,36.0,0,0,1,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,10,10,,1,1
 "Cook the egg in a skillet over medium heat, seasoning with salt and pepper.","Cook the egg in a skillet over medium heat, seasoning with salt and pepper.",Place the cheese on top of the egg to melt.,Place the cheese on top of the egg to melt.,0.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,10,10,,1,1
 Place the cheese on top of the egg to melt.,Place the cheese on top of the egg to melt.,"Assemble the sandwich with the egg, cheese, and ham or bacon between the","Assemble the sandwich with the egg, cheese, and ham or bacon between the",0.0,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,10,10,,1,1
 "Assemble the sandwich with the egg, cheese, and ham or bacon between the","Assemble the sandwich with the egg, cheese, and ham or bacon between the",croissant halves.,croissant halves.,0.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,1,0,0,0,1,0,0,0,1,10,10,,1,1
 croissant halves.,croissant halves.,Serve immediately.,Serve immediately.,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,10,10,,1,1
-Serve immediately.,Serve immediately.,Breakfast Frittata,Breakfast Frittata,1445068.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,10,10,,0,0
-Breakfast Frittata,Breakfast Frittata,Ingredients:,Ingredients:,-786.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,10,10,,0,0
-Ingredients:,Ingredients:,6 large eggs,6 large eggs,3146.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,10,10,,0,0
+Serve immediately.,Serve immediately.,Breakfast Frittata,Breakfast Frittata,1445068.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,10,10,,1,1
+Breakfast Frittata,Breakfast Frittata,Ingredients:,Ingredients:,-786.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,10,10,,1,1
+Ingredients:,Ingredients:,6 large eggs,6 large eggs,3146.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,10,10,,1,1
 6 large eggs,6 large eggs,1/4 cup milk,1/4 cup milk,-2.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,10,10,,1,1
 1/4 cup milk,1/4 cup milk,1/2 cup shredded cheese,1/2 cup shredded cheese,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,10,10,,1,1
 1/2 cup shredded cheese,1/2 cup shredded cheese,1/4 cup diced bell pepper,1/4 cup diced bell pepper,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,10,10,,1,1
 1/4 cup diced onion,1/4 cup diced onion,1/4 cup cooked sausage or bacon,1/4 cup cooked sausage or bacon,0.25,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,11,11,,1,1
 1/4 cup cooked sausage or bacon,1/4 cup cooked sausage or bacon,Salt and pepper to taste,Salt and pepper to taste,0.25,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,11,11,,1,1
 Salt and pepper to taste,Salt and pepper to taste,1 tablespoon olive oil,1 tablespoon olive oil,-1.75,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,11,11,,1,1
-1 tablespoon olive oil,1 tablespoon olive oil,Instructions:,Instructions:,-1966.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,11,11,,0,0
-Instructions:,Instructions:,Preheat oven to 350°F 175°C.,Preheat oven to 350°F (175°C).,1180.5,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,11,11,,0,0
+1 tablespoon olive oil,1 tablespoon olive oil,Instructions:,Instructions:,-1966.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,11,11,,1,1
+Instructions:,Instructions:,Preheat oven to 350°F 175°C.,Preheat oven to 350°F (175°C).,1180.5,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,11,11,,1,1
 Preheat oven to 350°F 175°C.,Preheat oven to 350°F (175°C).,"In a bowl, whisk together eggs, milk, salt, and pepper.","In a bowl, whisk together eggs, milk, salt, and pepper.",0.5,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,11,11,,1,1
 "In a bowl, whisk together eggs, milk, salt, and pepper.","In a bowl, whisk together eggs, milk, salt, and pepper.","Stir in cheese, bell pepper, onion, and sausage or bacon.","Stir in cheese, bell pepper, onion, and sausage or bacon.",0.5,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,11,11,,1,1
 "Stir in cheese, bell pepper, onion, and sausage or bacon.","Stir in cheese, bell pepper, onion, and sausage or bacon.",Heat olive oil in a skillet over medium heat.,Heat olive oil in a skillet over medium heat.,0.5,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,11,11,,1,1
 Heat olive oil in a skillet over medium heat.,Heat olive oil in a skillet over medium heat.,Pour the egg mixture into the skillet and cook until the edges are set.,Pour the egg mixture into the skillet and cook until the edges are set.,-1.5,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,11,11,,1,1
 Pour the egg mixture into the skillet and cook until the edges are set.,Pour the egg mixture into the skillet and cook until the edges are set.,Transfer the skillet to the oven and bake for 15-20 minutes or until the eggs are set.,Transfer the skillet to the oven and bake for 15-20 minutes or until the eggs are set.,0.5,0.0,1,1,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,11,11,,1,1
 Transfer the skillet to the oven and bake for 15-20 minutes or until the eggs are set.,Transfer the skillet to the oven and bake for 15-20 minutes or until the eggs are set.,Let cool slightly before slicing and serving.,Let cool slightly before slicing and serving.,0.5,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,11,11,,1,1
-Let cool slightly before slicing and serving.,Let cool slightly before slicing and serving.,Breakfast Bagel Sandwich,Breakfast Bagel Sandwich,1447035.5,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,11,11,,0,0
-Breakfast Bagel Sandwich,Breakfast Bagel Sandwich,Ingredients:,Ingredients:,-786.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,11,11,,0,0
-Ingredients:,Ingredients:,"1 bagel, sliced and toasted","1 bagel, sliced and toasted",3145.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,11,11,,0,0
+Let cool slightly before slicing and serving.,Let cool slightly before slicing and serving.,Breakfast Bagel Sandwich,Breakfast Bagel Sandwich,1447035.5,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,11,11,,1,1
+Breakfast Bagel Sandwich,Breakfast Bagel Sandwich,Ingredients:,Ingredients:,-786.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,11,11,,1,1
+Ingredients:,Ingredients:,"1 bagel, sliced and toasted","1 bagel, sliced and toasted",3145.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,11,11,,1,1
 "1 bagel, sliced and toasted","1 bagel, sliced and toasted",1 large egg,1 large egg,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,11,11,,1,1
 1 large egg,1 large egg,1 slice of cheese,1 slice of cheese,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,11,11,,1,1
 1 slice of cheese,1 slice of cheese,1 slice of ham or bacon,1 slice of ham or bacon,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,11,11,,1,1
 1 slice of ham or bacon,1 slice of ham or bacon,Salt and pepper to taste,Salt and pepper to taste,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,11,11,,1,1
-Salt and pepper to taste,Salt and pepper to taste,Instructions:,Instructions:,-1965.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,11,11,,0,0
-Instructions:,Instructions:,"Cook the egg in a skillet over medium heat, seasoning with salt and pepper.","Cook the egg in a skillet over medium heat, seasoning with salt and pepper.",1179.0,36.0,0,0,1,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,11,11,,0,0
+Salt and pepper to taste,Salt and pepper to taste,Instructions:,Instructions:,-1965.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,11,11,,1,1
+Instructions:,Instructions:,"Cook the egg in a skillet over medium heat, seasoning with salt and pepper.","Cook the egg in a skillet over medium heat, seasoning with salt and pepper.",1179.0,36.0,0,0,1,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,11,11,,1,1
 "Cook the egg in a skillet over medium heat, seasoning with salt and pepper.","Cook the egg in a skillet over medium heat, seasoning with salt and pepper.",Place the cheese on top of the egg to melt.,Place the cheese on top of the egg to melt.,1.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,11,11,,1,1
 Place the cheese on top of the egg to melt.,Place the cheese on top of the egg to melt.,"Assemble the sandwich with the egg, cheese, and ham or bacon between the bagel","Assemble the sandwich with the egg, cheese, and ham or bacon between the bagel",1.0,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,11,11,,1,1
 "Assemble the sandwich with the egg, cheese, and ham or bacon between the bagel","Assemble the sandwich with the egg, cheese, and ham or bacon between the bagel",halves.,halves.,1.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,1,0,0,0,1,0,0,0,1,11,11,,1,1
 halves.,halves.,Serve immediately.,Serve immediately.,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,11,11,,1,1
-Serve immediately.,Serve immediately.,Overnight Oats,Overnight Oats,1447035.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,11,11,,0,0
-Overnight Oats,Overnight Oats,Ingredients:,Ingredients:,-788.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,11,11,,0,0
-Ingredients:,Ingredients:,1/2 cup rolled oats,1/2 cup rolled oats,3146.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,11,11,,0,0
+Serve immediately.,Serve immediately.,Overnight Oats,Overnight Oats,1447035.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,11,11,,1,1
+Overnight Oats,Overnight Oats,Ingredients:,Ingredients:,-788.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,11,11,,1,1
+Ingredients:,Ingredients:,1/2 cup rolled oats,1/2 cup rolled oats,3146.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,11,11,,1,1
 1/2 cup rolled oats,1/2 cup rolled oats,1/2 cup almond milk,1/2 cup almond milk,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,11,11,,1,1
 1/2 cup almond milk,1/2 cup almond milk,1 tablespoon chia seeds,1 tablespoon chia seeds,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,11,11,,1,1
 1 tablespoon chia seeds,1 tablespoon chia seeds,1 tablespoon honey or maple syrup,1 tablespoon honey or maple syrup,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,11,11,,1,1
 1 tablespoon honey or maple syrup,1 tablespoon honey or maple syrup,1/2 teaspoon vanilla extract,1/2 teaspoon vanilla extract,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,11,11,,1,1
 1/2 teaspoon vanilla extract,1/2 teaspoon vanilla extract,"Toppings: fresh fruit, nuts, seeds","Toppings: fresh fruit, nuts, seeds",0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,11,11,,1,1
-"Toppings: fresh fruit, nuts, seeds","Toppings: fresh fruit, nuts, seeds",Instructions:,Instructions:,-1968.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,11,11,,0,0
-Instructions:,Instructions:,"In a jar, combine oats, almond milk, chia seeds, honey or maple syrup, and vanilla","In a jar, combine oats, almond milk, chia seeds, honey or maple syrup, and vanilla",1182.0,36.0,0,0,1,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,11,11,,0,0
+"Toppings: fresh fruit, nuts, seeds","Toppings: fresh fruit, nuts, seeds",Instructions:,Instructions:,-1968.0,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,11,11,,1,1
+Instructions:,Instructions:,"In a jar, combine oats, almond milk, chia seeds, honey or maple syrup, and vanilla","In a jar, combine oats, almond milk, chia seeds, honey or maple syrup, and vanilla",1182.0,36.0,0,0,1,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,11,11,,1,1
 "In a jar, combine oats, almond milk, chia seeds, honey or maple syrup, and vanilla","In a jar, combine oats, almond milk, chia seeds, honey or maple syrup, and vanilla",extract.,extract.,-2.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,1,0,0,0,1,0,0,0,1,11,11,,1,1
 extract.,extract.,"Stir well, cover, and refrigerate overnight.","Stir well, cover, and refrigerate overnight.",0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,11,11,,1,1
-"In the morning, stir again and add your favorite toppings.","In the morning, stir again and add your favorite toppings.",Egg Muffins,Egg Muﬃns,1225.15,-36.0,0,1,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,12,12,,0,0
-Egg Muffins,Egg Muﬃns,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,12,12,,0,0
-Ingredients:,Ingredients:,6 large eggs,6 large eggs,1.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,12,12,,0,0
+"In the morning, stir again and add your favorite toppings.","In the morning, stir again and add your favorite toppings.",Egg Muffins,Egg Muﬃns,1225.15,-36.0,0,1,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,12,12,,1,1
+Egg Muffins,Egg Muﬃns,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,12,12,,1,1
+Ingredients:,Ingredients:,6 large eggs,6 large eggs,1.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,12,12,,1,1
 6 large eggs,6 large eggs,1/4 cup milk,1/4 cup milk,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,12,12,,1,1
 1/4 cup milk,1/4 cup milk,1/2 cup diced bell pepper,1/2 cup diced bell pepper,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,12,12,,1,1
 1/2 cup diced bell pepper,1/2 cup diced bell pepper,1/2 cup diced spinach,1/2 cup diced spinach,-0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,12,12,,1,1
 1/2 cup diced spinach,1/2 cup diced spinach,1/4 cup shredded cheese,1/4 cup shredded cheese,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,12,12,,1,1
 1/4 cup shredded cheese,1/4 cup shredded cheese,Salt and pepper to taste,Salt and pepper to taste,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,12,12,,1,1
-Salt and pepper to taste,Salt and pepper to taste,Instructions:,Instructions:,-1.67,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,12,12,,0,0
-Instructions:,Instructions:,Preheat oven to 350°F 175°C.,Preheat oven to 350°F (175°C).,1.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,12,12,,0,0
+Salt and pepper to taste,Salt and pepper to taste,Instructions:,Instructions:,-1.67,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,12,12,,1,1
+Instructions:,Instructions:,Preheat oven to 350°F 175°C.,Preheat oven to 350°F (175°C).,1.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,12,12,,1,1
 Preheat oven to 350°F 175°C.,Preheat oven to 350°F (175°C).,"In a bowl, whisk together eggs, milk, salt, and pepper.","In a bowl, whisk together eggs, milk, salt, and pepper.",0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,12,12,,1,1
 "In a bowl, whisk together eggs, milk, salt, and pepper.","In a bowl, whisk together eggs, milk, salt, and pepper.","Stir in bell pepper, spinach, and cheese.","Stir in bell pepper, spinach, and cheese.",0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,12,12,,1,1
 "Stir in bell pepper, spinach, and cheese.","Stir in bell pepper, spinach, and cheese.",Pour the mixture into a greased muffin tin.,Pour the mixture into a greased muﬃn tin.,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,12,12,,1,1
 Pour the mixture into a greased muffin tin.,Pour the mixture into a greased muﬃn tin.,Bake for 20-25 minutes or until the eggs are set.,Bake for 20-25 minutes or until the eggs are set.,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,12,12,,1,1
 Bake for 20-25 minutes or until the eggs are set.,Bake for 20-25 minutes or until the eggs are set.,Let cool before removing from the tin.,Let cool before removing from the tin.,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,12,12,,1,1
-Let cool before removing from the tin.,Let cool before removing from the tin.,Apple Peanut Butter Sandwiches,Apple Peanut Butter Sandwiches,1225.15,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,12,12,,0,0
-Apple Peanut Butter Sandwiches,Apple Peanut Butter Sandwiches,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,12,12,,0,0
-Ingredients:,Ingredients:,"1 apple, cored and sliced into rings","1 apple, cored and sliced into rings",1.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,12,12,,0,0
+Let cool before removing from the tin.,Let cool before removing from the tin.,Apple Peanut Butter Sandwiches,Apple Peanut Butter Sandwiches,1225.15,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,12,12,,1,1
+Apple Peanut Butter Sandwiches,Apple Peanut Butter Sandwiches,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,12,12,,1,1
+Ingredients:,Ingredients:,"1 apple, cored and sliced into rings","1 apple, cored and sliced into rings",1.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,12,12,,1,1
 "1 apple, cored and sliced into rings","1 apple, cored and sliced into rings",2 tablespoons peanut butter,2 tablespoons peanut butter,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,12,12,,1,1
 2 tablespoons peanut butter,2 tablespoons peanut butter,"Optional toppings: granola, raisins, coconut flakes","Optional toppings: granola, raisins, coconut flakes",0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,12,12,,1,1
-"Optional toppings: granola, raisins, coconut flakes","Optional toppings: granola, raisins, coconut flakes",Instructions:,Instructions: t,-1.67,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,12,12,,0,0
-Instructions:,Instructions: t,Spread peanut butter on one side of each apple ring.,Spread peanut butter on one side of each apple ring.,2.67,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,12,12,,0,0
+"Optional toppings: granola, raisins, coconut flakes","Optional toppings: granola, raisins, coconut flakes",Instructions:,Instructions: t,-1.67,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,12,12,,1,1
+Instructions:,Instructions: t,Spread peanut butter on one side of each apple ring.,Spread peanut butter on one side of each apple ring.,2.67,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,12,12,,1,1
 Spread peanut butter on one side of each apple ring.,Spread peanut butter on one side of each apple ring.,Add optional toppings if desired.,Add optional toppings if desired.,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,12,12,,1,1
 Add optional toppings if desired.,Add optional toppings if desired.,Sandwich two apple rings together with the peanut butter sides facing in.,Sandwich two apple rings together with the peanut butter sides facing in.,0.0,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,12,12,,1,1
-Sandwich two apple rings together with the peanut butter sides facing in.,Sandwich two apple rings together with the peanut butter sides facing in.,Protein Smoothie,Protein Smoothie,1225.15,-36.0,0,1,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,12,12,,0,0
-Protein Smoothie,Protein Smoothie,Ingredients:,Ingredients:,-0.67,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,12,12,,0,0
-Ingredients:,Ingredients:,1 banana,1 banana,2.67,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,12,12,,0,0
+Sandwich two apple rings together with the peanut butter sides facing in.,Sandwich two apple rings together with the peanut butter sides facing in.,Protein Smoothie,Protein Smoothie,1225.15,-36.0,0,1,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,12,12,,1,1
+Protein Smoothie,Protein Smoothie,Ingredients:,Ingredients:,-0.67,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,12,12,,1,1
+Ingredients:,Ingredients:,1 banana,1 banana,2.67,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,12,12,,1,1
 1 banana,1 banana,1/2 cup Greek yogurt,1/2 cup Greek yogurt,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,12,12,,1,1
 1/2 cup Greek yogurt,1/2 cup Greek yogurt,1/2 cup almond milk,1/2 cup almond milk,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,12,12,,1,1
 1/2 cup almond milk,1/2 cup almond milk,1 scoop protein powder,1 scoop protein powder,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,12,12,,1,1
 1 scoop protein powder,1 scoop protein powder,1 tablespoon peanut butter,1 tablespoon peanut butter,-0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,12,12,,1,1
-1 tablespoon peanut butter,1 tablespoon peanut butter,Instructions:,Instructions:,-1.67,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,12,12,,0,0
+1 tablespoon peanut butter,1 tablespoon peanut butter,Instructions:,Instructions:,-1.67,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,12,12,,1,1
 "In a blender, combine banana, Greek yogurt, almond milk, protein powder, and","In a blender, combine banana, Greek yogurt, almond milk, protein powder, and",peanut butter.,peanut butter.,0.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,1,0,0,0,1,0,0,0,1,13,13,,1,1
 peanut butter.,peanut butter.,Blend until smooth.,Blend until smooth.,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,13,13,,1,1
 Blend until smooth.,Blend until smooth.,Serve immediately.,Serve immediately.,-0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,13,13,,1,1
-Serve immediately.,Serve immediately.,Cottage Cheese and Fruit,Cottage Cheese and Fruit,1227.6,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,13,13,,0,0
-Cottage Cheese and Fruit,Cottage Cheese and Fruit,Ingredients:,Ingredients: t,-0.67,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,13,13,,0,0
-Ingredients:,Ingredients: t,1 cup cottage cheese,1 cup cottage cheese,1.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,13,13,,0,0
+Serve immediately.,Serve immediately.,Cottage Cheese and Fruit,Cottage Cheese and Fruit,1227.6,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,13,13,,1,1
+Cottage Cheese and Fruit,Cottage Cheese and Fruit,Ingredients:,Ingredients: t,-0.67,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,13,13,,1,1
+Ingredients:,Ingredients: t,1 cup cottage cheese,1 cup cottage cheese,1.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,13,13,,1,1
 1 cup cottage cheese,1 cup cottage cheese,1/2 cup fresh berries,1/2 cup fresh berries,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,13,13,,1,1
 1/2 cup fresh berries,1/2 cup fresh berries,1 tablespoon honey,1 tablespoon honey,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,13,13,,1,1
-1 tablespoon honey,1 tablespoon honey,Instructions:,Instructions:,-1.67,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,13,13,,0,0
-Instructions:,Instructions:,"In a bowl, combine cottage cheese and fresh berries.","In a bowl, combine cottage cheese and fresh berries.",2.67,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,13,13,,0,0
+1 tablespoon honey,1 tablespoon honey,Instructions:,Instructions:,-1.67,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,13,13,,1,1
+Instructions:,Instructions:,"In a bowl, combine cottage cheese and fresh berries.","In a bowl, combine cottage cheese and fresh berries.",2.67,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,13,13,,1,1
 "In a bowl, combine cottage cheese and fresh berries.","In a bowl, combine cottage cheese and fresh berries.",Drizzle with honey.,Drizzle with honey.,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,13,13,,1,1
 Drizzle with honey.,Drizzle with honey.,Serve immediately.,Serve immediately.,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,13,13,,1,1
-Serve immediately.,Serve immediately.,Veggie Wrap,Veggie Wrap,1225.93,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,13,13,,0,0
-Veggie Wrap,Veggie Wrap,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,13,13,,0,0
-Ingredients:,Ingredients:,1 large whole wheat tortilla,1 large whole wheat tortilla,1.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,13,13,,0,0
+Serve immediately.,Serve immediately.,Veggie Wrap,Veggie Wrap,1225.93,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,13,13,,1,1
+Veggie Wrap,Veggie Wrap,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,13,13,,1,1
+Ingredients:,Ingredients:,1 large whole wheat tortilla,1 large whole wheat tortilla,1.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,13,13,,1,1
 1 large whole wheat tortilla,1 large whole wheat tortilla,1/4 cup hummus,1/4 cup hummus,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,13,13,,1,1
 1/4 cup hummus,1/4 cup hummus,1/4 cup shredded carrots,1/4 cup shredded carrots,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,13,13,,1,1
 1/4 cup shredded carrots,1/4 cup shredded carrots,1/4 cup sliced cucumber,1/4 cup sliced cucumber,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,13,13,,1,1
 1/4 cup sliced cucumber,1/4 cup sliced cucumber,1/4 cup baby spinach,1/4 cup baby spinach,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,13,13,,1,1
 1/4 cup baby spinach,1/4 cup baby spinach,1/4 cup sliced bell pepper,1/4 cup sliced bell pepper,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,13,13,,1,1
-1/4 cup sliced bell pepper,1/4 cup sliced bell pepper,Instructions:,Instructions:,-1.67,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,13,13,,0,0
-Instructions:,Instructions:,Spread hummus on the tortilla.,Spread hummus on the tortilla.,1.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,13,13,,0,0
+1/4 cup sliced bell pepper,1/4 cup sliced bell pepper,Instructions:,Instructions:,-1.67,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,13,13,,1,1
+Instructions:,Instructions:,Spread hummus on the tortilla.,Spread hummus on the tortilla.,1.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,13,13,,1,1
 Spread hummus on the tortilla.,Spread hummus on the tortilla.,"Layer with shredded carrots, cucumber, spinach, and bell pepper.","Layer with shredded carrots, cucumber, spinach, and bell pepper.",0.0,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,13,13,,1,1
 "Layer with shredded carrots, cucumber, spinach, and bell pepper.","Layer with shredded carrots, cucumber, spinach, and bell pepper.",Roll up the tortilla tightly.,Roll up the tortilla tightly.,0.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,13,13,,1,1
 Roll up the tortilla tightly.,Roll up the tortilla tightly.,Slice in half and serve.,Slice in half and serve.,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,13,13,,1,1
-Slice in half and serve.,Slice in half and serve.,Almond Butter Banana Toast,Almond Butter Banana Toast,1227.6,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,13,13,,0,0
-Almond Butter Banana Toast,Almond Butter Banana Toast,Ingredients:,Ingredients:,-0.67,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,13,13,,0,0
-Ingredients:,Ingredients:,"2 slices whole grain bread, toasted","2 slices whole grain bread, toasted",2.67,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,13,13,,0,0
+Slice in half and serve.,Slice in half and serve.,Almond Butter Banana Toast,Almond Butter Banana Toast,1227.6,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,13,13,,1,1
+Almond Butter Banana Toast,Almond Butter Banana Toast,Ingredients:,Ingredients:,-0.67,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,13,13,,1,1
+Ingredients:,Ingredients:,"2 slices whole grain bread, toasted","2 slices whole grain bread, toasted",2.67,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,13,13,,1,1
 "2 slices whole grain bread, toasted","2 slices whole grain bread, toasted",2 tablespoons almond butter,2 tablespoons almond butter,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,13,13,,1,1
 2 tablespoons almond butter,2 tablespoons almond butter,"1 banana, sliced","1 banana, sliced",-0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,13,13,,1,1
 "1 banana, sliced","1 banana, sliced",1 teaspoon chia seeds,1 teaspoon chia seeds,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,13,13,,1,1
-1 teaspoon chia seeds,1 teaspoon chia seeds,Instructions:,Instructions: t,-1.67,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,13,13,,0,0
-Instructions:,Instructions: t,Spread almond butter on the toasted bread.,Spread almond butter on the toasted bread.,1.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,13,13,,0,0
+1 teaspoon chia seeds,1 teaspoon chia seeds,Instructions:,Instructions: t,-1.67,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,13,13,,1,1
+Instructions:,Instructions: t,Spread almond butter on the toasted bread.,Spread almond butter on the toasted bread.,1.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,13,13,,1,1
 Top with banana slices and sprinkle with chia seeds.,Top with banana slices and sprinkle with chia seeds.,Serve immediately.,Serve immediately.,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,14,14,,1,1
-Serve immediately.,Serve immediately.,Greek Yogurt with Honey and Nuts,Greek Yogurt with Honey and Nuts,1227.34,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,14,14,,0,0
-Greek Yogurt with Honey and Nuts,Greek Yogurt with Honey and Nuts,Ingredients:,Ingredients:,-0.67,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,14,14,,0,0
-Ingredients:,Ingredients:,1 cup Greek yogurt,1 cup Greek yogurt,1.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,14,14,,0,0
+Serve immediately.,Serve immediately.,Greek Yogurt with Honey and Nuts,Greek Yogurt with Honey and Nuts,1227.34,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,14,14,,1,1
+Greek Yogurt with Honey and Nuts,Greek Yogurt with Honey and Nuts,Ingredients:,Ingredients:,-0.67,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,14,14,,1,1
+Ingredients:,Ingredients:,1 cup Greek yogurt,1 cup Greek yogurt,1.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,14,14,,1,1
 1 cup Greek yogurt,1 cup Greek yogurt,1 tablespoon honey,1 tablespoon honey,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,14,14,,1,1
 1 tablespoon honey,1 tablespoon honey,1/4 cup mixed nuts,1/4 cup mixed nuts,-0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,14,14,,1,1
-1/4 cup mixed nuts,1/4 cup mixed nuts,Instructions:,Instructions:,-1.67,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,14,14,,0,0
-Instructions:,Instructions:,"In a bowl, combine Greek yogurt and honey.","In a bowl, combine Greek yogurt and honey.",2.67,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,14,14,,0,0
+1/4 cup mixed nuts,1/4 cup mixed nuts,Instructions:,Instructions:,-1.67,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,14,14,,1,1
+Instructions:,Instructions:,"In a bowl, combine Greek yogurt and honey.","In a bowl, combine Greek yogurt and honey.",2.67,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,14,14,,1,1
 "In a bowl, combine Greek yogurt and honey.","In a bowl, combine Greek yogurt and honey.",Top with mixed nuts.,Top with mixed nuts.,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,14,14,,1,1
 Top with mixed nuts.,Top with mixed nuts.,Serve immediately.,Serve immediately.,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,14,14,,1,1
-Serve immediately.,Serve immediately.,Avocado and Egg Toast,Avocado and Egg Toast,1227.34,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,14,14,,0,0
-Avocado and Egg Toast,Avocado and Egg Toast,Ingredients:,Ingredients:,-0.67,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,14,14,,0,0
-Ingredients:,Ingredients:,"2 slices whole grain bread, toasted","2 slices whole grain bread, toasted",1.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,14,14,,0,0
+Serve immediately.,Serve immediately.,Avocado and Egg Toast,Avocado and Egg Toast,1227.34,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,14,14,,1,1
+Avocado and Egg Toast,Avocado and Egg Toast,Ingredients:,Ingredients:,-0.67,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,14,14,,1,1
+Ingredients:,Ingredients:,"2 slices whole grain bread, toasted","2 slices whole grain bread, toasted",1.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,14,14,,1,1
 "2 slices whole grain bread, toasted","2 slices whole grain bread, toasted",1 ripe avocado,1 ripe avocado,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,14,14,,1,1
 1 ripe avocado,1 ripe avocado,"1 large egg, poached or fried","1 large egg, poached or fried",0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,14,14,,1,1
 "1 large egg, poached or fried","1 large egg, poached or fried",Crushed red pepper flakes to taste,Crushed red pepper flakes to taste,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,14,14,,1,1
 Crushed red pepper flakes to taste,Crushed red pepper flakes to taste,Salt and pepper to taste,Salt and pepper to taste,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,14,14,,1,1
-Salt and pepper to taste,Salt and pepper to taste,Instructions:,Instructions:,-1.67,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,14,14,,0,0
-Instructions:,Instructions:,Mash the avocado and spread it on the toasted bread.,Mash the avocado and spread it on the toasted bread.,2.67,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,14,14,,0,0
+Salt and pepper to taste,Salt and pepper to taste,Instructions:,Instructions:,-1.67,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,14,14,,1,1
+Instructions:,Instructions:,Mash the avocado and spread it on the toasted bread.,Mash the avocado and spread it on the toasted bread.,2.67,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,14,14,,1,1
 Mash the avocado and spread it on the toasted bread.,Mash the avocado and spread it on the toasted bread.,Top with the poached or fried egg.,Top with the poached or fried egg.,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,14,14,,1,1
 Top with the poached or fried egg.,Top with the poached or fried egg.,Season with crushed red pepper flakes + salt and pepper.,Season with crushed red pepper flakes + salt and pepper.,0.0,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,14,14,,1,1
 Season with crushed red pepper flakes + salt and pepper.,Season with crushed red pepper flakes + salt and pepper.,Serve immediately.,Serve immediately.,0.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,14,14,,1,1
-Serve immediately.,Serve immediately.,Quinoa Breakfast Bowl,Quinoa Breakfast Bowl,1225.67,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,14,14,,0,0
-Quinoa Breakfast Bowl,Quinoa Breakfast Bowl,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,14,14,,0,0
-Ingredients:,Ingredients:,1/2 cup cooked quinoa,1/2 cup cooked quinoa,1.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,14,14,,0,0
+Serve immediately.,Serve immediately.,Quinoa Breakfast Bowl,Quinoa Breakfast Bowl,1225.67,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,14,14,,1,1
+Quinoa Breakfast Bowl,Quinoa Breakfast Bowl,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,14,14,,1,1
+Ingredients:,Ingredients:,1/2 cup cooked quinoa,1/2 cup cooked quinoa,1.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,14,14,,1,1
 1/2 cup cooked quinoa,1/2 cup cooked quinoa,1/4 cup diced avocado,1/4 cup diced avocado,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,14,14,,1,1
 1/4 cup diced avocado,1/4 cup diced avocado,"1/4 cup cherry tomatoes, halved","1/4 cup cherry tomatoes, halved",0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,14,14,,1,1
 "1/4 cup cherry tomatoes, halved","1/4 cup cherry tomatoes, halved","1 large egg, poached or fried","1 large egg, poached or fried",0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,14,14,,1,1
 "1 large egg, poached or fried","1 large egg, poached or fried",Salt and pepper to taste,Salt and pepper to taste,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,14,14,,1,1
-Salt and pepper to taste,Salt and pepper to taste,Instructions:,Instructions:,-1.67,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,14,14,,0,0
-Instructions:,Instructions:,"In a bowl, combine cooked quinoa, avocado, and cherry tomatoes.","In a bowl, combine cooked quinoa, avocado, and cherry tomatoes.",2.67,36.0,0,0,1,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,14,14,,0,0
+Salt and pepper to taste,Salt and pepper to taste,Instructions:,Instructions:,-1.67,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,14,14,,1,1
+Instructions:,Instructions:,"In a bowl, combine cooked quinoa, avocado, and cherry tomatoes.","In a bowl, combine cooked quinoa, avocado, and cherry tomatoes.",2.67,36.0,0,0,1,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,14,14,,1,1
 "In a bowl, combine cooked quinoa, avocado, and cherry tomatoes.","In a bowl, combine cooked quinoa, avocado, and cherry tomatoes.",Top with the poached or fried egg.,Top with the poached or fried egg.,-0.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,14,14,,1,1
 Top with the poached or fried egg.,Top with the poached or fried egg.,Season with salt and pepper.,Season with salt and pepper.,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,14,14,,1,1
-Serve immediately.,Serve immediately.,Berry and Spinach Smoothie,Berry and Spinach Smoothie,1227.34,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,15,15,,0,0
-Berry and Spinach Smoothie,Berry and Spinach Smoothie,Ingredients:,Ingredients:,-0.67,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,15,15,,0,0
-Ingredients:,Ingredients:,1/2 cup frozen berries,1/2 cup frozen berries,1.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,15,15,,0,0
+Serve immediately.,Serve immediately.,Berry and Spinach Smoothie,Berry and Spinach Smoothie,1227.34,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,15,15,,1,1
+Berry and Spinach Smoothie,Berry and Spinach Smoothie,Ingredients:,Ingredients:,-0.67,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,15,15,,1,1
+Ingredients:,Ingredients:,1/2 cup frozen berries,1/2 cup frozen berries,1.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,15,15,,1,1
 1/2 cup frozen berries,1/2 cup frozen berries,1/2 cup spinach,1/2 cup spinach,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,15,15,,1,1
 1/2 cup spinach,1/2 cup spinach,1/2 cup Greek yogurt,1/2 cup Greek yogurt,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,15,15,,1,1
 1/2 cup Greek yogurt,1/2 cup Greek yogurt,1/2 cup almond milk,1/2 cup almond milk,-0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,15,15,,1,1
 1/2 cup almond milk,1/2 cup almond milk,1 tablespoon honey,1 tablespoon honey,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,15,15,,1,1
-1 tablespoon honey,1 tablespoon honey,Instructions:,Instructions:,-1.67,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,15,15,,0,0
-Instructions:,Instructions:,"In a blender, combine frozen berries, spinach, Greek yogurt, almond milk, and honey.","In a blender, combine frozen berries, spinach, Greek yogurt, almond milk, and honey.",2.67,36.0,0,0,1,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,15,15,,0,0
+1 tablespoon honey,1 tablespoon honey,Instructions:,Instructions:,-1.67,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,15,15,,1,1
+Instructions:,Instructions:,"In a blender, combine frozen berries, spinach, Greek yogurt, almond milk, and honey.","In a blender, combine frozen berries, spinach, Greek yogurt, almond milk, and honey.",2.67,36.0,0,0,1,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,15,15,,1,1
 "In a blender, combine frozen berries, spinach, Greek yogurt, almond milk, and honey.","In a blender, combine frozen berries, spinach, Greek yogurt, almond milk, and honey.",Blend until smooth.,Blend until smooth.,0.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,15,15,,1,1
 Blend until smooth.,Blend until smooth.,Serve immediately.,Serve immediately.,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,15,15,,1,1
-Serve immediately.,Serve immediately.,Fruit and Nut Bars,Fruit and Nut Bars,1227.34,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,15,15,,0,0
-Fruit and Nut Bars,Fruit and Nut Bars,Ingredients:,Ingredients:,-0.67,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,15,15,,0,0
-Ingredients:,Ingredients:,"1 cup dates, pitted","1 cup dates, pitted",1.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,15,15,,0,0
+Serve immediately.,Serve immediately.,Fruit and Nut Bars,Fruit and Nut Bars,1227.34,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,15,15,,1,1
+Fruit and Nut Bars,Fruit and Nut Bars,Ingredients:,Ingredients:,-0.67,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,15,15,,1,1
+Ingredients:,Ingredients:,"1 cup dates, pitted","1 cup dates, pitted",1.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,15,15,,1,1
 "1 cup dates, pitted","1 cup dates, pitted",1 cup mixed nuts,1 cup mixed nuts,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,15,15,,1,1
 1 cup mixed nuts,1 cup mixed nuts,1/4 cup dried fruit,1/4 cup dried fruit,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,15,15,,1,1
 1/4 cup dried fruit,1/4 cup dried fruit,1 tablespoon honey,1 tablespoon honey,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,15,15,,1,1
-1 tablespoon honey,1 tablespoon honey,Instructions:,Instructions:,-1.67,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,15,15,,0,0
-Instructions:,Instructions:,"In a food processor, combine dates, mixed nuts, dried fruit, and honey.","In a food processor, combine dates, mixed nuts, dried fruit, and honey.",2.67,36.0,0,0,1,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,15,15,,0,0
+1 tablespoon honey,1 tablespoon honey,Instructions:,Instructions:,-1.67,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,15,15,,1,1
+Instructions:,Instructions:,"In a food processor, combine dates, mixed nuts, dried fruit, and honey.","In a food processor, combine dates, mixed nuts, dried fruit, and honey.",2.67,36.0,0,0,1,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,15,15,,1,1
 "In a food processor, combine dates, mixed nuts, dried fruit, and honey.","In a food processor, combine dates, mixed nuts, dried fruit, and honey.",Process until the mixture comes together.,Process until the mixture comes together.,0.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,15,15,,1,1
 Process until the mixture comes together.,Process until the mixture comes together.,Press the mixture into a greased baking dish.,Press the mixture into a greased baking dish.,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,15,15,,1,1
 Press the mixture into a greased baking dish.,Press the mixture into a greased baking dish.,Refrigerate for at least 1 hour before cutting into bars.,Refrigerate for at least 1 hour before cutting into bars.,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,15,15,,1,1
 Refrigerate for at least 1 hour before cutting into bars.,Refrigerate for at least 1 hour before cutting into bars.,Store in an airtight container.,Store in an airtight container.,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,15,15,,1,1
-Store in an airtight container.,Store in an airtight container.,Peanut Butter and Banana Smoothie,Peanut Butter and Banana Smoothie,1225.67,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,15,15,,0,0
-Peanut Butter and Banana Smoothie,Peanut Butter and Banana Smoothie,Ingredients:,Ingredients:,-0.67,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,15,15,,0,0
-Ingredients:,Ingredients:,1 banana,1 banana,2.67,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,15,15,,0,0
+Store in an airtight container.,Store in an airtight container.,Peanut Butter and Banana Smoothie,Peanut Butter and Banana Smoothie,1225.67,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,15,15,,1,1
+Peanut Butter and Banana Smoothie,Peanut Butter and Banana Smoothie,Ingredients:,Ingredients:,-0.67,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,15,15,,1,1
+Ingredients:,Ingredients:,1 banana,1 banana,2.67,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,15,15,,1,1
 1 banana,1 banana,1/2 cup Greek yogurt,1/2 cup Greek yogurt,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,15,15,,1,1
 1/2 cup Greek yogurt,1/2 cup Greek yogurt,1/2 cup almond milk,1/2 cup almond milk,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,15,15,,1,1
 1/2 cup almond milk,1/2 cup almond milk,1 tablespoon peanut butter,1 tablespoon peanut butter,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,15,15,,1,1
 1 tablespoon peanut butter,1 tablespoon peanut butter,1 tablespoon honey,1 tablespoon honey,-0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,15,15,,1,1
-1 tablespoon honey,1 tablespoon honey,Instructions:,Instructions:,-1.67,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,15,15,,0,0
-Instructions:,Instructions:,"In a blender, combine banana, Greek yogurt, almond milk, peanut butter, and honey.","In a blender, combine banana, Greek yogurt, almond milk, peanut butter, and honey.",1.0,36.0,0,0,1,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,15,15,,0,0
+1 tablespoon honey,1 tablespoon honey,Instructions:,Instructions:,-1.67,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,15,15,,1,1
+Instructions:,Instructions:,"In a blender, combine banana, Greek yogurt, almond milk, peanut butter, and honey.","In a blender, combine banana, Greek yogurt, almond milk, peanut butter, and honey.",1.0,36.0,0,0,1,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,15,15,,1,1
 "In a blender, combine banana, Greek yogurt, almond milk, peanut butter, and honey.","In a blender, combine banana, Greek yogurt, almond milk, peanut butter, and honey.",Blend until smooth.,Blend until smooth.,0.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,15,15,,1,1
-Serve immediately.,Serve immediately.,Cottage Cheese and Veggie Bowl,Cottage Cheese and Veggie Bowl,1225.67,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,16,16,,0,0
-Cottage Cheese and Veggie Bowl,Cottage Cheese and Veggie Bowl,Ingredients:,Ingredients: t,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,16,16,,0,0
-Ingredients:,Ingredients: t,1 cup cottage cheese,1 cup cottage cheese,1.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,16,16,,0,0
+Serve immediately.,Serve immediately.,Cottage Cheese and Veggie Bowl,Cottage Cheese and Veggie Bowl,1225.67,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,16,16,,1,1
+Cottage Cheese and Veggie Bowl,Cottage Cheese and Veggie Bowl,Ingredients:,Ingredients: t,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,16,16,,1,1
+Ingredients:,Ingredients: t,1 cup cottage cheese,1 cup cottage cheese,1.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,16,16,,1,1
 1 cup cottage cheese,1 cup cottage cheese,1/4 cup diced cucumber,1/4 cup diced cucumber,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,16,16,,1,1
 1/4 cup diced cucumber,1/4 cup diced cucumber,"1/4 cup cherry tomatoes, halved","1/4 cup cherry tomatoes, halved",0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,16,16,,1,1
 "1/4 cup cherry tomatoes, halved","1/4 cup cherry tomatoes, halved",1/4 cup diced bell pepper,1/4 cup diced bell pepper,-0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,16,16,,1,1
 1/4 cup diced bell pepper,1/4 cup diced bell pepper,Salt and pepper to taste,Salt and pepper to taste,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,16,16,,1,1
-Salt and pepper to taste,Salt and pepper to taste,Instructions:,Instructions: t,-1.67,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,16,16,,0,0
-Instructions:,Instructions: t,"In a bowl, combine cottage cheese, cucumber, cherry tomatoes, and bell pepper.","In a bowl, combine cottage cheese, cucumber, cherry tomatoes, and bell pepper.",1.0,36.0,0,0,1,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,16,16,,0,0
+Salt and pepper to taste,Salt and pepper to taste,Instructions:,Instructions: t,-1.67,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,16,16,,1,1
+Instructions:,Instructions: t,"In a bowl, combine cottage cheese, cucumber, cherry tomatoes, and bell pepper.","In a bowl, combine cottage cheese, cucumber, cherry tomatoes, and bell pepper.",1.0,36.0,0,0,1,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,16,16,,1,1
 "In a bowl, combine cottage cheese, cucumber, cherry tomatoes, and bell pepper.","In a bowl, combine cottage cheese, cucumber, cherry tomatoes, and bell pepper.",Season with salt and pepper.,Season with salt and pepper.,0.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,16,16,,1,1
 Season with salt and pepper.,Season with salt and pepper.,Serve immediately.,Serve immediately.,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,16,16,,1,1
-Serve immediately.,Serve immediately.,Almond Butter and Apple Slices,Almond Butter and Apple Slices,1637.57,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,16,16,,0,0
-Almond Butter and Apple Slices,Almond Butter and Apple Slices,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,16,16,,0,0
-Ingredients:,Ingredients:,"1 apple, sliced","1 apple, sliced",1.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,16,16,,0,0
+Serve immediately.,Serve immediately.,Almond Butter and Apple Slices,Almond Butter and Apple Slices,1637.57,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,16,16,,1,1
+Almond Butter and Apple Slices,Almond Butter and Apple Slices,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,16,16,,1,1
+Ingredients:,Ingredients:,"1 apple, sliced","1 apple, sliced",1.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,16,16,,1,1
 "1 apple, sliced","1 apple, sliced",2 tablespoons almond butter,2 tablespoons almond butter,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,16,16,,1,1
-2 tablespoons almond butter,2 tablespoons almond butter,Instructions:,Instructions: t,-1.67,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,16,16,,0,0
-Instructions:,Instructions: t,Spread almond butter on each apple slice.,Spread almond butter on each apple slice.,1.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,16,16,,0,0
+2 tablespoons almond butter,2 tablespoons almond butter,Instructions:,Instructions: t,-1.67,-36.0,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,16,16,,1,1
+Instructions:,Instructions: t,Spread almond butter on each apple slice.,Spread almond butter on each apple slice.,1.0,36.0,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,16,16,,1,1
 Spread almond butter on each apple slice.,Spread almond butter on each apple slice.,Serve immediately.,Serve immediately.,0.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,16,16,,1,1

@@ -79,74 +79,66 @@ def parse_numbering(text: str) -> dict | None:
 
     return None
 
+import pandas as pd
+import numpy as np
+from sklearn.cluster import AgglomerativeClustering
+
 def build_hierarchy(df: pd.DataFrame, font_size_col: str) -> list:
     """
-    Applies the deterministic, stack-based algorithm to assign hierarchy levels.
+    Assigns hierarchy levels by first globally clustering font sizes to establish
+    style tiers, and then refines the hierarchy using numbering information.
+    This approach is more robust against noisy or out-of-place titles.
     """
-    print("\nStep 3: Building hierarchy with stateful algorithm...")
+    print("\nStep 3: Building hierarchy with revised font-clustering algorithm...")
     if df.empty:
         return []
 
-    hierarchy_levels = []
-    hierarchy_stack = []
+    hierarchy_levels = ["Title"]
+    if len(df) <= 1:
+        return hierarchy_levels
 
-    # First title should be "Title" level (level 0)
-    first_title = df.iloc[0]
-    first_title_info = {
-        'level': 0,
-        'number_depth': first_title['numbering_info']['depth'] if first_title['numbering_info'] else -1,
-        'style_cluster_id': first_title['style_cluster_id'],
-        'font_size': first_title[font_size_col]
-    }
-    hierarchy_stack.append(first_title_info)
-    hierarchy_levels.append('Title')
+    titles_df = df.iloc[1:].copy()
 
-    for i in range(1, len(df)):
-        current_title = df.iloc[i]
-        previous_title_info = hierarchy_stack[-1]
+    # --- 1. Globally Cluster Font Sizes to Find Hierarchy Tiers ---
+    # Use Agglomerative Clustering to find natural groups of font sizes.
+    # The distance_threshold is key: it groups fonts that are "close" together.
+    # A threshold of 1.5 means fonts like 14.04 and 14.2 would be in the same cluster,
+    # but 14.04 and 15.96 would be in different clusters.
+    font_sizes = titles_df[[font_size_col]].values
+    agg_cluster = AgglomerativeClustering(n_clusters=None, distance_threshold=1.5, linkage='single')
+    font_clusters = agg_cluster.fit_predict(font_sizes)
+    titles_df['font_cluster'] = font_clusters
 
-        current_number_depth = current_title['numbering_info']['depth'] if current_title['numbering_info'] else -1
-        current_style_id = current_title['style_cluster_id']
-        current_font_size = current_title[font_size_col]
+    # --- 2. Rank Clusters to Create Font-Based Levels ---
+    # The cluster with the highest average font size gets the highest rank (H1).
+    cluster_ranks = titles_df.groupby('font_cluster')[font_size_col].mean().sort_values(ascending=False).index
+    level_map = {cluster_id: i + 1 for i, cluster_id in enumerate(cluster_ranks)}
+    titles_df['font_based_level'] = titles_df['font_cluster'].map(level_map)
 
-        # If both have numbering info, use numbering depth
-        if current_number_depth > -1 and previous_title_info['number_depth'] > -1:
-            if current_number_depth > previous_title_info['number_depth']:
-                new_level = previous_title_info['level'] + 1
-            elif current_number_depth == previous_title_info['number_depth']:
-                while hierarchy_stack and hierarchy_stack[-1]['number_depth'] >= current_number_depth:
-                    hierarchy_stack.pop()
-                new_level = hierarchy_stack[-1]['level'] + 1 if hierarchy_stack else 1
-            else:
-                while hierarchy_stack and current_number_depth <= hierarchy_stack[-1]['number_depth']:
-                    hierarchy_stack.pop()
-                new_level = hierarchy_stack[-1]['level'] + 1 if hierarchy_stack else 1
-        else:
-            # No numbering info - use style and font size
-            if current_style_id == previous_title_info['style_cluster_id']:
-                hierarchy_stack.pop()
-                new_level = hierarchy_stack[-1]['level'] + 1 if hierarchy_stack else 1
-            elif current_font_size < previous_title_info['font_size']:
-                new_level = previous_title_info['level'] + 1
-            else:
-                while hierarchy_stack and current_font_size >= hierarchy_stack[-1]['font_size']:
-                    hierarchy_stack.pop()
-                new_level = hierarchy_stack[-1]['level'] + 1 if hierarchy_stack else 1
+    # --- 3. Determine Final Level using Numbering as the Primary Rule ---
+    # The numbering depth (e.g., depth 2 for "2.1") is the most reliable signal.
+    def get_final_level(row):
+        num_info = row['numbering_info']
+        if num_info and isinstance(num_info, dict):
+            return num_info.get('depth', row['font_based_level'])
+        return row['font_based_level']
+
+    titles_df['final_level'] = titles_df.apply(get_final_level, axis=1)
+
+    # --- 4. Ensure Logical Order (e.g., no H1 -> H3 jumps) ---
+    # Use a simple stack to enforce a logical hierarchy sequence.
+    level_stack = [0]  # Start with the 'Title' level
+    for determined_level in titles_df['final_level']:
+        # Pop from the stack until the parent level is found.
+        # A parent level must be strictly smaller than the current level.
+        while determined_level <= level_stack[-1]:
+            level_stack.pop()
         
-        current_title_info = {
-            'level': new_level,
-            'number_depth': current_number_depth,
-            'style_cluster_id': current_style_id,
-            'font_size': current_font_size
-        }
-        hierarchy_stack.append(current_title_info)
-        
-        # Format the hierarchy level
-        if new_level == 0:
-            hierarchy_levels.append('Title')
-        else:
-            hierarchy_levels.append(f'H{new_level}')
-        
+        # Correct the determined level if it creates an invalid jump (e.g., 0 -> 2)
+        corrected_level = min(determined_level, level_stack[-1] + 1)
+        level_stack.append(corrected_level)
+        hierarchy_levels.append(f"H{corrected_level}")
+
     print("✅ Done.")
     return hierarchy_levels
 

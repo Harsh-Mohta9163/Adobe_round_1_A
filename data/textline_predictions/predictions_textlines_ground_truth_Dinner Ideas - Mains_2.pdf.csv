@@ -2,24 +2,24 @@ text_a,span_text_a,text_b,span_text_b,normalized_vertical_gap,indentation_change
 1 teaspoon thyme,1 teaspoon thyme,1 teaspoon rosemary,1 teaspoon rosemary,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,1,1,,1,1
 1 teaspoon rosemary,1 teaspoon rosemary,1/4 cup olive oil,1/4 cup olive oil,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,1,1,,1,1
 1/4 cup olive oil,1/4 cup olive oil,Salt and pepper to taste,Salt and pepper to taste,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,1,1,,1,1
-Salt and pepper to taste,Salt and pepper to taste,Instructions:,Instructions:,1.03,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,1,1,,0,0
-Instructions:,Instructions:,Preheat oven to 375°F 190°C.,Preheat oven to 375°F (190°C).,1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,1,1,,0,0
+Salt and pepper to taste,Salt and pepper to taste,Instructions:,Instructions:,1.03,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,1,1,,1,1
+Instructions:,Instructions:,Preheat oven to 375°F 190°C.,Preheat oven to 375°F (190°C).,1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,1,1,,1,1
 Preheat oven to 375°F 190°C.,Preheat oven to 375°F (190°C).,"In a large baking dish, layer diced eggplant, zucchini, bell pepper, onion, and tomatoes.","In a large baking dish, layer diced eggplant, zucchini, bell pepper, onion, and tomatoes.",1.0,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1,1,,1,1
 "In a large baking dish, layer diced eggplant, zucchini, bell pepper, onion, and tomatoes.","In a large baking dish, layer diced eggplant, zucchini, bell pepper, onion, and tomatoes.","In a bowl, mix minced garlic, olive oil, thyme, rosemary, salt, and pepper.","In a bowl, mix minced garlic, olive oil, thyme, rosemary, salt, and pepper.",1.0,0.0,1,1,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1,1,,1,1
 "In a bowl, mix minced garlic, olive oil, thyme, rosemary, salt, and pepper.","In a bowl, mix minced garlic, olive oil, thyme, rosemary, salt, and pepper.",Pour the mixture over the vegetables and toss to coat.,Pour the mixture over the vegetables and toss to coat.,1.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1,1,,1,1
 Pour the mixture over the vegetables and toss to coat.,Pour the mixture over the vegetables and toss to coat.,Bake for 45 minutes until vegetables are tender.,Bake for 45 minutes until vegetables are tender.,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1,1,,1,1
 Bake for 45 minutes until vegetables are tender.,Bake for 45 minutes until vegetables are tender.,Serve warm.,Serve warm.,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1,1,,1,1
-Serve warm.,Serve warm.,Roast Chicken,Roast Chicken,17.66,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,1,1,,0,0
-Roast Chicken,Roast Chicken,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,1,1,,0,0
-Ingredients:,Ingredients:,1 whole chicken,1 whole chicken,1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,1,1,,0,0
+Serve warm.,Serve warm.,Roast Chicken,Roast Chicken,17.66,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,1,1,,1,1
+Roast Chicken,Roast Chicken,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,1,1,,1,1
+Ingredients:,Ingredients:,1 whole chicken,1 whole chicken,1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,1,1,,1,1
 1 whole chicken,1 whole chicken,"1 lemon, halved","1 lemon, halved",1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,1,1,,1,1
 "1 lemon, halved","1 lemon, halved","4 cloves garlic, minced","4 cloves garlic, minced",1.02,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,1,1,,1,1
 "4 cloves garlic, minced","4 cloves garlic, minced",1/4 cup olive oil,1/4 cup olive oil,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,1,1,,1,1
 1/4 cup olive oil,1/4 cup olive oil,"1 tablespoon fresh rosemary, chopped","1 tablespoon fresh rosemary, chopped",1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,1,1,,1,1
 "1 tablespoon fresh rosemary, chopped","1 tablespoon fresh rosemary, chopped","1 tablespoon fresh thyme, chopped","1 tablespoon fresh thyme, chopped",1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,1,1,,1,1
 "1 tablespoon fresh thyme, chopped","1 tablespoon fresh thyme, chopped",Salt and pepper to taste,Salt and pepper to taste,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,1,1,,1,1
-Salt and pepper to taste,Salt and pepper to taste,Instructions:,Instructions:,1.01,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,1,1,,0,0
-Instructions:,Instructions:,Preheat oven to 375°F 190°C.,Preheat oven to 375°F (190°C).,1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,1,1,,0,0
+Salt and pepper to taste,Salt and pepper to taste,Instructions:,Instructions:,1.01,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,1,1,,1,1
+Instructions:,Instructions:,Preheat oven to 375°F 190°C.,Preheat oven to 375°F (190°C).,1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,1,1,,1,1
 Preheat oven to 375°F 190°C.,Preheat oven to 375°F (190°C).,Season the chicken with salt and pepper.,Season the chicken with salt and pepper.,1.02,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1,1,,1,1
 Season the chicken with salt and pepper.,Season the chicken with salt and pepper.,Stuff the cavity with lemon halves and minced garlic.,Stuff the cavity with lemon halves and minced garlic.,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1,1,,1,1
 Stuff the cavity with lemon halves and minced garlic.,Stuff the cavity with lemon halves and minced garlic.,"In a bowl, mix olive oil, chopped rosemary, and chopped thyme.","In a bowl, mix olive oil, chopped rosemary, and chopped thyme.",1.0,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1,1,,1,1
@@ -27,9 +27,9 @@ Stuff the cavity with lemon halves and minced garlic.,Stuff the cavity with lemo
 Brush the mixture over the chicken.,Brush the mixture over the chicken.,Place the chicken in a roasting pan and roast for 1 hour and 30 minutes until cooked,Place the chicken in a roasting pan and roast for 1 hour and 30 minutes until cooked,1.0,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1,1,,1,1
 Place the chicken in a roasting pan and roast for 1 hour and 30 minutes until cooked,Place the chicken in a roasting pan and roast for 1 hour and 30 minutes until cooked,through.,through.,1.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,1,0,0,0,1,0,0,0,1,1,1,,1,1
 through.,through.,Let rest before carving and serving.,Let rest before carving and serving.,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1,1,,1,1
-Let rest before carving and serving.,Let rest before carving and serving.,Shrimp and Grits,Shrimp and Grits,17.66,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,1,1,,0,0
-Shrimp and Grits,Shrimp and Grits,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,1,1,,0,0
-Ingredients:,Ingredients:,"1 pound shrimp, peeled and deveined","1 pound shrimp, peeled and deveined",1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,1,1,,0,0
+Let rest before carving and serving.,Let rest before carving and serving.,Shrimp and Grits,Shrimp and Grits,17.66,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,1,1,,1,1
+Shrimp and Grits,Shrimp and Grits,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,1,1,,1,1
+Ingredients:,Ingredients:,"1 pound shrimp, peeled and deveined","1 pound shrimp, peeled and deveined",1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,1,1,,1,1
 "1 pound shrimp, peeled and deveined","1 pound shrimp, peeled and deveined",1 cup grits,1 cup grits,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,1,1,,1,1
 1 cup grits,1 cup grits,4 cups water,4 cups water,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,1,1,,1,1
 4 cups water,4 cups water,"1/2 cup cheddar cheese, shredded","1/2 cup cheddar cheese, shredded",1.02,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,1,1,,1,1
@@ -38,8 +38,8 @@ Ingredients:,Ingredients:,"1 pound shrimp, peeled and deveined","1 pound shrimp,
 "1 small onion, diced","1 small onion, diced","2 cloves garlic, minced","2 cloves garlic, minced",1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,1,1,,1,1
 "1/4 cup bacon, chopped","1/4 cup bacon, chopped","1/4 cup green onions, sliced","1/4 cup green onions, sliced",1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,2,2,,1,1
 "1/4 cup green onions, sliced","1/4 cup green onions, sliced",Salt and pepper to taste,Salt and pepper to taste,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,2,2,,1,1
-Salt and pepper to taste,Salt and pepper to taste,Instructions:,Instructions:,1.0,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,2,2,,0,0
-Instructions:,Instructions:,"In a pot, bring water to a boil and stir in grits.","In a pot, bring water to a boil and stir in grits.",1.03,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,2,2,,0,0
+Salt and pepper to taste,Salt and pepper to taste,Instructions:,Instructions:,1.0,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,2,2,,1,1
+Instructions:,Instructions:,"In a pot, bring water to a boil and stir in grits.","In a pot, bring water to a boil and stir in grits.",1.03,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,2,2,,1,1
 "In a pot, bring water to a boil and stir in grits.","In a pot, bring water to a boil and stir in grits.","Reduce heat and simmer until thickened, then stir in shredded cheddar cheese and","Reduce heat and simmer until thickened, then stir in shredded cheddar cheese and",1.0,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,2,2,,1,1
 "Reduce heat and simmer until thickened, then stir in shredded cheddar cheese and","Reduce heat and simmer until thickened, then stir in shredded cheddar cheese and",butter.,butter.,1.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,1,0,0,0,1,0,0,0,1,2,2,,1,1
 butter.,butter.,"In a skillet, cook chopped bacon until crispy, then set aside.","In a skillet, cook chopped bacon until crispy, then set aside.",1.0,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,2,2,,1,1
@@ -47,9 +47,9 @@ butter.,butter.,"In a skillet, cook chopped bacon until crispy, then set aside."
 "In the same skillet, sauté diced onion and minced garlic until softened.","In the same skillet, sauté diced onion and minced garlic until softened.",Add shrimp and cook until pink and opaque.,Add shrimp and cook until pink and opaque.,1.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,2,2,,1,1
 Add shrimp and cook until pink and opaque.,Add shrimp and cook until pink and opaque.,Stir in cooked bacon and sliced green onions.,Stir in cooked bacon and sliced green onions.,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,2,2,,1,1
 Stir in cooked bacon and sliced green onions.,Stir in cooked bacon and sliced green onions.,Serve shrimp mixture over grits.,Serve shrimp mixture over grits.,1.02,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,2,2,,1,1
-Serve shrimp mixture over grits.,Serve shrimp mixture over grits.,Spaghetti Carbonara,Spaghetti Carbonara,17.64,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,2,2,,0,0
-Spaghetti Carbonara,Spaghetti Carbonara,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,2,2,,0,0
-Ingredients:,Ingredients:,1 pound spaghetti,1 pound spaghetti,1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,2,2,,0,0
+Serve shrimp mixture over grits.,Serve shrimp mixture over grits.,Spaghetti Carbonara,Spaghetti Carbonara,17.64,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,2,2,,1,1
+Spaghetti Carbonara,Spaghetti Carbonara,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,2,2,,1,1
+Ingredients:,Ingredients:,1 pound spaghetti,1 pound spaghetti,1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,2,2,,1,1
 1 pound spaghetti,1 pound spaghetti,4 eggs,4 eggs,1.02,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,2,2,,1,1
 4 eggs,4 eggs,1 cup grated Parmesan cheese,1 cup grated Parmesan cheese,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,2,2,,1,1
 1 cup grated Parmesan cheese,1 cup grated Parmesan cheese,"1/2 cup pancetta, diced","1/2 cup pancetta, diced",1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,2,2,,1,1
@@ -57,17 +57,17 @@ Ingredients:,Ingredients:,1 pound spaghetti,1 pound spaghetti,1.0,36.02,0,0,0,12
 "2 cloves garlic, minced","2 cloves garlic, minced",1/4 cup heavy cream optional,1/4 cup heavy cream (optional),1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,2,2,,1,1
 1/4 cup heavy cream optional,1/4 cup heavy cream (optional),Salt and pepper to taste,Salt and pepper to taste,1.01,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,2,2,,1,1
 Salt and pepper to taste,Salt and pepper to taste,Chopped parsley for garnish,Chopped parsley for garnish,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,2,2,,1,1
-Chopped parsley for garnish,Chopped parsley for garnish,Instructions:,Instructions:,1.02,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,2,2,,0,0
-Instructions:,Instructions:,Cook spaghetti according to package instructions.,Cook spaghetti according to package instructions.,1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,2,2,,0,0
+Chopped parsley for garnish,Chopped parsley for garnish,Instructions:,Instructions:,1.02,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,2,2,,1,1
+Instructions:,Instructions:,Cook spaghetti according to package instructions.,Cook spaghetti according to package instructions.,1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,2,2,,1,1
 Cook spaghetti according to package instructions.,Cook spaghetti according to package instructions.,"In a skillet, cook diced pancetta until crispy, then set aside.","In a skillet, cook diced pancetta until crispy, then set aside.",1.0,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,2,2,,1,1
 "In a skillet, cook diced pancetta until crispy, then set aside.","In a skillet, cook diced pancetta until crispy, then set aside.","In a bowl, whisk eggs, grated Parmesan cheese, and heavy cream if using.","In a bowl, whisk eggs, grated Parmesan cheese, and heavy cream (if using).",1.0,0.0,1,1,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,2,2,,1,1
 "In a bowl, whisk eggs, grated Parmesan cheese, and heavy cream if using.","In a bowl, whisk eggs, grated Parmesan cheese, and heavy cream (if using).","In the same skillet, sauté minced garlic until fragrant.","In the same skillet, sauté minced garlic until fragrant.",1.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,2,2,,1,1
 "In the same skillet, sauté minced garlic until fragrant.","In the same skillet, sauté minced garlic until fragrant.",Add cooked spaghetti and toss to coat.,Add cooked spaghetti and toss to coat.,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,2,2,,1,1
 Add cooked spaghetti and toss to coat.,Add cooked spaghetti and toss to coat.,"Remove from heat and quickly stir in the egg mixture, pancetta, salt, and pepper.","Remove from heat and quickly stir in the egg mixture, pancetta, salt, and pepper.",1.0,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,2,2,,1,1
 "Remove from heat and quickly stir in the egg mixture, pancetta, salt, and pepper.","Remove from heat and quickly stir in the egg mixture, pancetta, salt, and pepper.",Garnish with chopped parsley and serve.,Garnish with chopped parsley and serve.,1.02,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,2,2,,1,1
-Garnish with chopped parsley and serve.,Garnish with chopped parsley and serve.,Stuffed Bell Peppers,Stuffed Bell Peppers,17.64,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,2,2,,0,0
-Stuffed Bell Peppers,Stuffed Bell Peppers,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,2,2,,0,0
-Ingredients:,Ingredients:,"4 bell peppers, tops cut off and seeds removed","4 bell peppers, tops cut off and seeds removed",1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,2,2,,0,0
+Garnish with chopped parsley and serve.,Garnish with chopped parsley and serve.,Stuffed Bell Peppers,Stuffed Bell Peppers,17.64,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,2,2,,1,1
+Stuffed Bell Peppers,Stuffed Bell Peppers,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,2,2,,1,1
+Ingredients:,Ingredients:,"4 bell peppers, tops cut off and seeds removed","4 bell peppers, tops cut off and seeds removed",1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,2,2,,1,1
 "4 bell peppers, tops cut off and seeds removed","4 bell peppers, tops cut off and seeds removed",1 pound ground beef,1 pound ground beef,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,2,2,,1,1
 1 pound ground beef,1 pound ground beef,"1 small onion, diced","1 small onion, diced",1.02,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,2,2,,1,1
 "1 small onion, diced","1 small onion, diced","2 cloves garlic, minced","2 cloves garlic, minced",1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,2,2,,1,1
@@ -77,9 +77,9 @@ Ingredients:,Ingredients:,"4 bell peppers, tops cut off and seeds removed","4 be
 1 teaspoon oregano,1 teaspoon oregano,1 teaspoon basil,1 teaspoon basil,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,3,3,,1,1
 1 teaspoon basil,1 teaspoon basil,2 tablespoons olive oil,2 tablespoons olive oil,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,3,3,,1,1
 2 tablespoons olive oil,2 tablespoons olive oil,Salt and pepper to taste,Salt and pepper to taste,1.03,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,3,3,,1,1
-Salt and pepper to taste,Salt and pepper to taste,Sweet and Sour Pork,Sweet and Sour Pork,17.64,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,3,3,,0,0
-Sweet and Sour Pork,Sweet and Sour Pork,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,3,3,,0,0
-Ingredients:,Ingredients:,"1 pound pork tenderloin, cubed","1 pound pork tenderloin, cubed",1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,3,3,,0,0
+Salt and pepper to taste,Salt and pepper to taste,Sweet and Sour Pork,Sweet and Sour Pork,17.64,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,3,3,,1,1
+Sweet and Sour Pork,Sweet and Sour Pork,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,3,3,,1,1
+Ingredients:,Ingredients:,"1 pound pork tenderloin, cubed","1 pound pork tenderloin, cubed",1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,3,3,,1,1
 "1 pound pork tenderloin, cubed","1 pound pork tenderloin, cubed","1 bell pepper, diced","1 bell pepper, diced",1.02,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,3,3,,1,1
 "1 bell pepper, diced","1 bell pepper, diced","1 small onion, diced","1 small onion, diced",1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,3,3,,1,1
 "1 small onion, diced","1 small onion, diced",1/2 cup pineapple chunks,1/2 cup pineapple chunks,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,3,3,,1,1
@@ -90,17 +90,17 @@ Ingredients:,Ingredients:,"1 pound pork tenderloin, cubed","1 pound pork tenderl
 1/4 cup brown sugar,1/4 cup brown sugar,2 tablespoons cornstarch,2 tablespoons cornstarch,1.02,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,3,3,,1,1
 2 tablespoons cornstarch,2 tablespoons cornstarch,2 tablespoons vegetable oil,2 tablespoons vegetable oil,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,3,3,,1,1
 2 tablespoons vegetable oil,2 tablespoons vegetable oil,Cooked rice for serving,Cooked rice for serving,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,3,3,,1,1
-Cooked rice for serving,Cooked rice for serving,Instructions:,Instructions:,1.0,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,3,3,,0,0
-Instructions:,Instructions:,"In a bowl, toss pork cubes with cornstarch.","In a bowl, toss pork cubes with cornstarch.",1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,3,3,,0,0
-"In a bowl, toss pork cubes with cornstarch.","In a bowl, toss pork cubes with cornstarch.",Heat vegetable oil in a skillet over medium heat.,Heat vegetable oil in a skillet over medium heat.,1.01,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,3,3,,0,0
+Cooked rice for serving,Cooked rice for serving,Instructions:,Instructions:,1.0,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,3,3,,1,1
+Instructions:,Instructions:,"In a bowl, toss pork cubes with cornstarch.","In a bowl, toss pork cubes with cornstarch.",1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,3,3,,1,1
+"In a bowl, toss pork cubes with cornstarch.","In a bowl, toss pork cubes with cornstarch.",Heat vegetable oil in a skillet over medium heat.,Heat vegetable oil in a skillet over medium heat.,1.01,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,3,3,,1,1
 Heat vegetable oil in a skillet over medium heat.,Heat vegetable oil in a skillet over medium heat.,"Cook pork until browned and crispy, then set aside.","Cook pork until browned and crispy, then set aside.",1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,3,3,,1,1
 "Cook pork until browned and crispy, then set aside.","Cook pork until browned and crispy, then set aside.","In the same skillet, sauté diced onion and bell pepper until softened.","In the same skillet, sauté diced onion and bell pepper until softened.",1.02,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,3,3,,1,1
 "In the same skillet, sauté diced onion and bell pepper until softened.","In the same skillet, sauté diced onion and bell pepper until softened.","Stir in pineapple chunks, ketchup, rice vinegar, soy sauce, and brown sugar.","Stir in pineapple chunks, ketchup, rice vinegar, soy sauce, and brown sugar.",1.0,0.0,1,1,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,3,3,,1,1
 "Stir in pineapple chunks, ketchup, rice vinegar, soy sauce, and brown sugar.","Stir in pineapple chunks, ketchup, rice vinegar, soy sauce, and brown sugar.",Return pork to the skillet and toss to coat in the sauce.,Return pork to the skillet and toss to coat in the sauce.,1.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,3,3,,1,1
 Return pork to the skillet and toss to coat in the sauce.,Return pork to the skillet and toss to coat in the sauce.,Serve over cooked rice.,Serve over cooked rice.,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,3,3,,1,1
-Serve over cooked rice.,Serve over cooked rice.,Tandoori Chicken,Tandoori Chicken,17.66,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,3,3,,0,0
-Tandoori Chicken,Tandoori Chicken,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,3,3,,0,0
-Ingredients:,Ingredients:,"4 boneless, skinless chicken thighs","4 boneless, skinless chicken thighs",1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,3,3,,0,0
+Serve over cooked rice.,Serve over cooked rice.,Tandoori Chicken,Tandoori Chicken,17.66,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,3,3,,1,1
+Tandoori Chicken,Tandoori Chicken,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,3,3,,1,1
+Ingredients:,Ingredients:,"4 boneless, skinless chicken thighs","4 boneless, skinless chicken thighs",1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,3,3,,1,1
 "4 boneless, skinless chicken thighs","4 boneless, skinless chicken thighs",1 cup yogurt,1 cup yogurt,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,3,3,,1,1
 1 cup yogurt,1 cup yogurt,2 tablespoons lemon juice,2 tablespoons lemon juice,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,3,3,,1,1
 2 tablespoons lemon juice,2 tablespoons lemon juice,"2 cloves garlic, minced","2 cloves garlic, minced",1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,3,3,,1,1
@@ -111,16 +111,16 @@ Ingredients:,Ingredients:,"4 boneless, skinless chicken thighs","4 boneless, ski
 1 teaspoon turmeric,1 teaspoon turmeric,1 teaspoon paprika,1 teaspoon paprika,1.01,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,3,3,,1,1
 1 teaspoon paprika,1 teaspoon paprika,1 teaspoon garam masala,1 teaspoon garam masala,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,3,3,,1,1
 1/4 teaspoon cayenne pepper,1/4 teaspoon cayenne pepper,Salt and pepper to taste,Salt and pepper to taste,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,4,4,,1,1
-Salt and pepper to taste,Salt and pepper to taste,Instructions:,Instructions:,1.0,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,4,4,,0,0
-Instructions:,Instructions:,"In a bowl, mix yogurt, lemon juice, minced garlic, grated ginger, cumin, coriander,","In a bowl, mix yogurt, lemon juice, minced garlic, grated ginger, cumin, coriander,",1.0,36.02,0,0,1,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,4,4,,0,0
+Salt and pepper to taste,Salt and pepper to taste,Instructions:,Instructions:,1.0,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,4,4,,1,1
+Instructions:,Instructions:,"In a bowl, mix yogurt, lemon juice, minced garlic, grated ginger, cumin, coriander,","In a bowl, mix yogurt, lemon juice, minced garlic, grated ginger, cumin, coriander,",1.0,36.02,0,0,1,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,4,4,,1,1
 "In a bowl, mix yogurt, lemon juice, minced garlic, grated ginger, cumin, coriander,","In a bowl, mix yogurt, lemon juice, minced garlic, grated ginger, cumin, coriander,","turmeric, paprika, garam masala, cayenne pepper, salt, and pepper.","turmeric, paprika, garam masala, cayenne pepper, salt, and pepper.",1.03,0.0,1,1,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,1,0,0,0,1,0,0,0,1,4,4,,1,1
 "turmeric, paprika, garam masala, cayenne pepper, salt, and pepper.","turmeric, paprika, garam masala, cayenne pepper, salt, and pepper.",Marinate chicken thighs in the mixture for at least 1 hour.,Marinate chicken thighs in the mixture for at least 1 hour.,1.0,0.0,1,1,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,4,4,,1,1
 Marinate chicken thighs in the mixture for at least 1 hour.,Marinate chicken thighs in the mixture for at least 1 hour.,Preheat oven to 400°F 200°C.,Preheat oven to 400°F (200°C).,1.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,4,4,,1,1
 Preheat oven to 400°F 200°C.,Preheat oven to 400°F (200°C).,Place chicken on a baking sheet and bake for 25-30 minutes until cooked through.,Place chicken on a baking sheet and bake for 25-30 minutes until cooked through.,1.0,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,4,4,,1,1
 Place chicken on a baking sheet and bake for 25-30 minutes until cooked through.,Place chicken on a baking sheet and bake for 25-30 minutes until cooked through.,Serve warm.,Serve warm.,1.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,4,4,,1,1
-Serve warm.,Serve warm.,Thai Green Curry,Thai Green Curry,17.66,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,4,4,,0,0
-Thai Green Curry,Thai Green Curry,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,4,4,,0,0
-Ingredients:,Ingredients:,"1 pound chicken breast, cubed","1 pound chicken breast, cubed",1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,4,4,,0,0
+Serve warm.,Serve warm.,Thai Green Curry,Thai Green Curry,17.66,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,4,4,,1,1
+Thai Green Curry,Thai Green Curry,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,4,4,,1,1
+Ingredients:,Ingredients:,"1 pound chicken breast, cubed","1 pound chicken breast, cubed",1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,4,4,,1,1
 "1 pound chicken breast, cubed","1 pound chicken breast, cubed","1 small onion, diced","1 small onion, diced",1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,4,4,,1,1
 "1 small onion, diced","1 small onion, diced","2 cloves garlic, minced","2 cloves garlic, minced",1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,4,4,,1,1
 "2 cloves garlic, minced","2 cloves garlic, minced","1 bell pepper, sliced","1 bell pepper, sliced",1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,4,4,,1,1
@@ -132,17 +132,17 @@ Ingredients:,Ingredients:,"1 pound chicken breast, cubed","1 pound chicken breas
 1 tablespoon brown sugar,1 tablespoon brown sugar,1/4 cup fresh basil leaves,1/4 cup fresh basil leaves,1.01,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,4,4,,1,1
 1/4 cup fresh basil leaves,1/4 cup fresh basil leaves,2 tablespoons vegetable oil,2 tablespoons vegetable oil,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,4,4,,1,1
 2 tablespoons vegetable oil,2 tablespoons vegetable oil,Cooked rice for serving,Cooked rice for serving,1.02,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,4,4,,1,1
-Cooked rice for serving,Cooked rice for serving,Instructions:,Instructions:,1.0,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,4,4,,0,0
-Instructions:,Instructions:,"In a large skillet, heat vegetable oil over medium heat.","In a large skillet, heat vegetable oil over medium heat.",1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,4,4,,0,0
+Cooked rice for serving,Cooked rice for serving,Instructions:,Instructions:,1.0,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,4,4,,1,1
+Instructions:,Instructions:,"In a large skillet, heat vegetable oil over medium heat.","In a large skillet, heat vegetable oil over medium heat.",1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,4,4,,1,1
 "In a large skillet, heat vegetable oil over medium heat.","In a large skillet, heat vegetable oil over medium heat.",Cook diced onion and minced garlic until softened.,Cook diced onion and minced garlic until softened.,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,4,4,,1,1
 Cook diced onion and minced garlic until softened.,Cook diced onion and minced garlic until softened.,Add cubed chicken and cook until browned.,Add cubed chicken and cook until browned.,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,4,4,,1,1
 Add cubed chicken and cook until browned.,Add cubed chicken and cook until browned.,"Stir in green curry paste, coconut milk, chicken broth, fish sauce, and brown sugar.","Stir in green curry paste, coconut milk, chicken broth, fish sauce, and brown sugar.",1.0,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,4,4,,1,1
 "Stir in green curry paste, coconut milk, chicken broth, fish sauce, and brown sugar.","Stir in green curry paste, coconut milk, chicken broth, fish sauce, and brown sugar.",Add sliced bell pepper and simmer for 15 minutes until chicken is cooked through.,Add sliced bell pepper and simmer for 15 minutes until chicken is cooked through.,1.0,0.0,1,1,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,4,4,,1,1
 Add sliced bell pepper and simmer for 15 minutes until chicken is cooked through.,Add sliced bell pepper and simmer for 15 minutes until chicken is cooked through.,Stir in fresh basil leaves.,Stir in fresh basil leaves.,1.02,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,4,4,,1,1
 Stir in fresh basil leaves.,Stir in fresh basil leaves.,Serve over cooked rice.,Serve over cooked rice.,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,4,4,,1,1
-Serve over cooked rice.,Serve over cooked rice.,Turkey Meatballs,Turkey Meatballs,17.64,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,4,4,,0,0
-Turkey Meatballs,Turkey Meatballs,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,4,4,,0,0
-Ingredients:,Ingredients:,1 pound ground turkey,1 pound ground turkey,1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,4,4,,0,0
+Serve over cooked rice.,Serve over cooked rice.,Turkey Meatballs,Turkey Meatballs,17.64,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,4,4,,1,1
+Turkey Meatballs,Turkey Meatballs,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,4,4,,1,1
+Ingredients:,Ingredients:,1 pound ground turkey,1 pound ground turkey,1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,4,4,,1,1
 1 pound ground turkey,1 pound ground turkey,"1 small onion, diced","1 small onion, diced",1.02,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,4,4,,1,1
 "1 small onion, diced","1 small onion, diced","2 cloves garlic, minced","2 cloves garlic, minced",1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,4,4,,1,1
 "2 cloves garlic, minced","2 cloves garlic, minced",1/4 cup breadcrumbs,1/4 cup breadcrumbs,1.01,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,4,4,,1,1
@@ -152,17 +152,17 @@ Ingredients:,Ingredients:,1 pound ground turkey,1 pound ground turkey,1.0,36.02,
 1 teaspoon basil,1 teaspoon basil,Salt and pepper to taste,Salt and pepper to taste,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,5,5,,1,1
 Salt and pepper to taste,Salt and pepper to taste,2 tablespoons olive oil,2 tablespoons olive oil,1.03,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,5,5,,1,1
 2 tablespoons olive oil,2 tablespoons olive oil,1 jar 24 ounces marinara sauce,1 jar (24 ounces) marinara sauce,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,5,5,,1,1
-1 jar 24 ounces marinara sauce,1 jar (24 ounces) marinara sauce,Instructions:,Instructions:,1.0,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,5,5,,0,0
-Instructions:,Instructions:,"In a bowl, mix ground turkey, diced onion, minced garlic, breadcrumbs, beaten egg,","In a bowl, mix ground turkey, diced onion, minced garlic, breadcrumbs, beaten egg,",1.0,36.02,0,0,1,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,5,5,,0,0
+1 jar 24 ounces marinara sauce,1 jar (24 ounces) marinara sauce,Instructions:,Instructions:,1.0,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,5,5,,1,1
+Instructions:,Instructions:,"In a bowl, mix ground turkey, diced onion, minced garlic, breadcrumbs, beaten egg,","In a bowl, mix ground turkey, diced onion, minced garlic, breadcrumbs, beaten egg,",1.0,36.02,0,0,1,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,5,5,,1,1
 "In a bowl, mix ground turkey, diced onion, minced garlic, breadcrumbs, beaten egg,","In a bowl, mix ground turkey, diced onion, minced garlic, breadcrumbs, beaten egg,","grated Parmesan cheese, oregano, basil, salt, and pepper.","grated Parmesan cheese, oregano, basil, salt, and pepper.",1.0,0.0,1,1,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,1,0,0,0,1,0,0,0,1,5,5,,1,1
 "grated Parmesan cheese, oregano, basil, salt, and pepper.","grated Parmesan cheese, oregano, basil, salt, and pepper.",Form mixture into meatballs.,Form mixture into meatballs.,1.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,5,5,,1,1
 Form mixture into meatballs.,Form mixture into meatballs.,"In a skillet, heat olive oil over medium heat.","In a skillet, heat olive oil over medium heat.",1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,5,5,,1,1
 "In a skillet, heat olive oil over medium heat.","In a skillet, heat olive oil over medium heat.",Cook meatballs until browned on all sides.,Cook meatballs until browned on all sides.,1.02,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,5,5,,1,1
 Cook meatballs until browned on all sides.,Cook meatballs until browned on all sides.,Add marinara sauce and simmer for 20 minutes until meatballs are cooked through.,Add marinara sauce and simmer for 20 minutes until meatballs are cooked through.,1.0,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,5,5,,1,1
 Add marinara sauce and simmer for 20 minutes until meatballs are cooked through.,Add marinara sauce and simmer for 20 minutes until meatballs are cooked through.,Serve warm.,Serve warm.,1.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,5,5,,1,1
-Serve warm.,Serve warm.,Vegetable Stir-Fry,Vegetable Stir-Fry,17.64,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,5,5,,0,0
-Vegetable Stir-Fry,Vegetable Stir-Fry,Ingredients:,Ingredients:,1.02,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,5,5,,0,0
-Ingredients:,Ingredients:,1 cup broccoli florets,1 cup broccoli florets,1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,5,5,,0,0
+Serve warm.,Serve warm.,Vegetable Stir-Fry,Vegetable Stir-Fry,17.64,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,5,5,,1,1
+Vegetable Stir-Fry,Vegetable Stir-Fry,Ingredients:,Ingredients:,1.02,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,5,5,,1,1
+Ingredients:,Ingredients:,1 cup broccoli florets,1 cup broccoli florets,1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,5,5,,1,1
 1 cup broccoli florets,1 cup broccoli florets,"1 cup bell peppers, sliced","1 cup bell peppers, sliced",1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,5,5,,1,1
 "1 cup bell peppers, sliced","1 cup bell peppers, sliced",1 cup snow peas,1 cup snow peas,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,5,5,,1,1
 1 cup snow peas,1 cup snow peas,"1 small onion, diced","1 small onion, diced",1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,5,5,,1,1
@@ -173,16 +173,16 @@ Ingredients:,Ingredients:,1 cup broccoli florets,1 cup broccoli florets,1.0,36.0
 1 tablespoon sesame oil,1 tablespoon sesame oil,1 teaspoon cornstarch,1 teaspoon cornstarch,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,5,5,,1,1
 1 teaspoon cornstarch,1 teaspoon cornstarch,1/4 cup water,1/4 cup water,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,5,5,,1,1
 1/4 cup water,1/4 cup water,Cooked rice for serving,Cooked rice for serving,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,5,5,,1,1
-Cooked rice for serving,Cooked rice for serving,Instructions:,Instructions:,1.0,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,5,5,,0,0
-Instructions:,Instructions:,"In a small bowl, mix soy sauce, oyster sauce, sesame oil, cornstarch, and water.","In a small bowl, mix soy sauce, oyster sauce, sesame oil, cornstarch, and water.",1.0,36.02,0,0,1,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,5,5,,0,0
+Cooked rice for serving,Cooked rice for serving,Instructions:,Instructions:,1.0,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,5,5,,1,1
+Instructions:,Instructions:,"In a small bowl, mix soy sauce, oyster sauce, sesame oil, cornstarch, and water.","In a small bowl, mix soy sauce, oyster sauce, sesame oil, cornstarch, and water.",1.0,36.02,0,0,1,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,5,5,,1,1
 "In a small bowl, mix soy sauce, oyster sauce, sesame oil, cornstarch, and water.","In a small bowl, mix soy sauce, oyster sauce, sesame oil, cornstarch, and water.","In a large skillet, heat sesame oil over medium heat.","In a large skillet, heat sesame oil over medium heat.",1.02,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,5,5,,1,1
 "In a large skillet, heat sesame oil over medium heat.","In a large skillet, heat sesame oil over medium heat.",Sauté diced onion and minced garlic until fragrant.,Sauté diced onion and minced garlic until fragrant.,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,5,5,,1,1
 Sauté diced onion and minced garlic until fragrant.,Sauté diced onion and minced garlic until fragrant.,"Add broccoli, bell peppers, and snow peas, stir-fry until tender.","Add broccoli, bell peppers, and snow peas, stir-fry until tender.",1.0,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,5,5,,1,1
 "Add broccoli, bell peppers, and snow peas, stir-fry until tender.","Add broccoli, bell peppers, and snow peas, stir-fry until tender.",Pour sauce over the vegetables and cook until thickened.,Pour sauce over the vegetables and cook until thickened.,1.0,0.0,1,1,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,5,5,,1,1
 Pour sauce over the vegetables and cook until thickened.,Pour sauce over the vegetables and cook until thickened.,Serve over cooked rice.,Serve over cooked rice.,1.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,5,5,,1,1
-Serve over cooked rice.,Serve over cooked rice.,Vietnamese Pho,Vietnamese Pho,17.66,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,5,5,,0,0
-Vietnamese Pho,Vietnamese Pho,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,5,5,,0,0
-Ingredients:,Ingredients:,"1 pound beef sirloin, thinly sliced","1 pound beef sirloin, thinly sliced",1.01,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,5,5,,0,0
+Serve over cooked rice.,Serve over cooked rice.,Vietnamese Pho,Vietnamese Pho,17.66,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,5,5,,1,1
+Vietnamese Pho,Vietnamese Pho,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,5,5,,1,1
+Ingredients:,Ingredients:,"1 pound beef sirloin, thinly sliced","1 pound beef sirloin, thinly sliced",1.01,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,5,5,,1,1
 "1 pound beef sirloin, thinly sliced","1 pound beef sirloin, thinly sliced",8 cups beef broth,8 cups beef broth,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,5,5,,1,1
 "1 small onion, sliced","1 small onion, sliced","2 cloves garlic, minced","2 cloves garlic, minced",1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,6,6,,1,1
 "2 cloves garlic, minced","2 cloves garlic, minced","1 piece ginger, sliced","1 piece ginger, sliced",1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,6,6,,1,1
@@ -192,8 +192,8 @@ Ingredients:,Ingredients:,"1 pound beef sirloin, thinly sliced","1 pound beef si
 1 tablespoon fish sauce,1 tablespoon fish sauce,1 tablespoon soy sauce,1 tablespoon soy sauce,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,6,6,,1,1
 1 tablespoon soy sauce,1 tablespoon soy sauce,8 ounces rice noodles,8 ounces rice noodles,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,6,6,,1,1
 8 ounces rice noodles,8 ounces rice noodles,"Fresh basil, cilantro, bean sprouts, lime wedges, and sliced jalapeños for garnish","Fresh basil, cilantro, bean sprouts, lime wedges, and sliced jalapeños for garnish",1.0,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,6,6,,1,1
-"Fresh basil, cilantro, bean sprouts, lime wedges, and sliced jalapeños for garnish","Fresh basil, cilantro, bean sprouts, lime wedges, and sliced jalapeños for garnish",Instructions:,Instructions:,1.0,-36.02,0,1,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,6,6,,0,0
-Instructions:,Instructions:,"In a large pot, bring beef broth to a boil.","In a large pot, bring beef broth to a boil.",1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,6,6,,0,0
+"Fresh basil, cilantro, bean sprouts, lime wedges, and sliced jalapeños for garnish","Fresh basil, cilantro, bean sprouts, lime wedges, and sliced jalapeños for garnish",Instructions:,Instructions:,1.0,-36.02,0,1,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,6,6,,1,1
+Instructions:,Instructions:,"In a large pot, bring beef broth to a boil.","In a large pot, bring beef broth to a boil.",1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,6,6,,1,1
 "In a large pot, bring beef broth to a boil.","In a large pot, bring beef broth to a boil.","Add sliced onion, minced garlic, sliced ginger, star anise, and cinnamon stick.","Add sliced onion, minced garlic, sliced ginger, star anise, and cinnamon stick.",1.02,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,6,6,,1,1
 "Add sliced onion, minced garlic, sliced ginger, star anise, and cinnamon stick.","Add sliced onion, minced garlic, sliced ginger, star anise, and cinnamon stick.",Simmer for 30 minutes.,Simmer for 30 minutes.,1.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,6,6,,1,1
 Simmer for 30 minutes.,Simmer for 30 minutes.,Stir in fish sauce and soy sauce.,Stir in fish sauce and soy sauce.,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,6,6,,1,1
@@ -202,38 +202,38 @@ Cook rice noodles according to package instructions.,Cook rice noodles according
 Divide noodles and thinly sliced beef among bowls.,Divide noodles and thinly sliced beef among bowls.,Pour hot broth over the top.,Pour hot broth over the top.,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,6,6,,1,1
 Pour hot broth over the top.,Pour hot broth over the top.,"Garnish with fresh basil, cilantro, bean sprouts, lime wedges, and sliced jalapeños.","Garnish with fresh basil, cilantro, bean sprouts, lime wedges, and sliced jalapeños.",1.0,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,6,6,,1,1
 "Garnish with fresh basil, cilantro, bean sprouts, lime wedges, and sliced jalapeños.","Garnish with fresh basil, cilantro, bean sprouts, lime wedges, and sliced jalapeños.",Serve immediately.,Serve immediately.,1.02,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,6,6,,1,1
-Serve immediately.,Serve immediately.,Yakitori,Yakitori,17.64,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,6,6,,0,0
-Yakitori,Yakitori,Ingredients:,Ingredients:,1.01,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,6,6,,0,0
-Ingredients:,Ingredients:,"1 pound chicken thighs, cut into bite-sized pieces","1 pound chicken thighs, cut into bite-sized pieces",1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,6,6,,0,0
+Serve immediately.,Serve immediately.,Yakitori,Yakitori,17.64,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,6,6,,1,1
+Yakitori,Yakitori,Ingredients:,Ingredients:,1.01,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,6,6,,1,1
+Ingredients:,Ingredients:,"1 pound chicken thighs, cut into bite-sized pieces","1 pound chicken thighs, cut into bite-sized pieces",1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,6,6,,1,1
 "1 pound chicken thighs, cut into bite-sized pieces","1 pound chicken thighs, cut into bite-sized pieces",1/4 cup soy sauce,1/4 cup soy sauce,1.02,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,6,6,,1,1
 1/4 cup soy sauce,1/4 cup soy sauce,1/4 cup mirin,1/4 cup mirin,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,6,6,,1,1
 1/4 cup mirin,1/4 cup mirin,1/4 cup sake,1/4 cup sake,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,6,6,,1,1
 1/4 cup sake,1/4 cup sake,2 tablespoons sugar,2 tablespoons sugar,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,6,6,,1,1
 2 tablespoons sugar,2 tablespoons sugar,Bamboo skewers,Bamboo skewers,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,6,6,,1,1
 Bamboo skewers,Bamboo skewers,Sliced green onions for garnish,Sliced green onions for garnish,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,6,6,,1,1
-Sliced green onions for garnish,Sliced green onions for garnish,Instructions:,Instructions:,1.0,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,6,6,,0,0
-Instructions:,Instructions:,"In a bowl, mix soy sauce, mirin, sake, and sugar.","In a bowl, mix soy sauce, mirin, sake, and sugar.",1.02,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,6,6,,0,0
+Sliced green onions for garnish,Sliced green onions for garnish,Instructions:,Instructions:,1.0,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,6,6,,1,1
+Instructions:,Instructions:,"In a bowl, mix soy sauce, mirin, sake, and sugar.","In a bowl, mix soy sauce, mirin, sake, and sugar.",1.02,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,6,6,,1,1
 "In a bowl, mix soy sauce, mirin, sake, and sugar.","In a bowl, mix soy sauce, mirin, sake, and sugar.",Marinate chicken pieces in the mixture for at least 30 minutes.,Marinate chicken pieces in the mixture for at least 30 minutes.,1.0,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,6,6,,1,1
 Marinate chicken pieces in the mixture for at least 30 minutes.,Marinate chicken pieces in the mixture for at least 30 minutes.,Thread chicken onto bamboo skewers.,Thread chicken onto bamboo skewers.,1.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,6,6,,1,1
 Thread chicken onto bamboo skewers.,Thread chicken onto bamboo skewers.,Preheat grill to medium-high heat.,Preheat grill to medium-high heat.,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,6,6,,1,1
 Preheat grill to medium-high heat.,Preheat grill to medium-high heat.,"Grill chicken, brushing with marinade, until cooked through.","Grill chicken, brushing with marinade, until cooked through.",1.0,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,6,6,,1,1
 "Grill chicken, brushing with marinade, until cooked through.","Grill chicken, brushing with marinade, until cooked through.",Garnish with sliced green onions and serve.,Garnish with sliced green onions and serve.,1.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,6,6,,1,1
-Garnish with sliced green onions and serve.,Garnish with sliced green onions and serve.,Zucchini Noodles with Pesto,Zucchini Noodles with Pesto,17.66,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,6,6,,0,0
-Zucchini Noodles with Pesto,Zucchini Noodles with Pesto,Ingredients:,Ingredients:,1.01,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,6,6,,0,0
-Ingredients:,Ingredients:,"4 zucchinis, spiralized into noodles","4 zucchinis, spiralized into noodles",1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,6,6,,0,0
+Garnish with sliced green onions and serve.,Garnish with sliced green onions and serve.,Zucchini Noodles with Pesto,Zucchini Noodles with Pesto,17.66,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,6,6,,1,1
+Zucchini Noodles with Pesto,Zucchini Noodles with Pesto,Ingredients:,Ingredients:,1.01,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,6,6,,1,1
+Ingredients:,Ingredients:,"4 zucchinis, spiralized into noodles","4 zucchinis, spiralized into noodles",1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,6,6,,1,1
 1/2 cup basil pesto,1/2 cup basil pesto,"1/4 cup cherry tomatoes, halved","1/4 cup cherry tomatoes, halved",1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,7,7,,1,1
 "1/4 cup cherry tomatoes, halved","1/4 cup cherry tomatoes, halved",1/4 cup grated Parmesan cheese,1/4 cup grated Parmesan cheese,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,7,7,,1,1
 1/4 cup grated Parmesan cheese,1/4 cup grated Parmesan cheese,2 tablespoons olive oil,2 tablespoons olive oil,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,7,7,,1,1
 2 tablespoons olive oil,2 tablespoons olive oil,Salt and pepper to taste,Salt and pepper to taste,1.03,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,7,7,,1,1
-Salt and pepper to taste,Salt and pepper to taste,Instructions:,Instructions:,1.0,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,7,7,,0,0
-Instructions:,Instructions:,"In a large skillet, heat olive oil over medium heat.","In a large skillet, heat olive oil over medium heat.",1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,7,7,,0,0
+Salt and pepper to taste,Salt and pepper to taste,Instructions:,Instructions:,1.0,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,7,7,,1,1
+Instructions:,Instructions:,"In a large skillet, heat olive oil over medium heat.","In a large skillet, heat olive oil over medium heat.",1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,7,7,,1,1
 "In a large skillet, heat olive oil over medium heat.","In a large skillet, heat olive oil over medium heat.",Add zucchini noodles and cook until tender.,Add zucchini noodles and cook until tender.,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,7,7,,1,1
 Add zucchini noodles and cook until tender.,Add zucchini noodles and cook until tender.,Stir in basil pesto and cherry tomatoes.,Stir in basil pesto and cherry tomatoes.,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,7,7,,1,1
 Stir in basil pesto and cherry tomatoes.,Stir in basil pesto and cherry tomatoes.,Season with salt and pepper.,Season with salt and pepper.,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,7,7,,1,1
 Season with salt and pepper.,Season with salt and pepper.,Sprinkle with grated Parmesan cheese and serve.,Sprinkle with grated Parmesan cheese and serve.,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,7,7,,1,1
-Sprinkle with grated Parmesan cheese and serve.,Sprinkle with grated Parmesan cheese and serve.,Beef and Broccoli,Beef and Broccoli,17.66,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,7,7,,0,0
-Beef and Broccoli,Beef and Broccoli,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,7,7,,0,0
-Ingredients:,Ingredients:,"1 pound beef sirloin, thinly sliced","1 pound beef sirloin, thinly sliced",1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,7,7,,0,0
+Sprinkle with grated Parmesan cheese and serve.,Sprinkle with grated Parmesan cheese and serve.,Beef and Broccoli,Beef and Broccoli,17.66,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,7,7,,1,1
+Beef and Broccoli,Beef and Broccoli,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,7,7,,1,1
+Ingredients:,Ingredients:,"1 pound beef sirloin, thinly sliced","1 pound beef sirloin, thinly sliced",1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,7,7,,1,1
 "1 pound beef sirloin, thinly sliced","1 pound beef sirloin, thinly sliced",2 cups broccoli florets,2 cups broccoli florets,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,7,7,,1,1
 2 cups broccoli florets,2 cups broccoli florets,"1 small onion, diced","1 small onion, diced",1.02,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,7,7,,1,1
 "1 small onion, diced","1 small onion, diced","2 cloves garlic, minced","2 cloves garlic, minced",1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,7,7,,1,1
@@ -243,8 +243,8 @@ Ingredients:,Ingredients:,"1 pound beef sirloin, thinly sliced","1 pound beef si
 2 tablespoons oyster sauce,2 tablespoons oyster sauce,1 tablespoon cornstarch,1 tablespoon cornstarch,1.01,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,7,7,,1,1
 1 tablespoon cornstarch,1 tablespoon cornstarch,2 tablespoons vegetable oil,2 tablespoons vegetable oil,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,7,7,,1,1
 2 tablespoons vegetable oil,2 tablespoons vegetable oil,Cooked rice for serving,Cooked rice for serving,1.02,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,7,7,,1,1
-Cooked rice for serving,Cooked rice for serving,Instructions:,Instructions:,1.0,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,7,7,,0,0
-Instructions:,Instructions:,"In a small bowl, mix soy sauce, beef broth, oyster sauce, and cornstarch.","In a small bowl, mix soy sauce, beef broth, oyster sauce, and cornstarch.",1.0,36.02,0,0,1,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,7,7,,0,0
+Cooked rice for serving,Cooked rice for serving,Instructions:,Instructions:,1.0,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,7,7,,1,1
+Instructions:,Instructions:,"In a small bowl, mix soy sauce, beef broth, oyster sauce, and cornstarch.","In a small bowl, mix soy sauce, beef broth, oyster sauce, and cornstarch.",1.0,36.02,0,0,1,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,7,7,,1,1
 "In a small bowl, mix soy sauce, beef broth, oyster sauce, and cornstarch.","In a small bowl, mix soy sauce, beef broth, oyster sauce, and cornstarch.","In a large skillet, heat vegetable oil over medium heat.","In a large skillet, heat vegetable oil over medium heat.",1.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,7,7,,1,1
 "In a large skillet, heat vegetable oil over medium heat.","In a large skillet, heat vegetable oil over medium heat.","Cook sliced beef until browned, then set aside.","Cook sliced beef until browned, then set aside.",1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,7,7,,1,1
 "Cook sliced beef until browned, then set aside.","Cook sliced beef until browned, then set aside.","In the same skillet, sauté diced onion and minced garlic until fragrant.","In the same skillet, sauté diced onion and minced garlic until fragrant.",1.0,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,7,7,,1,1
@@ -252,23 +252,23 @@ Instructions:,Instructions:,"In a small bowl, mix soy sauce, beef broth, oyster 
 Add broccoli florets and stir-fry until tender.,Add broccoli florets and stir-fry until tender.,Return beef to the skillet and pour sauce over the top.,Return beef to the skillet and pour sauce over the top.,1.02,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,7,7,,1,1
 Return beef to the skillet and pour sauce over the top.,Return beef to the skillet and pour sauce over the top.,Cook until sauce is thickened.,Cook until sauce is thickened.,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,7,7,,1,1
 Cook until sauce is thickened.,Cook until sauce is thickened.,Serve over cooked rice.,Serve over cooked rice.,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,7,7,,1,1
-Serve over cooked rice.,Serve over cooked rice.,Chicken Fajitas,Chicken Fajitas,17.64,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,7,7,,0,0
-Chicken Fajitas,Chicken Fajitas,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,7,7,,0,0
-Ingredients:,Ingredients:,"1 pound chicken breast, sliced","1 pound chicken breast, sliced",1.02,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,7,7,,0,0
+Serve over cooked rice.,Serve over cooked rice.,Chicken Fajitas,Chicken Fajitas,17.64,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,7,7,,1,1
+Chicken Fajitas,Chicken Fajitas,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,7,7,,1,1
+Ingredients:,Ingredients:,"1 pound chicken breast, sliced","1 pound chicken breast, sliced",1.02,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,7,7,,1,1
 "1 pound chicken breast, sliced","1 pound chicken breast, sliced","1 bell pepper, sliced","1 bell pepper, sliced",1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,7,7,,1,1
 "1 bell pepper, sliced","1 bell pepper, sliced","1 small onion, sliced","1 small onion, sliced",1.01,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,7,7,,1,1
 "1 small onion, sliced","1 small onion, sliced",2 tablespoons fajita seasoning,2 tablespoons fajita seasoning,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,7,7,,1,1
 2 tablespoons vegetable oil,2 tablespoons vegetable oil,Tortillas for serving,Tortillas for serving,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,8,8,,1,1
 Tortillas for serving,Tortillas for serving,"Shredded lettuce, diced tomatoes, shredded cheese, sour cream, and salsa for toppings","Shredded lettuce, diced tomatoes, shredded cheese, sour cream, and salsa for toppings",1.0,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,8,8,,1,1
-"Shredded lettuce, diced tomatoes, shredded cheese, sour cream, and salsa for toppings","Shredded lettuce, diced tomatoes, shredded cheese, sour cream, and salsa for toppings",Instructions:,Instructions:,1.0,-36.02,0,1,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,8,8,,0,0
-Instructions:,Instructions:,"In a large skillet, heat vegetable oil over medium heat.","In a large skillet, heat vegetable oil over medium heat.",1.03,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,8,8,,0,0
+"Shredded lettuce, diced tomatoes, shredded cheese, sour cream, and salsa for toppings","Shredded lettuce, diced tomatoes, shredded cheese, sour cream, and salsa for toppings",Instructions:,Instructions:,1.0,-36.02,0,1,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,8,8,,1,1
+Instructions:,Instructions:,"In a large skillet, heat vegetable oil over medium heat.","In a large skillet, heat vegetable oil over medium heat.",1.03,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,8,8,,1,1
 "In a large skillet, heat vegetable oil over medium heat.","In a large skillet, heat vegetable oil over medium heat.","Cook sliced chicken, bell pepper, and onion until chicken is cooked through and","Cook sliced chicken, bell pepper, and onion until chicken is cooked through and",1.0,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,8,8,,1,1
 "Cook sliced chicken, bell pepper, and onion until chicken is cooked through and","Cook sliced chicken, bell pepper, and onion until chicken is cooked through and",vegetables are tender.,vegetables are tender.,1.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,1,0,0,0,1,0,0,0,1,8,8,,1,1
 vegetables are tender.,vegetables are tender.,Stir in fajita seasoning and cook for an additional 2 minutes.,Stir in fajita seasoning and cook for an additional 2 minutes.,1.0,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,8,8,,1,1
 Stir in fajita seasoning and cook for an additional 2 minutes.,Stir in fajita seasoning and cook for an additional 2 minutes.,Serve chicken and vegetables in tortillas with desired toppings.,Serve chicken and vegetables in tortillas with desired toppings.,1.0,0.0,1,1,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,8,8,,1,1
-Serve chicken and vegetables in tortillas with desired toppings.,Serve chicken and vegetables in tortillas with desired toppings.,Chicken Piccata,Chicken Piccata,17.66,-36.02,0,1,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,8,8,,0,0
-Chicken Piccata,Chicken Piccata,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,8,8,,0,0
-Ingredients:,Ingredients:,"4 boneless, skinless chicken breasts","4 boneless, skinless chicken breasts",1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,8,8,,0,0
+Serve chicken and vegetables in tortillas with desired toppings.,Serve chicken and vegetables in tortillas with desired toppings.,Chicken Piccata,Chicken Piccata,17.66,-36.02,0,1,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,8,8,,1,1
+Chicken Piccata,Chicken Piccata,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,8,8,,1,1
+Ingredients:,Ingredients:,"4 boneless, skinless chicken breasts","4 boneless, skinless chicken breasts",1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,8,8,,1,1
 "4 boneless, skinless chicken breasts","4 boneless, skinless chicken breasts",1/4 cup flour,1/4 cup flour,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,8,8,,1,1
 1/4 cup flour,1/4 cup flour,1/4 cup lemon juice,1/4 cup lemon juice,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,8,8,,1,1
 1/4 cup lemon juice,1/4 cup lemon juice,1/4 cup chicken broth,1/4 cup chicken broth,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,8,8,,1,1
@@ -277,17 +277,17 @@ Ingredients:,Ingredients:,"4 boneless, skinless chicken breasts","4 boneless, sk
 2 tablespoons butter,2 tablespoons butter,2 tablespoons olive oil,2 tablespoons olive oil,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,8,8,,1,1
 2 tablespoons olive oil,2 tablespoons olive oil,Salt and pepper to taste,Salt and pepper to taste,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,8,8,,1,1
 Salt and pepper to taste,Salt and pepper to taste,Chopped parsley for garnish,Chopped parsley for garnish,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,8,8,,1,1
-Chopped parsley for garnish,Chopped parsley for garnish,Instructions:,Instructions:,1.01,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,8,8,,0,0
-Instructions:,Instructions:,"Season chicken breasts with salt and pepper, then dredge in flour.","Season chicken breasts with salt and pepper, then dredge in flour.",1.0,36.02,0,0,1,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,8,8,,0,0
+Chopped parsley for garnish,Chopped parsley for garnish,Instructions:,Instructions:,1.01,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,8,8,,1,1
+Instructions:,Instructions:,"Season chicken breasts with salt and pepper, then dredge in flour.","Season chicken breasts with salt and pepper, then dredge in flour.",1.0,36.02,0,0,1,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,8,8,,1,1
 "Season chicken breasts with salt and pepper, then dredge in flour.","Season chicken breasts with salt and pepper, then dredge in flour.","In a large skillet, heat olive oil and butter over medium heat.","In a large skillet, heat olive oil and butter over medium heat.",1.02,0.0,1,1,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,8,8,,1,1
 "In a large skillet, heat olive oil and butter over medium heat.","In a large skillet, heat olive oil and butter over medium heat.","Cook chicken until golden and cooked through, then set aside.","Cook chicken until golden and cooked through, then set aside.",1.0,0.0,1,1,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,8,8,,1,1
 "Cook chicken until golden and cooked through, then set aside.","Cook chicken until golden and cooked through, then set aside.","In the same skillet, add lemon juice, chicken broth, and capers, simmer until reduced by","In the same skillet, add lemon juice, chicken broth, and capers, simmer until reduced by",1.0,0.0,1,1,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,8,8,,1,1
 "In the same skillet, add lemon juice, chicken broth, and capers, simmer until reduced by","In the same skillet, add lemon juice, chicken broth, and capers, simmer until reduced by",half.,half.,1.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,1,0,0,0,1,0,0,0,1,8,8,,1,1
 half.,half.,Return chicken to the skillet and coat with the sauce.,Return chicken to the skillet and coat with the sauce.,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,8,8,,1,1
 Return chicken to the skillet and coat with the sauce.,Return chicken to the skillet and coat with the sauce.,Garnish with chopped parsley and serve.,Garnish with chopped parsley and serve.,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,8,8,,1,1
-Garnish with chopped parsley and serve.,Garnish with chopped parsley and serve.,Chicken Pot Pie,Chicken Pot Pie,17.66,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,8,8,,0,0
-Chicken Pot Pie,Chicken Pot Pie,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,8,8,,0,0
-Ingredients:,Ingredients:,"1 pound chicken breast, cubed","1 pound chicken breast, cubed",1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,8,8,,0,0
+Garnish with chopped parsley and serve.,Garnish with chopped parsley and serve.,Chicken Pot Pie,Chicken Pot Pie,17.66,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,8,8,,1,1
+Chicken Pot Pie,Chicken Pot Pie,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,8,8,,1,1
+Ingredients:,Ingredients:,"1 pound chicken breast, cubed","1 pound chicken breast, cubed",1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,8,8,,1,1
 "1 pound chicken breast, cubed","1 pound chicken breast, cubed","1 small onion, diced","1 small onion, diced",1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,8,8,,1,1
 "1 small onion, diced","1 small onion, diced","2 cloves garlic, minced","2 cloves garlic, minced",1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,8,8,,1,1
 "2 cloves garlic, minced","2 cloves garlic, minced",1 cup frozen peas and carrots,1 cup frozen peas and carrots,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,8,8,,1,1
@@ -298,8 +298,8 @@ Ingredients:,Ingredients:,"1 pound chicken breast, cubed","1 pound chicken breas
 1 teaspoon thyme,1 teaspoon thyme,1 teaspoon rosemary,1 teaspoon rosemary,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,9,9,,1,1
 1 teaspoon rosemary,1 teaspoon rosemary,Salt and pepper to taste,Salt and pepper to taste,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,9,9,,1,1
 Salt and pepper to taste,Salt and pepper to taste,1 pie crust,1 pie crust,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,9,9,,1,1
-1 pie crust,1 pie crust,Instructions:,Instructions:,1.03,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,9,9,,0,0
-Instructions:,Instructions:,Preheat oven to 375°F 190°C.,Preheat oven to 375°F (190°C).,1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,9,9,,0,0
+1 pie crust,1 pie crust,Instructions:,Instructions:,1.03,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,9,9,,1,1
+Instructions:,Instructions:,Preheat oven to 375°F 190°C.,Preheat oven to 375°F (190°C).,1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,9,9,,1,1
 Preheat oven to 375°F 190°C.,Preheat oven to 375°F (190°C).,"In a large skillet, melt butter over medium heat.","In a large skillet, melt butter over medium heat.",1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,9,9,,1,1
 "In a large skillet, melt butter over medium heat.","In a large skillet, melt butter over medium heat.",Cook diced onion and minced garlic until softened.,Cook diced onion and minced garlic until softened.,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,9,9,,1,1
 Cook diced onion and minced garlic until softened.,Cook diced onion and minced garlic until softened.,Add cubed chicken and cook until browned.,Add cubed chicken and cook until browned.,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,9,9,,1,1
@@ -309,9 +309,9 @@ Stir in flour and cook for 1 minute.,Stir in flour and cook for 1 minute.,"Gradu
 "Add frozen peas and carrots, thyme, rosemary, salt, and pepper.","Add frozen peas and carrots, thyme, rosemary, salt, and pepper.",Pour mixture into a baking dish and top with pie crust.,Pour mixture into a baking dish and top with pie crust.,1.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,9,9,,1,1
 Pour mixture into a baking dish and top with pie crust.,Pour mixture into a baking dish and top with pie crust.,Bake for 25-30 minutes until crust is golden.,Bake for 25-30 minutes until crust is golden.,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,9,9,,1,1
 Bake for 25-30 minutes until crust is golden.,Bake for 25-30 minutes until crust is golden.,Serve warm.,Serve warm.,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,9,9,,1,1
-Serve warm.,Serve warm.,Chicken Stir-Fry,Chicken Stir-Fry,17.66,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,9,9,,0,0
-Chicken Stir-Fry,Chicken Stir-Fry,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,9,9,,0,0
-Ingredients:,Ingredients:,"1 pound chicken breast, sliced","1 pound chicken breast, sliced",1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,9,9,,0,0
+Serve warm.,Serve warm.,Chicken Stir-Fry,Chicken Stir-Fry,17.66,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,9,9,,1,1
+Chicken Stir-Fry,Chicken Stir-Fry,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,9,9,,1,1
+Ingredients:,Ingredients:,"1 pound chicken breast, sliced","1 pound chicken breast, sliced",1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,9,9,,1,1
 "1 pound chicken breast, sliced","1 pound chicken breast, sliced",1 cup broccoli florets,1 cup broccoli florets,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,9,9,,1,1
 1 cup broccoli florets,1 cup broccoli florets,"1 cup bell peppers, sliced","1 cup bell peppers, sliced",1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,9,9,,1,1
 "1 cup bell peppers, sliced","1 cup bell peppers, sliced","1 small onion, diced","1 small onion, diced",1.01,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,9,9,,1,1
@@ -322,8 +322,8 @@ Ingredients:,Ingredients:,"1 pound chicken breast, sliced","1 pound chicken brea
 1 tablespoon sesame oil,1 tablespoon sesame oil,1 teaspoon cornstarch,1 teaspoon cornstarch,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,9,9,,1,1
 1 teaspoon cornstarch,1 teaspoon cornstarch,1/4 cup water,1/4 cup water,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,9,9,,1,1
 1/4 cup water,1/4 cup water,Cooked rice for serving,Cooked rice for serving,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,9,9,,1,1
-Cooked rice for serving,Cooked rice for serving,Instructions:,Instructions:,1.0,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,9,9,,0,0
-Instructions:,Instructions:,"In a small bowl, mix soy sauce, oyster sauce, sesame oil, cornstarch, and water.","In a small bowl, mix soy sauce, oyster sauce, sesame oil, cornstarch, and water.",1.02,36.02,0,0,1,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,9,9,,0,0
+Cooked rice for serving,Cooked rice for serving,Instructions:,Instructions:,1.0,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,9,9,,1,1
+Instructions:,Instructions:,"In a small bowl, mix soy sauce, oyster sauce, sesame oil, cornstarch, and water.","In a small bowl, mix soy sauce, oyster sauce, sesame oil, cornstarch, and water.",1.02,36.02,0,0,1,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,9,9,,1,1
 "In a small bowl, mix soy sauce, oyster sauce, sesame oil, cornstarch, and water.","In a small bowl, mix soy sauce, oyster sauce, sesame oil, cornstarch, and water.","In a large skillet, heat sesame oil over medium heat.","In a large skillet, heat sesame oil over medium heat.",1.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,9,9,,1,1
 "In a large skillet, heat sesame oil over medium heat.","In a large skillet, heat sesame oil over medium heat.","Cook sliced chicken until browned, then set aside.","Cook sliced chicken until browned, then set aside.",1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,9,9,,1,1
 "Cook sliced chicken until browned, then set aside.","Cook sliced chicken until browned, then set aside.","In the same skillet, sauté diced onion and minced garlic until fragrant.","In the same skillet, sauté diced onion and minced garlic until fragrant.",1.0,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,9,9,,1,1
@@ -331,8 +331,8 @@ Instructions:,Instructions:,"In a small bowl, mix soy sauce, oyster sauce, sesam
 "Add broccoli and bell peppers, stir-fry until tender.","Add broccoli and bell peppers, stir-fry until tender.",Return chicken to the skillet and pour sauce over the top.,Return chicken to the skillet and pour sauce over the top.,1.0,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,9,9,,1,1
 Return chicken to the skillet and pour sauce over the top.,Return chicken to the skillet and pour sauce over the top.,Cook until sauce is thickened.,Cook until sauce is thickened.,1.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,9,9,,1,1
 Cook until sauce is thickened.,Cook until sauce is thickened.,Serve over cooked rice.,Serve over cooked rice.,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,9,9,,1,1
-Serve over cooked rice.,Serve over cooked rice.,Coq au Vin,Coq au Vin,17.67,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,9,9,,0,0
-Ingredients:,Ingredients:,4 chicken thighs,4 chicken thighs,1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,10,10,,0,0
+Serve over cooked rice.,Serve over cooked rice.,Coq au Vin,Coq au Vin,17.67,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,9,9,,1,1
+Ingredients:,Ingredients:,4 chicken thighs,4 chicken thighs,1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,10,10,,1,1
 4 chicken thighs,4 chicken thighs,"1 small onion, diced","1 small onion, diced",1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,10,10,,1,1
 "1 small onion, diced","1 small onion, diced","2 cloves garlic, minced","2 cloves garlic, minced",1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,10,10,,1,1
 "2 cloves garlic, minced","2 cloves garlic, minced",1 cup red wine,1 cup red wine,1.03,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,10,10,,1,1
@@ -346,8 +346,8 @@ Ingredients:,Ingredients:,4 chicken thighs,4 chicken thighs,1.0,36.02,0,0,0,12.0
 2 tablespoons butter,2 tablespoons butter,1 teaspoon thyme,1 teaspoon thyme,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,10,10,,1,1
 1 teaspoon thyme,1 teaspoon thyme,1 bay leaf,1 bay leaf,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,10,10,,1,1
 1 bay leaf,1 bay leaf,Salt and pepper to taste,Salt and pepper to taste,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,10,10,,1,1
-Salt and pepper to taste,Salt and pepper to taste,Instructions:,Instructions:,1.0,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,10,10,,0,0
-Instructions:,Instructions:,Preheat oven to 350°F 175°C.,Preheat oven to 350°F (175°C).,1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,10,10,,0,0
+Salt and pepper to taste,Salt and pepper to taste,Instructions:,Instructions:,1.0,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,10,10,,1,1
+Instructions:,Instructions:,Preheat oven to 350°F 175°C.,Preheat oven to 350°F (175°C).,1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,10,10,,1,1
 Preheat oven to 350°F 175°C.,Preheat oven to 350°F (175°C).,"In a large pot, melt butter over medium heat.","In a large pot, melt butter over medium heat.",1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,10,10,,1,1
 "In a large pot, melt butter over medium heat.","In a large pot, melt butter over medium heat.","Cook chopped bacon until crispy, then set aside.","Cook chopped bacon until crispy, then set aside.",1.02,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,10,10,,1,1
 "Cook chopped bacon until crispy, then set aside.","Cook chopped bacon until crispy, then set aside.","In the same pot, cook chicken thighs until browned on all sides, then set aside.","In the same pot, cook chicken thighs until browned on all sides, then set aside.",1.0,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,10,10,,1,1
@@ -358,9 +358,9 @@ Stir in flour and cook for 1 minute.,Stir in flour and cook for 1 minute.,"Add r
 Return chicken and bacon to the pot.,Return chicken and bacon to the pot.,"Bring to a simmer, then cover and transfer to the oven.","Bring to a simmer, then cover and transfer to the oven.",1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,10,10,,1,1
 "Bring to a simmer, then cover and transfer to the oven.","Bring to a simmer, then cover and transfer to the oven.",Cook for 1 hour until chicken is tender.,Cook for 1 hour until chicken is tender.,1.02,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,10,10,,1,1
 Cook for 1 hour until chicken is tender.,Cook for 1 hour until chicken is tender.,Serve warm.,Serve warm.,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,10,10,,1,1
-Serve warm.,Serve warm.,Crab Cakes,Crab Cakes,17.64,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,10,10,,0,0
-Crab Cakes,Crab Cakes,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,10,10,,0,0
-Ingredients:,Ingredients:,1 pound crab meat,1 pound crab meat,1.02,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,10,10,,0,0
+Serve warm.,Serve warm.,Crab Cakes,Crab Cakes,17.64,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,10,10,,1,1
+Crab Cakes,Crab Cakes,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,10,10,,1,1
+Ingredients:,Ingredients:,1 pound crab meat,1 pound crab meat,1.02,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,10,10,,1,1
 1 pound crab meat,1 pound crab meat,"1 small onion, diced","1 small onion, diced",1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,10,10,,1,1
 "1 small onion, diced","1 small onion, diced",1/4 cup breadcrumbs,1/4 cup breadcrumbs,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,10,10,,1,1
 1/4 cup breadcrumbs,1/4 cup breadcrumbs,1/4 cup mayonnaise,1/4 cup mayonnaise,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,10,10,,1,1
@@ -370,15 +370,15 @@ Ingredients:,Ingredients:,1 pound crab meat,1 pound crab meat,1.02,36.02,0,0,0,1
 1 tablespoon Worcestershire sauce,1 tablespoon Worcestershire sauce,1 teaspoon Old Bay seasoning,1 teaspoon Old Bay seasoning,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,10,10,,1,1
 1 teaspoon Old Bay seasoning,1 teaspoon Old Bay seasoning,2 tablespoons vegetable oil,2 tablespoons vegetable oil,1.02,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,10,10,,1,1
 2 tablespoons vegetable oil,2 tablespoons vegetable oil,Lemon wedges for serving,Lemon wedges for serving,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,10,10,,1,1
-Lemon wedges for serving,Lemon wedges for serving,Instructions:,Instructions:,1.01,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,10,10,,0,0
+Lemon wedges for serving,Lemon wedges for serving,Instructions:,Instructions:,1.01,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,10,10,,1,1
 "In a bowl, mix crab meat, diced onion, breadcrumbs, mayonnaise, beaten egg, Dijon","In a bowl, mix crab meat, diced onion, breadcrumbs, mayonnaise, beaten egg, Dijon","mustard, Worcestershire sauce, and Old Bay seasoning.","mustard, Worcestershire sauce, and Old Bay seasoning.",1.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,1,0,0,0,1,0,0,0,1,11,11,,1,1
 "mustard, Worcestershire sauce, and Old Bay seasoning.","mustard, Worcestershire sauce, and Old Bay seasoning.",Form mixture into patties.,Form mixture into patties.,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,11,11,,1,1
-Form mixture into patties.,Form mixture into patties.,"In a skillet, heat vegetable oil over medium heat.","In a skillet, heat vegetable oil over medium heat.",1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,11,11,,0,0
+Form mixture into patties.,Form mixture into patties.,"In a skillet, heat vegetable oil over medium heat.","In a skillet, heat vegetable oil over medium heat.",1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,11,11,,1,1
 "In a skillet, heat vegetable oil over medium heat.","In a skillet, heat vegetable oil over medium heat.",Cook crab cakes until golden and crispy on both sides.,Cook crab cakes until golden and crispy on both sides.,1.03,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,11,11,,1,1
 Cook crab cakes until golden and crispy on both sides.,Cook crab cakes until golden and crispy on both sides.,Serve with lemon wedges.,Serve with lemon wedges.,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,11,11,,1,1
-Serve with lemon wedges.,Serve with lemon wedges.,Enchiladas,Enchiladas,17.64,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,11,11,,0,0
-Enchiladas,Enchiladas,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,11,11,,0,0
-Ingredients:,Ingredients:,1 pound ground beef,1 pound ground beef,1.02,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,11,11,,0,0
+Serve with lemon wedges.,Serve with lemon wedges.,Enchiladas,Enchiladas,17.64,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,11,11,,1,1
+Enchiladas,Enchiladas,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,11,11,,1,1
+Ingredients:,Ingredients:,1 pound ground beef,1 pound ground beef,1.02,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,11,11,,1,1
 1 pound ground beef,1 pound ground beef,"1 small onion, diced","1 small onion, diced",1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,11,11,,1,1
 "1 small onion, diced","1 small onion, diced","2 cloves garlic, minced","2 cloves garlic, minced",1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,11,11,,1,1
 "2 cloves garlic, minced","2 cloves garlic, minced",1 can 14.5 ounces enchilada sauce,1 can (14.5 ounces) enchilada sauce,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,11,11,,1,1
@@ -388,9 +388,9 @@ Ingredients:,Ingredients:,1 pound ground beef,1 pound ground beef,1.02,36.02,0,0
 1 teaspoon cumin,1 teaspoon cumin,1 teaspoon chili powder,1 teaspoon chili powder,1.02,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,11,11,,1,1
 1 teaspoon chili powder,1 teaspoon chili powder,2 tablespoons vegetable oil,2 tablespoons vegetable oil,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,11,11,,1,1
 2 tablespoons vegetable oil,2 tablespoons vegetable oil,Salt and pepper to taste,Salt and pepper to taste,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,11,11,,1,1
-Salt and pepper to taste,Salt and pepper to taste,Instructions:,Instructions:,1.0,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,11,11,,0,0
-Instructions:,Instructions:,Preheat oven to 375°F 190°C.,Preheat oven to 375°F (190°C).,1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,11,11,,0,0
-Preheat oven to 375°F 190°C.,Preheat oven to 375°F (190°C).,"In a skillet, heat vegetable oil over medium heat.","In a skillet, heat vegetable oil over medium heat.",1.01,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,11,11,,0,0
+Salt and pepper to taste,Salt and pepper to taste,Instructions:,Instructions:,1.0,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,11,11,,1,1
+Instructions:,Instructions:,Preheat oven to 375°F 190°C.,Preheat oven to 375°F (190°C).,1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,11,11,,1,1
+Preheat oven to 375°F 190°C.,Preheat oven to 375°F (190°C).,"In a skillet, heat vegetable oil over medium heat.","In a skillet, heat vegetable oil over medium heat.",1.01,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,11,11,,1,1
 "In a skillet, heat vegetable oil over medium heat.","In a skillet, heat vegetable oil over medium heat.","Cook ground beef, diced onion, and minced garlic until browned.","Cook ground beef, diced onion, and minced garlic until browned.",1.0,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,11,11,,1,1
 "Cook ground beef, diced onion, and minced garlic until browned.","Cook ground beef, diced onion, and minced garlic until browned.","Stir in cumin, chili powder, salt, and pepper.","Stir in cumin, chili powder, salt, and pepper.",1.02,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,11,11,,1,1
 "Stir in cumin, chili powder, salt, and pepper.","Stir in cumin, chili powder, salt, and pepper.",Fill tortillas with beef mixture and roll up.,Fill tortillas with beef mixture and roll up.,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,11,11,,1,1
@@ -398,16 +398,16 @@ Fill tortillas with beef mixture and roll up.,Fill tortillas with beef mixture a
 Place enchiladas in a baking dish and pour enchilada sauce over the top.,Place enchiladas in a baking dish and pour enchilada sauce over the top.,Sprinkle with shredded cheese.,Sprinkle with shredded cheese.,1.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,11,11,,1,1
 Sprinkle with shredded cheese.,Sprinkle with shredded cheese.,Bake for 20-25 minutes until cheese is melted and bubbly.,Bake for 20-25 minutes until cheese is melted and bubbly.,1.0,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,11,11,,1,1
 Bake for 20-25 minutes until cheese is melted and bubbly.,Bake for 20-25 minutes until cheese is melted and bubbly.,Serve warm.,Serve warm.,1.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,11,11,,1,1
-Serve warm.,Serve warm.,Fettuccine Alfredo,Fettuccine Alfredo,17.66,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,11,11,,0,0
-Fettuccine Alfredo,Fettuccine Alfredo,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,11,11,,0,0
-Ingredients:,Ingredients:,1 pound fettuccine,1 pound fettuccine,1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,11,11,,0,0
+Serve warm.,Serve warm.,Fettuccine Alfredo,Fettuccine Alfredo,17.66,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,11,11,,1,1
+Fettuccine Alfredo,Fettuccine Alfredo,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,11,11,,1,1
+Ingredients:,Ingredients:,1 pound fettuccine,1 pound fettuccine,1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,11,11,,1,1
 1 pound fettuccine,1 pound fettuccine,1 cup heavy cream,1 cup heavy cream,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,11,11,,1,1
 1 cup heavy cream,1 cup heavy cream,1/2 cup grated Parmesan cheese,1/2 cup grated Parmesan cheese,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,11,11,,1,1
 1/2 cup grated Parmesan cheese,1/2 cup grated Parmesan cheese,1/4 cup butter,1/4 cup butter,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,11,11,,1,1
 1/4 cup butter,1/4 cup butter,"2 cloves garlic, minced","2 cloves garlic, minced",1.02,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,11,11,,1,1
 "2 cloves garlic, minced","2 cloves garlic, minced",Salt and pepper to taste,Salt and pepper to taste,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,11,11,,1,1
 Salt and pepper to taste,Salt and pepper to taste,Chopped parsley for garnish,Chopped parsley for garnish,1.01,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,11,11,,1,1
-Chopped parsley for garnish,Chopped parsley for garnish,Instructions:,Instructions:,1.0,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,11,11,,0,0
+Chopped parsley for garnish,Chopped parsley for garnish,Instructions:,Instructions:,1.0,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,11,11,,1,1
 Cook fettuccine according to package instructions.,Cook fettuccine according to package instructions.,"In a skillet, melt butter over medium heat.","In a skillet, melt butter over medium heat.",1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,12,12,,1,1
 "In a skillet, melt butter over medium heat.","In a skillet, melt butter over medium heat.",Add minced garlic and sauté until fragrant.,Add minced garlic and sauté until fragrant.,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,12,12,,1,1
 Add minced garlic and sauté until fragrant.,Add minced garlic and sauté until fragrant.,Pour in heavy cream and bring to a simmer.,Pour in heavy cream and bring to a simmer.,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,12,12,,1,1
@@ -415,9 +415,9 @@ Pour in heavy cream and bring to a simmer.,Pour in heavy cream and bring to a si
 Stir in grated Parmesan cheese until melted and smooth.,Stir in grated Parmesan cheese until melted and smooth.,Season with salt and pepper.,Season with salt and pepper.,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,12,12,,1,1
 Season with salt and pepper.,Season with salt and pepper.,Toss cooked fettuccine with the sauce.,Toss cooked fettuccine with the sauce.,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,12,12,,1,1
 Toss cooked fettuccine with the sauce.,Toss cooked fettuccine with the sauce.,Garnish with chopped parsley and serve.,Garnish with chopped parsley and serve.,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,12,12,,1,1
-Garnish with chopped parsley and serve.,Garnish with chopped parsley and serve.,Fish and Chips,Fish and Chips,17.66,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,12,12,,0,0
-Fish and Chips,Fish and Chips,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,12,12,,0,0
-Ingredients:,Ingredients:,1 pound white fish fillets such as cod or haddock,1 pound white fish fillets (such as cod or haddock),1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,12,12,,0,0
+Garnish with chopped parsley and serve.,Garnish with chopped parsley and serve.,Fish and Chips,Fish and Chips,17.66,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,12,12,,1,1
+Fish and Chips,Fish and Chips,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,12,12,,1,1
+Ingredients:,Ingredients:,1 pound white fish fillets such as cod or haddock,1 pound white fish fillets (such as cod or haddock),1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,12,12,,1,1
 1 pound white fish fillets such as cod or haddock,1 pound white fish fillets (such as cod or haddock),1 cup flour,1 cup flour,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,12,12,,1,1
 1 cup flour,1 cup flour,1 cup beer,1 cup beer,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,12,12,,1,1
 1 cup beer,1 cup beer,1 teaspoon baking powder,1 teaspoon baking powder,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,12,12,,1,1
@@ -426,58 +426,58 @@ Ingredients:,Ingredients:,1 pound white fish fillets such as cod or haddock,1 po
 1/2 teaspoon pepper,1/2 teaspoon pepper,"4 large potatoes, peeled and cut into fries","4 large potatoes, peeled and cut into fries",1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,12,12,,1,1
 "4 large potatoes, peeled and cut into fries","4 large potatoes, peeled and cut into fries",Vegetable oil for frying,Vegetable oil for frying,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,12,12,,1,1
 Vegetable oil for frying,Vegetable oil for frying,Lemon wedges for serving,Lemon wedges for serving,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,12,12,,1,1
-Lemon wedges for serving,Lemon wedges for serving,Instructions:,Instructions:,1.0,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,12,12,,0,0
-Instructions:,Instructions:,"In a bowl, mix flour, baking powder, salt, and pepper.","In a bowl, mix flour, baking powder, salt, and pepper.",1.01,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,12,12,,0,0
+Lemon wedges for serving,Lemon wedges for serving,Instructions:,Instructions:,1.0,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,12,12,,1,1
+Instructions:,Instructions:,"In a bowl, mix flour, baking powder, salt, and pepper.","In a bowl, mix flour, baking powder, salt, and pepper.",1.01,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,12,12,,1,1
 "In a bowl, mix flour, baking powder, salt, and pepper.","In a bowl, mix flour, baking powder, salt, and pepper.",Gradually whisk in beer until smooth.,Gradually whisk in beer until smooth.,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,12,12,,1,1
 Gradually whisk in beer until smooth.,Gradually whisk in beer until smooth.,Heat vegetable oil in a deep fryer or large pot to 350°F 175°C.,Heat vegetable oil in a deep fryer or large pot to 350°F (175°C).,1.02,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,12,12,,1,1
 Heat vegetable oil in a deep fryer or large pot to 350°F 175°C.,Heat vegetable oil in a deep fryer or large pot to 350°F (175°C).,Dip fish fillets in the batter and fry until golden and crispy.,Dip fish fillets in the batter and fry until golden and crispy.,1.0,0.0,1,1,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,12,12,,1,1
 Dip fish fillets in the batter and fry until golden and crispy.,Dip fish fillets in the batter and fry until golden and crispy.,Drain on paper towels.,Drain on paper towels.,1.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,12,12,,1,1
 Drain on paper towels.,Drain on paper towels.,Fry potatoes until golden and crispy.,Fry potatoes until golden and crispy.,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,12,12,,1,1
 Fry potatoes until golden and crispy.,Fry potatoes until golden and crispy.,Serve fish and chips with lemon wedges.,Serve fish and chips with lemon wedges.,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,12,12,,1,1
-Serve fish and chips with lemon wedges.,Serve fish and chips with lemon wedges.,Grilled Cheese Sandwich,Grilled Cheese Sandwich,17.66,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,12,12,,0,0
-Grilled Cheese Sandwich,Grilled Cheese Sandwich,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,12,12,,0,0
-Ingredients:,Ingredients:,8 slices bread,8 slices bread,1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,12,12,,0,0
+Serve fish and chips with lemon wedges.,Serve fish and chips with lemon wedges.,Grilled Cheese Sandwich,Grilled Cheese Sandwich,17.66,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,12,12,,1,1
+Grilled Cheese Sandwich,Grilled Cheese Sandwich,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,12,12,,1,1
+Ingredients:,Ingredients:,8 slices bread,8 slices bread,1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,12,12,,1,1
 8 slices bread,8 slices bread,4 slices cheddar cheese,4 slices cheddar cheese,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,12,12,,1,1
 4 slices cheddar cheese,4 slices cheddar cheese,4 slices mozzarella cheese,4 slices mozzarella cheese,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,12,12,,1,1
 4 slices mozzarella cheese,4 slices mozzarella cheese,1/4 cup butter,1/4 cup butter,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,12,12,,1,1
-1/4 cup butter,1/4 cup butter,Instructions:,Instructions:,1.0,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,12,12,,0,0
-Instructions:,Instructions:,Preheat a skillet over medium heat.,Preheat a skillet over medium heat.,1.02,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,12,12,,0,0
+1/4 cup butter,1/4 cup butter,Instructions:,Instructions:,1.0,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,12,12,,1,1
+Instructions:,Instructions:,Preheat a skillet over medium heat.,Preheat a skillet over medium heat.,1.02,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,12,12,,1,1
 Preheat a skillet over medium heat.,Preheat a skillet over medium heat.,Butter one side of each slice of bread.,Butter one side of each slice of bread.,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,12,12,,1,1
 Butter one side of each slice of bread.,Butter one side of each slice of bread.,Place a slice of cheddar cheese and a slice of mozzarella cheese between two slices of,Place a slice of cheddar cheese and a slice of mozzarella cheese between two slices of,1.01,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,12,12,,1,1
 Place a slice of cheddar cheese and a slice of mozzarella cheese between two slices of,Place a slice of cheddar cheese and a slice of mozzarella cheese between two slices of,"bread, buttered side out.","bread, buttered side out.",1.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,1,0,0,0,1,0,0,0,1,12,12,,1,1
 Cook sandwiches in the skillet until golden brown and cheese is melted.,Cook sandwiches in the skillet until golden brown and cheese is melted.,Serve warm.,Serve warm.,1.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,13,13,,1,1
-Serve warm.,Serve warm.,Grilled Salmon,Grilled Salmon,17.67,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,13,13,,0,0
-Grilled Salmon,Grilled Salmon,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,13,13,,0,0
-Ingredients:,Ingredients:,4 salmon fillets,4 salmon fillets,1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,13,13,,0,0
+Serve warm.,Serve warm.,Grilled Salmon,Grilled Salmon,17.67,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,13,13,,1,1
+Grilled Salmon,Grilled Salmon,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,13,13,,1,1
+Ingredients:,Ingredients:,4 salmon fillets,4 salmon fillets,1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,13,13,,1,1
 4 salmon fillets,4 salmon fillets,1/4 cup olive oil,1/4 cup olive oil,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,13,13,,1,1
 1/4 cup olive oil,1/4 cup olive oil,"2 cloves garlic, minced","2 cloves garlic, minced",1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,13,13,,1,1
 "2 cloves garlic, minced","2 cloves garlic, minced","1 lemon, juiced","1 lemon, juiced",1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,13,13,,1,1
 "1 lemon, juiced","1 lemon, juiced","1 tablespoon fresh dill, chopped","1 tablespoon fresh dill, chopped",1.02,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,13,13,,1,1
 "1 tablespoon fresh dill, chopped","1 tablespoon fresh dill, chopped",Salt and pepper to taste,Salt and pepper to taste,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,13,13,,1,1
-Salt and pepper to taste,Salt and pepper to taste,Instructions:,Instructions:,1.0,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,13,13,,0,0
-Instructions:,Instructions:,Preheat grill to medium-high heat.,Preheat grill to medium-high heat.,1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,13,13,,0,0
+Salt and pepper to taste,Salt and pepper to taste,Instructions:,Instructions:,1.0,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,13,13,,1,1
+Instructions:,Instructions:,Preheat grill to medium-high heat.,Preheat grill to medium-high heat.,1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,13,13,,1,1
 Preheat grill to medium-high heat.,Preheat grill to medium-high heat.,"In a bowl, mix olive oil, minced garlic, lemon juice, chopped dill, salt, and pepper.","In a bowl, mix olive oil, minced garlic, lemon juice, chopped dill, salt, and pepper.",1.0,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,13,13,,1,1
 "In a bowl, mix olive oil, minced garlic, lemon juice, chopped dill, salt, and pepper.","In a bowl, mix olive oil, minced garlic, lemon juice, chopped dill, salt, and pepper.",Brush the mixture over the salmon fillets.,Brush the mixture over the salmon fillets.,1.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,13,13,,1,1
 Brush the mixture over the salmon fillets.,Brush the mixture over the salmon fillets.,Grill salmon for 4-5 minutes per side until cooked through.,Grill salmon for 4-5 minutes per side until cooked through.,1.0,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,13,13,,1,1
 Grill salmon for 4-5 minutes per side until cooked through.,Grill salmon for 4-5 minutes per side until cooked through.,Serve warm.,Serve warm.,1.02,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,13,13,,1,1
-Serve warm.,Serve warm.,Grilled Shrimp Skewers,Grilled Shrimp Skewers,17.64,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,13,13,,0,0
-Grilled Shrimp Skewers,Grilled Shrimp Skewers,Ingredients:,Ingredients:,1.01,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,13,13,,0,0
-Ingredients:,Ingredients:,"1 pound large shrimp, peeled and deveined","1 pound large shrimp, peeled and deveined",1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,13,13,,0,0
+Serve warm.,Serve warm.,Grilled Shrimp Skewers,Grilled Shrimp Skewers,17.64,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,13,13,,1,1
+Grilled Shrimp Skewers,Grilled Shrimp Skewers,Ingredients:,Ingredients:,1.01,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,13,13,,1,1
+Ingredients:,Ingredients:,"1 pound large shrimp, peeled and deveined","1 pound large shrimp, peeled and deveined",1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,13,13,,1,1
 "1 pound large shrimp, peeled and deveined","1 pound large shrimp, peeled and deveined",1/4 cup olive oil,1/4 cup olive oil,1.02,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,13,13,,1,1
 1/4 cup olive oil,1/4 cup olive oil,"2 cloves garlic, minced","2 cloves garlic, minced",1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,13,13,,1,1
 "2 cloves garlic, minced","2 cloves garlic, minced","1 lemon, juiced","1 lemon, juiced",1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,13,13,,1,1
 "1 lemon, juiced","1 lemon, juiced","1 tablespoon fresh parsley, chopped","1 tablespoon fresh parsley, chopped",1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,13,13,,1,1
 "1 tablespoon fresh parsley, chopped","1 tablespoon fresh parsley, chopped",Salt and pepper to taste,Salt and pepper to taste,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,13,13,,1,1
 Salt and pepper to taste,Salt and pepper to taste,Bamboo skewers,Bamboo skewers,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,13,13,,1,1
-Bamboo skewers,Bamboo skewers,Instructions:,Instructions:,1.0,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,13,13,,0,0
-Instructions:,Instructions:,Preheat grill to medium-high heat.,Preheat grill to medium-high heat.,1.02,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,13,13,,0,0
+Bamboo skewers,Bamboo skewers,Instructions:,Instructions:,1.0,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,13,13,,1,1
+Instructions:,Instructions:,Preheat grill to medium-high heat.,Preheat grill to medium-high heat.,1.02,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,13,13,,1,1
 Preheat grill to medium-high heat.,Preheat grill to medium-high heat.,"In a bowl, mix olive oil, minced garlic, lemon juice, chopped parsley, salt, and pepper.","In a bowl, mix olive oil, minced garlic, lemon juice, chopped parsley, salt, and pepper.",1.0,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,13,13,,1,1
 "In a bowl, mix olive oil, minced garlic, lemon juice, chopped parsley, salt, and pepper.","In a bowl, mix olive oil, minced garlic, lemon juice, chopped parsley, salt, and pepper.",Thread shrimp onto bamboo skewers.,Thread shrimp onto bamboo skewers.,1.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,13,13,,1,1
 Thread shrimp onto bamboo skewers.,Thread shrimp onto bamboo skewers.,Brush the mixture over the shrimp.,Brush the mixture over the shrimp.,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,13,13,,1,1
 Brush the mixture over the shrimp.,Brush the mixture over the shrimp.,Grill shrimp for 2-3 minutes per side until pink and opaque.,Grill shrimp for 2-3 minutes per side until pink and opaque.,1.0,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,13,13,,1,1
 Grill shrimp for 2-3 minutes per side until pink and opaque.,Grill shrimp for 2-3 minutes per side until pink and opaque.,Serve warm.,Serve warm.,1.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,13,13,,1,1
-Serve warm.,Serve warm.,Lamb Chops with Mint Sauce,Lamb Chops with Mint Sauce,23.21,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,13,13,,0,0
-Lamb Chops with Mint Sauce,Lamb Chops with Mint Sauce,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,13,13,,0,0
+Serve warm.,Serve warm.,Lamb Chops with Mint Sauce,Lamb Chops with Mint Sauce,23.21,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,13,13,,1,1
+Lamb Chops with Mint Sauce,Lamb Chops with Mint Sauce,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,13,13,,1,1
 4 lamb chops,4 lamb chops,1/4 cup olive oil,1/4 cup olive oil,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,14,14,,1,1
 1/4 cup olive oil,1/4 cup olive oil,"2 cloves garlic, minced","2 cloves garlic, minced",1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,14,14,,1,1
 "2 cloves garlic, minced","2 cloves garlic, minced","1 tablespoon fresh rosemary, chopped","1 tablespoon fresh rosemary, chopped",1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,14,14,,1,1
@@ -485,23 +485,23 @@ Lamb Chops with Mint Sauce,Lamb Chops with Mint Sauce,Ingredients:,Ingredients:,
 Salt and pepper to taste,Salt and pepper to taste,1/2 cup fresh mint leaves,1/2 cup fresh mint leaves,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,14,14,,1,1
 1/2 cup fresh mint leaves,1/2 cup fresh mint leaves,1/4 cup white vinegar,1/4 cup white vinegar,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,14,14,,1,1
 1/4 cup white vinegar,1/4 cup white vinegar,1 tablespoon sugar,1 tablespoon sugar,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,14,14,,1,1
-1 tablespoon sugar,1 tablespoon sugar,Instructions:,Instructions:,1.0,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,14,14,,0,0
-Instructions:,Instructions:,Preheat grill to medium-high heat.,Preheat grill to medium-high heat.,1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,14,14,,0,0
+1 tablespoon sugar,1 tablespoon sugar,Instructions:,Instructions:,1.0,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,14,14,,1,1
+Instructions:,Instructions:,Preheat grill to medium-high heat.,Preheat grill to medium-high heat.,1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,14,14,,1,1
 Preheat grill to medium-high heat.,Preheat grill to medium-high heat.,"In a bowl, mix olive oil, minced garlic, chopped rosemary, salt, and pepper.","In a bowl, mix olive oil, minced garlic, chopped rosemary, salt, and pepper.",1.0,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,14,14,,1,1
 "In a bowl, mix olive oil, minced garlic, chopped rosemary, salt, and pepper.","In a bowl, mix olive oil, minced garlic, chopped rosemary, salt, and pepper.",Brush the mixture over the lamb chops.,Brush the mixture over the lamb chops.,1.02,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,14,14,,1,1
 Brush the mixture over the lamb chops.,Brush the mixture over the lamb chops.,Grill lamb chops for 4-5 minutes per side until cooked to desired doneness.,Grill lamb chops for 4-5 minutes per side until cooked to desired doneness.,1.0,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,14,14,,1,1
 Grill lamb chops for 4-5 minutes per side until cooked to desired doneness.,Grill lamb chops for 4-5 minutes per side until cooked to desired doneness.,"In a blender, combine mint leaves, white vinegar, and sugar, blend until smooth.","In a blender, combine mint leaves, white vinegar, and sugar, blend until smooth.",1.0,0.0,1,1,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,14,14,,1,1
 "In a blender, combine mint leaves, white vinegar, and sugar, blend until smooth.","In a blender, combine mint leaves, white vinegar, and sugar, blend until smooth.",Serve lamb chops with mint sauce.,Serve lamb chops with mint sauce.,1.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,14,14,,1,1
-Serve lamb chops with mint sauce.,Serve lamb chops with mint sauce.,Lobster Tail,Lobster Tail,17.66,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,14,14,,0,0
-Lobster Tail,Lobster Tail,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,14,14,,0,0
-Ingredients:,Ingredients:,4 lobster tails,4 lobster tails,1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,14,14,,0,0
+Serve lamb chops with mint sauce.,Serve lamb chops with mint sauce.,Lobster Tail,Lobster Tail,17.66,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,14,14,,1,1
+Lobster Tail,Lobster Tail,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,14,14,,1,1
+Ingredients:,Ingredients:,4 lobster tails,4 lobster tails,1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,14,14,,1,1
 4 lobster tails,4 lobster tails,"1/4 cup butter, melted","1/4 cup butter, melted",1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,14,14,,1,1
 "1/4 cup butter, melted","1/4 cup butter, melted","2 cloves garlic, minced","2 cloves garlic, minced",1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,14,14,,1,1
 "2 cloves garlic, minced","2 cloves garlic, minced","1 lemon, juiced","1 lemon, juiced",1.01,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,14,14,,1,1
 "1 lemon, juiced","1 lemon, juiced","1 tablespoon fresh parsley, chopped","1 tablespoon fresh parsley, chopped",1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,14,14,,1,1
 "1 tablespoon fresh parsley, chopped","1 tablespoon fresh parsley, chopped",Salt and pepper to taste,Salt and pepper to taste,1.02,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,14,14,,1,1
-Salt and pepper to taste,Salt and pepper to taste,Instructions:,Instructions:,1.0,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,14,14,,0,0
-Instructions:,Instructions:,Preheat oven to 425°F 220°C.,Preheat oven to 425°F (220°C).,1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,14,14,,0,0
+Salt and pepper to taste,Salt and pepper to taste,Instructions:,Instructions:,1.0,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,14,14,,1,1
+Instructions:,Instructions:,Preheat oven to 425°F 220°C.,Preheat oven to 425°F (220°C).,1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,14,14,,1,1
 Preheat oven to 425°F 220°C.,Preheat oven to 425°F (220°C).,"Using kitchen shears, cut the top shell of the lobster tails lengthwise.","Using kitchen shears, cut the top shell of the lobster tails lengthwise.",1.0,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,14,14,,1,1
 "Using kitchen shears, cut the top shell of the lobster tails lengthwise.","Using kitchen shears, cut the top shell of the lobster tails lengthwise.",Gently pull the lobster meat out of the shell and place it on top.,Gently pull the lobster meat out of the shell and place it on top.,1.0,0.0,1,1,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,14,14,,1,1
 Gently pull the lobster meat out of the shell and place it on top.,Gently pull the lobster meat out of the shell and place it on top.,"In a bowl, mix melted butter, minced garlic, lemon juice, chopped parsley, salt, and","In a bowl, mix melted butter, minced garlic, lemon juice, chopped parsley, salt, and",1.0,0.0,1,1,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,14,14,,1,1
@@ -509,9 +509,9 @@ Gently pull the lobster meat out of the shell and place it on top.,Gently pull t
 pepper.,pepper.,Brush the mixture over the lobster meat.,Brush the mixture over the lobster meat.,1.02,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,14,14,,1,1
 Brush the mixture over the lobster meat.,Brush the mixture over the lobster meat.,Place lobster tails on a baking sheet and bake for 12-15 minutes until cooked through.,Place lobster tails on a baking sheet and bake for 12-15 minutes until cooked through.,1.0,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,14,14,,1,1
 Place lobster tails on a baking sheet and bake for 12-15 minutes until cooked through.,Place lobster tails on a baking sheet and bake for 12-15 minutes until cooked through.,Serve warm.,Serve warm.,1.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,14,14,,1,1
-Serve warm.,Serve warm.,Osso Buco,Osso Buco,17.64,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,14,14,,0,0
-Osso Buco,Osso Buco,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,14,14,,0,0
-Ingredients:,Ingredients:,4 veal shanks,4 veal shanks,1.02,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,14,14,,0,0
+Serve warm.,Serve warm.,Osso Buco,Osso Buco,17.64,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,14,14,,1,1
+Osso Buco,Osso Buco,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,14,14,,1,1
+Ingredients:,Ingredients:,4 veal shanks,4 veal shanks,1.02,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,14,14,,1,1
 4 veal shanks,4 veal shanks,"1 small onion, diced","1 small onion, diced",1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,14,14,,1,1
 "1 small onion, diced","1 small onion, diced","2 cloves garlic, minced","2 cloves garlic, minced",1.01,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,14,14,,1,1
 "2 cloves garlic, minced","2 cloves garlic, minced",1 cup white wine,1 cup white wine,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,14,14,,1,1
@@ -522,21 +522,21 @@ Ingredients:,Ingredients:,4 veal shanks,4 veal shanks,1.02,36.02,0,0,0,12.0,12.0
 1 teaspoon thyme,1 teaspoon thyme,1 bay leaf,1 bay leaf,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,15,15,,1,1
 1 bay leaf,1 bay leaf,2 tablespoons olive oil,2 tablespoons olive oil,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,15,15,,1,1
 2 tablespoons olive oil,2 tablespoons olive oil,Salt and pepper to taste,Salt and pepper to taste,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,15,15,,1,1
-Salt and pepper to taste,Salt and pepper to taste,Instructions:,Instructions:,1.0,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,15,15,,0,0
-Instructions:,Instructions:,Preheat oven to 350°F 175°C.,Preheat oven to 350°F (175°C).,1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,15,15,,0,0
+Salt and pepper to taste,Salt and pepper to taste,Instructions:,Instructions:,1.0,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,15,15,,1,1
+Instructions:,Instructions:,Preheat oven to 350°F 175°C.,Preheat oven to 350°F (175°C).,1.0,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,15,15,,1,1
 Preheat oven to 350°F 175°C.,Preheat oven to 350°F (175°C).,"In a large pot, heat olive oil over medium heat.","In a large pot, heat olive oil over medium heat.",1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,15,15,,1,1
 "In a large pot, heat olive oil over medium heat.","In a large pot, heat olive oil over medium heat.","Season veal shanks with salt and pepper, then brown on all sides.","Season veal shanks with salt and pepper, then brown on all sides.",1.02,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,15,15,,1,1
 "Season veal shanks with salt and pepper, then brown on all sides.","Season veal shanks with salt and pepper, then brown on all sides.",Remove veal shanks and set aside.,Remove veal shanks and set aside.,1.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,15,15,,1,1
 Remove veal shanks and set aside.,Remove veal shanks and set aside.,"In the same pot, sauté diced onion, minced garlic, diced carrot, and diced celery until","In the same pot, sauté diced onion, minced garlic, diced carrot, and diced celery until",1.0,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,15,15,,1,1
 "In the same pot, sauté diced onion, minced garlic, diced carrot, and diced celery until","In the same pot, sauté diced onion, minced garlic, diced carrot, and diced celery until",softened.,softened.,1.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,1,0,0,0,1,0,0,0,1,15,15,,1,1
-softened.,softened.,"Stir in white wine, beef broth, diced tomatoes, thyme, and bay leaf.","Stir in white wine, beef broth, diced tomatoes, thyme, and bay leaf.",1.0,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,15,15,,0,0
+softened.,softened.,"Stir in white wine, beef broth, diced tomatoes, thyme, and bay leaf.","Stir in white wine, beef broth, diced tomatoes, thyme, and bay leaf.",1.0,0.0,1,0,1,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,15,15,,1,1
 "Stir in white wine, beef broth, diced tomatoes, thyme, and bay leaf.","Stir in white wine, beef broth, diced tomatoes, thyme, and bay leaf.",Return veal shanks to the pot and bring to a simmer.,Return veal shanks to the pot and bring to a simmer.,1.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,15,15,,1,1
 Return veal shanks to the pot and bring to a simmer.,Return veal shanks to the pot and bring to a simmer.,Cover and transfer to the oven.,Cover and transfer to the oven.,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,15,15,,1,1
 Cover and transfer to the oven.,Cover and transfer to the oven.,Cook for 2 hours until veal is tender.,Cook for 2 hours until veal is tender.,1.02,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,15,15,,1,1
 Cook for 2 hours until veal is tender.,Cook for 2 hours until veal is tender.,Serve warm.,Serve warm.,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,15,15,,1,1
-Serve warm.,Serve warm.,Pad See Ew,Pad See Ew,17.64,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,15,15,,0,0
-Pad See Ew,Pad See Ew,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,15,15,,0,0
-Ingredients:,Ingredients:,8 ounces wide rice noodles,8 ounces wide rice noodles,1.02,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,15,15,,0,0
+Serve warm.,Serve warm.,Pad See Ew,Pad See Ew,17.64,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,15,15,,1,1
+Pad See Ew,Pad See Ew,Ingredients:,Ingredients:,1.0,0.0,1,0,0,12.0,12.0,0.0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,15,15,,1,1
+Ingredients:,Ingredients:,8 ounces wide rice noodles,8 ounces wide rice noodles,1.02,36.02,0,0,0,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,15,15,,1,1
 8 ounces wide rice noodles,8 ounces wide rice noodles,"1/2 pound chicken breast, sliced","1/2 pound chicken breast, sliced",1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,15,15,,1,1
 "1/2 pound chicken breast, sliced","1/2 pound chicken breast, sliced",1 cup broccoli florets,1 cup broccoli florets,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,15,15,,1,1
 1 cup broccoli florets,1 cup broccoli florets,2 eggs,2 eggs,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,15,15,,1,1
@@ -544,8 +544,8 @@ Ingredients:,Ingredients:,8 ounces wide rice noodles,8 ounces wide rice noodles,
 2 tablespoons soy sauce,2 tablespoons soy sauce,2 tablespoons oyster sauce,2 tablespoons oyster sauce,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,15,15,,1,1
 2 tablespoons oyster sauce,2 tablespoons oyster sauce,1 tablespoon sugar,1 tablespoon sugar,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,15,15,,1,1
 1 tablespoon sugar,1 tablespoon sugar,1 tablespoon vegetable oil,1 tablespoon vegetable oil,1.02,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,15,15,,1,1
-1 tablespoon vegetable oil,1 tablespoon vegetable oil,Instructions:,Instructions:,1.0,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,15,15,,0,0
-Instructions:,Instructions:,"Soak rice noodles in warm water until softened, then drain.","Soak rice noodles in warm water until softened, then drain.",1.0,36.02,0,0,1,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,15,15,,0,0
+1 tablespoon vegetable oil,1 tablespoon vegetable oil,Instructions:,Instructions:,1.0,-36.02,0,0,0,12.0,12.0,0.0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,15,15,,1,1
+Instructions:,Instructions:,"Soak rice noodles in warm water until softened, then drain.","Soak rice noodles in warm water until softened, then drain.",1.0,36.02,0,0,1,12.0,12.0,0.0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,15,15,,1,1
 "Soak rice noodles in warm water until softened, then drain.","Soak rice noodles in warm water until softened, then drain.","In a large skillet, heat vegetable oil over medium heat.","In a large skillet, heat vegetable oil over medium heat.",1.0,0.0,1,1,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,15,15,,1,1
 "In a large skillet, heat vegetable oil over medium heat.","In a large skillet, heat vegetable oil over medium heat.","Cook sliced chicken until browned, then set aside.","Cook sliced chicken until browned, then set aside.",1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,15,15,,1,1
 "Cook sliced chicken until browned, then set aside.","Cook sliced chicken until browned, then set aside.",Scramble eggs in the same skillet.,Scramble eggs in the same skillet.,1.0,0.0,1,0,0,12.0,12.0,0.0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,15,15,,1,1
