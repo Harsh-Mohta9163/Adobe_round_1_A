@@ -1,0 +1,37 @@
+text,bbox,page_number,avg_font_size,word_count,is_all_caps,char_density,ratio_of_verbs,ratio_capitalized,ends_with_colon,is_bold,normalized_vertical_gap,indentation_change,same_alignment,is_centered_A,font_size_diff,same_font,is_bold_A,is_italic_A,is_monospace_A,same_bold,same_italic,same_monospace,line_a_ends_punctuation,line_b_starts_lowercase,is_linea_in_rectangle,is_lineb_in_rectangle,both_in_table,neither_in_table,is_linea_hashed,is_lineb_hashed,both_hashed,neither_hashed,title_label,model_labels,predicted_category,confidence_score,style_cluster_id,numbering_info,hierarchy_level
+Parsippany -Troy Hills STEM Pathways,"[0, 0, 100, 20]",1,28.01,5,0,0.016,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,1.0,0,,Title
+Mission Statement: To provide PTHSD high school students with the opportunity to,"[0, 0, 100, 20]",1,14.01,12,0,0.0345,0.0833333333333333,0.3333333333333333,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.9999934174809092,1,,H1
+"concentrate their studies, beyond those required in high school, in the areas of science,","[0, 0, 100, 20]",1,12.0,14,0,0.038,0.1428571428571428,0.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.6334154376075701,2,,H2
+"technology, engineering, and mathematics, and expose students to relevant real world","[0, 0, 100, 20]",1,12.0,11,0,0.037,0.0909090909090909,0.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.676828524108051,3,,H2
+"experiences through project work, conferences and presentations to enhance their high school","[0, 0, 100, 20]",1,12.0,12,0,0.0405,0.0833333333333333,0.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.7720089752830823,3,,H2
+experience.,"[0, 0, 100, 20]",1,12.0,1,0,0.0055,0.0,0.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.9996941771003732,4,,H2
+Goals:,"[0, 0, 100, 20]",1,14.01,1,0,0.003,0.0,1.0,1,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.9999999987490792,5,,H1
+"Inspire keen interest in mathematics, science, engineering, and","[0, 0, 100, 20]",1,11.51,8,0,0.028,0.0,0.125,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.6528964449394294,6,,H2
+"technology, develop strong scholarship in the subject and","[0, 0, 100, 20]",1,11.51,8,0,0.025,0.125,0.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.7438207935763135,7,,H2
+promote the enjoyment of these studies in high school.,"[0, 0, 100, 20]",1,11.51,9,0,0.023,0.1111111111111111,0.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.6757812490052117,7,,H2
+STEM careers.,"[0, 0, 100, 20]",1,11.51,2,0,0.006,0.0,0.5,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.993834841435798,8,,H2
+Promote interactions with STEM professionals to learn about,"[0, 0, 100, 20]",1,11.51,8,0,0.026,0.125,0.25,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.8860268915382361,7,,H2
+future opportunities.,"[0, 0, 100, 20]",1,11.51,2,0,0.01,0.0,0.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.9603369303069522,4,,H2
+Support field experiences connected to the world outside of,"[0, 0, 100, 20]",1,11.51,9,0,0.0255,0.1111111111111111,0.1111111111111111,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.8364656609798469,7,,H2
+the school building.,"[0, 0, 100, 20]",1,11.51,3,0,0.009,0.0,0.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.984880759245405,4,,H2
+"Signal to employers, universities, training programs, and","[0, 0, 100, 20]",1,11.51,7,0,0.0255,0.1428571428571428,0.1428571428571428,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.9302888925722036,7,,H2
+of study in a specialized area.,"[0, 0, 100, 20]",1,11.51,6,0,0.013,0.0,0.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.8638683067087983,4,,H2
+"setting, and self-direction.","[0, 0, 100, 20]",1,11.51,3,0,0.013,0.0,0.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.9822604368409716,4,,H2
+PATHWAY OPTIONS,"[0, 0, 100, 20]",1,15.31,2,1,0.007,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,1.0,9,,H1
+REGULAR PATHWAY,"[0, 0, 100, 20]",1,15.31,2,1,0.007,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,1.0,9,,H1
+presentations/conferences each year,"[0, 0, 100, 20]",1,11.01,3,0,0.0165,0.0,0.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.7803972448605404,4,,H2
+presentations/conferences throughout,"[0, 0, 100, 20]",1,11.01,2,0,0.0175,0.0,0.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.7941604632909527,4,,H2
+Join and actively participate in a,"[0, 0, 100, 20]",1,11.01,6,0,0.0145,0.1666666666666666,0.1666666666666666,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.7269263834712676,10,,H2
+club every year of attendance.,"[0, 0, 100, 20]",1,11.01,5,0,0.013,0.0,0.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.6663785539468824,4,,H2
+DISTINCTION PATHWAY,"[0, 0, 100, 20]",1,15.31,2,1,0.009,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,1.0,9,,H1
+course should be an AP Math class.,"[0, 0, 100, 20]",1,11.01,7,0,0.014,0.1428571428571428,0.2857142857142857,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.611687009813842,10,,H2
+science course should be an AP,"[0, 0, 100, 20]",1,11.01,6,0,0.0125,0.1666666666666666,0.1666666666666666,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.7548787204548176,10,,H2
+Science class.,"[0, 0, 100, 20]",1,11.01,2,0,0.0065,0.0,0.5,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.9211772520905852,8,,H2
+Science/Technology Class,"[0, 0, 100, 20]",1,11.01,2,0,0.0115,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.9549076010966234,11,,H2
+presentations/conferences a year with a,"[0, 0, 100, 20]",1,11.01,5,0,0.0175,0.0,0.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.6020208149464126,4,,H2
+presentations/conferences throughout,"[0, 0, 100, 20]",1,11.01,2,0,0.0175,0.0,0.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.7941604632909527,4,,H2
+Join and actively participate in a,"[0, 0, 100, 20]",1,11.01,6,0,0.0145,0.1666666666666666,0.1666666666666666,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.7269263834712676,10,,H2
+club every year of attendance.,"[0, 0, 100, 20]",1,11.01,5,0,0.013,0.0,0.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.6663785539468824,4,,H2
+Either participate in an internship or,"[0, 0, 100, 20]",1,11.01,6,0,0.0165,0.0,0.1666666666666666,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.543295257853895,4,,H2
+design and implement a community,"[0, 0, 100, 20]",1,11.01,5,0,0.014,0.2,0.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.850959622980654,10,,H2
+impact project.,"[0, 0, 100, 20]",1,11.01,2,0,0.007,0.0,0.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.9196897538788188,4,,H2

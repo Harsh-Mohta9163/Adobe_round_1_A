@@ -1,0 +1,18 @@
+text,bbox,page_number,avg_font_size,word_count,is_all_caps,char_density,ratio_of_verbs,ratio_capitalized,ends_with_colon,is_bold,normalized_vertical_gap,indentation_change,same_alignment,is_centered_A,font_size_diff,same_font,is_bold_A,is_italic_A,is_monospace_A,same_bold,same_italic,same_monospace,line_a_ends_punctuation,line_b_starts_lowercase,is_linea_in_rectangle,is_lineb_in_rectangle,both_in_table,neither_in_table,is_linea_hashed,is_lineb_hashed,both_hashed,neither_hashed,title_label,model_labels,predicted_category,confidence_score,style_cluster_id,numbering_info,hierarchy_level
+AFFIANT The person filling out this form,"[0, 0, 100, 20]",1,12.0,7,0,0.017,0.1428571428571428,0.2857142857142857,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.9999972180112364,0,,Title
+PASSPORT APPLICANT The person applying for the passport,"[0, 0, 100, 20]",1,12.0,8,0,0.024,0.125,0.375,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.9999936212475258,1,,H1
+WARNING,"[0, 0, 100, 20]",1,12.0,1,1,0.0035,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.9999999999992112,2,,H1
+PRIVACY ACT STATEMENT,"[0, 0, 100, 20]",1,12.0,3,1,0.0095,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.9999999999975862,3,,H1
+PAPERWORK REDUCTION ACT STATEMENT,"[0, 0, 100, 20]",1,12.0,4,1,0.015,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.9999999999953256,3,,H1
+Middle,"[0, 0, 100, 20]",2,10.0,1,0,0.003,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.7889870969650408,4,,H2
+3. Passport Applicant's Place of Birth  City and State,"[0, 0, 100, 20]",2,10.0,9,0,0.0225,0.0,0.6,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.5664531012755332,5,"{'type': 'numeric', 'depth': 1}",H2
+Suffix,"[0, 0, 100, 20]",2,10.0,1,0,0.003,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.7889870969650408,4,,H2
+Street,"[0, 0, 100, 20]",2,10.0,1,0,0.003,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.7889870969650408,4,,H2
+City,"[0, 0, 100, 20]",2,10.0,1,0,0.002,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.7956709450965797,4,,H2
+State/Country,"[0, 0, 100, 20]",2,10.0,1,0,0.0065,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.7643447599980446,4,,H2
+Apartment/Unit,"[0, 0, 100, 20]",2,10.0,1,0,0.007,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.760666563212624,4,,H2
+known the passport applicant?,"[0, 0, 100, 20]",2,10.0,4,0,0.013,0.25,0.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.5632171593055051,6,,H2
+YOU THE AFFIANT MUST:,"[0, 0, 100, 20]",2,12.0,4,1,0.009,0.25,1.0,1,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.999999999959278,7,,H1
+NOTARY,"[0, 0, 100, 20]",2,10.0,1,1,0.003,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.9999764004124372,8,,H2
+SEAL,"[0, 0, 100, 20]",2,10.0,1,1,0.002,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.9999773398731724,8,,H2
+Location,"[0, 0, 100, 20]",2,10.0,1,0,0.004,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.7821444751030733,4,,H2

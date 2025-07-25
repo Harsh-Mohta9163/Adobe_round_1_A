@@ -153,7 +153,7 @@ def predict_on_new_data(model_dir: str, input_csv_path: str, output_csv_path: st
 
 if __name__ == '__main__':
     MODEL_DIRECTORY = 'models'
-    INPUT_CSV_TO_TEST = '../../data/test_labelled_merged_textblocks_gt/merged_textblocks_file03.pdf.csv' 
+    INPUT_CSV_TO_TEST = '../../data/test_labelled_merged_textblocks_gt/textblock_predictions_textlines_ground_truth_file02.pdf.csv' 
     OUTPUT_CSV_WITH_PREDICTIONS = './predictions/predicted_output_advanced.csv'
     
     if not os.path.exists(MODEL_DIRECTORY):

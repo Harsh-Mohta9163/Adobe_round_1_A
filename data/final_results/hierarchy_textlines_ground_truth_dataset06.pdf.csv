@@ -1,0 +1,12 @@
+text,bbox,page_number,avg_font_size,word_count,is_all_caps,char_density,ratio_of_verbs,ratio_capitalized,ends_with_colon,is_bold,normalized_vertical_gap,indentation_change,same_alignment,is_centered_A,font_size_diff,same_font,is_bold_A,is_italic_A,is_monospace_A,same_bold,same_italic,same_monospace,line_a_ends_punctuation,line_b_starts_lowercase,is_linea_in_rectangle,is_lineb_in_rectangle,both_in_table,neither_in_table,is_linea_hashed,is_lineb_hashed,both_hashed,neither_hashed,title_label,model_labels,predicted_category,confidence_score,style_cluster_id,numbering_info,hierarchy_level
+A CareerZone Occupational Brief for:,"[0, 0, 100, 20]",1,12.0,5,0,0.016,0.0,0.8,1,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.999999204887771,0,,Title
+Job Description,"[0, 0, 100, 20]",1,12.0,2,0,0.007,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.999999843482952,1,,H1
+Interests,"[0, 0, 100, 20]",1,12.0,1,0,0.0045,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.9999999086960716,1,,H1
+Tasks,"[0, 0, 100, 20]",1,12.0,1,0,0.0025,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.9999999158208576,1,,H1
+Skills,"[0, 0, 100, 20]",1,12.0,1,0,0.003,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.9999999140935568,1,,H1
+Knowledge,"[0, 0, 100, 20]",2,12.0,1,0,0.0045,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.9999999086960716,1,,H1
+Education,"[0, 0, 100, 20]",2,12.0,1,0,0.0045,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.9999999086960716,1,,H1
+School Programs,"[0, 0, 100, 20]",2,12.0,2,0,0.007,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.999999843482952,1,,H1
+Wages,"[0, 0, 100, 20]",3,12.0,1,0,0.0025,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.9999999158208576,1,,H1
+Job Outlook,"[0, 0, 100, 20]",3,12.0,2,0,0.005,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.99999985569656,1,,H1
+Similar Jobs,"[0, 0, 100, 20]",3,12.0,2,0,0.0055,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.9999991665868512,1,,H1
