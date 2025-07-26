@@ -65,6 +65,9 @@ data/model_input_textlines/
 data/output_model1/
 app/models/
 data1/
+data/final_results/
+data/textblock_predictions/
+data/textline_predictions/
 
 # Logs and monitoring
 logs/

@@ -10,6 +10,8 @@ import os
 import glob
 from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import DBSCAN
+# Import KMeans for better font clustering
+from sklearn.cluster import KMeans
 
 def get_style_clusters(df: pd.DataFrame, feature_columns: list) -> pd.DataFrame:
     """
@@ -62,85 +64,108 @@ def parse_numbering(text: str) -> dict | None:
         number_str = numeric_match.group(1)
         return {'type': 'numeric', 'depth': number_str.count('.') + 1}
 
-    # Check Roman numeral patterns FIRST (e.g., "I.", "II.", "III.", "IV.", "V.")
-    roman_match = re.match(r'^(I{1,3}|IV|V|VI{0,3}|IX|X|XI{0,3}|XIV|XV|XVI{0,3}|XIX|XX)\.', text, re.IGNORECASE)
+    # Check Roman numeral patterns (e.g., "I.", "II.", "III.", "IV.", "V.")
+    # Made slightly more flexible by allowing missing period.
+    roman_match = re.match(r'^(I{1,3}|IV|V|VI{0,3}|IX|X|XI{0,3}|XIV|XV|XVI{0,3}|XIX|XX)\.?', text, re.IGNORECASE)
     if roman_match:
         return {'type': 'roman', 'depth': 1}
     
     # Check alphabetic patterns (e.g., "A.", "B.", "C.")
     alpha_match = re.match(r'^[A-Z]\.', text)
     if alpha_match:
+        # This could be H2 or H3 depending on context, but assigning a fixed depth is a reasonable start.
         return {'type': 'alpha', 'depth': 2}
 
     # Check keyword patterns (e.g., "Appendix A:", "Figure 1:", "Table 2:")
-    keyword_match = re.match(r'^(Appendix|Figure|Table)\s+[A-Z0-9]+:?', text, re.IGNORECASE)
+    keyword_match = re.match(r'^(Appendix|Figure|Table|Chapter|Section)\s+[A-Z0-9]+:?', text, re.IGNORECASE)
     if keyword_match:
         return {'type': 'keyword', 'depth': 1}
 
     return None
 
-import pandas as pd
-import numpy as np
-from sklearn.cluster import AgglomerativeClustering
-
 def build_hierarchy(df: pd.DataFrame, font_size_col: str) -> list:
     """
-    Assigns hierarchy levels by first globally clustering font sizes to establish
-    style tiers, and then refines the hierarchy using numbering information.
-    This approach is more robust against noisy or out-of-place titles.
+    Assigns hierarchy levels by prioritizing numbering, then using KMeans font 
+    clustering on the document body to robustly determine heading levels.
     """
-    print("\nStep 3: Building hierarchy with revised font-clustering algorithm...")
+    print("\nStep 3: Building hierarchy with KMeans font clustering...")
     if df.empty:
         return []
 
-    hierarchy_levels = ["Title"]
+    # The first title in the CSV is always considered the main "Title".
+    hierarchy_results = ["Title"]
     if len(df) <= 1:
-        return hierarchy_levels
+        return hierarchy_results
 
     titles_df = df.iloc[1:].copy()
 
-    # --- 1. Globally Cluster Font Sizes to Find Hierarchy Tiers ---
-    # Use Agglomerative Clustering to find natural groups of font sizes.
-    # The distance_threshold is key: it groups fonts that are "close" together.
-    # A threshold of 1.5 means fonts like 14.04 and 14.2 would be in the same cluster,
-    # but 14.04 and 15.96 would be in different clusters.
-    font_sizes = titles_df[[font_size_col]].values
-    agg_cluster = AgglomerativeClustering(n_clusters=None, distance_threshold=1.5, linkage='single')
-    font_clusters = agg_cluster.fit_predict(font_sizes)
-    titles_df['font_cluster'] = font_clusters
+    # --- 1. Determine Level from Numbering (Primary Rule) ---
+    titles_df['determined_level'] = titles_df['numbering_info'].apply(
+        lambda info: info.get('depth') if isinstance(info, dict) else np.nan
+    )
 
-    # --- 2. Rank Clusters to Create Font-Based Levels ---
-    # The cluster with the highest average font size gets the highest rank (H1).
-    cluster_ranks = titles_df.groupby('font_cluster')[font_size_col].mean().sort_values(ascending=False).index
-    level_map = {cluster_id: i + 1 for i, cluster_id in enumerate(cluster_ranks)}
-    titles_df['font_based_level'] = titles_df['font_cluster'].map(level_map)
+    # --- 2. For Un-numbered Titles, Cluster by Font Size ---
+    unnumbered_mask = titles_df['determined_level'].isna()
+    if unnumbered_mask.any():
+        
+        # KEY CHANGE: Exclude the first few titles (e.g., 4) from the training data 
+        # for clustering, as they are often anomalous cover page titles.
+        # This prevents their large fonts from skewing the hierarchy of the document body.
+        OFFSET_FOR_COVER_PAGE = 4
+        font_sizes_for_clustering = titles_df[unnumbered_mask].iloc[OFFSET_FOR_COVER_PAGE:][[font_size_col]].dropna()
 
-    # --- 3. Determine Final Level using Numbering as the Primary Rule ---
-    # The numbering depth (e.g., depth 2 for "2.1") is the most reliable signal.
-    def get_final_level(row):
-        num_info = row['numbering_info']
-        if num_info and isinstance(num_info, dict):
-            return num_info.get('depth', row['font_based_level'])
-        return row['font_based_level']
+        # If there are still fonts to cluster after the offset...
+        if not font_sizes_for_clustering.empty:
+            unique_font_sizes = font_sizes_for_clustering.drop_duplicates()
+            
+            # Assume a max of 4 heading levels for un-numbered text (H1-H4).
+            max_levels = 4
+            num_clusters = min(max_levels, len(unique_font_sizes))
 
-    titles_df['final_level'] = titles_df.apply(get_final_level, axis=1)
+            if num_clusters > 0:
+                # Use KMeans to find the main font size tiers in the document body.
+                kmeans = KMeans(n_clusters=num_clusters, random_state=42, n_init='auto').fit(unique_font_sizes.values)
+                
+                # Rank clusters by font size. Largest font = Level 1.
+                cluster_centers = kmeans.cluster_centers_.flatten()
+                level_ranks = np.argsort(cluster_centers)[::-1]
+                cluster_to_level_map = {rank: i + 1 for i, rank in enumerate(level_ranks)}
 
-    # --- 4. Ensure Logical Order (e.g., no H1 -> H3 jumps) ---
-    # Use a simple stack to enforce a logical hierarchy sequence.
-    level_stack = [0]  # Start with the 'Title' level
-    for determined_level in titles_df['final_level']:
-        # Pop from the stack until the parent level is found.
-        # A parent level must be strictly smaller than the current level.
-        while determined_level <= level_stack[-1]:
+                # Create a map from each font size to its determined hierarchy level.
+                font_to_level_map = {}
+                all_font_sizes = titles_df[unnumbered_mask][[font_size_col]].dropna().drop_duplicates()
+                labels = kmeans.predict(all_font_sizes.values)
+                for i, font_size in enumerate(all_font_sizes[font_size_col]):
+                    cluster_label = labels[i]
+                    font_to_level_map[font_size] = cluster_to_level_map.get(cluster_label)
+
+                # Assign the calculated level to each un-numbered title.
+                titles_df.loc[unnumbered_mask, 'determined_level'] = titles_df.loc[unnumbered_mask, font_size_col].map(font_to_level_map)
+
+    # Fallback for any titles that still couldn't be assigned a level.
+    titles_df['determined_level'] = titles_df['determined_level'].fillna(99).astype(int)
+
+    # --- 3. Enforce a Logical Hierarchy Order (Stack-based Correction) ---
+    level_stack = [0]  # Start with the 'Title' level (0)
+
+    for level in titles_df['determined_level']:
+        # If level is 99 (undetermined), make it a child of the previous level.
+        if level == 99:
+            level = level_stack[-1] + 1
+
+        # Find the correct parent in the stack. e.g., after an H3, a new H2 should be attached to the parent H1.
+        while level <= level_stack[-1]:
             level_stack.pop()
         
-        # Correct the determined level if it creates an invalid jump (e.g., 0 -> 2)
-        corrected_level = min(determined_level, level_stack[-1] + 1)
+        # Prevent invalid jumps (e.g., H1 -> H3). Level can be at most parent_level + 1.
+        corrected_level = min(level, level_stack[-1] + 1)
+        
         level_stack.append(corrected_level)
-        hierarchy_levels.append(f"H{corrected_level}")
+        hierarchy_results.append(f"H{corrected_level}")
 
     print("✅ Done.")
-    return hierarchy_levels
+    return hierarchy_results
+
 
 def process_single_file(input_file: str, output_file: str, style_feature_cols: list, font_size_col: str) -> bool:
     """Process a single CSV file and generate hierarchy."""
@@ -178,7 +203,9 @@ def process_single_file(input_file: str, output_file: str, style_feature_cols: l
         titles_df['hierarchy_level'] = build_hierarchy(titles_df, font_size_col)
         
         print("\n--- Final Document Hierarchy ---")
-        final_columns = ['text', 'hierarchy_level'] + [col for col in style_feature_cols if col in titles_df.columns] + ['style_cluster_id']
+        final_columns = ['text', 'hierarchy_level', font_size_col] + [col for col in style_feature_cols if col in titles_df.columns] + ['style_cluster_id']
+        # Remove duplicates for cleaner printing
+        final_columns = list(dict.fromkeys(final_columns))
         print(titles_df[final_columns].to_string())
 
         # Create output directory if needed
@@ -194,7 +221,7 @@ def process_single_file(input_file: str, output_file: str, style_feature_cols: l
 def main():
     """Main function to orchestrate the hierarchy building process for multiple files."""
     # --- CONFIGURATION ---
-    INPUT_FOLDER = '../../data/test_labelled_merged_textblocks_gt'  # Folder containing prediction CSV files
+    INPUT_FOLDER = './predictions/'  # Folder containing prediction CSV files
     OUTPUT_FOLDER = '../../data/final_results'  # Output folder for hierarchy results
     
     font_size_col = 'avg_font_size'

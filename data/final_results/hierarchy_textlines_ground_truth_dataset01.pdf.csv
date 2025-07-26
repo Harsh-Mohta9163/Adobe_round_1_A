@@ -1,28 +1,16 @@
-text,bbox,page_number,avg_font_size,word_count,is_all_caps,char_density,ratio_of_verbs,ratio_capitalized,ends_with_colon,is_bold,normalized_vertical_gap,indentation_change,same_alignment,is_centered_A,font_size_diff,same_font,is_bold_A,is_italic_A,is_monospace_A,same_bold,same_italic,same_monospace,line_a_ends_punctuation,line_b_starts_lowercase,is_linea_in_rectangle,is_lineb_in_rectangle,both_in_table,neither_in_table,is_linea_hashed,is_lineb_hashed,both_hashed,neither_hashed,title_label,model_labels,predicted_category,confidence_score,style_cluster_id,numbering_info,hierarchy_level
-THE CENTRE FOR HUMANITARIAN DATA,"[0, 0, 100, 20]",1,14.0,5,1,0.014,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.9999999999995144,0,,Title
-GUIDANCE NOTE SERIES,"[0, 0, 100, 20]",1,12.0,3,1,0.009,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.9999999824903176,1,,H1
-DATA RESPONSIBILITY IN HUMANITARIAN ACTION,"[0, 0, 100, 20]",1,12.0,5,1,0.019,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.9999999369571532,2,,H2
-RESPONSIBLE DATA SHARING WITH DONORS,"[0, 0, 100, 20]",1,19.0,5,1,0.016,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,1.0,3,,H1
-KEY TAKEAWAYS:,"[0, 0, 100, 20]",1,11.0,2,1,0.0065,0.0,1.0,1,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.9999987680755638,1,,H2
-be protected in order to mitigate risk.,"[0, 0, 100, 20]",1,11.0,7,0,0.0165,0.4285714285714285,0.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.7777357427037751,4,,H2
-requirements.,"[0, 0, 100, 20]",1,11.0,1,0,0.0065,0.0,0.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.9463913175273636,5,,H2
-limitation.,"[0, 0, 100, 20]",1,11.0,1,0,0.0055,0.0,0.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.9484153513722748,5,,H2
-INTRODUCTION,"[0, 0, 100, 20]",1,11.0,1,1,0.006,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.9999977938301958,1,,H2
-principled aid. 2,"[0, 0, 100, 20]",1,11.0,3,0,0.0075,0.3333333333333333,0.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.7836540251568405,6,,H2
-DONOR REQUESTS FOR DATA,"[0, 0, 100, 20]",2,11.0,4,1,0.01,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.9999903593954742,1,,H2
-writing and scheduled in advance.,"[0, 0, 100, 20]",2,11.0,5,0,0.0145,0.4,0.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.9420150048786446,7,,H2
-humanitarian actors.,"[0, 0, 100, 20]",2,11.0,2,0,0.0095,0.0,0.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.6406904214707088,5,,H2
-OBJECTIVES FOR DATA SHARING WITH DONORS,"[0, 0, 100, 20]",3,11.0,6,1,0.017,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.9999692726392544,2,,H2
-policy requirements.,"[0, 0, 100, 20]",3,11.0,2,0,0.0095,0.0,0.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.9098383064125686,5,,H2
-Situational awareness and programme design,"[0, 0, 100, 20]",3,11.0,5,0,0.019,0.0,0.2,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.6267609422686699,8,,H2
-of assistance.,"[0, 0, 100, 20]",3,11.0,2,0,0.0065,0.0,0.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.8547219278120941,5,,H2
-Accountability and transparency,"[0, 0, 100, 20]",3,11.0,3,0,0.0145,0.0,0.3333333333333333,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.7898980240104091,9,,H2
-CONSTRAINTS FOR DATA SHARING WITH DONORS,"[0, 0, 100, 20]",3,11.0,6,1,0.0175,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.999968642153652,2,,H2
-purpose limitation.,"[0, 0, 100, 20]",3,11.0,2,0,0.009,0.0,0.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.6453528081540333,5,,H2
-satisfy donors’ requests.,"[0, 0, 100, 20]",3,11.0,3,0,0.0115,0.25,0.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.990964673054368,10,,H2
-Capacity gaps,"[0, 0, 100, 20]",3,11.0,2,0,0.006,0.0,0.5,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.9208420918522504,11,,H2
-Purpose limitation,"[0, 0, 100, 20]",4,11.0,2,0,0.0085,0.0,0.5,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.9131157252412542,11,,H2
-RECOMMENDATIONS,"[0, 0, 100, 20]",4,11.0,1,1,0.0075,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.9999976552172892,1,,H2
-maximizing benefits when sharing sensitive data:,"[0, 0, 100, 20]",4,11.0,6,0,0.0215,0.3333333333333333,0.0,1,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.8064347194399145,12,,H2
-sharing of disaggregated data,"[0, 0, 100, 20]",4,11.0,4,0,0.013,0.25,0.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.9396922516674386,10,,H2
-funding from donors.,"[0, 0, 100, 20]",4,11.0,3,0,0.009,0.0,0.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.8245869499275779,5,,H2
+text,bbox,page_number,avg_font_size,word_count,is_all_caps,char_density,ratio_of_verbs,ratio_capitalized,ends_with_colon,is_bold,normalized_vertical_gap,indentation_change,same_alignment,is_centered_A,font_size_diff,same_font,is_bold_A,is_italic_A,is_monospace_A,same_bold,same_italic,same_monospace,line_a_ends_punctuation,line_b_starts_lowercase,is_linea_in_rectangle,is_lineb_in_rectangle,both_in_table,neither_in_table,is_linea_hashed,is_lineb_hashed,both_hashed,neither_hashed,title_label,model_labels,confidence_score,predicted_category,style_cluster_id,numbering_info,hierarchy_level
+THE CENTRE FOR HUMANITARIAN DATA,"[0, 0, 100, 20]",1,14.0,5,1,0.014,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,0.9999999999995144,Title/Heading,0,,Title
+GUIDANCE NOTE SERIES,"[0, 0, 100, 20]",1,12.0,3,1,0.009,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,0.9999999824903176,Title/Heading,1,,H1
+DATA RESPONSIBILITY IN HUMANITARIAN ACTION,"[0, 0, 100, 20]",1,12.0,5,1,0.019,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,0.9999999369571532,Title/Heading,2,,H1
+RESPONSIBLE DATA SHARING WITH DONORS,"[0, 0, 100, 20]",1,19.0,5,1,0.016,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,1.0,Title/Heading,3,,H1
+KEY TAKEAWAYS:,"[0, 0, 100, 20]",1,11.0,2,1,0.0065,0.0,1.0,1,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,,1,0.9999994278518566,Title/Heading,1,,H1
+INTRODUCTION,"[0, 0, 100, 20]",1,11.0,1,1,0.006,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,0.9999989753782136,Title/Heading,1,"{'type': 'roman', 'depth': 1}",H1
+DONOR REQUESTS FOR DATA,"[0, 0, 100, 20]",2,11.0,4,1,0.01,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,0.9999955225510108,Title/Heading,1,,H1
+OBJECTIVES FOR DATA SHARING WITH DONORS,"[0, 0, 100, 20]",3,11.0,6,1,0.017,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,0.9999857289297872,Title/Heading,2,,H1
+Situational awareness and programme design,"[0, 0, 100, 20]",3,11.0,5,0,0.019,0.0,0.2,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,0.7833474792385209,Title/Heading,4,,H1
+Accountability and transparency,"[0, 0, 100, 20]",3,11.0,3,0,0.0145,0.0,0.3333333333333333,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,0.8900494553682576,Title/Heading,5,,H1
+"Legal, regulatory, and policy requirements","[0, 0, 100, 20]",3,11.0,5,0,0.019,0.0,0.2,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,0.5295239551490407,Title/Heading,4,,H1
+CONSTRAINTS FOR DATA SHARING WITH DONORS,"[0, 0, 100, 20]",3,11.0,6,1,0.0175,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,0.9999854361010122,Title/Heading,2,,H1
+Capacity gaps,"[0, 0, 100, 20]",3,11.0,2,0,0.006,0.0,0.5,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,0.961608797901358,Title/Heading,6,,H1
+Purpose limitation,"[0, 0, 100, 20]",4,11.0,2,0,0.0085,0.0,0.5,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,0.9576786698045804,Title/Heading,6,,H1
+RECOMMENDATIONS,"[0, 0, 100, 20]",4,11.0,1,1,0.0075,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,0.9999989110014909,Title/Heading,1,,H1

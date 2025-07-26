@@ -1,38 +1,9 @@
-text,bbox,page_number,avg_font_size,word_count,is_all_caps,char_density,ratio_of_verbs,ratio_capitalized,ends_with_colon,is_bold,normalized_vertical_gap,indentation_change,same_alignment,is_centered_A,font_size_diff,same_font,is_bold_A,is_italic_A,is_monospace_A,same_bold,same_italic,same_monospace,line_a_ends_punctuation,line_b_starts_lowercase,is_linea_in_rectangle,is_lineb_in_rectangle,both_in_table,neither_in_table,is_linea_hashed,is_lineb_hashed,both_hashed,neither_hashed,title_label,model_labels,predicted_category,confidence_score,style_cluster_id,numbering_info,hierarchy_level
-A Culinary Journey Through the South of France,"[0, 0, 100, 20]",1,12.0,8,0,0.0195,0.0,0.75,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.7176757713553436,0,,Title
-Introduction,"[0, 0, 100, 20]",1,12.0,1,0,0.006,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.997935264188804,0,,H1
-adventure.,"[0, 0, 100, 20]",1,12.0,1,0,0.005,0.0,0.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.9956087602829502,0,,H1
-Types of Food,"[0, 0, 100, 20]",2,12.0,3,0,0.0055,0.0,0.6666666666666666,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.9849584553959808,0,,H1
-that the seafood is always fresh and flavorful.,"[0, 0, 100, 20]",2,12.0,8,0,0.02,0.125,0.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.5381788154778397,1,,H1
-"caramelized onions, olives, and anchovies.","[0, 0, 100, 20]",2,12.0,5,0,0.019,0.0,0.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.8633220714237099,2,,H1
-spread.,"[0, 0, 100, 20]",2,12.0,1,0,0.0035,0.0,0.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.9958672781917272,0,,H1
-Famous Dishes,"[0, 0, 100, 20]",3,12.0,2,0,0.006,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.9821890964487466,0,,H1
-Mediterranean.,"[0, 0, 100, 20]",3,12.0,1,0,0.007,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.997849844845005,0,,H1
-"region's love for humble, rustic dishes.","[0, 0, 100, 20]",3,12.0,6,0,0.0175,0.0,0.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.6197257317822101,2,,H1
-meal that is perfect for a chilly evening.,"[0, 0, 100, 20]",3,12.0,8,0,0.0175,0.125,0.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.5518534069199317,1,,H1
-tourists alike.,"[0, 0, 100, 20]",3,12.0,2,0,0.007,0.0,0.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.9858484374760096,0,,H1
-Must-Visit Restaurants,"[0, 0, 100, 20]",4,12.0,2,0,0.0105,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.9961677680248392,0,,H1
-you should consider visiting:,"[0, 0, 100, 20]",4,12.0,4,0,0.013,0.25,0.0,1,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.9977370745948464,3,,H1
-exquisite seafood dishes and stunning views of the Mediterranean. Chef Gérald,"[0, 0, 100, 20]",4,12.0,11,0,0.0335,0.0909090909090909,0.2727272727272727,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.5561822461711201,4,,H1
-overlooking the sea adds to the overall dining experience.,"[0, 0, 100, 20]",4,12.0,9,0,0.025,0.2222222222222222,0.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.6356854339925602,5,,H1
-"region's fresh, seasonal ingredients.","[0, 0, 100, 20]",4,12.0,4,0,0.017,0.0,0.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.7504803263830646,2,,H1
-Socca to shine through.,"[0, 0, 100, 20]",4,12.0,4,0,0.01,0.25,0.25,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.9943492232985685,3,,H1
-course showcasing the region's finest ingredients.,"[0, 0, 100, 20]",4,12.0,6,0,0.0225,0.1428571428571428,0.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.8922199686307076,1,,H1
-truly memorable dining experience.,"[0, 0, 100, 20]",4,12.0,4,0,0.0155,0.25,0.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.9796671018711172,3,,H1
-Wine Regions and Types of Wines,"[0, 0, 100, 20]",5,12.0,6,0,0.013,0.0,0.6666666666666666,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.9451745482392956,0,,H1
-key areas to explore and the types of wines they produce:,"[0, 0, 100, 20]",5,12.0,11,0,0.0235,0.1818181818181818,0.0,1,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.671009545913586,5,,H1
-Vermentino and Clairette for whites.,"[0, 0, 100, 20]",5,12.0,5,0,0.016,0.0,0.4,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.9542146757193264,0,,H1
-"Grenache, Syrah, and Mourvèdre for reds, and Picpoul, Marsanne, and Roussanne for","[0, 0, 100, 20]",5,12.0,12,0,0.035,0.0,0.5,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.5046924344829908,6,,H1
-whites.,"[0, 0, 100, 20]",5,12.0,1,0,0.0035,0.0,0.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.9958672781917272,0,,H1
-"wines, particularly those from Châteauneuf-du-Pape. The region also produces","[0, 0, 100, 20]",5,12.0,9,0,0.034,0.1111111111111111,0.2727272727272727,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.7725099483294726,4,,H1
-"Mourvèdre for reds, and Viognier, Marsanne, and Roussanne for whites.","[0, 0, 100, 20]",5,12.0,10,0,0.03,0.0,0.4,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.6996906450002005,6,,H1
-Colombard for whites.,"[0, 0, 100, 20]",5,12.0,3,0,0.0095,0.0,0.3333333333333333,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.9823513572493004,0,,H1
-"include Nielluccio Sangiovese, Sciacarello, and Vermentino.","[0, 0, 100, 20]",5,12.0,6,0,0.027,0.0,0.6666666666666666,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.9097614204904432,7,,H1
-Culinary Experiences,"[0, 0, 100, 20]",6,12.0,2,0,0.0095,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.979523561225989,0,,H1
-consider:,"[0, 0, 100, 20]",6,12.0,1,0,0.0045,0.0,0.0,1,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.998475343515637,0,,H1
-vendors and learn about the local specialties.,"[0, 0, 100, 20]",6,12.0,7,0,0.02,0.1428571428571428,0.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.8363238837530849,1,,H1
-make great souvenirs.,"[0, 0, 100, 20]",6,12.0,3,0,0.0095,0.3333333333333333,0.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.9959505197024948,3,,H1
-agriculture and enjoy the freshest ingredients available.,"[0, 0, 100, 20]",6,12.0,7,0,0.0255,0.1428571428571428,0.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.583170799582741,1,,H1
-flavors and textures of the region's cheeses.,"[0, 0, 100, 20]",7,12.0,7,0,0.0195,0.0,0.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.904506808474521,2,,H1
-Conclusion,"[0, 0, 100, 20]",8,12.0,1,0,0.005,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.9980172968158896,0,,H1
-linger long after your trip has ended. Bon appétit!,"[0, 0, 100, 20]",8,12.0,9,0,0.0215,0.2222222222222222,0.1111111111111111,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,,1,Title/Heading,0.8452913359980192,5,,H1
+text,bbox,page_number,avg_font_size,word_count,is_all_caps,char_density,ratio_of_verbs,ratio_capitalized,ends_with_colon,is_bold,normalized_vertical_gap,indentation_change,same_alignment,is_centered_A,font_size_diff,same_font,is_bold_A,is_italic_A,is_monospace_A,same_bold,same_italic,same_monospace,line_a_ends_punctuation,line_b_starts_lowercase,is_linea_in_rectangle,is_lineb_in_rectangle,both_in_table,neither_in_table,is_linea_hashed,is_lineb_hashed,both_hashed,neither_hashed,title_label,model_labels,confidence_score,predicted_category,style_cluster_id,numbering_info,hierarchy_level
+A Culinary Journey Through the South of France,"[0, 0, 100, 20]",1,12.0,8,0,0.0195,0.0,0.75,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,0.7176757713553439,Title/Heading,0,,Title
+Introduction,"[0, 0, 100, 20]",1,12.0,1,0,0.006,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,0.9990400046345194,Title/Heading,1,"{'type': 'roman', 'depth': 1}",H1
+Types of Food,"[0, 0, 100, 20]",2,12.0,3,0,0.0055,0.0,0.6666666666666666,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,0.9929574603155183,Title/Heading,2,,H1
+Famous Dishes,"[0, 0, 100, 20]",3,12.0,2,0,0.006,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,0.9821890964487466,Title/Heading,1,,H1
+Must-Visit Restaurants,"[0, 0, 100, 20]",4,12.0,2,0,0.0105,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,0.9982165202021336,Title/Heading,1,,H1
+Wine Regions and Types of Wines,"[0, 0, 100, 20]",5,12.0,6,0,0.013,0.0,0.6666666666666666,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,0.9737669158529024,Title/Heading,3,,H1
+Culinary Experiences,"[0, 0, 100, 20]",6,12.0,2,0,0.0095,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,0.9903845956142416,Title/Heading,1,,H1
+Conclusion,"[0, 0, 100, 20]",8,12.0,1,0,0.005,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,0.9990781861071318,Title/Heading,1,,H1

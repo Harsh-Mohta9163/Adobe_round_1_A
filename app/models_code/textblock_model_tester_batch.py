@@ -139,24 +139,40 @@ def process_single_textblock_file(input_csv_path, output_csv_path, model, scaler
         output_df['model_labels'] = predictions
         output_df['confidence_score'] = np.max(probabilities, axis=1)
 
-        # --- ✅ START: POST-PROCESSING RULE TO FIX INCORRECT PREDICTIONS ---
-        # This rule corrects predictions where the model identified a heading (1)
+        # --- ✅ START: POST-PROCESSING RULES TO FIX INCORRECT PREDICTIONS ---
+        
+        # Rule 1: Correct predictions where the model identified a heading (1)
         # but the text starts with a lowercase letter.
+        condition_lowercase = (output_df['model_labels'] == 1) & \
+                             (output_df['text'].apply(lambda x: str(x).strip() and str(x).strip()[0].islower()))
 
-        # Identify rows to correct
-        condition_to_correct = (output_df['model_labels'] == 1) & \
-                               (output_df['text'].apply(lambda x: str(x).strip() and str(x).strip()[0].islower()))
+        # Rule 2: Correct predictions where the model identified a heading (1)
+        # but the text ends with a period.
+        condition_ends_period = (output_df['model_labels'] == 1) & \
+                               (output_df['text'].apply(lambda x: str(x).strip().endswith('.')))
+
+        # Combine both conditions
+        condition_to_correct = condition_lowercase | condition_ends_period
 
         # If any such rows exist, apply the correction
         if condition_to_correct.sum() > 0:
-            print(f"   ⚙️  Applying correction rule: Overriding {condition_to_correct.sum()} incorrect heading prediction(s).")
+            lowercase_count = condition_lowercase.sum()
+            period_count = condition_ends_period.sum()
+            total_count = condition_to_correct.sum()
+            
+            print(f"   ⚙️  Applying correction rules:")
+            if lowercase_count > 0:
+                print(f"      - Overriding {lowercase_count} heading prediction(s) that start with lowercase")
+            if period_count > 0:
+                print(f"      - Overriding {period_count} heading prediction(s) that end with period")
+            print(f"      - Total corrections: {total_count}")
             
             # Invert the confidence score for the corrected rows
             output_df.loc[condition_to_correct, 'confidence_score'] = 1.0 - output_df.loc[condition_to_correct, 'confidence_score']
             
             # Change the label from 1 (Title/Heading) to 0 (Text/Paragraph)
             output_df.loc[condition_to_correct, 'model_labels'] = 0
-        # --- ✅ END: POST-PROCESSING RULE ---
+        # --- ✅ END: POST-PROCESSING RULES ---
 
         # Map the final labels to human-readable categories
         output_df['predicted_category'] = output_df['model_labels'].map({0: 'Text/Paragraph', 1: 'Title/Heading'})
