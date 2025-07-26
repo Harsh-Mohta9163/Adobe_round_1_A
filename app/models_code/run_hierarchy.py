@@ -83,97 +83,152 @@ def parse_numbering(text: str) -> dict | None:
 
     return None
 
-def build_hierarchy(df: pd.DataFrame, font_size_col: str) -> list:
+def build_hierarchy(df: pd.DataFrame, font_size_col: str, page_num_col: str) -> list:
     """
-    Assigns hierarchy levels by prioritizing numbering, then using KMeans font 
-    clustering on the document body to robustly determine heading levels.
+    Assigns hierarchy levels. The "Title" is the largest font heading on the 
+    first page where headings appear. The remaining body headings are determined 
+    by numbering and KMeans font clustering.
     """
-    print("\nStep 3: Building hierarchy with KMeans font clustering...")
+    print("\nStep 3: Building hierarchy with new title logic...")
     if df.empty:
         return []
 
-    # The first title in the CSV is always considered the main "Title".
-    hierarchy_results = ["Title"]
-    if len(df) <= 1:
-        return hierarchy_results
+    # Debug: Print available columns and first few rows
+    print(f"Available columns: {df.columns.tolist()}")
+    print(f"Font size column '{font_size_col}' exists: {font_size_col in df.columns}")
+    print(f"Page number column '{page_num_col}' exists: {page_num_col in df.columns}")
+    
+    if font_size_col in df.columns:
+        print(f"Font size data preview:")
+        print(df[[font_size_col]].head())
+        print(f"Font size data types: {df[font_size_col].dtype}")
+    
+    if page_num_col in df.columns:
+        print(f"Page number data preview:")
+        print(df[[page_num_col]].head())
+        print(f"Page number data types: {df[page_num_col].dtype}")
 
-    titles_df = df.iloc[1:].copy()
+    # --- 1. Identify the main 'Title' row ---
+    title_row_index = -1
+    # The new logic can only be used if page number and font size are available.
+    use_new_title_logic = page_num_col in df.columns and font_size_col in df.columns
 
-    # --- 1. Determine Level from Numbering (Primary Rule) ---
-    titles_df['determined_level'] = titles_df['numbering_info'].apply(
-        lambda info: info.get('depth') if isinstance(info, dict) else np.nan
-    )
-
-    # --- 2. For Un-numbered Titles, Cluster by Font Size ---
-    unnumbered_mask = titles_df['determined_level'].isna()
-    if unnumbered_mask.any():
+    if use_new_title_logic:
+        print("Using new title logic: Largest font on the first page with headings.")
         
-        # KEY CHANGE: Exclude the first few titles (e.g., 4) from the training data 
-        # for clustering, as they are often anomalous cover page titles.
-        # This prevents their large fonts from skewing the hierarchy of the document body.
-        OFFSET_FOR_COVER_PAGE = 4
-        font_sizes_for_clustering = titles_df[unnumbered_mask].iloc[OFFSET_FOR_COVER_PAGE:][[font_size_col]].dropna()
-
-        # If there are still fonts to cluster after the offset...
-        if not font_sizes_for_clustering.empty:
-            unique_font_sizes = font_sizes_for_clustering.drop_duplicates()
+        # Ensure font size column is numeric
+        df[font_size_col] = pd.to_numeric(df[font_size_col], errors='coerce')
+        df[page_num_col] = pd.to_numeric(df[page_num_col], errors='coerce')
+        
+        # Find the page number of the very first heading in the document.
+        first_heading_page = df.iloc[0][page_num_col]
+        print(f"First heading page: {first_heading_page}")
+        
+        # Get all headings on that first page.
+        first_page_titles_df = df[df[page_num_col] == first_heading_page]
+        print(f"Number of headings on first page: {len(first_page_titles_df)}")
+        
+        if not first_page_titles_df.empty:
+            # Debug: Show all headings on first page with their font sizes
+            print("Headings on first page:")
+            debug_cols = ['text', font_size_col]
+            if page_num_col in first_page_titles_df.columns:
+                debug_cols.append(page_num_col)
+            print(first_page_titles_df[debug_cols].to_string())
             
-            # Assume a max of 4 heading levels for un-numbered text (H1-H4).
-            max_levels = 4
-            num_clusters = min(max_levels, len(unique_font_sizes))
+            # Find the index of the heading with the largest font on that page.
+            # Handle NaN values by dropping them first
+            valid_font_sizes = first_page_titles_df.dropna(subset=[font_size_col])
+            if not valid_font_sizes.empty:
+                title_row_index = valid_font_sizes[font_size_col].idxmax()
+                max_font_size = valid_font_sizes[font_size_col].max()
+                title_text = df.loc[title_row_index, 'text']
+                print(f"Selected title: '{title_text}' (font size: {max_font_size}, index: {title_row_index})")
+            else:
+                print("Warning: No valid font sizes found on first page")
+    
+    if title_row_index == -1:
+        print("Warning: Could not determine title with new logic. Falling back to taking the first heading found.")
+        # Fallback to original logic: the first title in the CSV is the main "Title".
+        title_row_index = df.index[0]
+        fallback_text = df.loc[title_row_index, 'text']
+        print(f"Fallback title: '{fallback_text}' (index: {title_row_index})")
 
-            if num_clusters > 0:
-                # Use KMeans to find the main font size tiers in the document body.
-                kmeans = KMeans(n_clusters=num_clusters, random_state=42, n_init='auto').fit(unique_font_sizes.values)
-                
-                # Rank clusters by font size. Largest font = Level 1.
-                cluster_centers = kmeans.cluster_centers_.flatten()
-                level_ranks = np.argsort(cluster_centers)[::-1]
-                cluster_to_level_map = {rank: i + 1 for i, rank in enumerate(level_ranks)}
+    # --- 2. Separate Title from the rest of the document (body) ---
+    body_df = df.drop(title_row_index).copy()
+    
+    # --- 3. Process the Document Body ---
+    # This section processes all non-Title headings
+    if not body_df.empty:
+        # A. Determine Level from Numbering (Primary Rule)
+        body_df['determined_level'] = body_df['numbering_info'].apply(
+            lambda info: info.get('depth') if isinstance(info, dict) else np.nan
+        )
 
-                # Create a map from each font size to its determined hierarchy level.
-                font_to_level_map = {}
-                all_font_sizes = titles_df[unnumbered_mask][[font_size_col]].dropna().drop_duplicates()
-                labels = kmeans.predict(all_font_sizes.values)
-                for i, font_size in enumerate(all_font_sizes[font_size_col]):
-                    cluster_label = labels[i]
-                    font_to_level_map[font_size] = cluster_to_level_map.get(cluster_label)
+        # B. For Un-numbered Titles, Cluster by Font Size using KMeans
+        unnumbered_mask = body_df['determined_level'].isna()
+        if unnumbered_mask.any():
+            OFFSET_FOR_COVER_PAGE = 4
+            font_sizes_for_clustering = body_df[unnumbered_mask].iloc[OFFSET_FOR_COVER_PAGE:][[font_size_col]].dropna()
 
-                # Assign the calculated level to each un-numbered title.
-                titles_df.loc[unnumbered_mask, 'determined_level'] = titles_df.loc[unnumbered_mask, font_size_col].map(font_to_level_map)
+            if not font_sizes_for_clustering.empty:
+                unique_font_sizes = font_sizes_for_clustering.drop_duplicates()
+                max_levels = 4
+                num_clusters = min(max_levels, len(unique_font_sizes))
 
-    # Fallback for any titles that still couldn't be assigned a level.
-    titles_df['determined_level'] = titles_df['determined_level'].fillna(99).astype(int)
+                if num_clusters > 0:
+                    kmeans = KMeans(n_clusters=num_clusters, random_state=42, n_init='auto').fit(unique_font_sizes.values)
+                    cluster_centers = kmeans.cluster_centers_.flatten()
+                    level_ranks = np.argsort(cluster_centers)[::-1]
+                    cluster_to_level_map = {rank: i + 1 for i, rank in enumerate(level_ranks)}
 
-    # --- 3. Enforce a Logical Hierarchy Order (Stack-based Correction) ---
-    level_stack = [0]  # Start with the 'Title' level (0)
+                    font_to_level_map = {}
+                    all_font_sizes = body_df[unnumbered_mask][[font_size_col]].dropna().drop_duplicates()
+                    labels = kmeans.predict(all_font_sizes.values)
+                    for i, font_size in enumerate(all_font_sizes[font_size_col]):
+                        cluster_label = labels[i]
+                        font_to_level_map[font_size] = cluster_to_level_map.get(cluster_label)
 
-    for level in titles_df['determined_level']:
-        # If level is 99 (undetermined), make it a child of the previous level.
-        if level == 99:
-            level = level_stack[-1] + 1
+                    body_df.loc[unnumbered_mask, 'determined_level'] = body_df.loc[unnumbered_mask, font_size_col].map(font_to_level_map)
 
-        # Find the correct parent in the stack. e.g., after an H3, a new H2 should be attached to the parent H1.
-        while level <= level_stack[-1]:
-            level_stack.pop()
+        body_df['determined_level'] = body_df['determined_level'].fillna(99).astype(int)
+
+        # C. Enforce a Logical Hierarchy Order (Stack-based Correction)
+        level_stack = [0]  # Start with the 'Title' level (0) as the parent
+        body_hierarchy_levels = []
+        for level in body_df['determined_level']:
+            if level == 99:
+                level = level_stack[-1] + 1
+            while level <= level_stack[-1]:
+                level_stack.pop()
+            corrected_level = min(level, level_stack[-1] + 1)
+            level_stack.append(corrected_level)
+            body_hierarchy_levels.append(f"H{corrected_level}")
         
-        # Prevent invalid jumps (e.g., H1 -> H3). Level can be at most parent_level + 1.
-        corrected_level = min(level, level_stack[-1] + 1)
-        
-        level_stack.append(corrected_level)
-        hierarchy_results.append(f"H{corrected_level}")
+        body_df['hierarchy_level'] = body_hierarchy_levels
 
+    # --- 4. Combine Title and Body results ---
+    # Add the 'hierarchy_level' column to the original df and update it with the body results
+    df['hierarchy_level'] = None
+    if not body_df.empty:
+        df.update(body_df)
+    
+    # Set the 'Title' at its identified location
+    df.loc[title_row_index, 'hierarchy_level'] = "Title"
+    
     print("✅ Done.")
-    return hierarchy_results
+    return df['hierarchy_level'].tolist()
 
 
-def process_single_file(input_file: str, output_file: str, style_feature_cols: list, font_size_col: str) -> bool:
+def process_single_file(input_file: str, output_file: str, style_feature_cols: list, font_size_col: str, page_num_col: str) -> bool:
     """Process a single CSV file and generate hierarchy."""
     try:
         print(f"\n📄 Processing: {os.path.basename(input_file)}")
         df = pd.read_csv(input_file)
         
-        # Check if model_labels column exists, fallback to title_label if not
+        if page_num_col not in df.columns:
+            print(f"Warning: Page number column '{page_num_col}' not found. Title detection will be less accurate.")
+
         if 'model_labels' in df.columns:
             label_column = 'model_labels'
             print(f"Using model predictions from 'model_labels' column")
@@ -184,7 +239,6 @@ def process_single_file(input_file: str, output_file: str, style_feature_cols: l
             print("ERROR: Neither 'model_labels' nor 'title_label' column found.")
             return False
 
-        # Filter for titles using the determined label column
         titles_df = df[df[label_column] == 1].copy().reset_index(drop=True)
 
         if titles_df.empty:
@@ -193,22 +247,34 @@ def process_single_file(input_file: str, output_file: str, style_feature_cols: l
 
         print(f"Found {len(titles_df)} titles to process")
 
-        # Run the full pipeline
         titles_df = get_style_clusters(titles_df, style_feature_cols)
 
         print("\nStep 2: Parsing titles for numbering patterns...")
         titles_df['numbering_info'] = titles_df['text'].apply(parse_numbering)
         print("✅ Done.")
 
-        titles_df['hierarchy_level'] = build_hierarchy(titles_df, font_size_col)
+        titles_df['hierarchy_level'] = build_hierarchy(titles_df, font_size_col, page_num_col)
         
         print("\n--- Final Document Hierarchy ---")
-        final_columns = ['text', 'hierarchy_level', font_size_col] + [col for col in style_feature_cols if col in titles_df.columns] + ['style_cluster_id']
-        # Remove duplicates for cleaner printing
+        
+        # --- CORRECTED SECTION ---
+        # Define the ideal set of columns we want to see in the final output.
+        ideal_columns = (
+            ['text', 'hierarchy_level', font_size_col, page_num_col] 
+            + style_feature_cols 
+            + ['style_cluster_id']
+        )
+        
+        # Filter the ideal list to include only columns that actually exist in the DataFrame.
+        # This prevents the KeyError if 'page_num' or other columns are missing.
+        final_columns = [col for col in ideal_columns if col in titles_df.columns]
+        
+        # Remove any duplicates from the list while preserving the order.
         final_columns = list(dict.fromkeys(final_columns))
+        
         print(titles_df[final_columns].to_string())
+        # --- END OF CORRECTION ---
 
-        # Create output directory if needed
         os.makedirs(os.path.dirname(output_file), exist_ok=True)
         titles_df.to_csv(output_file, index=False)
         print(f"✅ Results saved to: {output_file}")
@@ -217,16 +283,18 @@ def process_single_file(input_file: str, output_file: str, style_feature_cols: l
     except Exception as e:
         print(f"❌ Error processing {input_file}: {e}")
         return False
-
 def main():
     """Main function to orchestrate the hierarchy building process for multiple files."""
     # --- CONFIGURATION ---
-    INPUT_FOLDER = './predictions/'  # Folder containing prediction CSV files
-    OUTPUT_FOLDER = '../../data/final_results'  # Output folder for hierarchy results
+    INPUT_FOLDER = './predictions/'
+    OUTPUT_FOLDER = '../../data/final_results'
     
+    # Define column names for required data.
+    # The new title logic requires a column with the page number for each text block.
     font_size_col = 'avg_font_size'
+    page_num_col = 'page_number'  # NEW: Specify the page number column
     
-    # Extended features for determining visual style of titles
+    # Features for determining visual style of titles
     style_feature_cols = [
         font_size_col,
         'ratio_capitalized',
@@ -234,7 +302,7 @@ def main():
         'is_all_caps',
         'char_density',
         'ratio_of_verbs',
-        'is_hashed',  # NEW: Add is_hashed feature
+        'is_hashed',
         'normalized_vertical_gap',
         'indentation_change',
         'same_alignment',
@@ -249,10 +317,8 @@ def main():
         'same_monospace'
     ]
 
-    # Create output folder if it doesn't exist
     os.makedirs(OUTPUT_FOLDER, exist_ok=True)
     
-    # Find all CSV files in the input folder
     csv_pattern = os.path.join(INPUT_FOLDER, '*.csv')
     csv_files = glob.glob(csv_pattern)
     
@@ -265,15 +331,12 @@ def main():
     for file in csv_files:
         print(f"  - {os.path.basename(file)}")
     
-    # Process each CSV file
     successful_files = 0
     failed_files = []
     
     for input_csv in csv_files:
         filename = os.path.basename(input_csv)
         
-        # Create output filename
-        # Change from 'predictions_*.csv' to 'hierarchy_*.csv'
         if filename.startswith('predictions_'):
             output_filename = filename.replace('predictions_', 'hierarchy_')
         else:
@@ -282,14 +345,14 @@ def main():
         
         output_csv = os.path.join(OUTPUT_FOLDER, output_filename)
         
-        success = process_single_file(input_csv, output_csv, style_feature_cols, font_size_col)
+        # Pass the page number column name to the processing function
+        success = process_single_file(input_csv, output_csv, style_feature_cols, font_size_col, page_num_col)
         
         if success:
             successful_files += 1
         else:
             failed_files.append(filename)
     
-    # Summary
     print(f"\n{'='*80}")
     print(f"📊 PROCESSING SUMMARY")
     print(f"{'='*80}")
