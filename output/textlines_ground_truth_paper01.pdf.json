@@ -1,0 +1,377 @@
+{
+  "document_metadata": {
+    "source_pdf": "textlines_ground_truth_paper01.pdf.pdf",
+    "processing_timestamp": "",
+    "total_text_blocks": 28,
+    "hierarchy_levels": {
+      "H1": 27,
+      "Title": 1
+    }
+  },
+  "document_structure": [
+    {
+      "text": "Evaluation of Bio-intensive Integrated Pest Management Strategies against Sugarcane Borer Complex",
+      "hierarchy_level": "Title",
+      "font_size": 13.92,
+      "page_number": 1,
+      "bbox": "[0, 0, 100, 20]",
+      "style_features": {
+        "is_bold": 0,
+        "is_italic": 0,
+        "is_all_caps": 0,
+        "word_count": 11
+      }
+    },
+    {
+      "text": "D Sudha Rani and K Krishnamma",
+      "hierarchy_level": "H1",
+      "font_size": 11.04,
+      "page_number": 1,
+      "bbox": "[0, 0, 100, 20]",
+      "style_features": {
+        "is_bold": 0,
+        "is_italic": 0,
+        "is_all_caps": 0,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "ABSTRACT",
+      "hierarchy_level": "H1",
+      "font_size": 10.08,
+      "page_number": 1,
+      "bbox": "[0, 0, 100, 20]",
+      "style_features": {
+        "is_bold": 0,
+        "is_italic": 0,
+        "is_all_caps": 1,
+        "word_count": 1
+      }
+    },
+    {
+      "text": "Sugarcane occupies a prominent position in",
+      "hierarchy_level": "H1",
+      "font_size": 11.04,
+      "page_number": 1,
+      "bbox": "[0, 0, 100, 20]",
+      "style_features": {
+        "is_bold": 0,
+        "is_italic": 0,
+        "is_all_caps": 0,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "76 Sudha Rani and Krishnamma et al ., AAJ 67 Spl",
+      "hierarchy_level": "H1",
+      "font_size": 11.04,
+      "page_number": 2,
+      "bbox": "[0, 0, 100, 20]",
+      "style_features": {
+        "is_bold": 0,
+        "is_italic": 0,
+        "is_all_caps": 0,
+        "word_count": 11
+      }
+    },
+    {
+      "text": "MATERIAL AND METHODS",
+      "hierarchy_level": "H1",
+      "font_size": 11.04,
+      "page_number": 2,
+      "bbox": "[0, 0, 100, 20]",
+      "style_features": {
+        "is_bold": 0,
+        "is_italic": 0,
+        "is_all_caps": 1,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "The trial was undertaken at four locations viz .,",
+      "hierarchy_level": "H1",
+      "font_size": 11.04,
+      "page_number": 2,
+      "bbox": "[0, 0, 100, 20]",
+      "style_features": {
+        "is_bold": 0,
+        "is_italic": 0,
+        "is_all_caps": 0,
+        "word_count": 9
+      }
+    },
+    {
+      "text": "Total canes",
+      "hierarchy_level": "H1",
+      "font_size": 11.04,
+      "page_number": 2,
+      "bbox": "[0, 0, 100, 20]",
+      "style_features": {
+        "is_bold": 0,
+        "is_italic": 0,
+        "is_all_caps": 0,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "Total number of internodes",
+      "hierarchy_level": "H1",
+      "font_size": 11.04,
+      "page_number": 2,
+      "bbox": "[0, 0, 100, 20]",
+      "style_features": {
+        "is_bold": 0,
+        "is_italic": 0,
+        "is_all_caps": 0,
+        "word_count": 4
+      }
+    },
+    {
+      "text": "100",
+      "hierarchy_level": "H1",
+      "font_size": 11.04,
+      "page_number": 2,
+      "bbox": "[0, 0, 100, 20]",
+      "style_features": {
+        "is_bold": 0,
+        "is_italic": 0,
+        "is_all_caps": 0,
+        "word_count": 1
+      }
+    },
+    {
+      "text": "RESULTS AND DISCUSSION",
+      "hierarchy_level": "H1",
+      "font_size": 11.04,
+      "page_number": 2,
+      "bbox": "[0, 0, 100, 20]",
+      "style_features": {
+        "is_bold": 0,
+        "is_italic": 0,
+        "is_all_caps": 1,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "2019-2020",
+      "hierarchy_level": "H1",
+      "font_size": 11.04,
+      "page_number": 3,
+      "bbox": "[0, 0, 100, 20]",
+      "style_features": {
+        "is_bold": 0,
+        "is_italic": 0,
+        "is_all_caps": 0,
+        "word_count": 1
+      }
+    },
+    {
+      "text": "78 Sudha Rani and Krishnamma et al ., AAJ 67 Spl",
+      "hierarchy_level": "H1",
+      "font_size": 11.04,
+      "page_number": 4,
+      "bbox": "[0, 0, 100, 20]",
+      "style_features": {
+        "is_bold": 0,
+        "is_italic": 0,
+        "is_all_caps": 0,
+        "word_count": 11
+      }
+    },
+    {
+      "text": "2020 Bio-intensive Pest Management in Sugarcane 79",
+      "hierarchy_level": "H1",
+      "font_size": 11.04,
+      "page_number": 5,
+      "bbox": "[0, 0, 100, 20]",
+      "style_features": {
+        "is_bold": 0,
+        "is_italic": 0,
+        "is_all_caps": 0,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "Influence of BIPM treatments against cane yield t ha -1",
+      "hierarchy_level": "H1",
+      "font_size": 11.04,
+      "page_number": 5,
+      "bbox": "[0, 0, 100, 20]",
+      "style_features": {
+        "is_bold": 0,
+        "is_italic": 0,
+        "is_all_caps": 0,
+        "word_count": 10
+      }
+    },
+    {
+      "text": "CONCLUSION",
+      "hierarchy_level": "H1",
+      "font_size": 11.04,
+      "page_number": 5,
+      "bbox": "[0, 0, 100, 20]",
+      "style_features": {
+        "is_bold": 0,
+        "is_italic": 0,
+        "is_all_caps": 1,
+        "word_count": 1
+      }
+    },
+    {
+      "text": "2019-2020",
+      "hierarchy_level": "H1",
+      "font_size": 11.04,
+      "page_number": 3,
+      "bbox": "[0, 0, 100, 20]",
+      "style_features": {
+        "is_bold": 0,
+        "is_italic": 0,
+        "is_all_caps": 0,
+        "word_count": 1
+      }
+    },
+    {
+      "text": "LITERATURE CITED",
+      "hierarchy_level": "H1",
+      "font_size": 11.04,
+      "page_number": 6,
+      "bbox": "[0, 0, 100, 20]",
+      "style_features": {
+        "is_bold": 0,
+        "is_italic": 0,
+        "is_all_caps": 1,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "Chand H, Kumari R, Minnatulah M D and Sudhir",
+      "hierarchy_level": "H1",
+      "font_size": 11.04,
+      "page_number": 6,
+      "bbox": "[0, 0, 100, 20]",
+      "style_features": {
+        "is_bold": 0,
+        "is_italic": 0,
+        "is_all_caps": 0,
+        "word_count": 9
+      }
+    },
+    {
+      "text": "Sugarcane. Haryana Agricultural",
+      "hierarchy_level": "H1",
+      "font_size": 11.04,
+      "page_number": 6,
+      "bbox": "[0, 0, 100, 20]",
+      "style_features": {
+        "is_bold": 0,
+        "is_italic": 0,
+        "is_all_caps": 0,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "Gupta S C, Yazdani S S, Hameed S F and Agarwal",
+      "hierarchy_level": "H1",
+      "font_size": 11.04,
+      "page_number": 6,
+      "bbox": "[0, 0, 100, 20]",
+      "style_features": {
+        "is_bold": 0,
+        "is_italic": 0,
+        "is_all_caps": 0,
+        "word_count": 11
+      }
+    },
+    {
+      "text": "2012 . BIPM components for the management",
+      "hierarchy_level": "H1",
+      "font_size": 11.04,
+      "page_number": 6,
+      "bbox": "[0, 0, 100, 20]",
+      "style_features": {
+        "is_bold": 0,
+        "is_italic": 0,
+        "is_all_caps": 0,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "Shivasharanappa Y, Pradeep S, Ajith Kumar M",
+      "hierarchy_level": "H1",
+      "font_size": 11.04,
+      "page_number": 6,
+      "bbox": "[0, 0, 100, 20]",
+      "style_features": {
+        "is_bold": 0,
+        "is_italic": 0,
+        "is_all_caps": 0,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "A, Venkatesh H and Siddalingappa R",
+      "hierarchy_level": "H1",
+      "font_size": 11.04,
+      "page_number": 6,
+      "bbox": "[0, 0, 100, 20]",
+      "style_features": {
+        "is_bold": 0,
+        "is_italic": 0,
+        "is_all_caps": 0,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "2010 Biology of sugarcane internode borer,",
+      "hierarchy_level": "H1",
+      "font_size": 11.04,
+      "page_number": 6,
+      "bbox": "[0, 0, 100, 20]",
+      "style_features": {
+        "is_bold": 0,
+        "is_italic": 0,
+        "is_all_caps": 0,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "Shobharani M, Rachappa V, Sidramappa and",
+      "hierarchy_level": "H1",
+      "font_size": 11.04,
+      "page_number": 6,
+      "bbox": "[0, 0, 100, 20]",
+      "style_features": {
+        "is_bold": 0,
+        "is_italic": 0,
+        "is_all_caps": 0,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "Sithanantham S 1973 Performance of some new",
+      "hierarchy_level": "H1",
+      "font_size": 11.04,
+      "page_number": 6,
+      "bbox": "[0, 0, 100, 20]",
+      "style_features": {
+        "is_bold": 0,
+        "is_italic": 0,
+        "is_all_caps": 0,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "Srikanth J, Easwaramoorthy S and Jalali S K",
+      "hierarchy_level": "H1",
+      "font_size": 11.04,
+      "page_number": 6,
+      "bbox": "[0, 0, 100, 20]",
+      "style_features": {
+        "is_bold": 0,
+        "is_italic": 0,
+        "is_all_caps": 0,
+        "word_count": 8
+      }
+    }
+  ]
+}
