@@ -826,7 +826,7 @@ def aggregate_md_to_spans(pdf_name: str):
             aggregated_data.append({
                 "line_number": line_num,
                 "page_number": page_num,
-                "is_in_table": is_table,
+                "is_in_table": matching_span.get("is_in_table",False),
                 "is_hashed": is_hashed,  # Added is_hashed field
                 "md_text_original": md_text,
                 "md_text_cleaned": clean_md_line(md_text),
