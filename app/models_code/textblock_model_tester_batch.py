@@ -137,8 +137,29 @@ def process_single_textblock_file(input_csv_path, output_csv_path, model, scaler
         # Prepare output
         output_df = original_df.copy()
         output_df['model_labels'] = predictions
-        output_df['predicted_category'] = output_df['model_labels'].map({0: 'Text/Paragraph', 1: 'Title/Heading'})
         output_df['confidence_score'] = np.max(probabilities, axis=1)
+
+        # --- ✅ START: POST-PROCESSING RULE TO FIX INCORRECT PREDICTIONS ---
+        # This rule corrects predictions where the model identified a heading (1)
+        # but the text starts with a lowercase letter.
+
+        # Identify rows to correct
+        condition_to_correct = (output_df['model_labels'] == 1) & \
+                               (output_df['text'].apply(lambda x: str(x).strip() and str(x).strip()[0].islower()))
+
+        # If any such rows exist, apply the correction
+        if condition_to_correct.sum() > 0:
+            print(f"   ⚙️  Applying correction rule: Overriding {condition_to_correct.sum()} incorrect heading prediction(s).")
+            
+            # Invert the confidence score for the corrected rows
+            output_df.loc[condition_to_correct, 'confidence_score'] = 1.0 - output_df.loc[condition_to_correct, 'confidence_score']
+            
+            # Change the label from 1 (Title/Heading) to 0 (Text/Paragraph)
+            output_df.loc[condition_to_correct, 'model_labels'] = 0
+        # --- ✅ END: POST-PROCESSING RULE ---
+
+        # Map the final labels to human-readable categories
+        output_df['predicted_category'] = output_df['model_labels'].map({0: 'Text/Paragraph', 1: 'Title/Heading'})
         
         # Save output
         Path(output_csv_path).parent.mkdir(parents=True, exist_ok=True)
@@ -147,8 +168,8 @@ def process_single_textblock_file(input_csv_path, output_csv_path, model, scaler
         print(f"✅ Predictions saved to: {os.path.basename(output_csv_path)}")
         
         # Show prediction summary
-        pred_counts = pd.Series(predictions).value_counts()
-        print(f"   Predictions: {pred_counts.get(0, 0)} Text/Paragraph, {pred_counts.get(1, 0)} Title/Heading")
+        pred_counts = output_df['predicted_category'].value_counts()
+        print(f"   Predictions: {pred_counts.get('Text/Paragraph', 0)} Text/Paragraph, {pred_counts.get('Title/Heading', 0)} Title/Heading")
         
         return True
         
