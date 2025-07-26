@@ -293,7 +293,7 @@ def merge_textlines(input_csv_path: str, output_csv_path: str):
                 continue
 
         # Decide whether to merge line_b
-        should_merge = (row['label'] == 1) and (row[cols['page_number_a']] == row[cols['page_number_b']])
+        should_merge = (row['model_labels'] == 1) and (row[cols['page_number_a']] == row[cols['page_number_b']])
 
         if should_merge:
             current_block_parts.append(lines_map.get(line_b_text))
@@ -322,8 +322,8 @@ def merge_textlines(input_csv_path: str, output_csv_path: str):
 
 if __name__ == '__main__':
     # --- CONFIGURATION ---
-    INPUT_FOLDER = '../../data/test_labelled_textlines'
-    OUTPUT_FOLDER = '../../data/merged_textblocks_gt'
+    INPUT_FOLDER = '../../data/test_results'
+    OUTPUT_FOLDER = '../../data/merged_textblocks'
     # -------------------
 
     os.makedirs(OUTPUT_FOLDER, exist_ok=True)

@@ -1,0 +1,60 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*$py.class
+
+# Ignore virtual environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore Git files
+.git/
+.gitignore
+
+# Ignore logs and temp files
+*.log
+tmp/
+temp/
+*.tmp
+
+# Ignore Markdown and docs
+*.md
+docs/
+
+# Ignore test files
+test.py
+tests/
+*.ipynb
+
+# Ignore data folders except structure
+data/input/*
+data/output/*
+data/final_results/*
+data/md_files/*
+data/spans_output/*
+data/aggregator_output/*
+data/textlines_csv_output/*
+data/test_labelled_textlines/*
+data/test_labelled_merged_textblocks_gt/*
+
+
+data/textline_predictions/*
+data/merged_textblocks/*
+data/textblock_predictions/*
+
+

@@ -195,14 +195,19 @@ try:
                 continue
             
             # Check if labels exist
-            has_labels = 'label' in df.columns
+            has_labels = 'label' in df.columns and not df['label'].isna().all()
             if not has_labels:
                 print(f"ℹ️  No ground truth labels found - will only generate predictions")
+                # Fill label column with 0s if it doesn't exist or is empty
+                df['label'] = 0
             
             # Clean data
             if has_labels:
                 df.dropna(subset=['label'], inplace=True)
                 df['label'] = df['label'].astype(int)
+            else:
+                # For files without labels, just ensure we have the column
+                df['label'] = 0
             
             # Clean feature data
             df.dropna(subset=feature_cols, inplace=True)
@@ -220,6 +225,14 @@ try:
             
             # Add model predictions to dataframe
             df['model_labels'] = y_pred
+            
+            # --- Enforce table rule post-prediction ---
+            if 'both_in_table' in df.columns:
+                print("Enforcing table rule on model predictions...")
+                # Override predictions: if both lines are in a table, they must be in the same block (1)
+                df.loc[df['both_in_table'] == 1, 'model_labels'] = 1
+                # Update the y_pred variable to ensure metrics are calculated on the corrected predictions
+                y_pred = df['model_labels'].values
             
             if has_labels:
                 y_test = df['label']
@@ -279,11 +292,24 @@ try:
                 all_y_true.extend(y_test.tolist())
                 all_y_pred.extend(y_pred.tolist())
             else:
-                print(f"✅ Generated predictions for {len(df)} samples")
+                # For files without labels, store dummy results with 0s
+                individual_results.append({
+                    'PDF': pdf_name,
+                    'Samples': len(df),
+                    'Accuracy': 0.0,
+                    'Precision': 0.0,
+                    'Recall': 0.0,
+                    'F1_Score': 0.0,
+                    'Class_0_Precision': "N/A",
+                    'Class_0_Recall': "N/A",
+                    'Class_1_Precision': "N/A",
+                    'Class_1_Recall': "N/A"
+                })
+                print(f"✅ Generated predictions for {len(df)} samples (no ground truth for evaluation)")
             
             # Show prediction distribution
             pred_counts = pd.Series(y_pred).value_counts().sort_index()
-            print(f"Model predictions: ", end="")
+            print(f"Model predictions (after rule): ", end="")
             for label, count in pred_counts.items():
                 print(f"Class {label}: {count} ({count/len(y_pred)*100:.1f}%) ", end="")
             print()
@@ -298,7 +324,7 @@ try:
             continue
     
     # Only show performance metrics if we have labeled data
-    if individual_results:
+    if individual_results and all_y_true:
         # --- Display Individual Results Table ---
         print(f"\n{'='*80}")
         print("INDIVIDUAL RESULTS SUMMARY")
@@ -348,7 +374,7 @@ try:
         
         # Overall prediction distribution
         overall_pred_counts = pd.Series(all_y_pred).value_counts().sort_index()
-        print(f"\nOverall prediction distribution:")
+        print(f"\nOverall prediction distribution (after rule):")
         for label, count in overall_pred_counts.items():
             print(f"  Predicted {label}: {count} samples ({count/len(all_y_pred)*100:.1f}%)")
         

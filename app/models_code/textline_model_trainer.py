@@ -83,6 +83,16 @@ def load_and_prepare_data(folder_path='.'):
             df['line_length_ratio'].fillna(0, inplace=True) # Fill cases where line_b had 0 length
 
         print("Feature engineering complete. ✅")
+    
+    # --- Enforce table rule ---
+    if 'both_in_table' in df.columns:
+        print("\nEnforcing rule: If both lines are in a table, they belong to the same block.")
+        original_ones = df['label'].sum()
+        # Set label to 1 (same block) where both_in_table is 1
+        df.loc[df['both_in_table'] == 1, 'label'] = 1
+        new_ones = df['label'].sum()
+        print(f"Updated labels based on the table rule. Changed {new_ones - original_ones} labels to 1.")
+
 
     # Check label distribution
     label_counts = df['label'].value_counts().sort_index()
