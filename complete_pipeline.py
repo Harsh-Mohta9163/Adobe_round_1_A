@@ -170,7 +170,7 @@ class DocumentProcessingPipeline:
         success = test_all_textblock_files(
             input_folder=self.intermediate_folders['merged_textblocks'],
             output_folder=self.intermediate_folders['textblock_predictions'],
-            model_dir='./app/models_code/models'
+            model_dir='./app/models/textblock_models'
         )
         
         if success:

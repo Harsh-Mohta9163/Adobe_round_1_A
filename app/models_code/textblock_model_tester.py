@@ -189,7 +189,7 @@ def predict_on_new_data(model_dir: str, input_csv_path: str, output_csv_path: st
     print("\n--- Tester Finished ---")
 
 if __name__ == '__main__':
-    MODEL_DIRECTORY = 'models'
+    MODEL_DIRECTORY = '../models/textblock_models'
     INPUT_CSV_TO_TEST = '../../data/test_labelled_merged_textblocks_gt/merged_textblocks_file01.pdf.csv' 
     OUTPUT_CSV_WITH_PREDICTIONS = './predictions/predicted_output_advanced.csv'
     

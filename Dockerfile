@@ -35,7 +35,7 @@ RUN mkdir -p /app/input /app/output \
     /app/data/md_files /app/data/spans_output /app/data/aggregator_output \
     /app/data/textlines_csv_output /app/data/textline_predictions \
     /app/data/merged_textblocks /app/data/textblock_predictions \
-    /app/data/output_model1 /app/app/models_code/models
+    /app/app/models/textline_models /app/app/models/textblock_models
 
 # Set Python path
 ENV PYTHONPATH=/app:/app/app/extractor:/app/app/models_code:/app/app/merging

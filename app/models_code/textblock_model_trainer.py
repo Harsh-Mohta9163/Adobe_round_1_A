@@ -195,6 +195,6 @@ def train_title_classifier(input_folder: str, model_dir: str):
 
 if __name__ == '__main__':
     LABELED_DATA_FOLDER = '../../data/labelled_merged_textblocks_gt'
-    MODEL_SAVE_DIR = 'models'
+    MODEL_SAVE_DIR = '../models/textblock_models'
     
     train_title_classifier(LABELED_DATA_FOLDER, MODEL_SAVE_DIR)

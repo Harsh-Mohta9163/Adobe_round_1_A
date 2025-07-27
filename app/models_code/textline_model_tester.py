@@ -7,7 +7,7 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 
 # --- Configuration ---
 TEST_FOLDER = '../../data/test_labelled_textlines/'
-MODEL_FILE = '../../data/output_model1/text_block_merger_model.joblib'
+MODEL_FILE = '../models/textline_models/text_block_merger_model.joblib'
 OUTPUT_FOLDER = '../../data/test_results/'
 
 # Create output folder if it doesn't exist

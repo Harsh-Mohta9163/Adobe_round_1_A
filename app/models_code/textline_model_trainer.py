@@ -223,8 +223,8 @@ try:
     print(importances.sort_values(ascending=False))
 
     # --- Save the Trained Model ---
-    model_filename = '../../data/output_model1/text_block_merger_model.joblib'
-    
+    model_filename = '../models/textline_models/text_block_merger_model.joblib'
+
     # Create the directory if it doesn't exist
     os.makedirs(os.path.dirname(model_filename), exist_ok=True)
     

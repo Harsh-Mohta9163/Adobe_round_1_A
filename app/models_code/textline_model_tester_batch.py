@@ -37,7 +37,7 @@ def create_default_model():
     model.fit(X_dummy, y_dummy)
     
     # Save the model
-    model_dir = './data/output_model1'
+    model_dir = './app/models/textline_models'
     os.makedirs(model_dir, exist_ok=True)
     
     model_data = {
@@ -230,8 +230,8 @@ def test_all_files(test_folder, output_folder):
     os.makedirs(output_folder, exist_ok=True)
     
     # Load model with relative path from pipeline
-    model_file = './data/output_model1/text_block_merger_model.joblib'
-    
+    model_file = './app/models/textline_models/text_block_merger_model.joblib'
+
     try:
         print(f"Loading model from '{model_file}'...")
         model_data = joblib.load(model_file)
