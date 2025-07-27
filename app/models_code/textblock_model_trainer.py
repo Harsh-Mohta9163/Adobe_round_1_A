@@ -86,11 +86,25 @@ def load_data(input_folder):
     
     all_dataframes = []
     for csv_file in csv_files:
-        try:
-            df = pd.read_csv(csv_file, encoding='utf-8')
-            all_dataframes.append(df)
-        except Exception as e:
-            print(f"Warning: Could not load {os.path.basename(csv_file)}: {e}")
+        # Try different encodings
+        encodings = ['utf-8', 'latin-1', 'cp1252', 'iso-8859-1']
+        loaded = False
+        
+        for encoding in encodings:
+            try:
+                df = pd.read_csv(csv_file, encoding=encoding)
+                all_dataframes.append(df)
+                loaded = True
+                break
+            except UnicodeDecodeError:
+                continue
+            except Exception as e:
+                print(f"Warning: Could not load {os.path.basename(csv_file)}: {e}")
+                break
+        
+        if not loaded:
+            print(f"❌ Failed to load {os.path.basename(csv_file)} with any encoding")
+           
 
     if not all_dataframes:
         return None

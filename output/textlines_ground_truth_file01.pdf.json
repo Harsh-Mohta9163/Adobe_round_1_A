@@ -15,7 +15,7 @@
       "page_number": 1,
       "bbox": "[0, 0, 100, 20]",
       "style_features": {
-        "is_bold": 0,
+        "is_bold": 1,
         "is_italic": 0,
         "is_all_caps": 0,
         "word_count": 7

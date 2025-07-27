@@ -2,10 +2,11 @@
   "document_metadata": {
     "source_pdf": "textlines_ground_truth_file02.pdf.pdf",
     "processing_timestamp": "",
-    "total_text_blocks": 19,
+    "total_text_blocks": 23,
     "hierarchy_levels": {
-      "H2": 12,
-      "H1": 6,
+      "H2": 11,
+      "H1": 9,
+      "H3": 2,
       "Title": 1
     }
   },
@@ -17,7 +18,7 @@
       "page_number": 1,
       "bbox": "[0, 0, 100, 20]",
       "style_features": {
-        "is_bold": 0,
+        "is_bold": 1,
         "is_italic": 0,
         "is_all_caps": 0,
         "word_count": 4
@@ -43,7 +44,7 @@
       "page_number": 3,
       "bbox": "[0, 0, 100, 20]",
       "style_features": {
-        "is_bold": 0,
+        "is_bold": 1,
         "is_italic": 0,
         "is_all_caps": 0,
         "word_count": 2
@@ -56,10 +57,49 @@
       "page_number": 4,
       "bbox": "[0, 0, 100, 20]",
       "style_features": {
-        "is_bold": 0,
+        "is_bold": 1,
         "is_italic": 0,
         "is_all_caps": 0,
         "word_count": 3
+      }
+    },
+    {
+      "text": "2. Introduction to Foundation Level Agile Tester Extension ............................................................... 7",
+      "hierarchy_level": "H1",
+      "font_size": 9.96,
+      "page_number": 4,
+      "bbox": "[0, 0, 100, 20]",
+      "style_features": {
+        "is_bold": 1,
+        "is_italic": 0,
+        "is_all_caps": 0,
+        "word_count": 10
+      }
+    },
+    {
+      "text": "3. Overview of the Foundation Level Extension – Agile Tester Syllabus......................................... 10",
+      "hierarchy_level": "H1",
+      "font_size": 9.96,
+      "page_number": 4,
+      "bbox": "[0, 0, 100, 20]",
+      "style_features": {
+        "is_bold": 1,
+        "is_italic": 0,
+        "is_all_caps": 0,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "3.1 Business Outcomes ................................................................................................................. 10 3.2 Content .................................................................................................................................... 10",
+      "hierarchy_level": "H2",
+      "font_size": 9.96,
+      "page_number": 4,
+      "bbox": "[0, 0, 100, 20]",
+      "style_features": {
+        "is_bold": 0,
+        "is_italic": 0,
+        "is_all_caps": 0,
+        "word_count": 9
       }
     },
     {
@@ -69,15 +109,28 @@
       "page_number": 4,
       "bbox": "[0, 0, 100, 20]",
       "style_features": {
-        "is_bold": 0,
+        "is_bold": 1,
         "is_italic": 0,
         "is_all_caps": 0,
         "word_count": 4
       }
     },
     {
-      "text": "Acknowledgements",
+      "text": "4.1 Trademarks ............................................................................................................................. 12 4.2 Documents and Web Sites ....................................................................................................... 12",
       "hierarchy_level": "H2",
+      "font_size": 9.96,
+      "page_number": 4,
+      "bbox": "[0, 0, 100, 20]",
+      "style_features": {
+        "is_bold": 0,
+        "is_italic": 0,
+        "is_all_caps": 0,
+        "word_count": 11
+      }
+    },
+    {
+      "text": "Acknowledgements",
+      "hierarchy_level": "H3",
       "font_size": 15.96,
       "page_number": 5,
       "bbox": "[0, 0, 100, 20]",
@@ -167,32 +220,6 @@
       }
     },
     {
-      "text": "2.4 Entry Requirements",
-      "hierarchy_level": "H2",
-      "font_size": 14.04,
-      "page_number": 8,
-      "bbox": "[0, 0, 100, 20]",
-      "style_features": {
-        "is_bold": 0,
-        "is_italic": 0,
-        "is_all_caps": 0,
-        "word_count": 3
-      }
-    },
-    {
-      "text": "2.5 Structure and Course Duration",
-      "hierarchy_level": "H2",
-      "font_size": 14.04,
-      "page_number": 8,
-      "bbox": "[0, 0, 100, 20]",
-      "style_features": {
-        "is_bold": 0,
-        "is_italic": 0,
-        "is_all_caps": 0,
-        "word_count": 5
-      }
-    },
-    {
       "text": "2.6 Keeping It Current",
       "hierarchy_level": "H2",
       "font_size": 14.04,
@@ -216,6 +243,19 @@
         "is_italic": 0,
         "is_all_caps": 0,
         "word_count": 3
+      }
+    },
+    {
+      "text": "An Agile Tester can…",
+      "hierarchy_level": "H3",
+      "font_size": 9.96,
+      "page_number": 10,
+      "bbox": "[0, 0, 100, 20]",
+      "style_features": {
+        "is_bold": 0,
+        "is_italic": 0,
+        "is_all_caps": 0,
+        "word_count": 4
       }
     },
     {
@@ -245,16 +285,29 @@
       }
     },
     {
-      "text": "4.1 Trademarks The following registered trademarks and service marks are used in this document: ISTQB ®  is a registered trademark of the International Software Testing Qualifications Board 4.2 Documents and Web Sites",
+      "text": "4.1 Trademarks",
       "hierarchy_level": "H2",
-      "font_size": 12.0,
+      "font_size": 14.04,
       "page_number": 12,
       "bbox": "[0, 0, 100, 20]",
       "style_features": {
         "is_bold": 0,
         "is_italic": 0,
         "is_all_caps": 0,
-        "word_count": 32
+        "word_count": 2
+      }
+    },
+    {
+      "text": "Identifier Reference",
+      "hierarchy_level": "H1",
+      "font_size": 9.96,
+      "page_number": 12,
+      "bbox": "[0, 0, 100, 20]",
+      "style_features": {
+        "is_bold": 1,
+        "is_italic": 0,
+        "is_all_caps": 0,
+        "word_count": 2
       }
     }
   ]
