@@ -288,8 +288,8 @@ def test_all_files(test_folder, output_folder):
     return successful_files > 0
 
 if __name__ == "__main__":
-    test_folder = './data/textlines_csv_output'
-    output_folder = './data/textline_predictions'
+    test_folder = '../../data/textlines_csv_output'
+    output_folder = '../../data/textline_predictions'
     
     success = test_all_files(test_folder, output_folder)
     

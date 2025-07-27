@@ -1,44 +1,23 @@
-# Use AMD64 compatible Python base image
-FROM python:3.11-slim
+# round1a/Dockerfile
 
-# Set working directory
+# Use the same base image you provided
+FROM --platform=linux/amd64 python:3.11-slim
+
 WORKDIR /app
 
-# Install system dependencies
+# Install system dependencies (from your original file)
 RUN apt-get update && apt-get install -y \
-    build-essential \
-    tesseract-ocr \
-    tesseract-ocr-eng \
-    tesseract-ocr-fra \
-    tesseract-ocr-jpn \
-    poppler-utils \
-    libgl1-mesa-glx \
-    libglib2.0-0 \
+    build-essential tesseract-ocr poppler-utils libgl1-mesa-glx libglib2.0-0 \
     && rm -rf /var/lib/apt/lists/*
 
-# Upgrade pip first
-RUN pip install --upgrade pip
-
-# Copy requirements file
 COPY requirements.txt .
-
-# Install Python dependencies
 RUN pip install --no-cache-dir -r requirements.txt
-# Download NLTK data
 RUN python -m nltk.downloader punkt averaged_perceptron_tagger
-# Copy the entire application
-COPY . .
 
-# Create necessary directories
-RUN mkdir -p /app/input /app/output \
-    /app/data/input /app/data/final_results \
-    /app/data/md_files /app/data/spans_output /app/data/aggregator_output \
-    /app/data/textlines_csv_output /app/data/textline_predictions \
-    /app/data/merged_textblocks /app/data/textblock_predictions \
-    /app/app/models/textline_models /app/app/models/textblock_models
+# Copy all your application code
+COPY ./app ./app
+COPY complete_pipeline.py .
+COPY docker_runner.py .
 
-# Set Python path
-ENV PYTHONPATH=/app:/app/app/extractor:/app/app/models_code:/app/app/merging
-
-# Set the default command
-CMD ["python", "/app/docker_runner.py"]
+# The command to run when the container starts
+CMD ["python", "docker_runner.py"]

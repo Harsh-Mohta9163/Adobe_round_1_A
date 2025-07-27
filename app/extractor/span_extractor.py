@@ -1,16 +1,20 @@
 import pymupdf
 import json
+import os # <-- Added for os.path.basename
 from multi_column import column_boxes
 
-def extract_columns_and_split(pdf_name):
+# CHANGED: The function now accepts full paths as arguments
+def extract_columns_and_split(input_pdf_path, output_json_path):
     """
-    Extract columns and split lines from a PDF, saving JSON file:
-    - ../../data/spans_output/spans_{pdf_name}.json
-    Args:
-        pdf_name (str): Name of the PDF file (e.g., 'file03.pdf')
+    Extract columns and split lines from a PDF, saving a JSON file.
+    Accepts full input and output paths.
     """
-    doc = pymupdf.open(f"../../data/input/{pdf_name}")
+    # CHANGED: Use the provided input_pdf_path argument
+    doc = pymupdf.open(input_pdf_path)
     all_output = []
+    
+    # This is used for your print statements
+    pdf_name = os.path.basename(input_pdf_path)
 
     for page_num, page in enumerate(doc, 1):
         bboxes = column_boxes(page, footer_margin=0, header_margin=0, no_image_text=False)
@@ -44,12 +48,10 @@ def extract_columns_and_split(pdf_name):
                                 "font_flags": span.get("flags", 0)
                             })
                             
-                            # Get the actual line bbox from the first span
                             if line_bbox is None:
-                                line_bbox = span["bbox"]  # [x0, y0, x1, y1]
+                                line_bbox = span["bbox"]
                         
                         if line_text.strip() and line_bbox:
-                            # Check if this line is inside any table
                             is_in_table = is_bbox_in_tables(line_bbox, table_bboxes)
                             
                             all_output.append({
@@ -58,29 +60,19 @@ def extract_columns_and_split(pdf_name):
                                 "bbox": list(line_bbox),
                                 "text": line_text.strip(),
                                 "fonts": line_fonts,
-                                "is_in_table": is_in_table  # ← New field
+                                "is_in_table": is_in_table
                             })
     
     doc.close()
     
-    # Save all accumulated data
-    with open(f"../../data/spans_output/spans_{pdf_name}.json", "w", encoding="utf-8") as f:
+    # CHANGED: Use the provided output_json_path argument
+    with open(output_json_path, "w", encoding="utf-8") as f:
         json.dump(all_output, f, ensure_ascii=False, indent=2)
     
-    return all_output
+    return True # Indicate success
 
 def is_bbox_in_tables(line_bbox, table_bboxes, overlap_threshold=0.5):
-    """
-    Check if a line bbox overlaps with any table bbox
-    
-    Args:
-        line_bbox: [x0, y0, x1, y1] of the text line
-        table_bboxes: List of table bboxes [(x0, y0, x1, y1), ...]
-        overlap_threshold: Minimum overlap ratio to consider as "in table"
-    
-    Returns:
-        bool: True if line is inside a table
-    """
+    # ... (this function is unchanged) ...
     if not table_bboxes:
         return False
     
@@ -92,14 +84,11 @@ def is_bbox_in_tables(line_bbox, table_bboxes, overlap_threshold=0.5):
     
     for table_bbox in table_bboxes:
         table_x0, table_y0, table_x1, table_y1 = table_bbox
-        
-        # Calculate intersection
         intersect_x0 = max(line_x0, table_x0)
         intersect_y0 = max(line_y0, table_y0)
         intersect_x1 = min(line_x1, table_x1)
         intersect_y1 = min(line_y1, table_y1)
         
-        # Check if there's an intersection
         if intersect_x0 < intersect_x1 and intersect_y0 < intersect_y1:
             intersect_area = (intersect_x1 - intersect_x0) * (intersect_y1 - intersect_y0)
             overlap_ratio = intersect_area / line_area
@@ -108,3 +97,14 @@ def is_bbox_in_tables(line_bbox, table_bboxes, overlap_threshold=0.5):
                 return True
     
     return False
+
+# This block allows you to test this script by itself
+if __name__ == "__main__":
+    import sys
+    if len(sys.argv) < 3:
+        print("Usage: python span_extractor.py <path_to_input.pdf> <path_to_output.json>")
+        sys.exit(1)
+    
+    input_path = sys.argv[1]
+    output_path = sys.argv[2]
+    extract_columns_and_split(input_path, output_path)

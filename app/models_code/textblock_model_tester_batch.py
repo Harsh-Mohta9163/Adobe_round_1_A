@@ -250,7 +250,7 @@ def test_all_textblock_files(input_folder, output_folder, model_dir):
 if __name__ == "__main__":
     input_folder = '../../data/merged_textblocks'
     output_folder = '../../data/textblock_predictions'
-    model_dir = './models'
+    model_dir = '../models/textblock_models'
     
     success = test_all_textblock_files(input_folder, output_folder, model_dir)
     
