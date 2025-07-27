@@ -29,13 +29,20 @@ def calculate_capitalized_ratio(text):
     capitalized_words = [word for word in words if word[0].isupper()]
     return len(capitalized_words) / len(words)
 
-def get_feature_value(row, feature_name, default_value=0):
+def get_feature_value(row, feature_name, line_type=None, default_value=0):
     """Safely get feature value from row with fallback to default."""
     try:
+        # If line_type is provided, try column with suffix first
+        if line_type:
+            column_name = f"{feature_name}_{line_type.upper()}"
+            if column_name in row and pd.notna(row[column_name]):
+                return row[column_name]
+        
+        # Try original feature name
         if feature_name in row and pd.notna(row[feature_name]):
             return row[feature_name]
-        else:
-            return default_value
+        
+        return default_value
     except:
         return default_value
 
@@ -262,13 +269,13 @@ def merge_textlines(input_csv_path: str, output_csv_path: str):
                     'pagenum': row[cols[f'page_number_{line_type}']],
                     'bbox': bbox,
                     'font_size': font_size,
-                    # Add additional features if they exist in the row
-                    'is_bold': get_feature_value(row, f'is_bold_{line_type}', 0),
-                    'is_italic': get_feature_value(row, f'is_italic_{line_type}', 0),
-                    'is_monospace': get_feature_value(row, f'is_monospace_{line_type}', 0),
-                    'in_rectangle': get_feature_value(row, f'in_rectangle_{line_type}', 0),
-                    'in_table': get_feature_value(row, f'in_table_{line_type}', 0),
-                    'is_hashed': get_feature_value(row, f'is_hashed_{line_type}', 0),
+                    # FIXED: Use proper column names
+                    'is_bold': get_feature_value(row, 'is_bold', line_type, 0),
+                    'is_italic': get_feature_value(row, 'is_italic', line_type, 0),
+                    'is_monospace': get_feature_value(row, 'is_monospace', line_type, 0),
+                    'in_rectangle': get_feature_value(row, 'is_linea_in_rectangle' if line_type == 'a' else 'is_lineb_in_rectangle', '', 0),
+                    'in_table': get_feature_value(row, 'both_in_table', '', 0),
+                    'is_hashed': get_feature_value(row, 'is_linea_hashed' if line_type == 'a' else 'is_lineb_hashed', '', 0),
                 }
 
     # --- New Merging Logic: Iterate through pairs ---
@@ -322,8 +329,8 @@ def merge_textlines(input_csv_path: str, output_csv_path: str):
 
 if __name__ == '__main__':
     # --- CONFIGURATION ---
-    INPUT_FOLDER = '../../data/test_results'
-    OUTPUT_FOLDER = '../../data/merged_textblocks'
+    INPUT_FOLDER = '../../data/new_textlines'
+    OUTPUT_FOLDER = '../../data/merged_textblocks_gt'
     # -------------------
 
     os.makedirs(OUTPUT_FOLDER, exist_ok=True)

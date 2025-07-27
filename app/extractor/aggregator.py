@@ -238,14 +238,21 @@ def find_best_matching_span_by_page(md_line_data: Dict, spans: List[Dict], page_
     
     return None
 
-def decode_font_flags(flags):
-    """Decode PyMuPDF font flags and return both styles list and individual boolean flags"""
+def decode_font_flags(flags, font_name):
+    """
+    Decode PyMuPDF font flags and return both styles list and individual boolean flags.
+    This version includes a more robust check for bold style.
+    """
     styles = []
-    is_bold = bool(flags & 16)        # FONTFLAG_BOLD = 16
-    is_italic = bool(flags & 2)       # FONTFLAG_ITALIC = 2  
-    is_monospace = bool(flags & 8)    # FONTFLAG_MONOSPACE = 8
-    is_serifed = bool(flags & 4)      # FONTFLAG_SERIFED = 4
-    is_superscript = bool(flags & 1)  # FONTFLAG_SUPERSCRIPT = 1
+    
+    # Robust check for bold: checks flags AND font name
+    is_bold = bool(flags & 16) or any(s in font_name.lower() for s in ['bold', 'black', 'heavy'])
+    
+    # Standard checks for other styles
+    is_italic = bool(flags & 2)      # FONTFLAG_ITALIC = 2  
+    is_monospace = bool(flags & 8)   # FONTFLAG_MONOSPACE = 8
+    is_serifed = bool(flags & 4)     # FONTFLAG_SERIFED = 4
+    is_superscript = bool(flags & 1) # FONTFLAG_SUPERSCRIPT = 1
     
     if is_superscript: styles.append("superscript")
     if is_italic:      styles.append("italic") 
@@ -253,7 +260,10 @@ def decode_font_flags(flags):
     if is_monospace:   styles.append("monospace")
     if is_bold:        styles.append("bold")
     
-    return styles if styles else ["normal"], is_bold, is_italic, is_monospace
+    # Return "normal" if no other styles are detected
+    final_styles = styles if styles else ["normal"]
+    
+    return final_styles, is_bold, is_italic, is_monospace
 
 # CHANGED: The function NAME is the same, but it now accepts full paths
 def aggregate_md_to_spans(md_json_file: str, spans_json_file: str, output_file: str):
@@ -325,17 +335,20 @@ def aggregate_md_to_spans(md_json_file: str, spans_json_file: str, output_file: 
             
             page_matches[page_num]['matched'] += 1
                 
+        
+            # Extract features from the matching span, handling fonts array
             fonts = matching_span.get("fonts", [])
             first_font = fonts[0] if fonts else {}
             
             font_flags = first_font.get("font_flags", 0)
-            font_styles, is_bold, is_italic, is_monospace = decode_font_flags(font_flags)
+            font_name = first_font.get("font_name", "")  # ✅ Added this line
+            font_styles, is_bold, is_italic, is_monospace = decode_font_flags(font_flags, font_name)  # ✅ Fixed function call
             
             features = {
                 "page_num": matching_span.get("page_num"),
                 "column": matching_span.get("column"),
                 "bbox": matching_span.get("bbox"),
-                "font_name": first_font.get("font_name", ""),
+                "font_name": font_name,  # Using the variable we already extracted
                 "font_size": first_font.get("font_size", 0),
                 "font_styles": font_styles,
                 "is_bold": is_bold,

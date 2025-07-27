@@ -66,6 +66,9 @@ data1/
 data/final_results/
 data/textblock_predictions/
 data/textline_predictions/
+data/temp
+data/new_textlines/
+data/new_textblocks/
 
 # Logs and monitoring
 logs/

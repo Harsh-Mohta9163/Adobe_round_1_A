@@ -52,6 +52,12 @@ def advanced_feature_engineering(df):
     df['ends_with_colon'] = df['text'].apply(lambda x: str(x).strip().endswith(':')).astype(int)
     df['starts_with_list_pattern'] = df['text'].apply(lambda x: 1 if re.match(r'^\s*(\d+\.|[a-zA-Z]\.)', str(x)) else 0)
 
+    # ✅ ADD: is_bold feature (extract from CSV or set default)
+    if 'is_bold' not in df.columns:
+        df['is_bold'] = 0  # Default value if not available
+    else:
+        df['is_bold'] = df['is_bold'].fillna(0).astype(int)
+
     # Structural and Positional Features
     if 'avg_font_size' in df.columns:
         df['page_median_font'] = df.groupby('page_number')['avg_font_size'].transform('median')
@@ -87,11 +93,13 @@ def create_default_textblock_model():
     model = RandomForestClassifier(n_estimators=100, random_state=42)
     scaler = StandardScaler()
     
-    # Define feature names
+    # ✅ UPDATED: Define feature names to match training
     feature_names = [
-        'word_count', 'char_count', 'is_all_caps', 'is_title_case', 'ends_with_colon',
-        'starts_with_list_pattern', 'relative_font_size', 'space_above', 'caps_x_font',
-        'noun_count', 'verb_count', 'adj_count', 'cardinal_num_count', 'noun_ratio', 'verb_ratio'
+        'avg_font_size', 'word_count', 'char_count', 'relative_font_size',
+        'is_all_caps', 'is_bold', 'is_title_case', 'ends_with_colon',  # ✅ Added is_bold
+        'space_above', 'noun_count', 'verb_count', 'adj_count',
+        'cardinal_num_count', 'noun_ratio', 'verb_ratio',
+        'starts_with_list_pattern', 'caps_x_font'
     ]
     
     # Generate dummy data
@@ -105,13 +113,36 @@ def create_default_textblock_model():
     
     return model, scaler, feature_names
 
+def load_csv_with_fallback_encoding(file_path):
+    """Load CSV file with multiple encoding attempts"""
+    encodings = ['utf-8', 'latin-1', 'cp1252', 'iso-8859-1']
+    
+    for encoding in encodings:
+        try:
+            df = pd.read_csv(file_path, encoding=encoding)
+            return df, encoding
+        except UnicodeDecodeError:
+            continue
+        except Exception as e:
+            print(f"❌ Error loading {os.path.basename(file_path)}: {e}")
+            return None, None
+    
+    print(f"❌ Failed to load {os.path.basename(file_path)} with any encoding")
+    return None, None
+
 def process_single_textblock_file(input_csv_path, output_csv_path, model, scaler, feature_names):
     """Process a single CSV file for textblock classification"""
     try:
         print(f"📄 Processing: {os.path.basename(input_csv_path)}")
         
-        # Load data
-        df = pd.read_csv(input_csv_path, encoding='utf-8')
+        # Load data with encoding fallback
+        df, encoding_used = load_csv_with_fallback_encoding(input_csv_path)
+        if df is None:
+            return False
+        
+        if encoding_used != 'utf-8':
+            print(f"   ⚠️  Used {encoding_used} encoding")
+        
         df.dropna(subset=['text'], inplace=True)
         original_df = df.copy()
         
@@ -177,7 +208,7 @@ def process_single_textblock_file(input_csv_path, output_csv_path, model, scaler
         # Map the final labels to human-readable categories
         output_df['predicted_category'] = output_df['model_labels'].map({0: 'Text/Paragraph', 1: 'Title/Heading'})
         
-        # Save output
+        # Save output with utf-8 encoding
         Path(output_csv_path).parent.mkdir(parents=True, exist_ok=True)
         output_df.to_csv(output_csv_path, index=False, encoding='utf-8')
         
@@ -218,14 +249,16 @@ def test_all_textblock_files(input_folder, output_folder, model_dir):
     
     if not input_files:
         print(f"❌ No CSV files found in '{input_folder}'")
+        print("Make sure you have merged textblock CSV files from the previous step.")
         return False
     
-    print(f"Found {len(input_files)} CSV files to process:")
+    print(f"🔍 Found {len(input_files)} CSV files to process:")
     for file in input_files:
         print(f"  - {os.path.basename(file)}")
     
     # Process each file
     successful_files = 0
+    failed_files = []
     
     for input_file in input_files:
         filename = os.path.basename(input_file)
@@ -242,9 +275,28 @@ def test_all_textblock_files(input_folder, output_folder, model_dir):
         success = process_single_textblock_file(input_file, output_path, model, scaler, feature_names)
         if success:
             successful_files += 1
+        else:
+            failed_files.append(filename)
     
-    print(f"\n✅ Successfully processed {successful_files}/{len(input_files)} textblock files")
+    # Summary
+    print(f"\n{'='*80}")
+    print(f"📊 PROCESSING SUMMARY")
+    print(f"{'='*80}")
+    print(f"✅ Successfully processed: {successful_files}/{len(input_files)} files")
+    print(f"📁 Input folder: {input_folder}")
+    print(f"📁 Output folder: {output_folder}")
     
+    if failed_files:
+        print(f"\n❌ Failed files:")
+        for file in failed_files:
+            print(f"  - {file}")
+    
+    if successful_files > 0:
+        print(f"\n💡 Results:")
+        print(f"   - Textblock prediction CSV files saved to '{output_folder}'")
+        print(f"   - Each file contains 'model_labels' column (0=Text/Paragraph, 1=Title/Heading)")
+        print(f"   - Post-processing rules applied to fix common ML errors")
+
     return successful_files > 0
 
 if __name__ == "__main__":
