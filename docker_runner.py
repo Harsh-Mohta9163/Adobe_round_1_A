@@ -14,7 +14,7 @@ def convert_csv_to_json(csv_file, output_dir):
         df = pd.read_csv(csv_file)
         # Derive the original PDF name from the complex CSV name
         base_name = os.path.basename(csv_file)
-        pdf_stem = base_name.split('truth_')[-1].replace('.csv', '')
+        pdf_stem = base_name.split('truth_')[-1].replace('.csv', '').replace('.pdf', '')
         json_filename = f"{pdf_stem}.json"
 
         # Create the simple JSON structure Round 1B expects
