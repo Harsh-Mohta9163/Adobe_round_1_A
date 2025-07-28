@@ -1,6 +1,0 @@
-text,bbox,page_number,avg_font_size,word_count,is_all_caps,char_density,ratio_of_verbs,ratio_capitalized,ends_with_colon,is_bold,normalized_vertical_gap,indentation_change,same_alignment,is_centered_A,font_size_diff,same_font,is_bold_A,is_italic_A,is_monospace_A,same_bold,same_italic,same_monospace,line_a_ends_punctuation,line_b_starts_lowercase,is_linea_in_rectangle,is_lineb_in_rectangle,both_in_table,neither_in_table,is_linea_hashed,is_lineb_hashed,both_hashed,neither_hashed,title_label,model_labels,confidence_score,predicted_category,style_cluster_id,numbering_info,hierarchy_level
-Posters,"[0, 0, 100, 20]",1,11.04,1,0,0.0035,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,0.9905943240041846,Title/Heading,0,,Title
-Best Poster Award,"[0, 0, 100, 20]",1,11.04,3,0,0.0075,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,0.9739075928043522,Title/Heading,1,,H1
-"Barbara Lavina Las Vegas, USA","[0, 0, 100, 20]",4,11.04,5,0,0.0125,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,0.8512148676024941,Title/Heading,2,,H2
-P70,"[0, 0, 100, 20]",9,11.04,1,1,0.0015,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,0.999999250828069,Title/Heading,3,,H3
-P88,"[0, 0, 100, 20]",11,11.04,1,1,0.0015,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,0.9999996520588388,Title/Heading,3,,H4

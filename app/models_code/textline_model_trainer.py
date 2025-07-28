@@ -104,7 +104,7 @@ def load_and_prepare_data(folder_path='.'):
 
 try:
     # Load data from textlines_csv_output folder
-    data = load_and_prepare_data('../../data/labelled_textlines')
+    data = load_and_prepare_data('../../data/new_textlines')
 
     # --- Define Features (X) and Target (y) ---
     # Include all original and newly engineered features

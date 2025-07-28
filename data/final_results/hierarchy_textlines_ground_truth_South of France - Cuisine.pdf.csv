@@ -1,9 +1,0 @@
-text,bbox,page_number,avg_font_size,word_count,is_all_caps,char_density,ratio_of_verbs,ratio_capitalized,ends_with_colon,is_bold,normalized_vertical_gap,indentation_change,same_alignment,is_centered_A,font_size_diff,same_font,is_bold_A,is_italic_A,is_monospace_A,same_bold,same_italic,same_monospace,line_a_ends_punctuation,line_b_starts_lowercase,is_linea_in_rectangle,is_lineb_in_rectangle,both_in_table,neither_in_table,is_linea_hashed,is_lineb_hashed,both_hashed,neither_hashed,title_label,model_labels,confidence_score,predicted_category,style_cluster_id,numbering_info,hierarchy_level
-A Culinary Journey Through the South of France,"[0, 0, 100, 20]",1,12.0,8,0,0.0195,0.0,0.75,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,0.7176757713553439,Title/Heading,0,,Title
-Introduction,"[0, 0, 100, 20]",1,12.0,1,0,0.006,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,0.9990400046345194,Title/Heading,1,"{'type': 'roman', 'depth': 1}",H1
-Types of Food,"[0, 0, 100, 20]",2,12.0,3,0,0.0055,0.0,0.6666666666666666,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,0.9929574603155183,Title/Heading,2,,H1
-Famous Dishes,"[0, 0, 100, 20]",3,12.0,2,0,0.006,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,0.9821890964487466,Title/Heading,1,,H1
-Must-Visit Restaurants,"[0, 0, 100, 20]",4,12.0,2,0,0.0105,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,0.9982165202021336,Title/Heading,1,,H1
-Wine Regions and Types of Wines,"[0, 0, 100, 20]",5,12.0,6,0,0.013,0.0,0.6666666666666666,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,0.9737669158529024,Title/Heading,3,,H1
-Culinary Experiences,"[0, 0, 100, 20]",6,12.0,2,0,0.0095,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,0.9903845956142416,Title/Heading,1,,H1
-Conclusion,"[0, 0, 100, 20]",8,12.0,1,0,0.005,0.0,1.0,0,0,0.0,0.0,1,1,0.0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,,1,0.9990781861071318,Title/Heading,1,,H1

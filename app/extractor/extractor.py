@@ -172,8 +172,8 @@ def extract_all_pdfs(input_dir, output_dir, temp_dir):
 if __name__ == "__main__":
     print("--- Running extractor.py in Standalone (Local) Mode ---")
     base_dir = os.path.join(os.path.dirname(__file__), '..', '..')
-    local_input = os.path.join(base_dir, 'data', 'input')
-    local_output = os.path.join(base_dir, 'data', 'textlines_csv_output')
+    local_input = os.path.join(base_dir, 'data', 'test')
+    local_output = os.path.join(base_dir, 'data', 'chandu_textline_out')
     local_temp = os.path.join(base_dir, 'data')
     
     extract_all_pdfs(local_input, local_output, local_temp)

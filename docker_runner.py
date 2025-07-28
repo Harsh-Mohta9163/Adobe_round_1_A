@@ -20,10 +20,17 @@ def convert_csv_to_json(csv_file, output_dir):
         # Create the simple JSON structure Round 1B expects
         json_data = {"outline": []}
         for _, row in df.iterrows():
+            # ✅ Convert 1-indexed page number to 0-indexed
+            page_num = row.get('page_number', 1)
+            if isinstance(page_num, (int, float)) and page_num >= 1:
+                page_num = int(page_num) - 1  # Convert 1-indexed to 0-indexed
+            else:
+                page_num = 0  # Default fallback (0-indexed)
+                
             block_data = {
                 "text": row.get('text', ''),
                 "level": row.get('hierarchy_level', 'Body'),
-                "page": row.get('page_number', 1),
+                "page": page_num,  # ✅ Now 0-indexed
             }
             json_data["outline"].append(block_data)
 

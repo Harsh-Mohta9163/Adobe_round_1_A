@@ -210,6 +210,8 @@ def parse_bbox(bbox_str):
     except:
         return [0, 0, 100, 20]
 
+# REPLACE the old merge_textlines function with this one.
+
 def merge_textlines(input_csv_path: str, output_csv_path: str):
     """
     Merges text lines based on pairwise labels and page numbers from a CSV file.
@@ -245,78 +247,73 @@ def merge_textlines(input_csv_path: str, output_csv_path: str):
             print(f"❌ Required column '{col_name}' not found in the CSV.")
             return False
 
-    # --- Create a map of all unique lines and their properties ---
-    lines_map = {}
-    for _, row in df.iterrows():
-        for line_type in ['a', 'b']:
-            text = str(row[cols[f'text_{line_type}']])
-            if text not in lines_map:
-                # Parse bbox if available
-                bbox = [0, 0, 100, 20]  # default
-                if cols[f'bbox_{line_type}'] and cols[f'bbox_{line_type}'] in row:
-                    bbox = parse_bbox(row[cols[f'bbox_{line_type}']])
-                
-                # Get font size if available
-                font_size = 12.0  # default
-                if cols[f'font_size_{line_type}'] and cols[f'font_size_{line_type}'] in row:
-                    try:
-                        font_size = float(row[cols[f'font_size_{line_type}']])
-                    except:
-                        font_size = 12.0
-                
-                lines_map[text] = {
-                    'text': text,
-                    'pagenum': row[cols[f'page_number_{line_type}']],
-                    'bbox': bbox,
-                    'font_size': font_size,
-                    # FIXED: Use proper column names
-                    'is_bold': get_feature_value(row, 'is_bold', line_type, 0),
-                    'is_italic': get_feature_value(row, 'is_italic', line_type, 0),
-                    'is_monospace': get_feature_value(row, 'is_monospace', line_type, 0),
-                    'in_rectangle': get_feature_value(row, 'is_linea_in_rectangle' if line_type == 'a' else 'is_lineb_in_rectangle', '', 0),
-                    'in_table': get_feature_value(row, 'both_in_table', '', 0),
-                    'is_hashed': get_feature_value(row, 'is_linea_hashed' if line_type == 'a' else 'is_lineb_hashed', '', 0),
-                }
+    # --- Helper function to create a line part from a row ---
+    def create_line_part(row, line_type, cols):
+        """Creates a dictionary for a line part directly from a dataframe row."""
+        
+        # Get column names for the current line type ('a' or 'b')
+        text_col = cols[f'text_{line_type}']
+        page_col = cols[f'page_number_{line_type}']
+        bbox_col = cols.get(f'bbox_{line_type}') # .get() for optional columns
+        font_size_col = cols.get(f'font_size_{line_type}')
 
-    # --- New Merging Logic: Iterate through pairs ---
+        if pd.isna(row.get(text_col)):
+            return None
+
+        part = {
+            'text': str(row[text_col]),
+            'pagenum': row[page_col],
+            'bbox': parse_bbox(row.get(bbox_col, '[0,0,100,20]')),
+            'font_size': float(row.get(font_size_col, 12.0)),
+            'is_bold': get_feature_value(row, 'is_bold', line_type, 0),
+            'is_italic': get_feature_value(row, 'is_italic', line_type, 0),
+            'is_monospace': get_feature_value(row, 'is_monospace', line_type, 0),
+            'in_rectangle': get_feature_value(row, 'is_linea_in_rectangle' if line_type == 'a' else 'is_lineb_in_rectangle', '', 0),
+            'in_table': get_feature_value(row, 'both_in_table', '', 0),
+            'is_hashed': get_feature_value(row, 'is_linea_hashed' if line_type == 'a' else 'is_lineb_hashed', '', 0),
+        }
+        return part
+
+    # --- New Merging Logic: Iterate through pairs without a global map ---
     text_blocks = []
     if df.empty:
         return True
 
     # Start the first block with the first line of the first pair
-    first_line_text = str(df.iloc[0][cols['text_a']])
-    current_block_parts = [lines_map[first_line_text]]
+    first_part = create_line_part(df.iloc[0], 'a', cols)
+    if not first_part:
+        print("❌ Could not process the first line of the CSV.")
+        return False
+    current_block_parts = [first_part]
 
     for _, row in df.iterrows():
-        line_a_text = str(row[cols['text_a']])
-        line_b_text = str(row[cols['text_b']])
+        line_a_part = create_line_part(row, 'a', cols)
+        line_b_part = create_line_part(row, 'b', cols)
         
-        # Ensure the sequence is maintained
-        if not current_block_parts or current_block_parts[-1]['text'] != line_a_text:
+        if not line_a_part or not line_b_part:
+            continue
+
+        # Sequence check: if line 'a' of the current row is not what we expect, finalize the last block.
+        if not current_block_parts or current_block_parts[-1]['text'] != line_a_part['text']:
             if current_block_parts:
                 text_blocks.append(finalize_block(current_block_parts))
-            current_block_parts = [lines_map.get(line_a_text)]
-            if not current_block_parts[0]: # handle case where line_a_text may not be in map
-                continue
+            current_block_parts = [line_a_part]
 
-        # Decide whether to merge line_b
-        should_merge = (row['model_labels'] == 1) and (row[cols['page_number_a']] == row[cols['page_number_b']])
+        # Determine if line_b should be merged with the current block
+        # NOTE: You will need to change 'model_labels' to 'label' to run on your example file.
+        should_merge = (row['model_labels'] == 1) and (line_a_part['pagenum'] == line_b_part['pagenum'])
 
         if should_merge:
-            current_block_parts.append(lines_map.get(line_b_text))
+            current_block_parts.append(line_b_part)
         else:
             text_blocks.append(finalize_block(current_block_parts))
-            current_block_parts = [lines_map.get(line_b_text)]
-
-        # Clean Nones from current_block_parts
-        current_block_parts = [part for part in current_block_parts if part is not None]
-
-    # Add the final block
+            current_block_parts = [line_b_part]
+            
+    # Add the final block after the loop finishes
     if current_block_parts:
         text_blocks.append(finalize_block(current_block_parts))
 
     # --- Create and save the final DataFrame ---
-    # **FIXED**: Directly convert the list of blocks without removing duplicates
     output_df = pd.DataFrame([block for block in text_blocks if block])
     
     os.makedirs(os.path.dirname(output_csv_path), exist_ok=True)
@@ -329,8 +326,8 @@ def merge_textlines(input_csv_path: str, output_csv_path: str):
 
 if __name__ == '__main__':
     # --- CONFIGURATION ---
-    INPUT_FOLDER = '../../data/new_textlines'
-    OUTPUT_FOLDER = '../../data/merged_textblocks_gt'
+    INPUT_FOLDER = '../../data/chandu_block'
+    OUTPUT_FOLDER = '../../data/chandu_block_out'
     # -------------------
 
     os.makedirs(OUTPUT_FOLDER, exist_ok=True)
